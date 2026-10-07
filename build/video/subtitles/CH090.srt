@@ -1,0 +1,99 @@
+1
+00:00:00,000 --> 00:00:06,451
+At this stage of development, the international airport project had a long record of safe tests.
+
+2
+00:00:06,451 --> 00:00:19,606
+The local team used a computer screen to view every runway, road, parking area, and service car across the full range of the site, from the control-room door to the nearest street.
+
+3
+00:00:19,606 --> 00:00:25,066
+As Lin entered, a red statement appeared: GET NEW DATA.
+
+4
+00:00:25,066 --> 00:00:31,391
+It was not the style of warning they had designed, nor did it give the next step.
+
+5
+00:00:31,391 --> 00:00:35,066
+They had little time to wait.
+
+6
+00:00:35,066 --> 00:00:40,816
+A group of engineers began to draw the system in the limited space on a wall.
+
+7
+00:00:40,816 --> 00:00:47,816
+Each column showed one period in the data sequence; each row showed a different condition.
+
+8
+00:00:47,816 --> 00:00:58,961
+A blue card represented food deliveries, a white card represented a medical drug shipment, and a gold card represented a high-security flight.
+
+9
+00:00:58,961 --> 00:01:04,501
+A thick string formed the link between each record and the person who approved it.
+
+10
+00:01:04,501 --> 00:01:08,091
+The visual combination exposed a gap.
+
+11
+00:01:08,091 --> 00:01:13,731
+A red cross marked the exact link where the sequence broke.
+
+12
+00:01:13,731 --> 00:01:21,151
+The database could capture a driver's face but also contained a gene field copied from another version.
+
+13
+00:01:21,151 --> 00:01:24,796
+That field had no useful purpose here.
+
+14
+00:01:24,796 --> 00:01:33,761
+A negative flag should have blocked it under privacy regulation, yet an old construction template had carried it across.
+
+15
+00:01:33,761 --> 00:01:40,141
+In contrast, the system failed to record damage on the lip of a fuel tray.
+
+16
+00:01:40,141 --> 00:01:45,476
+The screen displayed noise instead of a precise measurement.
+
+17
+00:01:45,476 --> 00:01:51,606
+Outside, workers used tape and a tin seal to protect a cable box.
+
+18
+00:01:51,606 --> 00:01:57,761
+A hammer lay beside the yard marker, and a warning bell beat against the wind.
+
+19
+00:01:57,761 --> 00:02:04,236
+No one could press the emergency button until the control-room director confirmed the fault.
+
+20
+00:02:04,236 --> 00:02:10,576
+Lin removed the copied field, but the remainder of the sequence still needed review.
+
+21
+00:02:10,576 --> 00:02:21,931
+The force of habit had allowed a technical shortcut to play the role of policy, leaving no safety net when the copied field passed inspection.
+
+22
+00:02:21,931 --> 00:02:27,486
+The team decided to get independent approval before reopening the runway.
+
+23
+00:02:27,486 --> 00:02:37,440
+They would block unnecessary personal data, cross-check every card, and give each operator a clear phrase for reporting an error.
+
+24
+00:02:37,440 --> 00:02:41,600
+Thus the delay became evidence rather than embarrassment.
+
+25
+00:02:41,600 --> 00:02:50,464
+The airport remained safe, and the group gained time to rebuild the system without hiding what had happened.

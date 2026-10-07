@@ -1,0 +1,67 @@
+1
+00:00:00,000 --> 00:00:10,733
+A better question arrived as a message on a laptop in the middle of a long period of development: does this system enable a person to leave as easily as it enables them to join?
+
+2
+00:00:10,733 --> 00:00:18,263
+The group had drawn up a summary of the program, but nobody had written the exit line.
+
+3
+00:00:18,263 --> 00:00:26,671
+The precise measurement of privacy turned out to be simple: the number of steps required to cancel an account.
+
+4
+00:00:26,671 --> 00:00:40,519
+A summary with numerous footnotes, a brilliant formulation of the principle, and a heap of approvals from the main office were useless if the answer was forty-seven clicks on a tablet.
+
+5
+00:00:40,519 --> 00:00:45,023
+The false assumption was that simplicity is a weakness.
+
+6
+00:00:45,023 --> 00:00:51,022
+“Simplicity is not the superiority of the lazy,” the analyst said.
+
+7
+00:00:51,022 --> 00:01:07,840
+“It is the only thing a slender budget can buy.” A vitamin company had asked for an attribute they could not explain, and a dating service had asked for a beverage sponsor: both wanted data they could not justify.
+
+8
+00:01:07,840 --> 00:01:10,944
+The paradox was mathematical.
+
+9
+00:01:10,944 --> 00:01:21,253
+In arithmetic, a zero costs nothing; in privacy, a zero is the only permissible value for the data you do not need.
+
+10
+00:01:21,253 --> 00:01:30,491
+A cardboard box, a torch, and a calculator on the desk made the point better than the geometry on the whiteboard.
+
+11
+00:01:30,491 --> 00:01:41,269
+The consensus was to minimize, not to delete: every field would need an owner, and every owner would need to fold their data into one page.
+
+12
+00:01:41,269 --> 00:01:55,212
+The elegance of the new form was that a user could read it aloud; the true test of a high-tech system is whether a microscopic line of password text can be explained by the person who typed it.
+
+13
+00:01:55,212 --> 00:02:03,676
+The networking diagram had a shadow of its own: a fertilizer of small features that nobody had asked for.
+
+14
+00:02:03,676 --> 00:02:09,340
+“We cannot solve a trust problem with an extra field,” Maya wrote.
+
+15
+00:02:09,340 --> 00:02:18,688
+“We can only stop adding them.” The next revision would be shorter than the previous one, and that would be the whole argument.
+
+16
+00:02:18,688 --> 00:02:28,582
+It was difficult to see the manipulation in a form that looked so plain; the math was renewable, but an astronomical budget is not.
+
+17
+00:02:28,582 --> 00:02:40,651
+The effort to get the product to the people who need it, to provide the music of a simple interface, and to reach them in time was the real design work.
