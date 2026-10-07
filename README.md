@@ -71,6 +71,7 @@ At the repository root:
 | `manifest.json` | machine-readable build manifest |
 | `build/audio/CH001.mp3` … `CH137.mp3` | one narration per chapter, 9.26 hours total |
 | `build/video/CH001.mp4` … `CH137.mp4` | the same narration with burned-in subtitles |
+| `CET4_Typing_Game.html` | the falling-words typing game, one offline page |
 
 ### Audio
 
@@ -174,6 +175,61 @@ and then verified against the audio:
    Before the offset fix the spread was 0.24–0.30 s, which is what "the words and the
    voice drift apart" looks like.
 
+### Typing game (one web page, offline)
+
+[`CET4_Typing_Game.html`](CET4_Typing_Game.html) is a falling-words typing game — words
+drop from the top and you type them to knock them down. It is a **single file with
+everything embedded**, so it opens by double-clicking, can be sent to someone, and needs
+no network.
+
+The point of it being *this* vocabulary: all 6,127 targets are in there, each tagged with
+the chapter that introduces it, so practice can be scoped to what is being read.
+
+| | |
+|---|---|
+| Pools | all 6,127 words · by arc (10) · by chapter (137) |
+| Modes | word mode, and a single-letter mode for warming up |
+| Reading help | the word being typed shows its phonetic and Chinese gloss, and the typed prefix is highlighted inside the falling word |
+| Rules | 3 lives, combo multiplier, a level every 10 words, faster falling and sooner spawning as the level rises |
+| Measures | score, words knocked down, words per minute, accuracy, best combo, level |
+| After a round | the words that reached the floor are listed as **要复习的词**, so a miss becomes a review list |
+| Controls | type directly · <kbd>Space</kbd> pause · <kbd>Esc</kbd> back to setup · <kbd>R</kbd> restart on the end screen |
+
+```bash
+python build/make_typing_game.py                # regenerate from the vocabulary
+node build/typing_game_smoke.mjs                # 30 checks on the game logic
+python build/game_screenshots.py                # render the four UI states headlessly
+```
+
+The page is generated rather than hand-maintained: `game/template.html` holds the markup,
+styles and game logic, and the generator injects the word data. Edit the template, re-run
+the generator, and the tests fail if the committed page drifts from the template.
+
+**How the game is verified**, since a page that renders wrongly is a broken deliverable and
+neither the PDF gates nor the curriculum audit can see it:
+
+* `tests/test_typing_game.py` — the embedded data against `vocabulary_master.csv`: the word
+  count, no invented lemmas, all 137 chapters and 10 arcs present, every word typeable and
+  glossed, and no `</script>` reachable from the data.
+* `build/typing_game_smoke.mjs` — extracts the game script from the generated page, runs it
+  against a small DOM stub in Node, and drives the logic directly: which word a keystroke
+  resolves to, when a word completes, what a wrong letter does, that the lowest word wins,
+  the difficulty curve, and a simulated round in which every word is typed to completion.
+* `build/game_screenshots.py` — renders the start screen, mid-game, the end screen and the
+  chapter picker through headless Edge or Chrome, so the layout was looked at rather than
+  assumed.
+
+Writing that test found a real defect: **14 entries are phrases** — `ice cream`,
+`according to`, `living room` — and the keystroke filter rejected spaces, so those words
+could never be typed and would fall to the floor forever. A space now types when it is the
+next character of the word being typed, and pauses otherwise.
+
+Two traps in that verification are worth knowing, because both look like bugs in the page
+and are not: rewriting a probe file with PowerShell's `Get-Content -Raw | Set-Content
+-Encoding UTF8` double-encodes it and turns every Chinese label into mojibake, and headless
+`--virtual-time-budget` barely drives `requestAnimationFrame`, so the game loop runs twice
+and the board stays empty.
+
 All rendered PDFs were scanned for missing glyphs: **0 boxes across 420 files**
 (3 root volumes, 414 preview volumes, 3 samples) covering 3,579,760 drawn
 characters. All 420 rendered volumes are committed, including the 414 in
@@ -206,6 +262,8 @@ build/audio/           137 chapter MP3s + the per-chapter audio manifest
 build/video/           137 chapter MP4s with burned-in subtitles
 build/video/subtitles/ the matching .srt files, kept here so players do not auto-load them
 build/video/cards/     the title-card stills the videos are built from
+CET4_Typing_Game.html  the generated typing game page (single file, offline)
+game/template.html     the markup, styles and game logic the page is generated from
 build/qa/              contact sheets for visual review, plus the detector's baseline
 reports/               generated manuscript and QA output
 LICENSE                MIT, for the software

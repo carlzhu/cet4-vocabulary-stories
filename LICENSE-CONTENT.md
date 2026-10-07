@@ -31,6 +31,7 @@ Copyright (c) 2026 carlzhu
 - `build/preview/` and `build/CET4_Sample_*.pdf` - the rendered volumes
 - `build/audio/` - the chapter narration
 - `build/video/` - the subtitled videos and their `.srt` files
+- `CET4_Typing_Game.html` and `game/template.html` - the typing game page
 - `reports/manuscript.md` - the assembled bilingual manuscript
 - the explanatory documents: `README.md`, `BUILD_NOTES.md`, `quality_report.md`,
   `vocabulary_coverage_report.md`, `character_guide.md`, `story_timeline.md`,

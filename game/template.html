@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CET-4 单词打字游戏 · Vocabulary Typing</title>
+<style>
+  :root {
+    --bg: #0b2032; --panel: #123050; --panel2: #0f2740; --line: #2b5580;
+    --ink: #eaf2f8; --dim: #9db8ce; --accent: #5fc7e8; --good: #56d38a;
+    --bad: #ef7d7d; --warn: #f2c14e;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
+    font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; overflow: hidden; }
+  .hidden { display: none !important; }
+  #wrap { position: relative; width: 100%; height: 100%; }
+  canvas { display: block; width: 100%; height: 100%; }
+
+  .hud { position: absolute; inset: 0 0 auto 0; display: flex; gap: 18px; flex-wrap: wrap;
+    padding: 10px 16px; background: linear-gradient(#0b2032ee, #0b203200);
+    font-size: 13px; letter-spacing: .3px; pointer-events: none; }
+  .hud b { color: var(--accent); font-weight: 600; }
+  .hud .grow { flex: 1; }
+
+  .typing { position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 16px 18px;
+    background: linear-gradient(#0b203200, #0b2032f2 40%); pointer-events: none; }
+  #typed { font-family: "Consolas", ui-monospace, monospace; font-size: 30px; letter-spacing: 2px;
+    min-height: 40px; color: var(--accent); }
+  #typed .rest { color: #4d7ba6; }
+  #hint { font-size: 13px; color: var(--dim); min-height: 20px; margin-top: 2px; }
+  #hint .m { color: var(--good); }
+  #hint .ph { color: var(--dim); }
+
+  .panel { position: absolute; inset: 0; display: flex; align-items: center;
+    justify-content: center; background: #061522e6; padding: 16px; }
+  .card { width: min(780px, 94vw); max-height: 92vh; overflow: auto; background: var(--panel);
+    border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; }
+  .card h1 { font-size: 21px; margin: 0 0 4px; }
+  .card h2 { font-size: 15px; margin: 18px 0 8px; color: var(--accent); font-weight: 600; }
+  .card p { color: var(--dim); font-size: 13px; line-height: 1.7; margin: 6px 0; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+  label { font-size: 13px; color: var(--dim); min-width: 66px; }
+  select, button { font: inherit; font-size: 13px; color: var(--ink); background: var(--panel2);
+    border: 1px solid var(--line); border-radius: 8px; padding: 7px 11px; cursor: pointer; }
+  select { min-width: 130px; max-width: 100%; }
+  button.primary { background: #1c6f96; border-color: #2f8fbb; font-weight: 600; padding: 9px 20px; }
+  button:hover { border-color: var(--accent); }
+  .modes { display: flex; gap: 8px; flex-wrap: wrap; }
+  .modes button.on { background: #1c6f96; border-color: var(--accent); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 10px;
+    margin-top: 14px; }
+  .stat { background: var(--panel2); border: 1px solid var(--line); border-radius: 10px;
+    padding: 9px 11px; }
+  .stat .k { font-size: 11px; color: var(--dim); }
+  .stat .v { font-size: 20px; font-weight: 600; }
+  .review { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 6px; }
+  .review span { background: #3a1f26; border: 1px solid #7a3f4a; border-radius: 7px;
+    padding: 4px 9px; font-size: 13px; }
+  .review span i { color: var(--dim); font-style: normal; font-size: 12px; margin-left: 6px; }
+  kbd { background: var(--panel2); border: 1px solid var(--line); border-bottom-width: 2px;
+    border-radius: 5px; padding: 1px 6px; font-size: 12px; font-family: inherit; }
+  .foot { margin-top: 16px; font-size: 12px; color: #7f9ab1; border-top: 1px solid var(--line);
+    padding-top: 10px; line-height: 1.7; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="board"></canvas>
+
+  <div class="hud">
+    <span>得分 <b id="hud-score">0</b></span>
+    <span>生命 <b id="hud-lives">3</b></span>
+    <span>等级 <b id="hud-level">1</b></span>
+    <span>连击 <b id="hud-combo">0</b></span>
+    <span>速度 <b id="hud-wpm">0</b> 词/分</span>
+    <span>准确率 <b id="hud-acc">100%</b></span>
+    <span class="grow"></span>
+    <span>剩余 <b id="hud-left">0</b></span>
+    <span id="hud-pause">空格暂停 · Esc 设置</span>
+  </div>
+
+  <div class="typing">
+    <div id="typed"></div>
+    <div id="hint"></div>
+  </div>
+
+  <div class="panel" id="start-panel">
+    <div class="card">
+      <h1>CET-4 单词打字游戏</h1>
+      <p>字母从上方落下，把它打出来就能击落。范围可以按课、按弧，或整个词表——
+         每课的词表与课程一致，读完第几章就练第几章。</p>
+
+      <h2>模式</h2>
+      <div class="modes" id="mode-row">
+        <button data-mode="word" class="on">单词模式</button>
+        <button data-mode="letter">字母模式（热身）</button>
+      </div>
+
+      <h2>范围</h2>
+      <div class="row">
+        <label for="pool-kind">练习对象</label>
+        <select id="pool-kind">
+          <option value="all">全部单词（__UNIQUE__ 个）</option>
+          <option value="arc">按弧（共 __ARCS__ 弧）</option>
+          <option value="chapter">按课（共 __CHAPTERS__ 课）</option>
+        </select>
+        <select id="pool-arc" class="hidden"></select>
+        <select id="pool-chapter" class="hidden"></select>
+      </div>
+
+      <h2>难度</h2>
+      <div class="row">
+        <label for="difficulty">初始速度</label>
+        <select id="difficulty">
+          <option value="0.85">轻松</option>
+          <option value="1" selected>标准</option>
+          <option value="1.25">较快</option>
+          <option value="1.6">挑战</option>
+        </select>
+        <button id="btn-start" class="primary">开始练习</button>
+      </div>
+      <p>操作：直接打字 · <kbd>空格</kbd> 暂停 · <kbd>Esc</kbd> 回到设置 · 结束页按 <kbd>R</kbd> 重开。
+         提示条显示当前词的音标与释义；落到底部的词会记入「要复习的词」。</p>
+      <div class="foot">
+        词表与释义取自本仓库 <code>vocabulary_master.csv</code>（__TARGETS__ 个目标词，
+        去重后 __UNIQUE__ 个），按 <code>curriculum_plan.csv</code> 归入各课。
+        本页是单文件，双击即可离线使用。
+      </div>
+    </div>
+  </div>
+
+  <div class="panel hidden" id="over-panel">
+    <div class="card">
+      <h1 id="over-title">练习结束</h1>
+      <p id="over-sub"></p>
+      <div class="stats">
+        <div class="stat"><div class="k">得分</div><div class="v" id="ov-score">0</div></div>
+        <div class="stat"><div class="k">击落</div><div class="v" id="ov-cleared">0</div></div>
+        <div class="stat"><div class="k">速度</div><div class="v" id="ov-wpm">0</div></div>
+        <div class="stat"><div class="k">准确率</div><div class="v" id="ov-acc">0%</div></div>
+        <div class="stat"><div class="k">最高连击</div><div class="v" id="ov-combo">0</div></div>
+        <div class="stat"><div class="k">等级</div><div class="v" id="ov-level">1</div></div>
+      </div>
+      <div id="review-block" class="hidden">
+        <h2>要复习的词</h2>
+        <div class="review" id="review-list"></div>
+      </div>
+      <div class="row" style="margin-top:16px">
+        <button id="btn-again" class="primary">再练一次</button>
+        <button id="btn-setup">更换范围</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script id="word-data" type="application/json">__WORD_DATA__</script>
+<script>
+"use strict";
+const DATA = JSON.parse(document.getElementById("word-data").textContent);
+const WORDS = DATA.words;
+
+/* ---------- pure core: no DOM, so a test can drive it directly ---------- */
+const Core = {
+  /* Which falling word does the buffer belong to? The lowest match wins, because that
+     is the word about to hit the floor and therefore the one worth resolving first. */
+  match(words, buffer) {
+    if (!buffer) return null;
+    const key = buffer.toLowerCase();
+    let best = null;
+    for (const word of words) {
+      if (word.dead) continue;
+      if (word.text.toLowerCase().startsWith(key) && (!best || word.y > best.y)) best = word;
+    }
+    return best;
+  },
+  /* Resolve one keystroke into a new buffer. A wrong letter does not leave the buffer
+     stuck: it is cleared and the letter is retried as the start of a new word, which is
+     what makes a typing game feel responsive. */
+  keystroke(words, buffer, char) {
+    const hit = Core.match(words, buffer + char);
+    if (hit) return { buffer: buffer + char, matches: hit, restarted: false };
+    const single = Core.match(words, char);
+    if (single) return { buffer: char, matches: single, restarted: buffer.length > 0 };
+    return { buffer: "", matches: null, restarted: false };
+  },
+  speedFor(level, base) { return (26 + level * 7) * base; },
+  spawnFor(level) { return Math.max(0.8, 2.6 - level * 0.16); },
+  levelFor(cleared) { return 1 + Math.floor(cleared / 10); },
+  scoreFor(text, combo) { return (10 + text.length * 2) * (1 + Math.min(combo, 10) * 0.1); },
+  shuffle(list) {
+    const copy = list.slice();
+    for (let i = copy.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  },
+};
+
+const board = document.getElementById("board");
+const ctx = board.getContext("2d");
+const el = (id) => document.getElementById(id);
+const LETTERS = "abcdefghijklmnopqrstuvwxyz";
+
+const state = {
+  mode: "word", poolKind: "all", poolValue: 0, difficulty: 1,
+  running: false, paused: false, over: false,
+  pool: [], queue: [], falling: [],
+  buffer: "", active: null,
+  lives: 3, score: 0, combo: 0, bestCombo: 0, cleared: 0, level: 1,
+  review: [], keystrokes: 0, goodKeystrokes: 0,
+  startedAt: 0, elapsed: 0, spawnTimer: 0.3, lastFrame: 0, hudTimer: 0,
+  width: 0, height: 0, dpr: 1,
+};
+
+/* ---------- pool selection ---------- */
+function poolWords() {
+  if (state.mode === "letter") return null;
+  if (state.poolKind === "all") return WORDS;
+  if (state.poolKind === "arc") return WORDS.filter((w) => w.a === state.poolValue);
+  return WORDS.filter((w) => w.c === state.poolValue);
+}
+
+function fillPools() {
+  const arcSel = el("pool-arc");
+  const chSel = el("pool-chapter");
+  arcSel.innerHTML = "";
+  chSel.innerHTML = "";
+  const arcs = [...new Set(DATA.chapters.map((c) => c.a))].sort((a, b) => a - b);
+  for (const arc of arcs) {
+    const opt = document.createElement("option");
+    opt.value = String(arc);
+    opt.textContent = `第 ${arc} 弧 · ${WORDS.filter((w) => w.a === arc).length} 词`;
+    arcSel.appendChild(opt);
+  }
+  for (const chapter of DATA.chapters) {
+    const opt = document.createElement("option");
+    opt.value = String(chapter.n);
+    opt.textContent = `CH${String(chapter.n).padStart(3, "0")} ${chapter.t}`
+      + ` · ${WORDS.filter((w) => w.c === chapter.n).length} 词`;
+    chSel.appendChild(opt);
+  }
+  state.poolValue = Number(arcSel.value || 1);
+}
+
+function syncPoolValue() {
+  if (state.poolKind === "arc") state.poolValue = Number(el("pool-arc").value);
+  else if (state.poolKind === "chapter") state.poolValue = Number(el("pool-chapter").value);
+}
+
+/* ---------- layout ---------- */
+function resize() {
+  state.dpr = Math.min(window.devicePixelRatio || 1, 2);
+  state.width = board.clientWidth || window.innerWidth;
+  state.height = board.clientHeight || window.innerHeight;
+  board.width = Math.floor(state.width * state.dpr);
+  board.height = Math.floor(state.height * state.dpr);
+  ctx.setTransform(state.dpr, 0, 0, state.dpr, 0, 0);
+}
+window.addEventListener("resize", resize);
+
+/* ---------- flow ---------- */
+function start() {
+  syncPoolValue();
+  const source = poolWords();
+  if (state.mode === "word" && (!source || !source.length)) {
+    window.alert("这个范围的词表是空的，请换一个范围。");
+    return;
+  }
+  state.pool = source || [];
+  state.queue = source ? Core.shuffle(source) : [];
+  state.falling = [];
+  state.buffer = "";
+  state.active = null;
+  state.running = true;
+  state.paused = false;
+  state.over = false;
+  state.lives = 3;
+  state.score = 0;
+  state.combo = 0;
+  state.bestCombo = 0;
+  state.cleared = 0;
+  state.level = 1;
+  state.review = [];
+  state.keystrokes = 0;
+  state.goodKeystrokes = 0;
+  state.elapsed = 0;
+  state.spawnTimer = 0.3;
+  state.startedAt = performance.now();
+  state.lastFrame = performance.now();
+  el("start-panel").classList.add("hidden");
+  el("over-panel").classList.add("hidden");
+  updateHud(true);
+  if (!state.animating) { state.animating = true; requestAnimationFrame(loop); }
+}
+
+function remaining() {
+  if (state.mode === "letter") return "—";
+  return String(state.queue.length + state.falling.filter((w) => !w.dead).length);
+}
+
+function spawn() {
+  let entry;
+  if (state.mode === "letter") {
+    entry = { w: LETTERS[Math.floor(Math.random() * LETTERS.length)], p: "", m: "" };
+  } else {
+    if (!state.queue.length) return false;
+    entry = state.queue.shift();
+  }
+  ctx.font = '600 26px Consolas, ui-monospace, monospace';
+  const width = ctx.measureText(entry.w).width;
+  const margin = 80;
+  const span = Math.max(40, state.width - margin * 2 - width);
+  state.falling.push({
+    text: entry.w, phonetic: entry.p || "", meaning: entry.m || "",
+    x: margin + Math.random() * span, y: -16,
+    speed: Core.speedFor(state.level, state.difficulty), dead: false,
+  });
+  return true;
+}
+
+function finish() {
+  state.over = true;
+  state.running = false;
+  const minutes = Math.max(state.elapsed / 60000, 1 / 60);
+  const wpm = Math.round(state.cleared / minutes);
+  const acc = state.keystrokes ? Math.round((state.goodKeystrokes / state.keystrokes) * 100) : 100;
+  el("over-title").textContent = state.lives > 0 ? "这一轮练完了" : "生命用尽";
+  el("over-sub").textContent = state.lives > 0
+    ? "这个范围的词都出现过一遍了，可以换范围，或再练一次。"
+    : "有词落到了底部。下面列出的词值得再练一轮。";
+  el("ov-score").textContent = String(Math.round(state.score));
+  el("ov-cleared").textContent = String(state.cleared);
+  el("ov-wpm").textContent = String(wpm);
+  el("ov-acc").textContent = acc + "%";
+  el("ov-combo").textContent = String(state.bestCombo);
+  el("ov-level").textContent = String(state.level);
+  const list = el("review-list");
+  list.innerHTML = "";
+  if (state.review.length) {
+    el("review-block").classList.remove("hidden");
+    for (const word of state.review.slice(0, 40)) {
+      const span = document.createElement("span");
+      span.textContent = word.text;
+      if (word.meaning) {
+        const note = document.createElement("i");
+        note.textContent = word.meaning;
+        span.appendChild(note);
+      }
+      list.appendChild(span);
+    }
+  } else {
+    el("review-block").classList.add("hidden");
+  }
+  el("over-panel").classList.remove("hidden");
+  updateHud(true);
+}
+
+/* ---------- input ---------- */
+function handleChar(char) {
+  if (!state.running || state.paused) return;
+  const result = Core.keystroke(state.falling, state.buffer, char);
+  state.keystrokes += 1;
+  if (!result.matches) {
+    state.buffer = "";
+    state.active = null;
+    state.combo = 0;
+  } else {
+    state.goodKeystrokes += 1;
+    state.buffer = result.buffer;
+    state.active = result.matches;
+    if (state.buffer.length >= result.matches.text.length) {
+      const word = result.matches;
+      word.dead = true;
+      state.cleared += 1;
+      state.combo += 1;
+      state.bestCombo = Math.max(state.bestCombo, state.combo);
+      state.score += Core.scoreFor(word.text, state.combo);
+      state.level = Core.levelFor(state.cleared);
+      state.buffer = "";
+      state.active = null;
+    }
+  }
+  updateHud(true);
+}
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    state.running = false;
+    state.paused = false;
+    state.falling = [];
+    state.buffer = "";
+    state.active = null;
+    el("over-panel").classList.add("hidden");
+    el("start-panel").classList.remove("hidden");
+    updateHud(true);
+    return;
+  }
+  if (event.key === " ") {
+    /* 14 entries are phrases - "ice cream", "according to" - so a space has to be
+       typeable when it is the next character of the word being typed. Otherwise it
+       keeps its usual meaning of pause. */
+    const expectsSpace = state.running && !state.paused && state.active
+      && state.active.text[state.buffer.length] === " ";
+    if (expectsSpace) {
+      event.preventDefault();
+      handleChar(" ");
+      return;
+    }
+    if (state.running) {
+      event.preventDefault();
+      state.paused = !state.paused;
+      updateHud(true);
+    }
+    return;
+  }
+  /* R restarts only when a round is not in progress. During play it has to reach the
+     game as an ordinary letter, or a word containing "r" could never be typed. */
+  if (!state.running && (event.key === "r" || event.key === "R")) { start(); return; }
+  if (event.key.length === 1 && /[A-Za-z'-]/.test(event.key)) {
+    event.preventDefault();
+    handleChar(event.key);
+  }
+});
+
+/* ---------- rendering ---------- */
+function updateHud(force) {
+  el("hud-score").textContent = String(Math.round(state.score));
+  el("hud-lives").textContent = String(Math.max(0, state.lives));
+  el("hud-level").textContent = String(state.level);
+  el("hud-combo").textContent = String(state.combo);
+  const minutes = Math.max(state.elapsed / 60000, 1 / 60);
+  el("hud-wpm").textContent = state.running ? String(Math.round(state.cleared / minutes)) : "0";
+  el("hud-acc").textContent =
+    (state.keystrokes ? Math.round((state.goodKeystrokes / state.keystrokes) * 100) : 100) + "%";
+  el("hud-left").textContent = remaining();
+  el("hud-pause").textContent = state.paused ? "已暂停 · 空格继续" : "空格暂停 · Esc 设置";
+  const typed = el("typed");
+  typed.innerHTML = "";
+  const done = document.createElement("span");
+  done.textContent = state.buffer;
+  const rest = document.createElement("span");
+  rest.className = "rest";
+  rest.textContent = state.active && state.active.text.length > state.buffer.length
+    ? state.active.text.slice(state.buffer.length) : "";
+  typed.append(done, rest);
+  const hint = el("hint");
+  hint.innerHTML = "";
+  if (state.active) {
+    if (state.active.phonetic) {
+      const ph = document.createElement("span");
+      ph.className = "ph";
+      ph.textContent = "/" + state.active.phonetic + "/  ";
+      hint.appendChild(ph);
+    }
+    const meaning = document.createElement("span");
+    meaning.className = "m";
+    meaning.textContent = state.active.meaning || "";
+    hint.appendChild(meaning);
+  }
+}
+
+function draw() {
+  ctx.clearRect(0, 0, state.width, state.height);
+  const floor = state.height - 92;
+  ctx.strokeStyle = "#2b5580";
+  ctx.setLineDash([6, 8]);
+  ctx.beginPath();
+  ctx.moveTo(0, floor);
+  ctx.lineTo(state.width, floor);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  for (const word of state.falling) {
+    if (word.dead) continue;
+    const isActive = Boolean(state.buffer) && word.text.toLowerCase().startsWith(state.buffer.toLowerCase());
+    const matched = isActive ? word.text.slice(0, state.buffer.length) : "";
+    const restText = word.text.slice(matched.length);
+    ctx.font = '600 26px Consolas, ui-monospace, monospace';
+    const base = isActive ? "#5fc7e8" : "#eaf2f8";
+    const tail = word.y > floor - 60 ? "#ef7d7d" : (isActive ? "#bfe7f5" : "#9db8ce");
+    let x = word.x;
+    if (matched) {
+      ctx.fillStyle = base;
+      ctx.fillText(matched, x, word.y);
+      x += ctx.measureText(matched).width;
+    }
+    ctx.fillStyle = tail;
+    ctx.fillText(restText, x, word.y);
+    if (isActive && word.phonetic) {
+      ctx.font = '400 12px "Segoe UI", sans-serif';
+      ctx.fillStyle = "#7f9ab1";
+      ctx.fillText("/" + word.phonetic + "/", word.x, word.y + 15);
+    }
+  }
+
+  if (state.paused) {
+    ctx.fillStyle = "#8fb4d0";
+    ctx.font = '600 18px "Segoe UI", sans-serif';
+    ctx.textAlign = "center";
+    ctx.fillText("已暂停 · 按空格继续", state.width / 2, state.height / 2);
+    ctx.textAlign = "left";
+  }
+}
+
+function loop(now) {
+  const delta = Math.min((now - state.lastFrame) / 1000, 0.05);
+  state.lastFrame = now;
+  if (state.running && !state.paused) {
+    state.elapsed = now - state.startedAt;
+    state.spawnTimer -= delta;
+    const interval = Core.spawnFor(state.level);
+    if (state.spawnTimer <= 0 && state.falling.filter((w) => !w.dead).length < 8) {
+      if (spawn() || state.mode === "letter") state.spawnTimer = interval;
+      else state.spawnTimer = 0.25;
+    }
+    const floor = state.height - 92;
+    for (const word of state.falling) {
+      if (word.dead) continue;
+      word.y += word.speed * delta * 6;
+      if (word.y >= floor) {
+        word.dead = true;
+        state.lives -= 1;
+        state.combo = 0;
+        if (state.active === word) { state.active = null; state.buffer = ""; }
+        if (state.mode !== "letter") state.review.push({ text: word.text, meaning: word.meaning });
+        if (state.lives <= 0) { state.falling = state.falling.filter((w) => !w.dead); finish(); return; }
+      }
+    }
+    state.falling = state.falling.filter((word) => !word.dead);
+    /* the pool is done when nothing is queued and nothing is left to type */
+    if (state.mode !== "letter" && !state.queue.length
+        && !state.falling.some((w) => !w.dead)) {
+      finish();
+      return;
+    }
+    state.hudTimer -= delta;
+    if (state.hudTimer <= 0) { state.hudTimer = 0.2; updateHud(false); }
+  }
+  draw();
+  requestAnimationFrame(loop);
+}
+
+/* ---------- setup wiring ---------- */
+el("mode-row").addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-mode]");
+  if (!button) return;
+  state.mode = button.dataset.mode;
+  for (const other of el("mode-row").querySelectorAll("button")) {
+    other.classList.toggle("on", other === button);
+  }
+});
+el("pool-kind").addEventListener("change", () => {
+  state.poolKind = el("pool-kind").value;
+  el("pool-arc").classList.toggle("hidden", state.poolKind !== "arc");
+  el("pool-chapter").classList.toggle("hidden", state.poolKind !== "chapter");
+  syncPoolValue();
+});
+el("pool-arc").addEventListener("change", syncPoolValue);
+el("pool-chapter").addEventListener("change", syncPoolValue);
+el("difficulty").addEventListener("change", () => { state.difficulty = Number(el("difficulty").value); });
+el("btn-start").addEventListener("click", start);
+el("btn-again").addEventListener("click", start);
+el("btn-setup").addEventListener("click", () => {
+  el("over-panel").classList.add("hidden");
+  el("start-panel").classList.remove("hidden");
+});
+
+fillPools();
+resize();
+updateHud(true);
+draw();
+</script>
+</body>
+</html>

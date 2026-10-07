@@ -182,6 +182,43 @@ Full-run result over all 137 chapters:
 | clock scale fitted per chapter | 0.725397–0.725800 |
 | worst clock-fit residual | 17.7 ms |
 
+### The typing game: what a test caught that reading the code did not
+
+`CET4_Typing_Game.html` is generated from `game/template.html` by
+`build/make_typing_game.py`, and it is verified three ways: pytest against the vocabulary
+data, a Node smoke test that drives the game logic out of the generated page, and headless
+screenshots for the rendering.
+
+The pytest test asserted that every embedded word is *typeable* — that nothing in the list
+needs a keystroke the page cannot produce. It failed on the first run:
+
+```
+AssertionError: cell phone is untypeable
+```
+
+**14 entries are phrases** — `ice cream`, `according to`, `living room`, `middle class` —
+and the keystroke filter accepted letters, apostrophes and hyphens but not spaces. Every
+one of those words would have fallen to the floor, cost a life, and been impossible to
+clear, in every round. The fix is that a space types when it is the next character of the
+word being typed, and pauses otherwise.
+
+This is the same failure mode as everything in section 2 — a property nobody checked — with
+one difference: here the check existed *before* the defect reached anyone. Writing the
+assertion is what found it, which is the argument for testing data-driven UI against its
+source rather than only looking at it.
+
+Two traps came up again while verifying the rendering, and both produce a screenshot that
+looks like a broken page:
+
+| Trap | What it looked like | Reality |
+|---|---|---|
+| `Get-Content -Raw \| Set-Content -Encoding UTF8` on a probe file | every Chinese label rendered as mojibake (`ç†åˆ†` for `得分`) | the probe was double-encoded; the page was fine, proved by a copy made with `Copy-Item` |
+| headless `--virtual-time-budget` | an empty board, no falling words | `requestAnimationFrame` ran **twice** in the whole window, so the spawn timer never fired. The probe now stages the state it wants drawn and calls the same `draw()` the game uses |
+
+Both are the lesson from section 3, which is why it is written down twice: a verification
+harness is code, and it deserves the same scepticism as the thing it verifies. When a
+screenshot looks wrong, the first question is which part of the chain produced it.
+
 ---
 
 ## 3. Environment traps
@@ -203,6 +240,7 @@ Each of these cost real time and is specific enough to be worth writing down.
 | `api.github.com` reachable while `github.com:443` is not | `git push` fails; `ls-remote` times out | publish through the Git Data API on the reachable host |
 | A GitHub repo rejects blob creation while completely empty | HTTP 409 "Git Repository is empty" | initialise with one file, then force the branch to the real commit |
 | GitHub's license detector | reports `NOASSERTION` despite an MIT `LICENSE` | keep `LICENSE` as pure MIT text; put scope notes elsewhere |
+| headless `--virtual-time-budget` | an empty canvas that looks like a render bug | `requestAnimationFrame` barely runs under virtual time; stage state and call the draw function directly |
 
 Two of these were self-inflicted and worth naming: the mojibake came from rewriting a
 source file with PowerShell, and the doubled subtitles came from putting a sidecar where
@@ -215,6 +253,11 @@ players look for it.
 - **Human semantic review has not been performed.** 41 targets lack a part of speech, 48
   lack phonetics, and no human has judged whether the placements read naturally or are
   pedagogically useful.
+- **The typing game has not been played.** Its data, logic and rendering are verified —
+  7 pytest checks, 30 Node logic checks, and four headless screenshots — but nobody has
+  actually played a round. The difficulty curve (a level every 10 words, up to 8 words on
+  screen at once) is a reasonable guess, not a tuned value, and the spawn rate in
+  particular may want adjusting after the first real session.
 - **No physical print test** was performed. PDF validation is programmatic plus sampled
   visual inspection.
 - 9 pages of the story volume carry a single vocabulary-table row. A fix was attempted
@@ -249,6 +292,10 @@ python build/spill_check.py                   # short pages, with a contact shee
 python build/make_audio.py                    # 137 chapter MP3s (~8 min)
 python build/make_video.py                    # 137 subtitled MP4s (~1 h)
 python build/check_sync.py                    # subtitle timing, measured against the audio
+
+python build/make_typing_game.py              # regenerate the game page from the vocabulary
+node build/typing_game_smoke.mjs              # 30 checks on the game logic
+python build/game_screenshots.py              # render the game's UI states headlessly
 
 uv run pytest -q
 uv run ruff check source tests build
