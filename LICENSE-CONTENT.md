@@ -1,3 +1,21 @@
+# Licensing: what applies to which part of this repository
+
+Two licenses, because the repository holds two kinds of work. `LICENSE` is the pure MIT
+text and governs the software; this file governs the curriculum content.
+
+| Scope | License |
+|---|---|
+| **Software** — `source/`, `tests/`, `build/`, `specs/`, `pyproject.toml`, `uv.lock` | **MIT** — see `LICENSE` |
+| **Content** — the chapters, translations, exercises, answer key, manuscript, rendered PDFs, audio, video, and the explanatory documents | **CC BY 4.0** — this file |
+| **Third-party data** — `data/cet4_metadata_subset.jsonl`, ECDICT-derived metadata | **MIT, Copyright (c) 2022 SmartCoding** — see `data/LICENSE.endict.txt` |
+
+`LICENSE` deliberately contains nothing but the MIT text. An earlier version appended a
+scope note to it, and GitHub's license detector then reported `NOASSERTION` instead of
+MIT: the detector matches the license body and extra prose defeats it. The note lives
+here instead, where it does no harm.
+
+---
+
 # Content license: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 The curriculum content in this repository is licensed under the **Creative Commons
@@ -11,16 +29,12 @@ Copyright (c) 2026 carlzhu
   (English story text and Chinese translations)
 - `CET4_Vocabulary_Stories.pdf`, `CET4_Exercises.pdf`, `CET4_Answer_Key.pdf`
 - `build/preview/` and `build/CET4_Sample_*.pdf` - the rendered volumes
+- `build/audio/` - the chapter narration
+- `build/video/` - the subtitled videos and their `.srt` files
 - `reports/manuscript.md` - the assembled bilingual manuscript
-- the explanatory documents: `README.md`, `quality_report.md`,
+- the explanatory documents: `README.md`, `BUILD_NOTES.md`, `quality_report.md`,
   `vocabulary_coverage_report.md`, `character_guide.md`, `story_timeline.md`,
   `layout_capacity.md`, `vocabulary_audit.md`
-
-## What this does not cover
-
-- The software, which is under the MIT License (`LICENSE`)
-- Third-party data, which is under its own terms
-  (`data/LICENSE.endict.txt`; see "Data provenance and licensing" in `README.md`)
 
 ## You are free to
 

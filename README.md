@@ -66,8 +66,11 @@ At the repository root:
 | `reports/manuscript.md` | the assembled bilingual manuscript, editable |
 | `reports/qa_summary.json`, `reports/pdf_qa.json` | curriculum audit and per-page measurements |
 | `quality_report.md` | the full measured QA report, including defects found and fixed |
+| `BUILD_NOTES.md` | the engineering log: pipeline, defects, environment traps, and why each fix was made |
 | `vocabulary_coverage_report.md` | coverage accounting |
 | `manifest.json` | machine-readable build manifest |
+| `build/audio/CH001.mp3` … `CH137.mp3` | one narration per chapter, 9.26 hours total |
+| `build/video/CH001.mp4` … `CH137.mp4` | the same narration with burned-in subtitles |
 
 ### Audio
 
@@ -111,6 +114,63 @@ Two limitations, stated plainly:
 PowerShell process, because loading `System.Speech` per chapter would double the run
 time.
 
+### Video with subtitles
+
+`build/video/` holds **one MP4 per chapter** — `CH001.mp4` … `CH137.mp4` — pairing the
+narration with a title card and the English text burned into the picture, so it plays
+anywhere without a subtitle switch to find.
+
+| | |
+|---|---|
+| Picture | 960×540 H.264, 5 fps, CRF 32 — a still title card, so the frame rate costs nothing |
+| Audio | AAC 64 kb/s, copied from the chapter MP3 |
+| Subtitles | English, **burned in**, one sentence per cue |
+| Lead-in | each line appears **1.5 s before its sentence is spoken** (`--lead-in`), so a learner reads ahead instead of reading along |
+| Sidecars | the matching `.srt` files live in `build/video/subtitles/`, deliberately **not** beside the videos |
+
+That last row is not housekeeping. A player that finds `CH001.srt` next to
+`CH001.mp4` loads it automatically and draws it on top of the burned-in text, so the
+same sentence appears twice in two different styles. Keeping the sidecars in a
+subdirectory removes the effect without giving up the files.
+
+```bash
+python build/make_video.py                    # all 137, ~1 hour
+python build/make_video.py --chapters CH001-CH005
+python build/make_video.py --lead-in 2.0      # more pre-reading time
+python build/check_sync.py                    # verify timing against the audio
+```
+
+A chapter that is open in a video player cannot be overwritten; the run writes to a
+temporary file, swaps it in, and reports that chapter as skipped instead of dying
+part-way through. Close the player and re-run to fill it in.
+
+#### Where the subtitle timing comes from
+
+The narration is offline SAPI, which does not emit subtitles, so the timing is derived
+and then verified against the audio:
+
+1. **Word events.** `SpeakProgress` reports, for every word, its character position and
+   an `AudioPosition`. Those positions index the **SSML string**, not the plain text, so
+   `make_audio.ssml_for_parts` returns each paragraph's offset alongside the SSML.
+2. **Offsets must be exact.** `html.escape` escapes apostrophes to `&#x27;`, and SAPI
+   counts that entity as **one** character rather than six — so every word after an
+   apostrophe was reported at a shifted offset, which mis-assigned words to sentences
+   and slid the subtitles out of sync as a chapter progressed. Escaping is now
+   `quote=False`; the corpus contains no `&`, `<` or `>`, so offsets are 1:1. The
+   committed audio is unaffected — the regenerated MP3 is byte-identical, and its
+   decoded PCM matches.
+3. **The clock is one constant.** `AudioPosition` is not real time. Fitting the
+   paragraph anchors gives `audio = 0.7256 × event + ~0.01`, with a **maximum residual
+   of 4–10 ms** across every chapter sampled. 0.725625 is 16000/22050: SAPI reports
+   against a 16 kHz stream while the audio is written at 22.05 kHz. The scale is
+   *fitted per chapter* rather than hard-coded, so a format change would surface as a
+   residual rather than silently skewing every line.
+4. **Independent check.** `build/check_sync.py` compares the finished `.srt` files with
+   the audio alone — cue starts against speech onsets detected in the recording, which
+   is a different measurement from the events that produced them. Before the offset fix
+   the spread was 0.24–0.30 s, which is what "words and voice drift apart" looks like;
+   after it, **±0.01 s**.
+
 All rendered PDFs were scanned for missing glyphs: **0 boxes across 420 files**
 (3 root volumes, 414 preview volumes, 3 samples) covering 3,579,760 drawn
 characters. All 420 rendered volumes are committed, including the 414 in
@@ -140,6 +200,9 @@ build/                 QA tools, edit patches, validation certificates, rendered
 build/val-*.json       one certificate per batch: the four gates and counted totals
 build/preview/         414 rendered volumes: 3 combined previews + 137 x 3 per chapter
 build/audio/           137 chapter MP3s + the per-chapter audio manifest
+build/video/           137 chapter MP4s with burned-in subtitles
+build/video/subtitles/ the matching .srt files, kept here so players do not auto-load them
+build/video/cards/     the title-card stills the videos are built from
 build/qa/              contact sheets for visual review, plus the detector's baseline
 reports/               generated manuscript and QA output
 LICENSE                MIT, for the software
@@ -227,20 +290,34 @@ The generation was automated in batches of at most 8 chapters, with a checkpoint
 written only after four validators pass: schema, plan conformance, whole-word
 coverage, and cross-chapter continuity.
 
-The report at [`quality_report.md`](quality_report.md) records the defects that
-reached a "passing" QA run and how each was found, because they share one cause —
-**a proxy was verified instead of the property**:
+**The engineering log is [`BUILD_NOTES.md`](BUILD_NOTES.md).** It records the pipeline,
+the environment traps, and the reasoning behind each fix; `quality_report.md` holds the
+measurements. This section is the summary.
+
+Nine defects reached a run that had already reported success, and they share one cause:
+**a proxy was verified instead of the property.**
 
 | Defect | Scale | Why the checks missed it |
 |---|---|---|
 | IPA printed as boxes | 4,540 rows | SimHei lacks 15 of 19 IPA characters; the QA counted U+FFFD, which this defect never produces |
 | Chinese heading and quoted meanings printed as boxes | 1,292 more | reportlab does not fall back between fonts; a source-side cmap check assumed Latin text is always drawn with a Latin font |
-| Sample volumes printed as boxes | 168 more | `build-sample-pdfs` uses a second renderer that had its own copies of the same bugs; only found by scanning all 417 rendered PDFs |
+| Sample volumes printed as boxes | 168 more | `build-sample-pdfs` uses a second renderer that had its own copies of the same bugs; only found by scanning all 417 rendered PDFs, not the three deliverables |
 | Chinese was abridged, not translated | 113 paragraphs | every chapter had equal paragraph *counts*; the property itself was never measured |
 | Review lists verified by substring | 1 chapter | a substring match was accepted as a whole-word match |
+| Validation certificates had gone stale | all 34 | they were produced by hand, so nothing regenerated them after the text changed |
+| Subtitles slid out of sync | every chapter with an apostrophe | `html.escape` writes `&#x27;`, which SAPI counts as one character rather than six, shifting every later word's reported offset |
+| The event clock was misread as real time | all | the first reading divided by the audio length, but the last event is a word *start*, not the end of the audio; the true relation is a constant 0.725625 = 16000/22050 |
+| A bias correction hid the real cause | all | it made the mean error zero while the spread stayed at 0.24 s — drift, not offset. Removing it after the real fix dropped the spread to 0.006 s |
 
 Each fix carries a guard: a deterministic glyph check with tests, a calibrated
-translation-density gate, and a regression test for the matcher.
+translation-density gate, a regression test for the matcher, certificates that fail when
+stale, and a subtitle checker that measures the finished subtitles against the audio
+rather than against the data that produced them.
+
+Where a claim could be checked independently it was, and the check is recorded rather
+than asserted: content equality is verified by comparing git tree SHAs, the glyph
+detector was validated against a knowingly broken file, and the narration was confirmed
+reproducible byte-for-byte before its timing was trusted.
 
 ---
 
@@ -288,9 +365,14 @@ of work:
 | Scope | License |
 |---|---|
 | Software — `source/`, `tests/`, `build/`, `pyproject.toml`, `uv.lock`, `specs/` | **MIT** (`LICENSE`) |
-| Content — the chapters, translations, exercises, answer key, manuscript, rendered PDFs, and the explanatory documents | **CC BY 4.0** (`LICENSE-CONTENT.md`) |
+| Content — the chapters, translations, exercises, answer key, manuscript, PDFs, audio, video, and the explanatory documents | **CC BY 4.0** (`LICENSE-CONTENT.md`) |
 
 CC BY 4.0 allows sharing and adaptation, including commercially, provided the
 attribution requirement is met. If you would rather keep all rights reserved, or
 use a different license, replace those two files — nothing else in the repository
 depends on them.
+
+`LICENSE` contains nothing but the MIT text on purpose. An earlier version appended a
+scope note to it, and GitHub's license detector then reported `NOASSERTION` instead of
+MIT: the detector matches the license body and extra prose defeats it. The scope table
+now lives in `LICENSE-CONTENT.md`, where it does no harm.
