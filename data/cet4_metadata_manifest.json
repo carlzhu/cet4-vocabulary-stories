@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-10-06T04:42:23.393499+00:00",
+  "repository": "https://github.com/skywind3000/ECDICT",
+  "source_id": "ECDICT/ecdict.csv@sha256:1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+  "source_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+  "license": "MIT",
+  "match_method": "case-insensitive exact whole-entry match",
+  "target_count": 6127,
+  "exact_single_candidate": 6127,
+  "ambiguous_exact_candidates": 0,
+  "unmatched": 0,
+  "matched_candidate_rows": 6127,
+  "invalid_json_lines": 0,
+  "with_translation": 6127,
+  "with_pos": 6086,
+  "with_source_pos": 0,
+  "with_inferred_pos": 6086,
+  "with_phonetic": 6079,
+  "subset_file": "cet4_metadata_subset.jsonl",
+  "subset_sha256": "d2a91b0f0b536c2baf55d301d2834e95633ec8cb845442d0dd6ee975c14b2c6f",
+  "input_parts": [
+    {
+      "name": "ecdict-cet4-exact.jsonl",
+      "path": "ecdict-cet4-exact.jsonl",
+      "size": 3118608,
+      "sha256": "34655c813a6c162b0ed211a91be33057a21ab1e70e754825c3ef218c467f3bb9",
+      "lines": 6127
+    }
+  ],
+  "scanned_rows": 770611,
+  "matched_rows": 6127
+}

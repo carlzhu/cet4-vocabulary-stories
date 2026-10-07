@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH083-CH086",
+  "chapter_ids": [
+    "CH083",
+    "CH084",
+    "CH085",
+    "CH086"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH083",
+      "english_title": "The Cost of Always Being Busy: Consequences",
+      "chinese_title": "忙碌的代价：后果",
+      "theme": "健康、运动与生活习惯",
+      "english_paragraphs": [
+        "The consequences arrived in the kitchen. Everyone in the central company could see the change in the food: brown rice instead of white, a drop of coffee in the morning, and a cheese sandwich instead of a chocolate bar. “The ingredient is not the point,” the physician said. “The mood is.” Thus the board asked a firm from the agency to give the club a new menu.",
+        "The crucial question was the stove. A cooker that nobody had cleaned, a bundle of herbs in a silver clip, and a garbage bin beside the window: the condition of the kitchen decided the appetite of the whole team. “You cannot play on a hungry lung,” the cook said. “You can only look at the window and wish.”",
+        "The stimulus was not the chocolate but the way it was given. A mild powder, a fraction of a banana, and a yoghurt with lemonade were enough for a stressful afternoon; a drastic bundle of stimulants was not. “A nerve is not a toy,” the physician wrote to the general manager. “A stimulant taken impulsively is a debt.”",
+        "The deterioration of one player scared them all. A tumor the size of a staple, a lung full of dioxide, and an atomic scan later, the club joined the union of clubs that had asked for a national consolidation of the data. The utilization of the gym had to be examined, and the broom in the corner became a symbol.",
+        "The headmistress of the local school, a member of the board, asked the question that closed the meeting: “What do you give a body that has no appetite?” The answer was a kitchen with a window, a stove that worked, and a routine that did not depend on the mood of the cosmos. The side of the argument that nobody wanted to hear was the only one that could be defended. The defense of the old kitchen was that the drug of habit is cheap; the daily grind of cooking for fifty people, however, was not intact. “You cannot buy stimulation in a packet without becoming impulsive,” the headmistress said. A broom, a staple gun, and a packet of chocolate were the only tools left in the room, and the physician wrote down every item."
+      ],
+      "chinese_paragraphs": [
+        "后果出现在厨房里。中央公司的每个人都能看到食物的变化：白米换成糙米，早上加一滴咖啡，巧克力棒换成奶酪三明治。“成分不是重点，”内科医师说，“心情才是。”因此董事会请了一家代理机构为俱乐部制定新菜单。",
+        "关键的问题是炉灶。一台没人清洗过的炊具、一捆夹在银色夹子里的香草、窗边一个垃圾桶：厨房的状况决定了整支队伍的食欲。“你不能靠一副饥饿的肺去比赛，”厨师说，“你只能看着窗户，然后许愿。”",
+        "刺激物不是巧克力，而是它被给予的方式。一点温和的粉末、一小片香蕉和一份加了柠檬水的酸奶，就足以应付一个紧张的下午；一大捆兴奋剂则不行。“神经不是玩具，”医师写信给总经理说，“冲动地服下兴奋剂就是欠债。”",
+        "一名球员的病情恶化让他们都害怕了。一个订书钉大小的肿瘤、一肺的二氧化物，以及一次原子扫描之后，俱乐部加入了一个向国家申请数据统一整理的俱乐部联盟。体育馆的利用情况必须被审查，而角落里的那把扫帚成了一个象征。",
+        "当地学校的女校长、董事会成员，问出了结束会议的那个问题：“你给一具没有食欲的身体什么？”答案是：一间有窗的厨房、一台能用的炉子，以及一套不取决于宇宙心情的日常。论证中没人愿意听的那一面，恰恰是唯一站得住脚的那一面。为旧厨房辩护的说法是：习惯这种药很便宜；然而，为五十个人做饭的日常苦役并不是毫发无损的。“你无法买一包刺激物而不变得冲动，”女校长说。屋里只剩下了一把扫帚、一把订书机和一包巧克力，而内科医师把每一样都记了下来。"
+      ],
+      "exercises": [
+        {
+          "id": "CH083-Q1",
+          "type": "context",
+          "prompt": "What did the physician say was the point?",
+          "options": [
+            "the mood, not the ingredient",
+            "the chocolate",
+            "the rice",
+            "the broom"
+          ]
+        },
+        {
+          "id": "CH083-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “恶化；衰退”?",
+          "options": [
+            "deterioration",
+            "consolidation",
+            "utilization",
+            "stimulation"
+          ]
+        },
+        {
+          "id": "CH083-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "clean the stove",
+            "clean the mood",
+            "clean the cosmos",
+            "clean the lung"
+          ]
+        },
+        {
+          "id": "CH083-Q4",
+          "type": "cloze",
+          "prompt": "The physician wrote that a nerve is not a ______.",
+          "options": [
+            "toy",
+            "staple",
+            "fraction",
+            "powder"
+          ]
+        },
+        {
+          "id": "CH083-Q5",
+          "type": "recall",
+          "prompt": "What did the headmistress ask?",
+          "options": [
+            "what you give a body with no appetite",
+            "who owns the kitchen",
+            "when the scan is due",
+            "why the gym is used"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH083-Q1",
+          "answer": "the mood, not the ingredient",
+          "explanation": "He valued the setting over the shopping list."
+        },
+        {
+          "id": "CH083-Q2",
+          "answer": "deterioration",
+          "explanation": "One player's worsening condition alarmed the club."
+        },
+        {
+          "id": "CH083-Q3",
+          "answer": "clean the stove",
+          "explanation": "Clean combines with a stove, a room, or data."
+        },
+        {
+          "id": "CH083-Q4",
+          "answer": "toy",
+          "explanation": "He warned against treating a nerve as something to play with."
+        },
+        {
+          "id": "CH083-Q5",
+          "answer": "what you give a body with no appetite",
+          "explanation": "She reduced the debate to one concrete question."
+        }
+      ]
+    },
+    {
+      "article_id": "CH084",
+      "english_title": "The Cost of Always Being Busy: The Bridge Forward",
+      "chinese_title": "忙碌的代价：通向下一程",
+      "theme": "健康、运动与生活习惯",
+      "english_paragraphs": [
+        "The sixth arc closed with a consultation and a regional register. “Imagine a castle of habits,” the physiotherapist said. “Every joint has a motive, and every motive has a remedy.” The minister, the official, and the player sat at the same table, and everyone at it had a different viewpoint about what to emphasize in the report.",
+        "The visual evidence was distressful. A crack in the ambulance door, a lower spine injured in a fall, and a case of flu that had spread through the whole squad: the correspondence between the figures and the stories was exact, and it was suggestive of a remedy nobody wanted to fund. “Do not let a bad motive interfere with a good measure,” the doctor said.",
+        "From the standpoint of immunity, the remedy was dull: sleep, a massage, a medicinal spoonful, and a jog in the park. Pork and feed had more prominence in the budget than a massage, and the vulnerability of the older members was the tiresome part of the argument.",
+        "The destructive part was the provocation in the press. A single headline could expel a volunteer, cheer a rival, and refresh an old quarrel in a week. “You cannot extinguish a rumour with a labourious paragraph,” Maya wrote, and then corrected the spelling to laborious.",
+        "The hurt was real and it was direct: a bony shoulder, an uncovering of the past, and a case of pneumonia that the hospital could not explain. The cohesive lesson was that a body is not a castle with one gate; it is a set of bridges, and every bridge has a limit that someone must discover before the ambulance does. I must ask what my job is here, the physiotherapist said: a service, a game, or a church? A vulnerable joint can disintegrate in a week, and a remedial hour is not a favour — it is the health of the whole squad. “Do not let the god of the timetable hit the table again,” she said, and the hospital sent its report to the ministry that afternoon. Thus the work of the ministry was to turn the report into a table. The club had learned to budget for rest; no one had yet learned to budget for the fear of stopping."
+      ],
+      "chinese_paragraphs": [
+        "第六段弧线以一次咨询和一份地区登记册收尾。“想象一座习惯的城堡，”理疗师说，“每个关节都有动机，每个动机都有疗法。”部长、官员和球员坐在同一张桌边，而桌上每个人对报告该强调什么都有不同的观点。",
+        "视觉证据令人痛苦。救护车门上的一道裂缝、一次跌倒中受伤的下段脊柱，以及一场席卷整支队伍的流感：数字与故事之间的对应是精确的，而且暗示着一种没人愿意出资的疗法。“不要让糟糕的动机干扰好的措施，”医生说。",
+        "从免疫力的立场看，疗法很乏味：睡眠、一次按摩、一匙药物，以及在公园里慢跑。猪肉和饲料在预算里的地位比一次按摩更突出，而年长成员的脆弱，是这场论证里最烦人的部分。",
+        "破坏性的部分是媒体上的挑衅。一个标题就能在一周内开除一名志愿者、为对手欢呼，并让一场旧争吵重新鲜活起来。“你无法用一段苦役般的文字熄灭一则谣言，”曼雅写道，随后把拼写改成了 laborious。",
+        "伤害是真实的，也是直接的：一副瘦骨嶙峋的肩膀、一段被揭开的往事，以及一例医院解释不了的肺炎。内在一致的教训是：身体不是只有一道门的城堡；它是一组桥，每座桥都有一个限度，必须有人赶在救护车之前发现它。我必须问，我在这里的工作是什么，理疗师说：一项服务、一场比赛，还是一座教堂？一个脆弱的关节能在一周内瓦解，而一个小时的补救不是恩惠——它是整支队伍的健康。“不要让时刻表的神再敲一次桌子，”她说，而那天下午医院把报告送到了部里。于是部里的工作就是把那份报告变成一张表格。"
+      ],
+      "exercises": [
+        {
+          "id": "CH084-Q1",
+          "type": "context",
+          "prompt": "What did the physiotherapist ask them to imagine?",
+          "options": [
+            "a castle of habits",
+            "a regional register",
+            "an ambulance",
+            "a spoonful of medicine"
+          ]
+        },
+        {
+          "id": "CH084-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “脆弱；易受伤害”?",
+          "options": [
+            "vulnerability",
+            "immunity",
+            "prominence",
+            "provocation"
+          ]
+        },
+        {
+          "id": "CH084-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "extinguish a rumour",
+            "extinguish a joint",
+            "extinguish a castle",
+            "extinguish a viewpoint"
+          ]
+        },
+        {
+          "id": "CH084-Q4",
+          "type": "cloze",
+          "prompt": "The doctor said a bad motive must not ______ with a good measure.",
+          "options": [
+            "interfere",
+            "expel",
+            "refresh",
+            "injure"
+          ]
+        },
+        {
+          "id": "CH084-Q5",
+          "type": "recall",
+          "prompt": "What did Maya compare a body to at the end?",
+          "options": [
+            "a set of bridges",
+            "a castle",
+            "a register",
+            "an ambulance"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH084-Q1",
+          "answer": "a castle of habits",
+          "explanation": "He used the castle as an image of layered routine."
+        },
+        {
+          "id": "CH084-Q2",
+          "answer": "vulnerability",
+          "explanation": "The older members' vulnerability was the awkward topic."
+        },
+        {
+          "id": "CH084-Q3",
+          "answer": "extinguish a rumour",
+          "explanation": "Extinguish combines with a rumour, a fire, or a hope."
+        },
+        {
+          "id": "CH084-Q4",
+          "answer": "interfere",
+          "explanation": "He separated motive from measurement."
+        },
+        {
+          "id": "CH084-Q5",
+          "answer": "a set of bridges",
+          "explanation": "She replaced the castle image with bridges that each have a limit."
+        }
+      ]
+    },
+    {
+      "article_id": "CH085",
+      "english_title": "What the System Remembers: A Signal",
+      "chinese_title": "系统记住了什么：一个信号",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The club had finally agreed to pay for rest; the next failure was in a system that never slept. The seventh arc opened with a signal that nobody had asked for: a download of the club's website that included a file nobody had uploaded. The board took one look at the log, and the third member of the team, a base of operations in the innovation lab, was asked to explain the exposure. “It is a delay in the wrong direction,” Aisha said. “It is a resource problem, not a wish problem.”",
+        "The aim was a reduction in the concentration of personal data on the server. A video of a training session, a cookie in the browser, and an echo of an old backup were the only things anyone could find. “Take the filter and the bearing off the machine,” the officer said. “Make the composition of the file smaller.” Indeed, the file was a compound of six unrelated documents.",
+        "The projection was worse than the delay: a microphone left on during a massage, a fax to the wrong office, and a kettle of water boiling beside a microwave. “A logo is not proof of anything,” Maya said. “An omission is.” The side of the lab that held the servers was the side nobody could enter without a boot on each foot.",
+        "The biology of the problem was a charm and a jaw. “Biology is not the issue,” the biochemical engineer said. “The issue is that we cannot take a volt of trust and charge it to a customer.” The imperial habit of shipping a product first and asking later had to be broken; the mount of documents, the swing of the curve, and the exposure all pointed the same way.",
+        "The reflection that followed was short. “We bring the situation to the board and take the possible offer,” Lin wrote. “We place the note in the register and send the same message to everyone.” The might of a small team is its willingness to show the file before someone else does. The board, the officer, and the situation on the server all pointed to the same place: we might bring the offer, take the place, and make it possible to send a smaller file. A wish is not a plan; indeed, the look on the officer's face said that the cause of the leak was still unknown. The focus of the pass was simple: down the list, item by item, we would eat the fat of the file, take the barrier out of the exhaust pipe, and let the notation in the margin involve every reader."
+      ],
+      "chinese_paragraphs": [
+        "俱乐部终于同意为休息付钱；而下一次失败，出现在一个从不睡觉的系统里。第七段弧线以一个没人要求的信号开始：俱乐部网站的一次下载，里面包含了一个没人上传过的文件。董事会只看了一眼日志，团队的第三位成员——创新实验室里的一个行动基地——就被要求解释这次暴露。“这是方向错误的延误，”艾莎说，“这是资源问题，不是愿望问题。”",
+        "目标是降低服务器上个人数据的集中度。一段训练录像、浏览器里的一块饼干，以及一次旧备份的回声，是任何人都能找到的全部东西。“把过滤器和方位从机器上拿下来，”官员说，“把文件的构成变小。”的确，那个文件是六份不相关文档的化合物。",
+        "预测比延误更糟：按摩时忘关的麦克风、发错办公室的传真，以及在微波炉旁烧开的水壶。“标志不能证明任何事，”曼雅说，“遗漏才能。”实验室里存放服务器的那一侧，是没有人能不穿靴子走进去的一侧。",
+        "这个问题的生物学部分是一份魔力和一个下颌。“生物学不是问题所在，”生物化学工程师说，“问题在于我们不能取一伏特的信任，然后把它记在客户账上。”那种先发货、后询问的帝国式习惯必须被打破；文件的架、曲线的摆动，以及这次暴露，都指向同一个方向。",
+        "随之而来的反思很短。“我们把情况带到董事会，接受任何可能的提议，”林伟写道，“把说明放进登记簿，并把同样的消息发给每个人。”一支小团队的力量，就在于它愿意在别人之前先把文件拿出来。董事会、那位官员，以及服务器上的情况，都指向同一个地方：我们可以把提议带过去，把位置接过来，并让发一个更小的文件成为可能。一个愿望不是计划；的确，那位官员脸上的表情说明，泄漏的原因仍然不明。这一轮梳理的重点很简单：顺着清单，一项一项地把文件里的肥肉吃掉，把排气管里的障碍取出来，并让页边的标注涉及每一位读者。"
+      ],
+      "exercises": [
+        {
+          "id": "CH085-Q1",
+          "type": "context",
+          "prompt": "What did the download contain?",
+          "options": [
+            "a file nobody had uploaded",
+            "a training video",
+            "a cookie",
+            "a fax"
+          ]
+        },
+        {
+          "id": "CH085-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “遗漏；疏忽”?",
+          "options": [
+            "omission",
+            "exposure",
+            "projection",
+            "notation"
+          ]
+        },
+        {
+          "id": "CH085-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "take a reflection",
+            "take a volt",
+            "take a jaw",
+            "take a kettle"
+          ]
+        },
+        {
+          "id": "CH085-Q4",
+          "type": "cloze",
+          "prompt": "Maya said a logo is not proof of anything, but an ______ is.",
+          "options": [
+            "omission",
+            "echo",
+            "upload",
+            "imperial"
+          ]
+        },
+        {
+          "id": "CH085-Q5",
+          "type": "recall",
+          "prompt": "What did Lin say the might of a small team is?",
+          "options": [
+            "its willingness to show the file first",
+            "its server room",
+            "its video archive",
+            "its microphone"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH085-Q1",
+          "answer": "a file nobody had uploaded",
+          "explanation": "An unrecognised file appeared in the public download."
+        },
+        {
+          "id": "CH085-Q2",
+          "answer": "omission",
+          "explanation": "She argued that what is left out proves more than a logo."
+        },
+        {
+          "id": "CH085-Q3",
+          "answer": "take a reflection",
+          "explanation": "Take combines with a reflection, a risk, or a decision."
+        },
+        {
+          "id": "CH085-Q4",
+          "answer": "omission",
+          "explanation": "The missing consent mattered more than the branding."
+        },
+        {
+          "id": "CH085-Q5",
+          "answer": "its willingness to show the file first",
+          "explanation": "He defined strength as early disclosure."
+        }
+      ]
+    },
+    {
+      "article_id": "CH086",
+      "english_title": "What the System Remembers: The First Promise",
+      "chinese_title": "系统记住了什么：第一次承诺",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The first promise of the arc was made in the innovation lab, with a keyboard, a mouse, and a printer on the table. “Every system we access will have an argument behind it,” Maya said. “A program is not a promise; a promise is a program with a reason.” We would take the third position: not the base of the network, but the code at the door.",
+        "The physics of the promise was simple: energy in, data out, and no chemical left behind. A cell of six volunteers, a machine that nobody had switched off, and an operation manual in a format nobody could read: the effort of the first week was to leave nothing open. “You cannot calculate trust,” the engineer said. “You can only monitor it.”",
+        "The event that made it urgent was a virus. A bug in the driver, a worm in the backup, and a crash of the printer on the night before the launch: the track of the damage led to a dump of old files that had never been registered. “A scanner is not a conscience,” Aisha wrote. “An indicator is not a control.”",
+        "The position was difficult, and it had to be provided in writing. Every device, every software package, and every online service would have a named person responsible for it; the hardware in the lab would be inventoried, and the logic of every access rule would be explained to the volunteers in one page.",
+        "The technology was not the point, and even the biotechnology group in the next building knew it. A hacker in cyberspace, a register of permissions, and a network that remembered more than any human could: thus the phase of the design had to begin with deletion. “Create less,” Lin wrote, “and the Internet will have less to remember.” It was a promise about forgetting, and it arrived on time. We have a difficult effort ahead: to create a base, to take the third pass at the code, and to reach a position we can provide in writing. Down the corridor the night shift was playing music, or at least something like it. Thus the event of the launch had to leave a year of work in a form that could survive us. A computer, a source, a science, and an engineering team: the club had none of them, and the code was written by volunteers."
+      ],
+      "chinese_paragraphs": [
+        "这段弧线的第一个承诺是在创新实验室里做出的，桌上放着一个键盘、一只鼠标和一台打印机。“我们访问的每一个系统背后都要有一个论证，”曼雅说，“程序不是承诺；承诺是一个有理由的程序。”我们将采取第三种立场：不是网络的底座，而是门口的代码。",
+        "这个承诺的物理学很简单：能量进来，数据出去，不留任何化学残留。一个六人的小组、一台没人关过的机器，以及一本没人读得懂格式的操作手册：第一周的努力就是不留任何开口。“你无法计算信任，”工程师说，“你只能监测它。”",
+        "让它变得紧迫的那件事是一个病毒。驱动程序里的一个错误、备份里的一条蠕虫，以及发布前夜打印机的崩溃：损害的轨迹指向一堆从未登记过的旧文件。“扫描仪不是良心，”艾莎写道，“指示器不是控制。”",
+        "这个立场很难，而且必须以书面形式提供。每个设备、每个软件包、每项在线服务都要有一个具名的负责人；实验室里的硬件要清点入册，每条访问规则的逻辑都要用一页纸向志愿者解释清楚。",
+        "技术不是重点，连隔壁大楼里的生物技术小组也知道这一点。网络空间里的一个黑客、一份权限登记簿，以及一个比任何人类都记得更多的网络：因此设计的这一阶段必须以删除开始。“少创造一些，”林伟写道，“互联网要记住的就会少一些。”这是一个关于遗忘的承诺，而它准时到达了。前面还有一场艰难的努力：建立一个基底、对代码做第三遍检查，并达到一个我们能以书面形式给出的立场。走廊那头，夜班在放音乐，或者至少是类似的东西。因此，发布会这件事必须以某种能比我们活得更久的形式，留下一年的工作。一台电脑、一个来源、一门科学，以及一支工程团队：俱乐部一样都没有，而代码是由志愿者写的。"
+      ],
+      "exercises": [
+        {
+          "id": "CH086-Q1",
+          "type": "context",
+          "prompt": "What did Maya say a promise is?",
+          "options": [
+            "a program with a reason",
+            "a keyboard",
+            "a printer",
+            "a virus"
+          ]
+        },
+        {
+          "id": "CH086-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “指示器；指标”?",
+          "options": [
+            "indicator",
+            "register",
+            "format",
+            "hardware"
+          ]
+        },
+        {
+          "id": "CH086-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "monitor access",
+            "monitor a virus",
+            "monitor a printer",
+            "monitor a keyboard"
+          ]
+        },
+        {
+          "id": "CH086-Q4",
+          "type": "cloze",
+          "prompt": "Aisha wrote that a scanner is not a ______.",
+          "options": [
+            "conscience",
+            "driver",
+            "worm",
+            "backup"
+          ]
+        },
+        {
+          "id": "CH086-Q5",
+          "type": "recall",
+          "prompt": "Where did Lin say the design phase had to begin?",
+          "options": [
+            "with deletion",
+            "with the hardware",
+            "with the network",
+            "with the biotechnology group"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH086-Q1",
+          "answer": "a program with a reason",
+          "explanation": "She tied each system to a stated justification."
+        },
+        {
+          "id": "CH086-Q2",
+          "answer": "indicator",
+          "explanation": "An indicator shows a state; it does not control it."
+        },
+        {
+          "id": "CH086-Q3",
+          "answer": "monitor access",
+          "explanation": "Monitor combines with access, a system, or a cost."
+        },
+        {
+          "id": "CH086-Q4",
+          "answer": "conscience",
+          "explanation": "A scanner records without judging."
+        },
+        {
+          "id": "CH086-Q5",
+          "answer": "with deletion",
+          "explanation": "He argued for collecting less before designing more."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH086",
+    "last_event": "The sixth arc closed with a regional health register, and the seventh arc opened with an unexplained download of the club's website that exposed weak consent and forced a redesign before launch.",
+    "unresolved_consequence": "The launch is paused, the file is still publicly reachable, and the group has promised to delete more than it collects.",
+    "character_locations": {
+      "Lin Wei": "the innovation lab",
+      "Maya Chen": "the innovation lab",
+      "Aisha Rahman": "the innovation lab and remotely online"
+    },
+    "character_roles": {
+      "Lin Wei": "third-year student and project co-lead",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Aisha Rahman": "data specialist and remote collaborator on the redesign"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line",
+      "publish the first national injury figures honestly",
+      "name one responsible person for every system and device"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one",
+      "national reporting requirements against a club's own budget",
+      "a launch date against a consented design"
+    ],
+    "first_required_event_next_chapter": "CH087 must show the redesign meeting a user whose consent was never asked, and the group deciding what to delete first.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries",
+      "a canteen cook reframed the programme around walking, music, and recreation",
+      "the second attempt ran one funded indoor session a week",
+      "the hospital forced a national register of injuries and treatment",
+      "the club committed two funded hours a week and made rest part of training",
+      "the kitchen and the mood of the canteen became part of the evidence",
+      "a regional health register was opened and the group promised to publish its figures honestly",
+      "an unexplained file appeared in a public download of the club's website",
+      "the seventh arc opened with a paused launch and a promised redesign of consent"
+    ]
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH103-CH106",
+  "chapter_ids": [
+    "CH103",
+    "CH104",
+    "CH105",
+    "CH106"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH103",
+      "english_title": "The River Answers Back: The Trial Run",
+      "chinese_title": "河流的回应：第一次试行",
+      "theme": "环境、自然与可持续发展",
+      "english_paragraphs": [
+        "The trial run began on the anniversary of the last flood, either in the valley or on the mountain top, depending on whom you asked. “The story has to reflect the geology, not the gloom,” the director said. A couple of gauges, a full breakfast, and a shiny mirror on the wall of the field center: the deal was to measure for a summer and then cut the model.",
+        "The pattern was different from what the spatial model predicted. Roughly a third of the readings exceed the limit, and the soil in the hollow near the refinery holds water the way a solvent holds dye. “Add the groundwater and reduce the surface flow,” Maya said. “More of the same will give us nothing.”",
+        "The next step outdoors was a roast and a brunch in the same afternoon: a banquet for the volunteers, with stuffing, a meaty soup, and an air conditioner running in the shed. “For the sake of the data,” Lin said, “keep the equipment cool and the people warm.”",
+        "The icy vapor from the cooler, a stain on the concrete, and a slap of glue on the pipe: the volunteers worked without a sword or a couch, and the liquor stayed in the cupboard. “Justice is a smooth process, not an event,” the boatman said.",
+        "A bone of the old design was that it had no mirror for its own error. “The global picture and the local picture have to sit at the same table,” she said. “A paint mark on a pole is not a measurement.” The airport on the ridge and the sky above it were the only parts of the district the model could see.",
+        "Less, in the end, was the whole story: less sediment, less loss, and a plan that was practicable in a wet summer. Air conditioning in the field station and a gut feeling about the river were not the same evidence, but the team had to write both down. The term would end on the next anniversary. The air conditioning in the shed and the air conditioner on the wall were both part of the trial."
+      ],
+      "chinese_paragraphs": [
+        "试行在上一场洪水的周年日开始，有人说是在山谷里，有人说是在山顶上，取决于你问谁。“这个故事必须反映地质，而不是阴郁，”主管说。一对水位计、一顿丰盛的早餐，以及野外中心墙上的一面闪亮的镜子：这笔交易是测量一个夏天，然后砍掉模型。",
+        "模式与空间模型的预测不同。大约三分之一的读数超过了限值，而精炼厂旁凹地里的土壤蓄水，就像溶剂吸附染料。“把地下水加进去，把地表流量减下来，”曼雅说，“再多做同样的事只会让我们一无所获。”",
+        "户外的下一步是在同一个下午安排一场烤肉和一顿早午餐：为志愿者办一场宴会，有填料、一碗多肉的汤，以及棚子里开着的一台空调。“为了数据的缘故，”林伟说，“让设备凉着，让人暖着。”",
+        "冷却器冒出的冰冷蒸气、混凝土上的一处污渍，以及管子上拍上的一层胶：志愿者们干活时既没有刀剑也没有沙发，酒留在柜子里。“公正是个平稳的过程，不是一场事件，”船夫说。",
+        "旧设计的一根骨头是：它没有一面照见自身错误的镜子。“全局的图景和本地的图景必须坐在同一张桌旁，”她说，“杆子上的一道油漆记号不是一次测量。”山脊上的机场和它上方的天空，是这个模型唯一能看见的部分。",
+        "到最后，“更少”就是整个故事：更少的泥沙、更少的损失，以及一个在湿润夏天可实行的方案。野外站的空调和对这条河的直觉不是同一种证据，但团队必须把两者都写下来。这个学期将在下一个周年日结束。棚子里的空调设备和墙上的那台空调器，都是这次试行的一部分。"
+      ],
+      "exercises": [
+        {
+          "id": "CH103-Q1",
+          "type": "context",
+          "prompt": "What did the director say the story had to reflect?",
+          "options": [
+            "the geology",
+            "the gloom",
+            "the airport",
+            "the banquet"
+          ]
+        },
+        {
+          "id": "CH103-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “可实行的”?",
+          "options": [
+            "practicable",
+            "spatial",
+            "shiny",
+            "meaty"
+          ]
+        },
+        {
+          "id": "CH103-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "reduce the surface flow",
+            "reduce a couch",
+            "reduce a sword",
+            "reduce a banquet"
+          ]
+        },
+        {
+          "id": "CH103-Q4",
+          "type": "cloze",
+          "prompt": "The boatman said that justice is a smooth process, not an ______.",
+          "options": [
+            "event",
+            "airport",
+            "anniversary",
+            "umbrella"
+          ]
+        },
+        {
+          "id": "CH103-Q5",
+          "type": "recall",
+          "prompt": "What were the only parts of the district the model could see?",
+          "options": [
+            "the airport and the sky above it",
+            "the valley and the hollow",
+            "the refinery and the dock",
+            "the soil and the water"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH103-Q1",
+          "answer": "the geology",
+          "explanation": "He wanted physical evidence, not atmosphere."
+        },
+        {
+          "id": "CH103-Q2",
+          "answer": "practicable",
+          "explanation": "The plan had to be doable in a wet summer."
+        },
+        {
+          "id": "CH103-Q3",
+          "answer": "reduce the surface flow",
+          "explanation": "Reduce combines with a flow, a cost, or a risk."
+        },
+        {
+          "id": "CH103-Q4",
+          "answer": "event",
+          "explanation": "He treated fairness as an ongoing process."
+        },
+        {
+          "id": "CH103-Q5",
+          "answer": "the airport and the sky above it",
+          "explanation": "The model saw only the large, visible landmarks."
+        }
+      ]
+    },
+    {
+      "article_id": "CH104",
+      "english_title": "The River Answers Back: Pressure Builds",
+      "chinese_title": "河流的回应：压力上升",
+      "theme": "环境、自然与可持续发展",
+      "english_paragraphs": [
+        "The pressure built at the low point of the season, when the entire group had two hours a week and a simple question: can we keep the record going for another period? “Either we pay the five families or we draw the whole thing down,” the director said. The difference would show up at the foot of the bank, where the water gets its first range.",
+        "The wind came off the lake and the storm took the wing off the shed. A dry pool of acid, a shower of hail, and a pipe with a broken collar: the restoration cost more than the sensors, and the bacteria in the wetland did not care about the budget.",
+        "The group tried to hide the problem in a disguise of honesty. “A straw, a balloon, and a stool are not a laboratory,” the boatman said. “The oxygen in that water is the only record that matters.” A cereal of local grain, a drip of oil, and a tick of the clock kept the camp running.",
+        "The twin pressures were money and time. A barbecue for the volunteers, a paste of soap and ash, and a crocodile warning on the bank: the project was long, and probably too long for the hour it had.",
+        "The ozone and the climate range had both been added to the programme, and neither of them could be measured from a single pole. “We get the tongue of the river and the tongue of the ministry in the same room,” Maya wrote, “and we call that parliamentary language.”",
+        "The next step was the bait and the splash: a small mark on the water, a photograph, and a list of the twelve things the group would no longer pretend to know. The period ended with the promise of an anniversary review, and with the concrete pier still unfinished. A flower on the bank, a neck of land, a blind corner and a cough in the night: the development of the district was written in small things, not in the storm. The entire group could see it and could not fix it in one period."
+      ],
+      "chinese_paragraphs": [
+        "压力在这一季的低点累积起来，当时整个小组每周只有两个小时，以及一个简单的问题：我们还能把这个记录再维持一个周期吗？“要么我们付钱给那五个家庭，要么我们把整件事拉倒，”主管说。“差别”会在岸脚显现出来，那里是水面获得它第一段范围的地方。",
+        "风从湖上吹来，风暴掀掉了棚子的一个翼。一池干涸的酸、一阵冰雹，以及一根领口破裂的管子：修复的费用超过了传感器，而湿地里的细菌并不在乎预算。",
+        "小组试图以诚实为伪装把问题藏起来。“一根麦管、一只气球和一张凳子不是实验室，”船夫说，“那水里的氧才是唯一要紧的记录。”一份本地的谷物早餐、一滴油，以及时钟的一下滴答，让营地维持运转。",
+        "两股压力是钱和时间。为志愿者办的一场烤肉、一坨肥皂加灰的糊，以及岸边一条鳄鱼警告：这个项目很长，而且对这仅有的一小时来说大概太长。",
+        "臭氧和气候范围都被加进了方案，而这两者都无法从一根杆子上测出来。“我们把河流的舌头和部里的舌头放进同一个房间，”曼雅写道，“然后把它叫做议会语言。”",
+        "下一步是饵与飞溅：水面上的一个小记号、一张照片，以及一份清单，列出小组不再假装知道的那十二件事。这个周期以一场周年复审的承诺结束，而那座混凝土码头仍未完工。岸边的一朵花、一段地峡、一个死角，以及夜里的一声咳嗽：这个片区的发展写在小事里，而不是写在风暴里。整个小组都看得见它，却无法在一个周期内修好它。"
+      ],
+      "exercises": [
+        {
+          "id": "CH104-Q1",
+          "type": "context",
+          "prompt": "What simple question did the group face?",
+          "options": [
+            "can we keep the record going another period",
+            "who owns the lake",
+            "when is the barbecue",
+            "how deep is the pool"
+          ]
+        },
+        {
+          "id": "CH104-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “细菌”?",
+          "options": [
+            "bacteria",
+            "bait",
+            "ozone",
+            "straw"
+          ]
+        },
+        {
+          "id": "CH104-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "draw the project down",
+            "draw the cereal",
+            "draw the balloon",
+            "draw the banqueting"
+          ]
+        },
+        {
+          "id": "CH104-Q4",
+          "type": "cloze",
+          "prompt": "The boatman said a straw, a balloon and a stool are not a ______.",
+          "options": [
+            "laboratory",
+            "pier",
+            "collar",
+            "barbecue"
+          ]
+        },
+        {
+          "id": "CH104-Q5",
+          "type": "recall",
+          "prompt": "What did the period end with?",
+          "options": [
+            "the promise of an anniversary review",
+            "a finished pier",
+            "a new laboratory",
+            "a cancelled programme"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH104-Q1",
+          "answer": "can we keep the record going another period",
+          "explanation": "The question was about continuity, not ambition."
+        },
+        {
+          "id": "CH104-Q2",
+          "answer": "bacteria",
+          "explanation": "The wetland bacteria were indifferent to the budget."
+        },
+        {
+          "id": "CH104-Q3",
+          "answer": "draw the project down",
+          "explanation": "Draw combines with a project, a conclusion, or a line."
+        },
+        {
+          "id": "CH104-Q4",
+          "answer": "laboratory",
+          "explanation": "Improvised equipment is not an instrument of record."
+        },
+        {
+          "id": "CH104-Q5",
+          "answer": "the promise of an anniversary review",
+          "explanation": "The period closed on a scheduled review."
+        }
+      ]
+    },
+    {
+      "article_id": "CH105",
+      "english_title": "The River Answers Back: The Disagreement",
+      "chinese_title": "河流的回应：分歧",
+      "theme": "环境、自然与可持续发展",
+      "english_paragraphs": [
+        "The disagreement was about the ground itself, and it began with a tree. “You plant a dam and the sea takes the delta,” the ecologist said. “You leave the mud alone and the animal comes back. Both of us are against the fog of a single answer.”",
+        "The cultural argument was harder: a branch of the ministry wanted a rock zone for the media, a planet-friendly slogan, and a mobile exhibition. “A bow and a fossil are worth more to a museum than to a river,” the director said. “We can be even more careful and still be late.”",
+        "The scheme on the table had nothing to do with milk, pepper, or juice: it was about who owned the horizon. “If we wait for a scheme that protects the whole ecological axis, we will wait for ten years,” Lin said. “If we pull the scheme apart, we lose the peat and the shell beds.”",
+        "The exploitation of the zone was already visible: a jet of warm water, a cube of concrete, a plague of algae, and a plough that turned the dew into dust. “The ecology of this zone is not a cultural ornament,” the ecologist said.",
+        "The compromise they could live with was smaller than either side wanted. A leather boot, a wool blanket, a comb, and a packet of bacon were the whole of the field kit; from that list they reproduced a plan with a single branch.",
+        "The end of the argument was that nothing was settled and everything was clearer. “We are able to measure a pollutant and not able to agree on a horizon,” the director said. “The next story will have to begin with that.” The mate of the ecologist brought bedding, corn, and a bag of peanut; the smog over the bank was the only thing at the low level of the river that the body could feel. The movement of the water and the result of the survey were on the same page for once. This planet has one river and one plan, and the plan must include both, unbuilt pier or not."
+      ],
+      "chinese_paragraphs": [
+        "分歧就出在地本身，而且是从一棵树开始的。“你筑一道坝，海就会夺走三角洲，”生态学家说，“你让泥滩保持原样，动物就会回来。我们两人都反对单一答案的那层迷雾。”",
+        "文化层面的论证更难：部里的一个分支想要一片给媒体的岩石区、一句对地球友好的口号，以及一个移动展览。“一把弓和一块化石对博物馆的价值大于对一条河的价值，”主管说，“即便我们再小心，也依然是迟的。”",
+        "桌上的方案与奶、胡椒或果汁都无关：它关乎谁来拥有那条地平线。“如果我们等一个保护整个生态轴的方案，我们要等十年，”林伟说，“如果我们把方案拆开，我们就失去泥炭和贝壳层。”",
+        "对这一地带的开发已经看得见了：一股温水射流、一块混凝土立方体、一场藻类瘟疫，以及一张把露水翻成尘土的犁。“这一地带的生态不是一件文化装饰品，”生态学家说。",
+        "他们能接受的妥协比双方想要的都小。一只皮靴、一条羊毛毯、一把梳子，以及一包熏猪肉就是野外装备的全部；他们从这份清单里复现出一个单分支的方案。",
+        "这场争论的结局是：什么都没解决，而一切都更清楚了。“我们有能力测量一种污染物，却没有能力就一条地平线达成一致，”主管说，“下一个故事必须从这里开始。”那位生态学家的伙伴带来了被褥、玉米和一袋花生；岸边那层烟雾，是身体在河流低水位处唯一能感觉到的东西。水的运动和调查的结果，这一次在同一页上。这颗行星只有一条河和一个方案，而方案必须同时包含两者，无论那座码头建不建。"
+      ],
+      "exercises": [
+        {
+          "id": "CH105-Q1",
+          "type": "context",
+          "prompt": "What did the ecologist say happens if you plant a dam?",
+          "options": [
+            "the sea takes the delta",
+            "the tree grows faster",
+            "the fog lifts",
+            "the milk spoils"
+          ]
+        },
+        {
+          "id": "CH105-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “污染物质”?",
+          "options": [
+            "pollutant",
+            "plague",
+            "plough",
+            "dew"
+          ]
+        },
+        {
+          "id": "CH105-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "reproduce a plan",
+            "reproduce a bow",
+            "reproduce a comb",
+            "reproduce a fossil"
+          ]
+        },
+        {
+          "id": "CH105-Q4",
+          "type": "cloze",
+          "prompt": "The ecologist said the ecology of the zone is not a cultural ______.",
+          "options": [
+            "ornament",
+            "axis",
+            "pollutant",
+            "horizon"
+          ]
+        },
+        {
+          "id": "CH105-Q5",
+          "type": "recall",
+          "prompt": "What did the director say the group was able and not able to do?",
+          "options": [
+            "measure a pollutant but not agree on a horizon",
+            "agree on a horizon but not measure",
+            "build a dam but not a museum",
+            "plant a tree but not a plough"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH105-Q1",
+          "answer": "the sea takes the delta",
+          "explanation": "Hard engineering moves the loss downstream."
+        },
+        {
+          "id": "CH105-Q2",
+          "answer": "pollutant",
+          "explanation": "They could measure a pollutant precisely."
+        },
+        {
+          "id": "CH105-Q3",
+          "answer": "reproduce a plan",
+          "explanation": "Reproduce combines with a plan, a result, or an experiment."
+        },
+        {
+          "id": "CH105-Q4",
+          "answer": "ornament",
+          "explanation": "She refused to treat ecology as decoration."
+        },
+        {
+          "id": "CH105-Q5",
+          "answer": "measure a pollutant but not agree on a horizon",
+          "explanation": "Precision in measurement, deadlock in purpose."
+        }
+      ]
+    },
+    {
+      "article_id": "CH106",
+      "english_title": "The River Answers Back: What the Numbers Hide",
+      "chinese_title": "河流的回应：数字隐藏了什么",
+      "theme": "环境、自然与可持续发展",
+      "english_paragraphs": [
+        "The numbers hid the water itself. Into the file went a well of readings, a bed of sediment, and an element of weather that no instrument had recorded; the atmosphere of the field station was almost cheerful, and the condition of the river was not.",
+        "The main product of the process was a clean record of the wrong question. “We give the river a channel and call it data,” the boatman said. “The land, the forest, and the native trees are not in your table.” The male and female volunteers agreed on that, and the food for the meeting was an eggplant stew.",
+        "The root of the problem was a lock on the model: only one kind of evidence could get in. A stream of dust from the dock, a pot of cotton, and a mineral sample in a pad of wax: the craft of the old survey was precise and blind to the river bed.",
+        "The spray from the washing of the trap, the rip in the organ pipe, and the screw that nobody could find: the establishment had replaced a measurement with a maintenance schedule. “We are against the light of a single number,” Maya said.",
+        "The calling of the volunteers was to look at the earth and the ocean in the same hour, with the same need to know and the same willingness to be wrong. A rib of the old dam, a gum tree, and a calorie table were not enough to explain a flood.",
+        "While the report was being written, the river went down and came back up. The numbers hid that too, and the group agreed to publish the whole page, similar in shape to the first one but with a ground line at the bottom. The dust, the pot, the pad, and the spray: all of it was ours. “The river gives us the question,” the boatman said, “and the establishment gives us the form.” The stream, the lock, the dock, and the trap were all in the same chapter, and the craft of the survey was to see them together. The air, the star, and the nature of the river were not in the drug of a single number; either we play fairly or we do not play at all."
+      ],
+      "chinese_paragraphs": [
+        "这些数字掩盖了水本身。一口井的读数、一层沉积物，以及一个没有任何仪器记录过的天气要素，都被放进了文件；野外站的气氛几乎是愉快的，而河流的状况不是。",
+        "这个流程的主要产物是一份关于错误问题的干净记录。“我们给河一条河道，然后称之为数据，”船夫说，“土地、森林和本地树种都不在你的表里。”男女志愿者都同意这一点，会上的食物是一锅茄子。",
+        "问题的根源是模型上的一把锁：只有一种证据进得来。从码头吹来的一阵尘土、一罐棉花，以及一块封在蜡垫里的矿物样本：旧勘测的技艺很精确，却对河床视而不见。",
+        "陷阱清洗时的水花、风琴管上的一道裂口，以及谁也找不到的那颗螺丝：这个机构已经用一份维护日程替换了一次测量。“我们反对单一数字的那束光，”曼雅说。",
+        "志愿者的使命是在同一个小时里看土地和海洋，怀着同样的求知需要，以及同样愿意出错的意愿。旧坝的一根肋骨、一棵橡胶树和一张热量表，都不足以解释一场洪水。",
+        "报告还在写的时候，河水落下又涨了回来。数字把这一点也掩盖了，而小组同意把整页都公布出来——形状与第一页相似，但底部多了一条基准线。那些尘土、那口锅、那个垫子和那阵水花：全都是我们的。“河流给我们问题，”船夫说，“而机构给我们表格。”那条溪流、那座水闸、那个码头和那个陷阱，都在同一章里，而调查的技艺就是把它们放在一起看。空气、星星和这条河的本性，都不在单一数字的药剂里；要么我们公平地玩，要么我们根本不玩。"
+      ],
+      "exercises": [
+        {
+          "id": "CH106-Q1",
+          "type": "context",
+          "prompt": "What did the numbers hide?",
+          "options": [
+            "the water itself",
+            "the volunteers",
+            "the eggplant",
+            "the dock"
+          ]
+        },
+        {
+          "id": "CH106-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “大气；气氛”?",
+          "options": [
+            "atmosphere",
+            "establishment",
+            "element",
+            "channel"
+          ]
+        },
+        {
+          "id": "CH106-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "keep a record",
+            "keep a pollutant",
+            "keep a wax",
+            "keep a rib"
+          ]
+        },
+        {
+          "id": "CH106-Q4",
+          "type": "cloze",
+          "prompt": "The boatman said the land, the forest and the native trees are not in your ______.",
+          "options": [
+            "table",
+            "organ",
+            "ocean",
+            "trap"
+          ]
+        },
+        {
+          "id": "CH106-Q5",
+          "type": "recall",
+          "prompt": "What did the group agree to publish?",
+          "options": [
+            "the whole page, including what the numbers hid",
+            "only the final average",
+            "the maintenance schedule",
+            "the calorie table"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH106-Q1",
+          "answer": "the water itself",
+          "explanation": "The figures described everything except the river."
+        },
+        {
+          "id": "CH106-Q2",
+          "answer": "atmosphere",
+          "explanation": "The mood at the station and the river's state diverged."
+        },
+        {
+          "id": "CH106-Q3",
+          "answer": "keep a record",
+          "explanation": "Keep combines with a record, a promise, or a lock."
+        },
+        {
+          "id": "CH106-Q4",
+          "answer": "table",
+          "explanation": "The local landscape was absent from the data table."
+        },
+        {
+          "id": "CH106-Q5",
+          "answer": "the whole page, including what the numbers hid",
+          "explanation": "They chose full disclosure over a clean summary."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH106",
+    "last_event": "The trial run measured the river for a summer, the volunteers were paid for one more period, and the group published the whole page including what the numbers hid.",
+    "unresolved_consequence": "The concrete pier is unfinished, the upstream model is unchanged, and the anniversary review will decide whether the readings continue.",
+    "character_locations": {
+      "Lin Wei": "the river district and field station",
+      "Maya Chen": "the river district and field station",
+      "Aisha Rahman": "remotely online from the innovation lab"
+    },
+    "character_roles": {
+      "Lin Wei": "third-year student and project co-lead",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Aisha Rahman": "data specialist and remote collaborator"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line",
+      "publish the first national injury figures honestly",
+      "name one responsible person for every system and device",
+      "delete the old address list completely",
+      "publish the one-page consent form before the faculty review",
+      "answer the national inquiry in writing",
+      "pay the five families who take the daily river readings",
+      "finish the concrete pier before the anniversary review"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one",
+      "national reporting requirements against a club's own budget",
+      "a launch date against a consented design",
+      "the convenience of a system against the consent of the person inside it",
+      "simplicity against completeness",
+      "a national inquiry against a one-page form",
+      "a model built on dry years against a river that floods",
+      "hard engineering against a living delta"
+    ],
+    "first_required_event_next_chapter": "CH107 must take the group into the city food and waste arc, where a market closure forces a choice between cheap supply and local growers.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries",
+      "a canteen cook reframed the programme around walking, music, and recreation",
+      "the second attempt ran one funded indoor session a week",
+      "the hospital forced a national register of injuries and treatment",
+      "the club committed two funded hours a week and made rest part of training",
+      "the kitchen and the mood of the canteen became part of the evidence",
+      "a regional health register was opened and the group promised to publish its figures honestly",
+      "an unexplained file appeared in a public download of the club's website",
+      "the seventh arc opened with a paused launch and a promised redesign of consent",
+      "a person whose data had been stored without consent asked for a withdrawal mechanism",
+      "the group replaced twelve collection rules with one criterion: nothing on a maybe",
+      "the consent trial deleted what could not be justified and kept the launch paused",
+      "the group agreed that nothing is acquired without a written reason",
+      "the numbers were shown to hide the real product, which was trust",
+      "the group reframed consent around the ease of leaving rather than the ease of joining",
+      "the second redesign ran a trial that the person involved could explain",
+      "the faculty board demanded a clear definition of consent and got four pages",
+      "the group divided the risks and kept a parallel record of what it refused to collect",
+      "the redesign cut the form to one page and began with less",
+      "the seventh arc closed with a national inquiry still open and a scheme small enough to fit in a bucket",
+      "the eighth arc opened with a flood that stopped the road beside the field station",
+      "the old flood model was built on a photographic memory of ten dry years",
+      "a legendary boatman said the river was capable of a third channel",
+      "the field station promised simultaneous readings from both banks",
+      "five families agreed to take one reading a day with the same cheap kit",
+      "a woman who had been left off the list rewrote the questionnaire around memory",
+      "the evidence was reduced to one watertight page that included the river's own answer",
+      "the trial run measured one summer and found that roughly a third of the readings exceeded the limit",
+      "the group paid the five families for one more period",
+      "an ecologist argued that a dam would move the loss to the delta",
+      "the group agreed to publish the whole page rather than a clean summary"
+    ]
+  }
+}

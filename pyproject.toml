@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cet4-vocabulary-stories"
+version = "0.1.0"
+description = "Auditable CET-4 vocabulary story and A4 PDF generation system"
+requires-python = "==3.12.*"
+dependencies = [
+  "fonttools==4.55.3",
+  "openpyxl==3.1.5",
+  "pandas==2.2.3",
+  "pillow==11.0.0",
+  "pymupdf==1.25.1",
+  "pypdf==5.1.0",
+  "reportlab==4.2.5",
+]
+
+[project.optional-dependencies]
+dev = [
+  "jsonschema==4.23.0",
+  "pytest==8.3.4",
+  "ruff==0.8.4",
+]
+
+[project.scripts]
+cet4-stories = "cet4_story.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["source/cet4_story"]
+
+[tool.pytest.ini_options]
+pythonpath = ["source"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

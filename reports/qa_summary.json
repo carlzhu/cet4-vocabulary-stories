@@ -1,0 +1,22 @@
+{
+  "chapter_count": 137,
+  "counts": {
+    "chapters": 137,
+    "flagged_needs_review": 6127,
+    "missing_phonetic": 48,
+    "needs_revision": 0,
+    "paragraphs_with_untranslated_text": 10,
+    "planned_targets": 6127,
+    "review_occurrences": 2448,
+    "review_verified": 2448,
+    "thin_chinese_paragraphs": 0,
+    "uncovered": 0,
+    "unresolved_part_of_speech": 41,
+    "untranslated_english_sentences": 20,
+    "verified_new": 6127
+  },
+  "coverage_csv": "vocabulary_coverage.csv",
+  "human_review_pending": true,
+  "manuscript": "reports\\manuscript.md",
+  "problems": []
+}

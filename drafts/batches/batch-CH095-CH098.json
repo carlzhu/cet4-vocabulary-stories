@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH095-CH098",
+  "chapter_ids": [
+    "CH095",
+    "CH096",
+    "CH097",
+    "CH098"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH095",
+      "english_title": "What the System Remembers: Outside Pressure",
+      "chinese_title": "系统记住了什么：外部压力",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The outside pressure came as a session of the faculty board, where a clear definition was demanded of the term consent. “Your outline must include the literal spelling of every field,” the director said. “A copy of the form is not a transaction.” The four of them had to speak to a room that held all the power and none of the facts.",
+        "The gap between the border of the law and the boundary of decency was the real subject. A baseball game on the radio, a graph on the wall, and a symbol of the university above the entrance: the interval between them was the space where the project lived. Health data was not included in the review, and that was exactly the point.",
+        "My reluctance was not about compliance. “We must undertake a renovation of the whole process,” Maya said. “We cannot fetch consent with a modification of the wording.” A thief of small permissions, a scatter of skipped steps, and a detection system that nobody trusted: this was penetration by habit, not by attack.",
+        "The view from the lab was different. “Put the standardization in place, normalize the browser logs, and the coherence will follow,” the engineer said, with a confidence that the data did not support. The empty shelf, the late submission, and the walk to the door were, to him, a subtraction of detail.",
+        "The gravitation of the argument pulled them toward conformity: rank the fields, divide the risks, and file the rest. “Not off, not on,” Lin wrote. “The system must hold a parallel record of what we refused to collect.” The talk in the corridor was that the board would stop the project anyway.",
+        "Its action, in the end, was small: a summary of four pages, a perspective on the person, and a statement of what the project would not do. “If you cannot understand it, you cannot consent to it,” she said. The game was not over, and the walk back to the lab was long. The significance of the start was that they had to resume the work with fewer people, and the four of them could not agree on where to begin."
+      ],
+      "chinese_paragraphs": [
+        "外部压力以院务委员会的一次会议形式到来，会上要求对“同意”这个词给出一个清楚的定义。“你们的大纲必须包含每个字段的字面拼写，”主管说，“表格的一份副本不是一笔交易。”他们四个人不得不对着一间掌握着全部权力、却不掌握任何事实的房间说话。",
+        "法律边界与体面边界之间的那道缺口，才是真正的主题。收音机里的一场棒球赛、墙上的一幅图表，以及入口上方大学的那个象征：它们之间的间隔，就是项目所栖身的空间。健康数据没有被纳入复审，而这恰恰是重点。",
+        "我的不情愿与合规无关。“我们必须对整个过程做一次革新的翻修，”曼雅说，“我们无法靠改动措辞来取得同意。”一个小额许可的小偷、一片被跳过的步骤的散落，以及一个没人信任的探测系统：这是习惯造成的渗透，而不是攻击。",
+        "从实验室看出去的观点不同。“把标准化落实到位，把浏览器的日志规范化，连贯性自然就有了，”工程师说，带着一种数据并不支持的自信。那个空架子、那次迟交，以及走到门口的那段路，在他看来都只是细节的减法。",
+        "这场论证的引力把他们拉向遵从：给字段排序、把风险分开，其余的归档。“既不是关，也不是开，”林伟写道，“系统必须保留一份平行记录，记下我们拒绝收集的东西。”走廊里的说法是，董事会无论如何都会叫停这个项目。",
+        "它最终的行动很小：四页纸的摘要、一个关于当事人的视角，以及一份说明这个项目不会做什么的声明。“如果你无法理解它，你就无法同意它，”她说。这场游戏还没有结束，而回实验室的那段路很长。这个开端的重要意义在于：他们必须用更少的人重新开始这项工作，而他们四个人在从哪里开始时意见不一。"
+      ],
+      "exercises": [
+        {
+          "id": "CH095-Q1",
+          "type": "context",
+          "prompt": "What did the board demand a clear definition of?",
+          "options": [
+            "consent",
+            "the graph",
+            "the baseball game",
+            "the shelf"
+          ]
+        },
+        {
+          "id": "CH095-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “遵从；顺从”?",
+          "options": [
+            "compliance",
+            "penetration",
+            "reluctance",
+            "coherence"
+          ]
+        },
+        {
+          "id": "CH095-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "undertake a renovation",
+            "undertake a thief",
+            "undertake a scatter",
+            "undertake a graph"
+          ]
+        },
+        {
+          "id": "CH095-Q4",
+          "type": "cloze",
+          "prompt": "The director said a copy of the form is not a ______.",
+          "options": [
+            "transaction",
+            "boundary",
+            "symbol",
+            "session"
+          ]
+        },
+        {
+          "id": "CH095-Q5",
+          "type": "recall",
+          "prompt": "What did Lin say the system must keep?",
+          "options": [
+            "a parallel record of what we refused to collect",
+            "a copy of every form",
+            "a graph of every field",
+            "a rank of every risk"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH095-Q1",
+          "answer": "consent",
+          "explanation": "The board wanted consent defined precisely."
+        },
+        {
+          "id": "CH095-Q2",
+          "answer": "compliance",
+          "explanation": "Her reluctance was not about obeying the rules."
+        },
+        {
+          "id": "CH095-Q3",
+          "answer": "undertake a renovation",
+          "explanation": "Undertake combines with a renovation, a task, or a risk."
+        },
+        {
+          "id": "CH095-Q4",
+          "answer": "transaction",
+          "explanation": "A form is not the same as a concluded agreement."
+        },
+        {
+          "id": "CH095-Q5",
+          "answer": "a parallel record of what we refused to collect",
+          "explanation": "He wanted the refusals documented too."
+        }
+      ]
+    },
+    {
+      "article_id": "CH096",
+      "english_title": "What the System Remembers: The Decision",
+      "chinese_title": "系统记住了什么：决定",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The decision was made in the basement of the lab, in a room with a mop in the corner and a full row of boxes on the shelf. “We begin with less and add more only when the term is clear,” Maya said. “That is the deal.” The board had asked for a second version, and the preparation for it took the whole summer.",
+        "The technique was to cut the form at the centre and reduce it to one page. A guide for the staff, a layer of plain language over every field, and an exclusive cycle of review were the whole scheme. “Count the steps a person has to take,” she said. “That number is the scale of our respect.”",
+        "The smell of coffee and the smell of burnt dust came up from the pipes; the transmission of a report from the top floor was interrupted twice. “The trend is linear and the probability is not,” the analyst said, with caution. “A tremendous burst of enthusiasm is not continuity.”",
+        "The justification for every line had to be written beside it. “Do not organize the fields by department,” Lin said. “Organize them by the question a person asks.” A roller of tape, a footprint of mud by the door, and a modifier that changed the meaning of a sentence: the details of a serious redesign.",
+        "The jump from four fields to one was the hardest part. “We cannot interrupt the launch forever,” the director said. “A board will not watch a disintegration in slow motion.” He was right, and the group had to put the decision in writing by the next session.",
+        "The scene they agreed on was quiet: enter the room, look at the board, and start with the smallest version. If the nation wanted more, it would have to say so in the language of the form itself. The center of the argument was easy to see from the side of the room: the pattern would not change unless they intensified the pressure, and a large drop in the number of fields would include nothing but the essentials. A war of memos had already begun. The view from the basement was short, but the pattern was clear."
+      ],
+      "chinese_paragraphs": [
+        "决定是在实验室的地下室做出的，房间里角落立着一把拖把，架子上整整齐齐一排箱子。“我们以更少开始，只有当术语清楚了才增加更多，”曼雅说，“这就是约定。”董事会要求出第二版，而为此的准备花掉了整个夏天。",
+        "方法是把表格从中间切开，缩减到一页。一份给员工的指南、覆盖每个字段的一层平实语言，以及一个排他性的复审循环，就是整个方案。“数一数一个人要走多少步，”她说，“那个数字就是我们尊重的尺度。”",
+        "咖啡的气味和烧焦灰尘的气味从管道里涌上来；从顶层传来的一份报告被打断了两次。“趋势是线性的，而概率不是，”分析师谨慎地说，“一阵巨大的热情不是连续性。”",
+        "每一行的正当理由都必须写在它旁边。“不要按部门来组织字段，”林伟说，“按一个人会问的问题来组织。”一卷胶带、门口一个泥泞的脚印，以及一个改变句意的修饰语：这些就是一次严肃重设计的细节。",
+        "从四个字段跳到一个是难的部分。“我们不能永远中断发布，”主管说，“董事会不会看着一场慢动作的瓦解。”他说得对，而小组必须在下次会议之前把决定写成书面。",
+        "他们商定的场景很安静：进屋、看一眼板子，然后从最小的版本开始。如果这个国家想要更多，就得用表格自己的语言说出来。从房间的这一侧看，这场论证的中心很容易看清：除非他们加大压力，否则模式不会改变；而字段数量的大幅削减，将只包含最必要的东西。一场备忘文件的战争已经开始了。从地下室看出去的视野很短，但模式是清楚的。"
+      ],
+      "exercises": [
+        {
+          "id": "CH096-Q1",
+          "type": "context",
+          "prompt": "What did Maya say they would begin with?",
+          "options": [
+            "less, and add more only when the term is clear",
+            "a full row of boxes",
+            "a new basement",
+            "a second board meeting"
+          ]
+        },
+        {
+          "id": "CH096-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “正当理由；辩护”?",
+          "options": [
+            "justification",
+            "preparation",
+            "probability",
+            "transmission"
+          ]
+        },
+        {
+          "id": "CH096-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "reduce a form",
+            "reduce a mop",
+            "reduce a roller",
+            "reduce a footprint"
+          ]
+        },
+        {
+          "id": "CH096-Q4",
+          "type": "cloze",
+          "prompt": "The analyst warned that a tremendous burst of enthusiasm is not ______.",
+          "options": [
+            "continuity",
+            "caution",
+            "a trend",
+            "a scale"
+          ]
+        },
+        {
+          "id": "CH096-Q5",
+          "type": "recall",
+          "prompt": "How did Lin want the fields organised?",
+          "options": [
+            "by the question a person asks",
+            "by department",
+            "by cost",
+            "by alphabet"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH096-Q1",
+          "answer": "less, and add more only when the term is clear",
+          "explanation": "They chose subtraction first."
+        },
+        {
+          "id": "CH096-Q2",
+          "answer": "justification",
+          "explanation": "Every line needed a written reason beside it."
+        },
+        {
+          "id": "CH096-Q3",
+          "answer": "reduce a form",
+          "explanation": "Reduce combines with a form, a cost, or a risk."
+        },
+        {
+          "id": "CH096-Q4",
+          "answer": "continuity",
+          "explanation": "Enthusiasm is not the same as steady practice."
+        },
+        {
+          "id": "CH096-Q5",
+          "answer": "by the question a person asks",
+          "explanation": "He organised the form around the user's question."
+        }
+      ]
+    },
+    {
+      "article_id": "CH097",
+      "english_title": "What the System Remembers: Consequences",
+      "chinese_title": "系统记住了什么：后果",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The consequences arrived as a long list about the difference between a database and a memory. A camera in the corridor, a recording of a phone call, and an entry in the log: the extent of what the system kept was larger than its developers had realised, and the recovery of deleted files was easier than anyone wanted to admit.",
+        "The creation of a new norm took a shelf, a locker, and a supervisor. “Adjust the layout, modify the form, and repeat the test,” the supervisor said. “A scratch on a disk is a hazard, not a highlight.” A mechanic with a brandy in his hand and a noisy variant of the old procedure on his desk: the same story in two forms.",
+        "The fluctuation in the data was the contention of the whole week. A sip of whisky, a pear on the plate, and a video of a chemistry demonstration: the system had recorded all of it, and none of it had been declared. The microscope of the imaging unit could see an electron; it could not see the question.",
+        "The reinforcement of the rule was, in the end, a matter of photography and petroleum. A recorder in the corner, a radar on the roof, and an up-to-date list of what was affordable: the group standardised the visible part and automated the invisible one.",
+        "The exhaustion of the team was the price. An intruder had negated three weeks of work with one wrong file, and the group had to begin the period again. “More of the same will not do it,” Maya wrote. “We must do less, and do it long.”",
+        "The power of the small decision, its ability to become a routine, was the lesson of the term. About the full report, the group had one line to add at the end: a difference is not a defect, and a defect is not a difference. A painting on the wall, a tip from the supervisor, and an adjustment of the recording standard: the group would standardize the visible part. The camera in the entry, the extent of the database, and the creation of a second recovery point all had to be reviewed before the period ended. In time, the country would get the development it was paying for, or it would get a smaller bill instead."
+      ],
+      "chinese_paragraphs": [
+        "后果以一份关于数据库与记忆之间差异的长清单形式到来。走廊里的一台摄像机、一次通话的录音，以及日志里的一条记录：系统所保留的范围比它的开发者意识到的更大，而被删除文件的恢复比任何人愿意承认的都容易。",
+        "一个新规范的创建用掉了一个架子、一个储物柜和一位主管。“调整布局、修改表格，并重复测试，”主管说，“磁盘上的一道划痕是危险，不是亮点。”一位手拿白兰地的技工，以及他桌上一份嘈杂的旧流程变体：同一个故事的两种形式。",
+        "数据的波动是整周的争点。一小口威士忌、盘子里一只梨，以及一段化学演示的视频：系统把这一切都记录了下来，而其中没有一项被申报过。成像部门的显微镜能看到一个电子；它看不到那个问题。",
+        "这条规则的强化，说到底与摄影和石油有关。角落里的一台录音机、屋顶上的一台雷达，以及一份最新的、可负担的清单：小组把可见的部分标准化，把不可见的部分自动化。",
+        "团队的耗尽是代价。一个入侵者用一份错误的文件否定了三周的工作，小组不得不重新开始这个周期。“再多做同样的事没有用，”曼雅写道，“我们必须做得更少，并且做得更久。”",
+        "那个小决定的力量，以及它成长为一种日常的能力，是这一学期的教训。关于那份完整的报告，小组只在末尾加了一行：差异不是缺陷，缺陷也不是差异。墙上的一幅画、主管的一句提示，以及对记录标准的一次调整：小组要把可见的部分标准化。入口处的摄像机、数据库的范围，以及第二个恢复点的创建，都必须在周期结束前被复查。到时候，这个国家会得到它正在付钱买的发展，否则它会得到一张更小的账单。"
+      ],
+      "exercises": [
+        {
+          "id": "CH097-Q1",
+          "type": "context",
+          "prompt": "What was larger than the developers had realised?",
+          "options": [
+            "the extent of what the system kept",
+            "the number of supervisors",
+            "the price of petroleum",
+            "the size of the microscope"
+          ]
+        },
+        {
+          "id": "CH097-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “争点；争论”?",
+          "options": [
+            "contention",
+            "fluctuation",
+            "reinforcement",
+            "exhaustion"
+          ]
+        },
+        {
+          "id": "CH097-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "adjust the layout",
+            "adjust the brandy",
+            "adjust the pear",
+            "adjust the whisky"
+          ]
+        },
+        {
+          "id": "CH097-Q4",
+          "type": "cloze",
+          "prompt": "The supervisor said a scratch on a disk is a hazard, not a ______.",
+          "options": [
+            "highlight",
+            "variant",
+            "recorder",
+            "locker"
+          ]
+        },
+        {
+          "id": "CH097-Q5",
+          "type": "recall",
+          "prompt": "What line did the group add to the report?",
+          "options": [
+            "a difference is not a defect",
+            "more is better",
+            "the system must grow",
+            "the database is memory"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH097-Q1",
+          "answer": "the extent of what the system kept",
+          "explanation": "The system retained far more than intended."
+        },
+        {
+          "id": "CH097-Q2",
+          "answer": "contention",
+          "explanation": "The fluctuations were the week's central dispute."
+        },
+        {
+          "id": "CH097-Q3",
+          "answer": "adjust the layout",
+          "explanation": "Adjust combines with a layout, a plan, or a setting."
+        },
+        {
+          "id": "CH097-Q4",
+          "answer": "highlight",
+          "explanation": "Damage is a risk, not a feature."
+        },
+        {
+          "id": "CH097-Q5",
+          "answer": "a difference is not a defect",
+          "explanation": "They refused to treat variation as failure."
+        }
+      ]
+    },
+    {
+      "article_id": "CH098",
+      "english_title": "What the System Remembers: The Bridge Forward",
+      "chinese_title": "系统记住了什么：通向下一程",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The seventh arc closed with a scheme that fitted into a bucket. Ten fields, a pause on the launch, and a capacity of one page: the implementation of the new form was so small that the director laughed. “A scientist would call this a minor result,” he said. “A physicist would call it a clean one.”",
+        "The route to the review was even shorter than they expected. A mistake in the old category list, a loss of two weeks, and an enormous inquiry from the national office: none of it changed the output. “Specify the minimum, assign the maximum, and fill the rest with nothing,” Maya said.",
+        "The housing of the servers, the continuous hum of the virtual machines, and the aged lorry that brought the new equipment: the physical part of the system had a duration of about ten years. “Put the restriction in the code, not in the contract,” the engineer said. “Compatibility is a promise we can keep.”",
+        "The contamination of one dataset by another was a small bomb in the middle of the file. “We can undo this,” the analyst said. “We cannot undo a person's loss of trust with a query.” The quantity of champagne ordered for the launch was, in the end, a minus rather than a plus.",
+        "The group came back to the same question: who is the system for? The wait at the entrance, the level of detail on the form, and the clear view of the exit were the whole answer. “If it includes us, it will include the person after us,” Lin said, and followed the last line of the report to its end.",
+        "The inquiry would continue, the national list would grow, and the next period would begin with a smaller system than the one they had pulled apart. That was the result they could put in front of the board — and the one they could defend. The difference between a scheme and a mistake is the loss it can absorb; the route to the review, the category of the output, and the housing of the servers all had to fit inside a capacity of one page. The national inquiry would expand, the restriction would be specified, and our continuous coverage would be measured in weeks. A quota every week, an upright posture at the desk, and a frequency of ten checks a month would imply a smaller and cleaner system, and nothing here would kill the project. The start of the next period would be smaller, and that was the point of the whole exercise. The system remembered less and the trust grew; that was the only exchange rate that ever worked."
+      ],
+      "chinese_paragraphs": [
+        "第七段弧线以一个能装进一只桶的方案收尾。十个字段、发布的一次暂停，以及一页纸的容量：新表格的实施如此之小，连主管都笑了。“科学家会把这叫做一个次要的结果，”他说，“物理学家会把它叫做一个干净的结果。”",
+        "通往复审的路线比他们预想的更短。旧类别清单里的一个错误、两周的损失，以及国家办公室一份庞大的质询：这些都没有改变产出。“规定最小值、指派最大值，其余的用空来填，”曼雅说。",
+        "服务器的外壳、虚拟机持续不断的嗡鸣，以及运来新设备的旧卡车：系统物理部分的持续时间大约十年。“把限制写进代码，而不是写进合同，”工程师说，“兼容性是一个我们能守住的承诺。”",
+        "一份数据集被另一份污染，是文件中央的一枚小炸弹。“这个我们可以撤销，”分析师说，“但我们无法用一次查询撤销一个人失去的信任。”为发布订购的香槟数量，说到底是一个减号，而不是加号。",
+        "小组回到同一个问题：这个系统是为谁做的？入口处的等待、表格上细节的层级，以及出口那一目了然的视野，就是全部的答案。“如果它包含我们，它也会包含我们之后的那个人，”林伟说，并一路跟着报告的最后一行读到了结尾。",
+        "质询会继续，全国清单会变长，而下一个周期会从一个比他们拆开的那个更小的系统开始。这就是他们能摆到董事会面前的结果——也是他们能为之辩护的那一个。一个方案与一个错误之间的差别，在于它能吸收多大的损失；通往复审的路径、产出的类别，以及服务器的外壳，都必须装进一页纸的容量里。全国质询会扩大，限制会被明确写出，而我们的持续覆盖将以周为单位计量。每周一个配额、在桌前挺直的姿态，以及每月十次检查的频率：这些意味着一套更小、更干净的系统，而这里没有任何一样会杀死这个项目。下一个周期的开始会更小，而这就是整件事的意义所在。"
+      ],
+      "exercises": [
+        {
+          "id": "CH098-Q1",
+          "type": "context",
+          "prompt": "How large was the new scheme?",
+          "options": [
+            "it fitted into a bucket",
+            "it filled the basement",
+            "it needed ten lorries",
+            "it required a new building"
+          ]
+        },
+        {
+          "id": "CH098-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “持续时间”?",
+          "options": [
+            "duration",
+            "capacity",
+            "coverage",
+            "quantity"
+          ]
+        },
+        {
+          "id": "CH098-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "assign a quota",
+            "assign a bucket",
+            "assign a lorry",
+            "assign a pause"
+          ]
+        },
+        {
+          "id": "CH098-Q4",
+          "type": "cloze",
+          "prompt": "The analyst said a loss of trust cannot be undone with a ______.",
+          "options": [
+            "query",
+            "bucket",
+            "quota",
+            "minus"
+          ]
+        },
+        {
+          "id": "CH098-Q5",
+          "type": "recall",
+          "prompt": "What did Lin say would happen if the system includes them?",
+          "options": [
+            "it will include the person after us",
+            "it will grow faster",
+            "it will need more servers",
+            "it will be delayed again"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH098-Q1",
+          "answer": "it fitted into a bucket",
+          "explanation": "The scheme was deliberately tiny."
+        },
+        {
+          "id": "CH098-Q2",
+          "answer": "duration",
+          "explanation": "The physical equipment would last about ten years."
+        },
+        {
+          "id": "CH098-Q3",
+          "answer": "assign a quota",
+          "explanation": "Assign combines with a quota, a task, or a role."
+        },
+        {
+          "id": "CH098-Q4",
+          "answer": "query",
+          "explanation": "Trust cannot be restored by a database command."
+        },
+        {
+          "id": "CH098-Q5",
+          "answer": "it will include the person after us",
+          "explanation": "He tested inclusion by the next user, not the current one."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH098",
+    "last_event": "The seventh arc closed with a one-page consent form, a paused launch, and a scheme small enough to fit in a bucket, defended at the faculty board.",
+    "unresolved_consequence": "The national inquiry continues, the old data is still not fully deleted, and the term review is days away.",
+    "character_locations": {
+      "Lin Wei": "the innovation lab",
+      "Maya Chen": "the innovation lab",
+      "Aisha Rahman": "the innovation lab and remotely online"
+    },
+    "character_roles": {
+      "Lin Wei": "third-year student and project co-lead",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Aisha Rahman": "data specialist and remote collaborator on the redesign"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line",
+      "publish the first national injury figures honestly",
+      "name one responsible person for every system and device",
+      "delete the old address list completely",
+      "publish the one-page consent form before the faculty review",
+      "answer the national inquiry in writing"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one",
+      "national reporting requirements against a club's own budget",
+      "a launch date against a consented design",
+      "the convenience of a system against the consent of the person inside it",
+      "simplicity against completeness",
+      "a national inquiry against a one-page form"
+    ],
+    "first_required_event_next_chapter": "CH099 must take the project into the environment arc, where a flood tests a model built on data that the river does not respect.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries",
+      "a canteen cook reframed the programme around walking, music, and recreation",
+      "the second attempt ran one funded indoor session a week",
+      "the hospital forced a national register of injuries and treatment",
+      "the club committed two funded hours a week and made rest part of training",
+      "the kitchen and the mood of the canteen became part of the evidence",
+      "a regional health register was opened and the group promised to publish its figures honestly",
+      "an unexplained file appeared in a public download of the club's website",
+      "the seventh arc opened with a paused launch and a promised redesign of consent",
+      "a person whose data had been stored without consent asked for a withdrawal mechanism",
+      "the group replaced twelve collection rules with one criterion: nothing on a maybe",
+      "the consent trial deleted what could not be justified and kept the launch paused",
+      "the group agreed that nothing is acquired without a written reason",
+      "the numbers were shown to hide the real product, which was trust",
+      "the group reframed consent around the ease of leaving rather than the ease of joining",
+      "the second redesign ran a trial that the person involved could explain",
+      "the faculty board demanded a clear definition of consent and got four pages",
+      "the group divided the risks and kept a parallel record of what it refused to collect",
+      "the redesign cut the form to one page and began with less",
+      "the seventh arc closed with a national inquiry still open and a scheme small enough to fit in a bucket"
+    ]
+  }
+}

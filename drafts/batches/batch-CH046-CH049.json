@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH046-CH049",
+  "chapter_ids": [
+    "CH046",
+    "CH047",
+    "CH048",
+    "CH049"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH046",
+      "english_title": "The First Real Deadline: Evidence on the Table",
+      "chinese_title": "第一个真实期限：摆上桌面的证据",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "The evidence meeting was held in a shop that had been converted into an office. A wooden counter, a traditional sign, and a book of invoices remained from the previous owner. “We need to establish what we owe,” the woman said. “The cost of the film is not the cost of the work.” One part of the room was still a shopping aisle, and his face when he saw it was worth the trip.",
+        "Their pay came from a corporation with an outstanding tax case and a pension fund that it had quietly replaced with a loan. An investor and a banker came to the exhibition; a lobbyist came too, and stayed for the wine. “The consumer pays twice,” the dealer said. “Once in cash, once in attention.” Since the contract began, no one had written that sentence down until now.",
+        "The arrival of the supply figures changed the argument. A supplier of advertising space, a musician who wrote derivative jingles, and a young capitalist from the party of the premier all agreed on one point: the demand for goods was a threat to the small shop, not a help. They could read the writing on the wall, and they could not write it off as pessimism.",
+        "The team published a one-page report, with a workshop and an open workout for anyone who wanted to read it. Participation was voluntary, the initiation was a cup of tea, and the overtime was unpaid. “That is the compensation,” Maya said. “The mutual appreciation of people who cannot afford to leave.” Together they checked every figure twice; whether the client would accept it remained a question.",
+        "Their earnings were smaller than the assistance they had received, and the second part of the study was harder to write. Some of them would fulfil the contract; some would convey the problem to the council instead. It was a valuable lesson and an earnest one, and the shopping street outside told the same story. The income was small and the room was big; a copy of the contract was available in the corridor, and nobody had read it. “When the consumer is also the servant,” Lin wrote, “the exhibition is the only honest form of advertising.” They would continue, but they could not remain silent, and the difference between those two verbs was the whole fourth arc."
+      ],
+      "chinese_paragraphs": [
+        "证据会议在一家被改造成办公室的商店里举行。前任店主留下了一张木柜台、一块传统的招牌和一本发票簿。“我们需要确立我们欠什么，”那位女士说。“影片的成本不是工作的成本。”房间的一角还是购物通道，而他看到它时的表情值得这趟路程。",
+        "他们的薪资来自一家有未结税务案件的公司，以及一笔被它悄悄换成贷款的养老金。一位投资者和一位银行家来看了展览；一位说客也来了，并留下来喝完了酒。“消费者付两次钱，”经销商说，“一次用现金，一次用注意力。”自合同开始以来，没有人把这句话写下来过，直到现在。",
+        "供应数据的到来改变了争论。一位广告位供应商、一位写派生广告曲的音乐家，以及总理本党的一位年轻资本家，都在一点上意见一致：对商品的需求对这个小店是威胁，而不是帮助。他们读得懂墙上的字，也无法把它当作悲观主义一笔勾销。",
+        "团队发布了一份一页纸的报告，并举办了一场工作坊和一次公开演练，供任何想读的人参加。参与是自愿的，入会仪式是一杯茶，加班是无偿的。“这就是补偿，”曼雅说，“那些走不起的人之间相互的赏识。”他们一起把每个数字核了两遍；客户是否会接受，仍然是个问题。",
+        "他们的收入少于他们得到的协助，而研究的第二部分更难写。他们中有些人会履行合同；有些人会把问题转达给委员会。这是一堂有价值的课，也是一堂诚挚的课，而外面的商业街讲的也是同一个故事。收入很少，房间很大；走廊里放着一份合同的副本，而没有人读过它。“当消费者同时又是仆人时，”林伟写道，“展览是唯一诚实的广告形式。”他们会继续，但不能保持沉默，而这两个动词之间的差别，就是整个第四段弧线。"
+      ],
+      "exercises": [
+        {
+          "id": "CH046-Q1",
+          "type": "context",
+          "prompt": "Where was the evidence meeting held?",
+          "options": [
+            "in a shop converted into an office",
+            "in the bank",
+            "in the exhibition hall",
+            "in Lin's family home"
+          ]
+        },
+        {
+          "id": "CH046-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “杰出的；未偿付的”?",
+          "options": [
+            "outstanding",
+            "traditional",
+            "earnest",
+            "derivative"
+          ]
+        },
+        {
+          "id": "CH046-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "establish what we owe",
+            "establish a wooden counter",
+            "establish a cup of tea",
+            "establish the wine"
+          ]
+        },
+        {
+          "id": "CH046-Q4",
+          "type": "cloze",
+          "prompt": "The dealer said the consumer pays twice: once in cash, once in ______.",
+          "options": [
+            "attention",
+            "compensation",
+            "overtime",
+            "supply"
+          ]
+        },
+        {
+          "id": "CH046-Q5",
+          "type": "recall",
+          "prompt": "What did Lin call the only honest form of advertising?",
+          "options": [
+            "the exhibition",
+            "the workshop",
+            "the report",
+            "the contract"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH046-Q1",
+          "answer": "in a shop converted into an office",
+          "explanation": "The meeting reused an old shop counter and sign."
+        },
+        {
+          "id": "CH046-Q2",
+          "answer": "outstanding",
+          "explanation": "The corporation had an unsettled tax case."
+        },
+        {
+          "id": "CH046-Q3",
+          "answer": "establish what we owe",
+          "explanation": "Establish combines with an obligation, a fact, or a rule."
+        },
+        {
+          "id": "CH046-Q4",
+          "answer": "attention",
+          "explanation": "The customer pays in money and in attention."
+        },
+        {
+          "id": "CH046-Q5",
+          "answer": "the exhibition",
+          "explanation": "He argued that showing the work honestly is the only honest advertising."
+        }
+      ]
+    },
+    {
+      "article_id": "CH047",
+      "english_title": "The First Real Deadline: The Trial Run",
+      "chinese_title": "第一个真实期限：第一次试行",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "The trial run was built around one task: take a recent proposal, roll it out for a week, and see what happens when people have to use it. A thin cup, a pale sheet of paper, and a musical recording were the only props. “Let us combine the two strategies,” the coordinator said. “Connect the school to the shop and see what the child does.”",
+        "An artist in the team wanted color; a democrat on the committee wanted advice from every acre of the district. “This is a raid, not a consultation,” the rebel said, and the spill of complaints that followed proved her right. The external review had a territorial clause, and a treaty of mutual assistance with another ward had never been signed.",
+        "The pursuit of a breakthrough required a dose of patience and a ton of paperwork. “We must cooperate with the continental office,” the coordinator said, “or the completion date will move again.” A hectare of wheat, a manufacturer of agricultural tools, and a blend of two local dialects gave the trial its surprising harmony.",
+        "The urgent part was the settlement. A bench, a roll of tape, and a written plan were all the team had; the rest was possession and hope. “Collaborate with the people who will be blamed if it fails,” Maya said, “and not only with the ones who will be praised.”",
+        "The masterpiece they wanted was three lines long: what we did, what happened, what we will change. “A cent of honesty is worth a hundred tons of style,” Lin wrote. A forgery in the appendix nearly destroyed the whole document, and the strategic review that followed was more valuable than the launch.",
+        "Back home, the information was harder to read like a story than like a table. “A woman in the queue asked me for help,” Maya said. “She did not ask for pay.” The business of the shop, the manufacture of a single bench, and the harmonious settlement of two complaints took the last three days of the trial. “Settle it with a word,” the coordinator said, “and do not make it a speech.”"
+      ],
+      "chinese_paragraphs": [
+        "试行围绕一个任务展开：拿一份最近的提案，试用一周，看看人们不得不用它时会发生什么。一只薄杯子、一张浅色的纸和一段音乐录音是仅有道具。“让我们把两种策略结合起来，”协调人说，“把学校和小店连接起来，看看孩子会怎么做。”",
+        "团队里的一位艺术家想要色彩；委员会里的一位民主主义者想要从全区每一英亩收集意见。“这是一次突袭，不是一次协商，”那位反叛者说，随后涌来的抱怨证明她说得对。外部评审有一条领土条款，而与另一个辖区相互协助的条约从未签署。",
+        "追求突破需要一剂耐心和一吨文书。“我们必须与大陆办公室合作，”协调人说，“否则完成日期又要推迟。”一公顷小麦、一家农具制造商，以及两种当地方言的混合，给了这次试行意想不到的和谐。",
+        "紧急的部分是安置。一条长凳、一卷胶带和一份书面计划就是团队拥有的全部；其余的是占有与希望。“去和那些失败后会被指责的人合作，”曼雅说，“而不只是和那些成功后会受表扬的人。”",
+        "他们想要的杰作只有三行：我们做了什么、发生了什么、我们将改变什么。“一分诚实抵得上一百吨风格，”林伟写道。附录里的一处伪造几乎毁掉了整份文件，而随后进行的战略复盘比发布本身更有价值。",
+        "回到家里，这些信息读起来更像一张表格，而不是一个故事。“队伍里一位女士请我帮忙，”曼雅说，“她没有要求报酬。”小店的生意、一条长凳的制造，以及两起投诉的和睦了结，占用了试行的最后三天。“用一个词把它了结，”协调人说，“不要把它变成一场演讲。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH047-Q1",
+          "type": "context",
+          "prompt": "What was the trial run's single task?",
+          "options": [
+            "to roll out a recent proposal for a week",
+            "to sign a treaty",
+            "to paint a masterpiece",
+            "to harvest a hectare of wheat"
+          ]
+        },
+        {
+          "id": "CH047-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “伪造；伪造物”?",
+          "options": [
+            "forgery",
+            "breakthrough",
+            "harmony",
+            "pursuit"
+          ]
+        },
+        {
+          "id": "CH047-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "cooperate with the office",
+            "cooperate with the cup",
+            "cooperate with the color",
+            "cooperate with the acre"
+          ]
+        },
+        {
+          "id": "CH047-Q4",
+          "type": "cloze",
+          "prompt": "The coordinator said they must combine the two ______.",
+          "options": [
+            "strategies",
+            "cent",
+            "tons",
+            "props"
+          ]
+        },
+        {
+          "id": "CH047-Q5",
+          "type": "recall",
+          "prompt": "What nearly destroyed the document?",
+          "options": [
+            "a forgery in the appendix",
+            "a spilled cup",
+            "a thin sheet",
+            "a musical recording"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH047-Q1",
+          "answer": "to roll out a recent proposal for a week",
+          "explanation": "The trial tested one proposal under real use."
+        },
+        {
+          "id": "CH047-Q2",
+          "answer": "forgery",
+          "explanation": "A forged page in the appendix almost ruined the report."
+        },
+        {
+          "id": "CH047-Q3",
+          "answer": "cooperate with the office",
+          "explanation": "Cooperate combines with a body, a partner, or a team."
+        },
+        {
+          "id": "CH047-Q4",
+          "answer": "strategies",
+          "explanation": "The coordinator combined two approaches into one trial."
+        },
+        {
+          "id": "CH047-Q5",
+          "answer": "a forgery in the appendix",
+          "explanation": "The forged page put the whole document at risk."
+        }
+      ]
+    },
+    {
+      "article_id": "CH048",
+      "english_title": "The First Real Deadline: Pressure Builds",
+      "chinese_title": "第一个真实期限：压力上升",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "The pressure built for a fortnight, day by day. The council moved the court hearing; the industrial client added a charge for the delay; the magazine and the newspaper both asked for the same interview. “Go back and check the title,” the professional said. “If the surface is wrong, the whole file is wrong.”",
+        "A colleague in the gallery had already written a review, and a critic in the same building had written the opposite. “You will gain credit with one and lose it with the other,” the accountant said. “That is the margin you are working in.” The manufacturer, the merchant, and the unemployed detective who shared the rack in the corridor all had an opinion.",
+        "The fundamental problem was rent. The office cost more than the rice and the wash of the whole team, and the applicant with the managerial experience had already gone away. “Be sure of the question before you answer it,” the librarian said. “A gardener does not water a web.”",
+        "The entrepreneur in the sack coat wanted a spy in the opposite team; the clerical marshal wanted lace on the cover. “Much of this is occupational theatre,” Lin said, “and some of it is last-minute panic.” They were already late, and the face of the client on the screen was not a friendly one.",
+        "Together the team bought back two days by cutting a correspondent from the schedule. “Will it be enough?” Maya asked. “It will be something,” he said, “and something is not nothing.” The old problem returned, as it always did: a professional must answer for the whole, not for the part they touched.",
+        "An insider from the newspaper, a painter from the gallery, and a gardener from the roof came to the office on the last day. “The heart of the file is the margin,” the insider said. “Everything else is decoration.” A copy was available on the rack, and the man from the sack coat read it twice before he bought the magazine. The will to continue was there; the time was not. It was already quite dark outside by then."
+      ],
+      "chinese_paragraphs": [
+        "压力持续了两周，一天接一天。委员会推迟了法庭听证；工业企业客户为延误追加了一笔费用；杂志和报纸都要同一场采访。“回去核对标题，”那位专业人士说，“如果表面是错的，整份文件都是错的。”",
+        "画廊里的一位同事已经写了一篇评论，同一栋楼里的一位批评家写了相反的一篇。“你会因此得到一个人的信任，又失去另一个人的，”会计说，“这就是你正在其中工作的余量。”制造商、商人，以及共用走廊那排架子的失业侦探，都有自己的看法。",
+        "根本问题是租金。办公室的开销超过整个团队的米饭和洗衣费用，而那位有管理经验的申请人早已离开。“回答问题之前先确定问题，”图书管理员说。“园丁不会给一张网浇水。”",
+        "穿麻布外套的企业家想在对手团队里安一个间谍；教士身份的执法官想给封面加上花边。“这里面很多是职业性的戏剧，”林伟说，“还有一些是最后一刻的惊慌。”他们已经迟了，而屏幕上客户的脸并不友善。",
+        "团队一起从日程里砍掉一名通讯记者，换回了三天。“这够吗？”曼雅问。“总算是点东西，”他说，“而点东西不是没有。”那个老问题又回来了，一如既往：专业人士必须为整体负责，而不只是为自己碰过的那部分。",
+        "最后一天，来自报社的一位内部人士、来自画廊的一位画家，以及来自屋顶的一位园丁来到办公室。“这份文件的核心是那处空白，”内部人士说，“其他都是装饰。”架子上有一份可取的副本，穿麻布外套的那个人读了它两遍，才买下那本杂志。继续下去的意志还在，时间不在。外面已经黑了。"
+      ],
+      "exercises": [
+        {
+          "id": "CH048-Q1",
+          "type": "context",
+          "prompt": "What did the client charge for?",
+          "options": [
+            "the delay",
+            "the lace",
+            "the interview",
+            "the rice"
+          ]
+        },
+        {
+          "id": "CH048-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “余量；页边空白”?",
+          "options": [
+            "margin",
+            "charge",
+            "surface",
+            "gain"
+          ]
+        },
+        {
+          "id": "CH048-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "gain credit",
+            "gain lace",
+            "gain a sack",
+            "gain a spy"
+          ]
+        },
+        {
+          "id": "CH048-Q4",
+          "type": "cloze",
+          "prompt": "The librarian said a gardener does not water a ______.",
+          "options": [
+            "web",
+            "rack",
+            "gallery",
+            "margin"
+          ]
+        },
+        {
+          "id": "CH048-Q5",
+          "type": "recall",
+          "prompt": "How did the team buy back time?",
+          "options": [
+            "by cutting a correspondent from the schedule",
+            "by hiring an accountant",
+            "by moving the office",
+            "by selling the gallery"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH048-Q1",
+          "answer": "the delay",
+          "explanation": "The industrial client added a charge when the work slipped."
+        },
+        {
+          "id": "CH048-Q2",
+          "answer": "margin",
+          "explanation": "The accountant described the narrow room for error."
+        },
+        {
+          "id": "CH048-Q3",
+          "answer": "gain credit",
+          "explanation": "Gain combines with credit, time, or experience."
+        },
+        {
+          "id": "CH048-Q4",
+          "answer": "web",
+          "explanation": "She used a gardener's image against wasted effort."
+        },
+        {
+          "id": "CH048-Q5",
+          "answer": "by cutting a correspondent from the schedule",
+          "explanation": "They removed a role to recover two days."
+        }
+      ]
+    },
+    {
+      "article_id": "CH049",
+      "english_title": "The First Real Deadline: The Disagreement",
+      "chinese_title": "第一个真实期限：分歧",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "The disagreement was about one week: ship on Friday, or wait beyond the weekend and lose the holiday slot. “We are always doing this,” Maya said. “We spend Monday to Thursday arguing and then hurry on Friday.” The police had asked for a signed guideline; the inspector had asked for two more days. “Certainly the worst option is a dash at dawn,” she said. “And the catch is that we have already promised.”",
+        "Lin argued for a speedy release. A successful release would be a Christmas present for the council; a delayed one would cost the acquisition and lose the festival coverage. “The era of the perfect launch is over,” he said. “The customary thing is to go out on Monday and fix it on Tuesday.”",
+        "Maya argued for a durable release. “Wednesday is the only weekday the inspector can come,” she said. “Thursday is the marathon; Saturday is the day we sleep. A pregnancy of nine months does not become negotiable because Thanksgiving arrives.” The prohibitive cost of a recall was the part he kept overlooking.",
+        "Amid the argument, the coordinator produced the sequential figures: the accumulative risk of the last three releases, measured evenly across the weekend and the weekday. “Two successive releases went out overnight,” she said. “The excellence of the first hid the failure of the second. In the meantime, nobody ran the test.”",
+        "The compromise was expensive and honest: release on Friday for the festival, and hasten the inspection so that the new guideline could be established by the following week. “The usual guideline is written for the best case,” the inspector said. “Write the other one.” They listened to each other for the first time that day, and the cost of the argument was one weekend of running repairs.",
+        "For the council, the cost was one more day in court; for the team, it was a new line in the guideline. “Certainly the catch is that we must go back and establish who pays,” Maya said. “If we do not listen to the other side, the help we give will be a move in the wrong direction.” They put their hearts into the last paragraph, and the inspector, in the end, signed it."
+      ],
+      "chinese_paragraphs": [
+        "分歧关于一周中的某一天：周五发布，还是等到周末之后、丢掉假期的档期。“我们总是这样，”曼雅说，“周一到周四争论，然后周五赶工。”警方要求一份签署的指导方针；检查员要求再给两天。“最糟的选择毫无疑问是黎明时的冲刺，”她说，“而陷阱在于我们已经答应了。”",
+        "林伟主张迅速发布。一次成功的发布将是给委员会的圣诞礼物；一次延期则会损失这次收购，并错过节庆报道。“完美上线的时代已经结束了，”他说，“惯常的做法是周一发布，周二修。”",
+        "曼雅主张持久的发布。“周三是检查员唯一能来的平日，”她说，“周四是马拉松；周六是我们睡觉的日子。九个月的孕期不会因为感恩节到来就变成可磋商的。”召回那笔高昂到禁止性的成本，是他一直忽略的部分。",
+        "在争论中，协调人拿出了连续的数据：最近三次发布的累积风险，在周末与平日之间均匀地衡量。“连续两次发布都是在一夜之间上线的，”她说，“第一次的优秀掩盖了第二次的失败。与此同时，没有人跑过测试。”",
+        "妥协是昂贵而诚实的：周五为节庆发布，同时加紧检查，让新的指导方针能在下一周确立。“常规的指导方针是为最好的情况写的，”检查员说，“把另一种情况也写出来。”那天他们第一次真正听了彼此的话，而这场争论的代价，是一个周末的边跑边修。",
+        "对委员会来说，代价是多上一天法庭；对团队来说，是指导方针里多出的一行。“当然，陷阱在于我们必须回头确立由谁付钱，”曼雅说，“如果我们不听另一方的意见，我们给出的帮助就会变成方向错误的一步。”他们全心全意地写下了最后一段，而检查员最终签了字。"
+      ],
+      "exercises": [
+        {
+          "id": "CH049-Q1",
+          "type": "context",
+          "prompt": "What did the police ask for?",
+          "options": [
+            "a signed guideline",
+            "a Christmas present",
+            "two more inspectors",
+            "a smaller council"
+          ]
+        },
+        {
+          "id": "CH049-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “禁止性的；高得吓人的”?",
+          "options": [
+            "prohibitive",
+            "negotiable",
+            "successive",
+            "customary"
+          ]
+        },
+        {
+          "id": "CH049-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "hasten the inspection",
+            "hasten the pregnancy",
+            "hasten the marathon",
+            "hasten the dawn"
+          ]
+        },
+        {
+          "id": "CH049-Q4",
+          "type": "cloze",
+          "prompt": "The coordinator said the excellence of the first release hid the ______ of the second.",
+          "options": [
+            "failure",
+            "gain",
+            "margin",
+            "credit"
+          ]
+        },
+        {
+          "id": "CH049-Q5",
+          "type": "recall",
+          "prompt": "What did the inspector ask them to write?",
+          "options": [
+            "the other guideline",
+            "a new era",
+            "a holiday plan",
+            "a faster dash"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH049-Q1",
+          "answer": "a signed guideline",
+          "explanation": "The police required a written, signed procedure."
+        },
+        {
+          "id": "CH049-Q2",
+          "answer": "prohibitive",
+          "explanation": "The cost of a recall was too high to consider."
+        },
+        {
+          "id": "CH049-Q3",
+          "answer": "hasten the inspection",
+          "explanation": "Hasten combines with an inspection, a reply, or a decision."
+        },
+        {
+          "id": "CH049-Q4",
+          "answer": "failure",
+          "explanation": "One good release masked the next one's failure."
+        },
+        {
+          "id": "CH049-Q5",
+          "answer": "the other guideline",
+          "explanation": "The inspector wanted a rule for the worst case as well."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH049",
+    "last_event": "The team published a one-page evidence report, ran a week-long trial, and settled its internal disagreement by releasing on Friday while hastening an inspection for the following week.",
+    "unresolved_consequence": "The release has gone out with a section that was not fully tested, the signed guideline is still unwritten, and the client is waiting for the film.",
+    "character_locations": {
+      "Lin Wei": "downtown internship office",
+      "Maya Chen": "downtown internship office",
+      "Grace Liu": "downtown civic-technology company"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year student and summer intern",
+      "Maya Chen": "journalism student, columnist, and summer intern",
+      "Grace Liu": "product manager and workplace mentor"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one"
+    ],
+    "first_required_event_next_chapter": "CH050 must open at the company's management meeting, where a dashboard hides the applications that failed.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested"
+    ]
+  }
+}

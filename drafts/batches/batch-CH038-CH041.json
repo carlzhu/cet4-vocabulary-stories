@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH038-CH041",
+  "chapter_ids": [
+    "CH038",
+    "CH039",
+    "CH040",
+    "CH041"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH038",
+      "english_title": "Promises and Pressure: The Second Attempt",
+      "chinese_title": "承诺与压力：第二次尝试",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The second attempt began with a funeral and a birthday in the same week. The cousin of his former wife, a tall actor and a convinced optimist with an unlikely surname, came to the house, and the family had to decide who would sit where. “You are a saint,” his aunt said. He was not. He was a pessimist with an appointment with the dentist, and he said so. Her son, a boy of nine, was there with his own question about the ceremony: he wanted to know whether a family could be chosen rather than given.",
+        "They were wed in a small ceremony in the nursery garden, and the bride carried a bunch of flowers instead of a doll. The bridegroom, a salesman from the next town, had a regular job and an infinite patience for children. “Whoever adopts a surname in this family,” the grandmother said, “adopts a history.”",
+        "The husband of his cousin was a young giant of a man who worked with cows and could lift a calf. “She is my grandchild,” the grandmother said, “and so are the other grandchildren.” A nasty pill, a small creature, a youngster with a blue bicycle, an ethnic dish on the table, and a bitch with three puppies in the yard: the house was full of them throughout the afternoon. A little of something was always missing, and the head of the table never let it show.",
+        "At the initial meeting of the family council, they were asked to say what they expected. “We cannot control who marries whom,” Maya said. “But we can see that six people are not asked to carry one person's part.” The latter remark was, however, the one that stuck, and the figure on the whiteboard was not the real figure at all.",
+        "So the second attempt was smaller and more regular. I myself wrote the schedule; we allowed ourselves one evening a week; a homosexual couple in the building lent us their table and their kettle. “Yeah,” Maya said, “so that is the great reform: a table, an honest name, and nobody pretending that a family is a fixed thing.”"
+      ],
+      "chinese_paragraphs": [
+        "第二次尝试以同一周里的一场葬礼和一个生日开始。他前妻的表亲，一位高个子的男演员、一个坚定的乐观主义者，带着一个不太可能的姓氏来到家里，而全家人必须决定谁坐在哪里。“你是个圣人，”他姑妈说。他不是。他是一个带着牙医预约的悲观主义者，而且他当面说了出来。她的儿子，一个九岁的男孩，也在场，带着他自己关于仪式的疑问：他想知道，一个家庭是可以挑选的，还是只能被给予的。",
+        "他们在一座小苗圃花园里举行了小规模婚礼，新娘手里捧着一束花而不是一个洋娃娃。新郎是邻镇的推销员，有一份稳定的工作和对孩子无限的耐心。“在这个家里，谁采用了一个姓氏，”祖母说，“就是采用了一段历史。”",
+        "他表姐的丈夫是个年轻的巨人，与牛打交道，能举起一头小牛。“她是我的孙辈，”祖母说，“其他的孙辈也一样。”一颗难吃的药丸、一只小小的生物、一个推着蓝色自行车的少年、桌上的一道民族菜肴，以及院子里一只带着三只幼崽的母狗：整个下午屋子里都是他们。总有一点什么东西是缺的，而坐在上首的人从不让它显露出来。",
+        "在家庭委员会的首次会议上，他们被要求说出自己的期待。“我们无法控制谁和谁结婚，”曼雅说，“但我们能看到，不能让六个人去承担一个人的那份。”然而，真正留下的是后半句；白板上的那个数字根本不是真正的数字。",
+        "于是第二次尝试变得更小、更有规律。我自己写了时间表；我们允许自己每周有一个晚上；楼里一对同性恋伴侣把他们的桌子和水壶借给了我们。“是的，”曼雅说，“所以这就是伟大的改革：一张桌子、一个诚实的名字，以及没有人再假装家庭是一件固定不变的东西。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH038-Q1",
+          "type": "context",
+          "prompt": "What two events fell in the same week?",
+          "options": [
+            "a funeral and a birthday",
+            "two weddings",
+            "a dentist visit and a sale",
+            "a birthday and a funeral for a cow"
+          ]
+        },
+        {
+          "id": "CH038-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “后者的”?",
+          "options": [
+            "latter",
+            "former",
+            "initial",
+            "regular"
+          ]
+        },
+        {
+          "id": "CH038-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "adopt a surname",
+            "adopt a bicycle",
+            "adopt a kettle",
+            "adopt a puppy"
+          ]
+        },
+        {
+          "id": "CH038-Q4",
+          "type": "cloze",
+          "prompt": "The grandmother said that whoever adopts a surname adopts a ______.",
+          "options": [
+            "history",
+            "nursery",
+            "calf",
+            "kettle"
+          ]
+        },
+        {
+          "id": "CH038-Q5",
+          "type": "recall",
+          "prompt": "What did Maya call the great reform?",
+          "options": [
+            "a table, an honest name, and no pretence",
+            "a larger office",
+            "a new surname",
+            "a formal contract"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH038-Q1",
+          "answer": "a funeral and a birthday",
+          "explanation": "Grief and celebration arrived in the same week."
+        },
+        {
+          "id": "CH038-Q2",
+          "answer": "latter",
+          "explanation": "The second remark, the latter one, was the one that stayed."
+        },
+        {
+          "id": "CH038-Q3",
+          "answer": "adopt a surname",
+          "explanation": "Adopt combines with a name, a habit, or a child."
+        },
+        {
+          "id": "CH038-Q4",
+          "answer": "history",
+          "explanation": "She treated the family name as an inheritance."
+        },
+        {
+          "id": "CH038-Q5",
+          "answer": "a table, an honest name, and no pretence",
+          "explanation": "The second attempt was smaller and more honest."
+        }
+      ]
+    },
+    {
+      "article_id": "CH039",
+      "english_title": "Promises and Pressure: Outside Pressure",
+      "chinese_title": "承诺与压力：外部压力",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The external pressure came as a detailed report from the city. One member of the committee, a very attentive woman, wrote that the project had been neglectful of its own staff. “You cannot continue like this,” she said. “The number of unpaid hours is a scandal, not a virtue.”",
+        "The accusation was partly fair. Behind the small office, an elderly diner kept a ledger of every hour they had worked, and the total was a challenge to their own honesty. “We are in a siege of our own making,” Maya said. “Since the report has been filed, all we can do is answer it.”",
+        "A champion of the project, a communicative woman with a possessive streak, proposed a fight: raise the fee, commit the council, and let the quarrel become public. “That is a provocative move,” Lin said. “It is also a slippery one. Haste would dampen the very thing we are trying to prove.”",
+        "The moderate path was harder than the visionary one. It meant a cubic metre of space instead of an office, a part-time electrician instead of a team, an electric kettle instead of a kitchen, and a moderate fee for the volunteers. “We must not neglect the needy member of this group,” she said, “and we must not rub salt into the wound either.”",
+        "The sitting ended with a compromise and a maiden speech from the youngest volunteer. “Diligence is not the same as obedience,” she said, “and a feverish week is not a plan.” The ball was in the council's court; she really did threaten to resign, and the affectionate letter that followed did not change the dimensional cast of the problem: a contest between a prison of small habits and a situated, human schedule. The squeeze was on the budget, not on her patience, and the question was whether the electric bill counted as a part of the project's true dimension. She wrote that sentence twice, and then a third time, because a dimension she could not name was exactly the thing that had defeated them in March. They had committed themselves to a smaller scope and a clearer scenery of responsibility. “Than the last one,” Lin added, “which is to say: better, when you can tell the difference.”"
+      ],
+      "chinese_paragraphs": [
+        "外部压力以一份来自市里的详尽报告到来。委员会里一位非常留心的女士写道，这个项目一直忽视自己的工作人员。“你们不能这样继续下去，”她说，“无偿工时的数字是一桩丑闻，不是美德。”",
+        "这项指控有一部分是公正的。在小办公室后面，一位年长的用餐者保存着一本记录他们每一小时工作的账本，总数是对他们自己诚实的挑战。“我们处在一场自己造成的围困中，”曼雅说，“既然报告已经提交，我们能做的就是回应它。”",
+        "项目的一位拥护者，一位爱交际、带点占有欲的女士，提议打一仗：提高费用、让议会承诺、让争吵公开化。“那是一步挑衅性的棋，”林伟说，“也是一步很滑的棋。匆忙会浇灭我们正想证明的东西。”",
+        "温和的道路比幻想式的道路更难走。它意味着一立方米的空间而不是一间办公室，一位兼职电工而不是一个团队，以及给志愿者一份适度的报酬。“我们既不能忽视这个群体里贫困的成员，”她说，“也不能往伤口上撒盐。”",
+        "会议以一项妥协和那位最年轻志愿者的首次发言结束。“勤奋不等同于服从，”她说，“而发烧般的一周不是计划。”球在议会那一边；她确实威胁过辞职，而随后那封深情的信并没有改变问题的维度结构：这是一场小习惯的监狱与一个被妥善安放的、有人情味的时间表之间的竞赛。被压缩的是预算，不是她的耐心；而问题在于，电费算不算这个项目真正维度的一部分。她把这个句子写了两遍，然后又写了第三遍，因为一个她叫不出名字的维度，正是三月里击败他们的那样东西。他们承诺了更小的范围与更清晰的职责图景。“比上一份好，”林伟补充说，“也就是说：更好——前提是你能分辨差别。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH039-Q1",
+          "type": "context",
+          "prompt": "What did the city report accuse the project of?",
+          "options": [
+            "neglecting its own staff",
+            "wasting printer paper",
+            "moving the office",
+            "hiring an electrician"
+          ]
+        },
+        {
+          "id": "CH039-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “勤奋”?",
+          "options": [
+            "diligence",
+            "haste",
+            "siege",
+            "scenery"
+          ]
+        },
+        {
+          "id": "CH039-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "raise the fee",
+            "raise the ledger",
+            "raise the siege",
+            "raise the scenery"
+          ]
+        },
+        {
+          "id": "CH039-Q4",
+          "type": "cloze",
+          "prompt": "Lin warned that ______ would dampen what they were trying to prove.",
+          "options": [
+            "haste",
+            "diligence",
+            "moderation",
+            "affection"
+          ]
+        },
+        {
+          "id": "CH039-Q5",
+          "type": "recall",
+          "prompt": "What did the youngest volunteer say diligence is not?",
+          "options": [
+            "the same as obedience",
+            "a plan",
+            "a fee",
+            "a virtue"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH039-Q1",
+          "answer": "neglecting its own staff",
+          "explanation": "The report counted the unpaid hours the volunteers had worked."
+        },
+        {
+          "id": "CH039-Q2",
+          "answer": "diligence",
+          "explanation": "She separated diligence from obedience."
+        },
+        {
+          "id": "CH039-Q3",
+          "answer": "raise the fee",
+          "explanation": "Raise combines with a fee, a price, or a question."
+        },
+        {
+          "id": "CH039-Q4",
+          "answer": "haste",
+          "explanation": "He argued that rushing would undermine the evidence."
+        },
+        {
+          "id": "CH039-Q5",
+          "answer": "the same as obedience",
+          "explanation": "She insisted that hard work is not the same as compliance."
+        }
+      ]
+    },
+    {
+      "article_id": "CH040",
+      "english_title": "Promises and Pressure: The Decision",
+      "chinese_title": "承诺与压力：决定",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The decision was taken around a warm table in the family house. His mom invited both families, and the debate that followed was, in her words, a lot of fun and very tense. “He will tell you what happened,” she said. “I will say only this: the marital contract is not the marriage.”",
+        "The beginning of the meeting was formal. A motion was proposed, a request for a triple enhancement of the schedule, and a nod from the head of the table. “Apply for the money,” the fatherly uncle said. “Beg if you must, but do not borrow.” “Do not panic,” the motherly aunt added. “The concern of the woman who raised the child has been received, and at home it is great.”",
+        "There was a demonstrative moment: the beloved grandmother borrowed a pen, signed the paper, and put it down with a slap that disposed of three months of spite in one second. “The scent of a new plan is better than the curse of an old quarrel,” she said, and the talkative cousin, for once, said nothing at all.",
+        "The divorce of the two projects had begun quietly. One would continue; the other would be transmitted to a replacement who could give it more time. “I know,” Lin said. “I like the little one better.” A steep fall in his own hours had taught him that, and the plunging temperature outside made the kitchen feel like a harbor.",
+        "The wonder was that the decision had been reached without anyone raising a voice. The steamy windows, the warm plates, the little indications that people were still there: everything indicated a family that had decided something. “Something has to commence,” the cousin finally said. “Call it a fancy name if you like; the people are the same people.” Some of it was luck, and some of it was the part nobody had planned: the cousin's silence, the aunt's arithmetic, the way a family decides without deciding. They had spent a month on the schedule and one evening on the marriage, which was, in the end, the correct proportion of the two."
+      ],
+      "chinese_paragraphs": [
+        "决定是在家里一张温暖的桌边做出的。他妈妈请来了两家人，随后的辩论用她的话说既有很多乐趣又非常紧张。“他会告诉你们发生了什么，”她说，“我只说一点：婚姻的契约不是婚姻。”",
+        "会议的开头很正式。有人提出一项动议、一份把时间表增加三倍的请求，以及上首那一位的点头。“去申请这笔钱，”像父亲一样的叔父说，“必要时去求，但不要借。”像母亲一样的姑妈补充：“不要惊慌。抚养那个孩子的女人的担忧已经收到，而在家里，这份担忧很大。”",
+        "有一个极具表现力的瞬间：心爱的祖母借了一支笔，在文件上签了名，然后一拍放下，一秒钟里处置掉了三个月的怨恨。“新计划的香气胜过旧争吵的诅咒，”她说；而那位爱说话的堂兄，这一次什么也没说。",
+        "两个项目的分离早已悄悄开始。一个将继续；另一个会被移交一位能给它更多时间的接替者。“我知道，”林伟说，“我更喜欢小的那个。”他自己工时的陡降教会了他这一点，而外面骤降的气温让厨房感觉像一座港湾。",
+        "令人惊奇的是，决定是在没有人提高嗓门的情况下作出的。起雾的窗户、温热的盘子、人们还在那里的细小迹象：一切都表明这是一个已经做出了决定的家庭。“总要开始点什么，”堂兄最后说，“如果你愿意，给它起个花哨的名字；人还是那些人。”其中一部分是运气，另一部分是没有人计划过的部分：堂兄的沉默、姑妈的算计，以及一个家庭在不作决定的情况下作决定的方式。他们花了一个月安排日程，用一个晚上处理婚姻——说到底，这才是两者正确的比例。"
+      ],
+      "exercises": [
+        {
+          "id": "CH040-Q1",
+          "type": "context",
+          "prompt": "Who invited both families?",
+          "options": [
+            "his mom",
+            "the cousin",
+            "the uncle",
+            "Maya"
+          ]
+        },
+        {
+          "id": "CH040-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “恶意的怨恨”?",
+          "options": [
+            "spite",
+            "scent",
+            "motion",
+            "panic"
+          ]
+        },
+        {
+          "id": "CH040-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "apply for the money",
+            "apply for the kitchen",
+            "apply for the harbour",
+            "apply for the temperature"
+          ]
+        },
+        {
+          "id": "CH040-Q4",
+          "type": "cloze",
+          "prompt": "The grandmother said the marital contract is not the ______.",
+          "options": [
+            "marriage",
+            "motion",
+            "schedule",
+            "replacement"
+          ]
+        },
+        {
+          "id": "CH040-Q5",
+          "type": "recall",
+          "prompt": "Which project did Lin say he preferred?",
+          "options": [
+            "the little one",
+            "the larger one",
+            "neither",
+            "the transmitted one"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH040-Q1",
+          "answer": "his mom",
+          "explanation": "She gathered both families around one table."
+        },
+        {
+          "id": "CH040-Q2",
+          "answer": "spite",
+          "explanation": "Three months of resentment were set aside with one gesture."
+        },
+        {
+          "id": "CH040-Q3",
+          "answer": "apply for the money",
+          "explanation": "Apply combines with money, a post, or a rule."
+        },
+        {
+          "id": "CH040-Q4",
+          "answer": "marriage",
+          "explanation": "She distinguished the contract from the relationship."
+        },
+        {
+          "id": "CH040-Q5",
+          "answer": "the little one",
+          "explanation": "He chose the smaller project he could actually sustain."
+        }
+      ]
+    },
+    {
+      "article_id": "CH041",
+      "english_title": "Promises and Pressure: Consequences",
+      "chinese_title": "承诺与压力：后果",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The consequences were emotional and, at the core, simple. The last question in the survey asked what a family is for, and the answers exposed a vacuum where a definition should have been. A prince, a princess, and a philosopher gave the same reply: for holding what cannot be held anywhere else.",
+        "The appearance of a stranger at the door changed the morning. A porter, a waiter, and a fireman came to the residence to repair the rail; a hunter in a blue coat brought a rabbit for the infant next door. “Anybody could have done it,” the tailor said. “Nobody did.”",
+        "The intention of the donor was good, and the delivery was terrible. They received a melon, a vacuum cleaner, and a bench with a mysterious inscription from an ancestor of the family of the butcher. A second parcel arrived for him the same afternoon, addressed to the wrong man and opened by everyone. “They will dismiss it as charming,” Maya said. “That is the exception, not the rule.”",
+        "He was away when the kiss happened, and he had to hear of it from her. “You will say I am like the man in the old story,” she said, “and I am not sure that I am not.” The chilly answer was that the germ of the quarrel had been there since the first week, and he had to be sure of that before he could say it aloud.",
+        "Dad was living in a small flat around the corner, and it had taken real talent to be so ordinary. The imaginative descendant of a blond Homo sapiens and a diligent tailor wrote a parade of small substitutions: a bench for a bed, a rabbit for a rabbit, a question for a question. The hatred between the two families had not disappeared; it had simply gone back to being what it had been at the beginning — a habit they could lose. The tailor had mended the same coat three times, and the butcher had sold him the same cut of meat for twenty years; neither of them had ever said the word hatred aloud, and that silence, too, was a kind of inheritance."
+      ],
+      "chinese_paragraphs": [
+        "后果是情感性的，而核心很简单。调查的最后一个问题问的是：家庭是为了什么？答案暴露出一个本应放着定义的空洞。一位王子、一位公主和一位哲学家给出了同样的回答：为了承载别处无法承载的东西。",
+        "门口一个陌生人的出现改变了这个早晨。一位门房、一位侍者和一名消防员来到住处修理栏杆；一位穿蓝色外套的猎人给隔壁的婴儿带来了一只兔子。“任何人都能做到，”裁缝说，“可没有人做。”",
+        "捐赠者的意图是好的，交付却很糟糕。他们收到了一只甜瓜、一台吸尘器，以及一条长椅，上面刻着屠夫家一位祖先留下的神秘铭文。同一天下午，又有一个包裹寄给他，收件人写错了，被所有人拆开看了。“他们会把它当作可爱的东西打发掉，”曼雅说，“那是例外，不是常规。”",
+        "那个吻发生的时候他不在场，只能听她说。“你会说我就是老故事里的那个男人，”她说，“而我也不确定我不是。”冷淡的回答是：这场争吵的细菌从第一周起就已经在那里了；而在他能把这句说出口之前，他必须先对这一点确信无疑。",
+        "爸爸住在街角一间小公寓里，而要把日子过得如此普通，其实需要真正的才能。一个金发的智人与一位勤勉裁缝的富有想象力的后裔，写下了一连串小小的替代：用长椅替代床、用兔子替代兔子、用问题替代问题。两个家庭之间的仇恨并没有消失；它只是又变回了它一开始的样子——一种他们可以丢掉的习惯。那位裁缝把同一件外套补过三次，那位屠夫二十年来卖给他同一块肉；他们两人谁也没有把“仇恨”这个词说出口，而那份沉默，同样是一种遗产。"
+      ],
+      "exercises": [
+        {
+          "id": "CH041-Q1",
+          "type": "context",
+          "prompt": "What did the last survey question ask?",
+          "options": [
+            "what a family is for",
+            "who repaired the rail",
+            "how much the melon cost",
+            "where the prince lived"
+          ]
+        },
+        {
+          "id": "CH041-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “后裔；子孙”?",
+          "options": [
+            "descendant",
+            "ancestor",
+            "donor",
+            "porter"
+          ]
+        },
+        {
+          "id": "CH041-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "repair the rail",
+            "repair the rabbit",
+            "repair the melon",
+            "repair the vacuum"
+          ]
+        },
+        {
+          "id": "CH041-Q4",
+          "type": "cloze",
+          "prompt": "The donor's intention was good, but the ______ was terrible.",
+          "options": [
+            "delivery",
+            "appearance",
+            "hatred",
+            "parade"
+          ]
+        },
+        {
+          "id": "CH041-Q5",
+          "type": "recall",
+          "prompt": "What had the hatred become at the end?",
+          "options": [
+            "a habit they could lose",
+            "a legal case",
+            "a family tradition",
+            "a mystery"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH041-Q1",
+          "answer": "what a family is for",
+          "explanation": "The final question asked about the purpose of a family."
+        },
+        {
+          "id": "CH041-Q2",
+          "answer": "descendant",
+          "explanation": "The descendant of a tailor and an ancestor wrote the substitutions."
+        },
+        {
+          "id": "CH041-Q3",
+          "answer": "repair the rail",
+          "explanation": "Repair combines with a rail, a roof, or a relationship."
+        },
+        {
+          "id": "CH041-Q4",
+          "answer": "delivery",
+          "explanation": "The gift was well meant but badly delivered."
+        },
+        {
+          "id": "CH041-Q5",
+          "answer": "a habit they could lose",
+          "explanation": "The inherited hatred persisted only as habit."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH041",
+    "last_event": "The family and the project were formally separated: one project continues with Lin, the other was transmitted to a replacement, and the third-arc survey asked what a family is for.",
+    "unresolved_consequence": "The transferred project has not yet proved it can survive without Lin, the written contract has not been paid for, and the friendship has to be rebuilt around a smaller shared object.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University and his family home",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year student, part-time carer, and keeper of the smaller project",
+      "Maya Chen": "journalism student, student-paper columnist, and Thursday meeting host",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it"
+    ],
+    "first_required_event_next_chapter": "CH042 must show whether the transferred project survives without Lin, and what the friendship looks like when the work is no longer shared.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one"
+    ]
+  }
+}

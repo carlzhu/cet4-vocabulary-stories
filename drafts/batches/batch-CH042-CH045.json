@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH042-CH045",
+  "chapter_ids": [
+    "CH042",
+    "CH043",
+    "CH044",
+    "CH045"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH042",
+      "english_title": "Promises and Pressure: The Bridge Forward",
+      "chinese_title": "承诺与压力：通向下一程",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The third arc closed with a lunch that was supposed to be a victory. The transferred project had continued for six weeks without Lin; the participant numbers were abundant, and every volunteer had stayed. “Nobody expected that,” the spokeswoman said. Her joy was real, and so was her insistence that the report mention the last setback. Suddenly there was an incentive to do what nobody had asked: part of the money was for the ongoing work, and any of the million small tasks could now be paid. Each of them had an eye on the door, and no one sat still.",
+        "He was not triumphant. Sitting in his overcoat, he watched the rain and felt an ache in his thumb from carrying boxes. “We invested a year,” he said. “Some of it was a triumph. Most of it was not.” A few of the guests agreed; several did not.",
+        "A jealous colleague, a drunk broker, and a defiant young man from the hut settlement all spoke at the luncheon. “Nowadays everybody wants a conqueror,” the broker said. “You want a blackboard.” The relevance of the remark was not obvious to anyone, least of all to him.",
+        "The frustrating part was the handwriting on the report: his own. Oftentimes the least influential person in the room writes the document that sways the room, and he had written it without noticing which side he was on. “Do not continue out of laziness,” Maya said. “Continue out of impulse, if you must, but keep the shelter open, and do not raise a fist at the people who read it.”",
+        "Several participants disapproved of the final paragraph. A hat and a glove were, quite simply, not a policy, and the insistent demand for a cleaner number could not be met without deleting somebody's name. Many of them would persevere; some would not. “The interviewee is not the interviewee of the question,” the spokeswoman said. “That is why we keep asking.” The question, at least, had survived the defeat, and there was no shame in that. “Shit,” the broker said, when the final total appeared on the screen; he was immensely relieved, and he said so, twice. The promise had survived the pressure, and the price of it had a name in every room they entered."
+      ],
+      "chinese_paragraphs": [
+        "第三段弧线以一顿本该算是胜利的午餐收尾。移交出去的项目在没有林伟的情况下继续了六周；参与者数量充足，每位志愿者都留了下来。“没人料到会这样，”女发言人说。她的喜悦是真实的，她坚持要在报告里提到最近那次挫折也是真实的。突然间出现了一种动机，去做没人要求过的事：一部分钱是给这项持续工作的，那一百万件小事中的任何一件现在都能拿到报酬。每个人眼睛都盯着门口，没有人安稳坐着。",
+        "他并不得意。穿着外套坐着，他看着雨，感到拇指因搬箱子而隐隐作痛。“我们投入了一年，”他说，“其中一部分是凯旋，大部分不是。”有几位客人同意，有几位不同意。",
+        "一位心怀嫉妒的同事、一个醉酒的经纪人，以及一个来自小屋聚落的挑衅青年，都在午宴上发了言。“如今人人都想要征服者，”经纪人说，“而你们想要的是一块黑板。”这句话的相关性对谁都不明显，对他尤其如此。",
+        "令人沮丧的是报告上的笔迹：他自己的。常常是屋里最没有影响力的人写下那份左右全屋的文件，而他写下它时并没有留意自己站在哪一边。“不要因为懒惰才继续下去，”曼雅说，“如果非要继续，那就凭着冲动继续，但要让庇护所开着，也不要对读它的人举起拳头。”",
+        "好几位参与者不赞成最后一段。一顶帽子和一只手套，说白了，不是政策；而要满足那坚持要一个更干净数字的要求，就得删掉某个人的名字。他们中很多人会坚持下去，有些人不会。“被采访者不是问题的被采访者，”女发言人说，“所以我们才要一直问。”至少那个问题在失败中活了下来，而这并不丢人。“见鬼，”当最终数字出现在屏幕上时，经纪人说；他如释重负，而且他说了两遍。那个承诺在压力中活了下来，而它的代价，在他们走进的每一个房间里都有一个名字。"
+      ],
+      "exercises": [
+        {
+          "id": "CH042-Q1",
+          "type": "context",
+          "prompt": "What did the spokeswoman insist the report mention?",
+          "options": [
+            "the last setback",
+            "the lunch menu",
+            "the broker's joke",
+            "Lin's handwriting"
+          ]
+        },
+        {
+          "id": "CH042-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “坚持；坚决主张”?",
+          "options": [
+            "insistence",
+            "relevance",
+            "impulse",
+            "laziness"
+          ]
+        },
+        {
+          "id": "CH042-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "keep the shelter open",
+            "keep the fist open",
+            "keep the glove open",
+            "keep the hut open"
+          ]
+        },
+        {
+          "id": "CH042-Q4",
+          "type": "cloze",
+          "prompt": "Oftentimes the least influential person writes the document that ______ the room.",
+          "options": [
+            "sways",
+            "deletes",
+            "triumphs",
+            "descends"
+          ]
+        },
+        {
+          "id": "CH042-Q5",
+          "type": "recall",
+          "prompt": "What did Lin say most of the year had been?",
+          "options": [
+            "not a triumph",
+            "a victory",
+            "a defeat",
+            "a holiday"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH042-Q1",
+          "answer": "the last setback",
+          "explanation": "She wanted the failure recorded beside the success."
+        },
+        {
+          "id": "CH042-Q2",
+          "answer": "insistence",
+          "explanation": "Her insistence was that the report stay honest."
+        },
+        {
+          "id": "CH042-Q3",
+          "answer": "keep the shelter open",
+          "explanation": "Keep combines with a shelter, a promise, or a record."
+        },
+        {
+          "id": "CH042-Q4",
+          "answer": "sways",
+          "explanation": "The quiet writer often moves the room."
+        },
+        {
+          "id": "CH042-Q5",
+          "answer": "not a triumph",
+          "explanation": "He refused to call the year a victory."
+        }
+      ]
+    },
+    {
+      "article_id": "CH043",
+      "english_title": "The First Real Deadline: A Signal",
+      "chinese_title": "第一个真实期限：一个信号",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "At home they had learned to write down who did what; the office preferred a deadline to a promise. The fourth arc began downtown, in a spacious office with a gigantic carpet and a view of the orbital tower. A prominent businessman said “hi” to them without looking up, and the management team arrived ten minutes later. “We want a film about our new technological platform,” the woman said. “You will supervise the script, and you will receive a small fee.” Various people around the table produced a phone and took notes, like a boy at his first interview.",
+        "The agenda was mostly financial. A secretary took the minutes; a broker consulted his phone; a reactionary older man wanted to commercialize everything before the test. “Progress is not a pace,” Lin said. “It is a direction.” “Then straighten your stride,” the businessman replied, “and delete the last paragraph.” From that morning the work would be supervised by the client, not by the university.",
+        "Their departure from the campus was compulsory for the summer: an internship, they were told, would teach them more than a lecture. A young daughter of the union organizer worked there too, and a boy from the mailroom applied for the same post. “You will discover,” said the woman, “that most of what we make is invisible. That is what makes it hard to manage.”",
+        "The work itself was to administrate a small civic tool: a tool that would industrialize nothing, defy the market, and never be profitable. “It will fail,” the broker said. “It does not need to be profitable,” Maya replied. “It needs to be accurate.” Without that, the whole platform was a film about a building.",
+        "Wealth descended and rose around them, and the young persisted. “We do not receive praise here,” she said. “We receive deadlines.” A farewell lunch was held for the last intern, and an email went upwards and downwards through the company before he had finished his coffee. A big question imposed itself: could a pupil from a public school succeed here, where a secretarial salary was a dime above the housework rate? Nobody could say what would happen next, and nobody wanted to lead with that. His face, like hers, said that the work would continue without them, and that this was the price of a real deadline."
+      ],
+      "chinese_paragraphs": [
+        "在家里，他们学会了把谁做什么写下来；而办公室更喜欢一个截止日期，而不是一个承诺。第四段弧线从市中心开始，在一间宽敞的办公室，铺着巨大的地毯，窗户正对轨道塔。一位有名的商人头也不抬地对他们说了声“嗨”，管理团队十分钟后才到。“我们想拍一部关于我们新科技平台的影片，”那位女士说，“你们来监督脚本，会收到一笔小小的报酬。”桌边各种各样的人掏出手机做记录，像第一次参加面试的男孩。",
+        "议程主要是财务性的。一位秘书做记录；一位经纪人查手机；一位年长而反动的先生想在测试之前就把一切商业化。“进步不是步速，”林伟说，“而是一个方向。”“那就把你的步子走直，”商人回答，“把最后一段删掉。”从那天早上起，工作由客户而不是大学来监督。",
+        "他们夏天离开校园是强制性的：有人告诉他们，一段实习能教给他们比一堂课更多的东西。工会组织者年轻的女儿也在那里工作，收发室的一个男孩申请了同一个岗位。“你们会发现，”那位女士说，“我们做的大部分事是看不见的。这正是它难以管理的原因。”",
+        "工作本身是管理一件小小的市政工具：一件不会让任何东西工业化、敢于违抗市场、也永远不会赚钱的工具。“它会失败，”经纪人说。“它不需要赚钱，”曼雅回答，“它需要准确。”没有这一点，整个平台就只是一部关于一栋建筑的影片。",
+        "财富在他们周围下降又上升，而年轻人坚持了下来。“我们在这里得不到表扬，”她说，“我们得到的是截止日期。”公司为最后一位实习生办了告别午餐，一封邮件在他喝完咖啡之前就上传下达了整个公司。一个大问题压了上来：一个公立学校出来的学生，能在这里成功吗？在这里，一份秘书的薪水只比家务工的时薪高一分钱。没有人说得清接下来会发生什么，也没有人愿意拿这件事开头。他的脸和她的脸都在说：工作会在没有他们的情况下继续下去，而这就是一个真实期限的代价。"
+      ],
+      "exercises": [
+        {
+          "id": "CH043-Q1",
+          "type": "context",
+          "prompt": "What did the client want filmed?",
+          "options": [
+            "their new technological platform",
+            "the orbital tower",
+            "the mailroom",
+            "the career fair"
+          ]
+        },
+        {
+          "id": "CH043-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “监督；管理”?",
+          "options": [
+            "supervise",
+            "commercialize",
+            "straighten",
+            "descend"
+          ]
+        },
+        {
+          "id": "CH043-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "manage a budget",
+            "manage a carpet",
+            "manage a dime",
+            "manage a farewell"
+          ]
+        },
+        {
+          "id": "CH043-Q4",
+          "type": "cloze",
+          "prompt": "Maya said the tool did not need to be ______, only accurate.",
+          "options": [
+            "profitable",
+            "spacious",
+            "secretarial",
+            "prominent"
+          ]
+        },
+        {
+          "id": "CH043-Q5",
+          "type": "recall",
+          "prompt": "What did the woman say most of their work would be?",
+          "options": [
+            "invisible",
+            "profitable",
+            "industrial",
+            "secretarial"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH043-Q1",
+          "answer": "their new technological platform",
+          "explanation": "The client commissioned a film about its platform."
+        },
+        {
+          "id": "CH043-Q2",
+          "answer": "supervise",
+          "explanation": "The client would supervise the script rather than the university."
+        },
+        {
+          "id": "CH043-Q3",
+          "answer": "manage a budget",
+          "explanation": "Manage combines with a budget, a team, or a risk."
+        },
+        {
+          "id": "CH043-Q4",
+          "answer": "profitable",
+          "explanation": "She valued accuracy above profit."
+        },
+        {
+          "id": "CH043-Q5",
+          "answer": "invisible",
+          "explanation": "Most of the work was invisible to the customer."
+        }
+      ]
+    },
+    {
+      "article_id": "CH044",
+      "english_title": "The First Real Deadline: The First Promise",
+      "chinese_title": "第一个真实期限：第一次承诺",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "The first promise of the internship was small and specific: every claim in the film would have an account behind it. The office had a special room for the material, a manager for the organization, and a career counsellor who had once worked in banking. “Use the label,” the clerk said. “If it is not labelled, it is not evidence.”",
+        "The field was employment, and the business was real. A customer with unemployment behind them, a retired teller, a cooperative of small suppliers, and an employee on a zero-hours commission all sat in the same room. “The competition is not the enemy,” the counsellor said. “The expense is.”",
+        "There was a depression in the industry that year, and a recession in the trade papers. The ministry had cut the publication budget, and the mail brought a dismissal notice to a colleague who had worked there for nine years. “This is what an employer looks like when the money stops,” the manager said. “Write it down. It is part of the application.”",
+        "The partnership with the client had one intangible clause: the team could refuse a submission. “That is a strange kind of power,” Lin said. “It is the only kind,” she answered. “Profession, not employment, is the difference between them and us.”",
+        "Their earnings for the summer were enough for a train ticket and a rented room. “Remove the word career from the next version,” the manager told them. “Put in the word work.” The accountancy clerk agreed, the tourism intern did not, and the specialization they were offered — a permanent post in the bank — was the first real choice of the arc. To take it was to accept that a deadline could be a life, and not only a date.",
+        "On the last Friday, a black car brought the head of the family to the office: her father, a great supporter of the project, with his mother and her little brother in the back. They asked one question that nobody could answer — what would happen to them if the post were taken? “Such a name in a small house,” her father said. “Big or little, it is by the work that a person is known.” The facility had an operator who could employ three of them, and Maya wrote something down before she answered."
+      ],
+      "chinese_paragraphs": [
+        "这段实习的第一个承诺既小又具体：影片里的每一条主张背后都要有一份说明。办公室有一间专门放材料的房间、一位负责组织工作的经理，以及一位曾在银行业工作过的职业顾问。“用标签，”职员说，“没有标签，就不是证据。”",
+        "这个领域是就业，而生意是真实的。一位有过失业经历的顾客、一位退休的出纳员、一个由小供应商组成的合作社，以及一名拿零时佣金合同的雇员，都坐在同一个房间里。“竞争对手不是敌人，”顾问说，“开支才是。”",
+        "那一年这个行业正处在萧条中，行业报刊也处在衰退里。部里削减了出版预算，邮件给一位在此工作九年的同事送来了免职通知。“雇主在钱停下来时就是这个样子，”经理说，“写下来。这也是申请材料的一部分。”",
+        "与客户的合作关系里有一条无形的条款：团队可以拒绝提交。“这是一种奇怪的权利，”林伟说。“这是唯一的一种，”她回答，“把我们和他们区分开的，是职业，而不是雇佣。”",
+        "他们那个夏天的收入够买一张火车票和租一间房。“把‘事业’这个词从下一版里去掉，”经理对他们说，“换上‘工作’。”会计部职员同意，旅游部的实习生不同意；而提供给他们的专业化机会——银行里的一个固定职位——就是这段弧线里的第一个真实选择。接受它，就等于承认一个截止日期可以是一种人生，而不只是一个日期。",
+        "最后一个周五，一辆黑色轿车把这一家的主事人送到办公室：她的父亲，项目的一位重要支持者，后座上是他的母亲和她的小弟。他们问了一个没人能回答的问题——如果这个职位被拿走了，他们会怎样？“在这样一栋小房子里用这样一个名字，”她父亲说，“无论大小，人靠工作被人认识。”机构里有一位经营者，能雇用他们三个人；曼雅在回答之前先记下了点什么。"
+      ],
+      "exercises": [
+        {
+          "id": "CH044-Q1",
+          "type": "context",
+          "prompt": "What was the internship's first promise?",
+          "options": [
+            "every claim would have an account behind it",
+            "every label would be printed twice",
+            "the film would be profitable",
+            "the bank would hire everyone"
+          ]
+        },
+        {
+          "id": "CH044-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “难以明了的；无形的”?",
+          "options": [
+            "intangible",
+            "profitable",
+            "cooperative",
+            "retired"
+          ]
+        },
+        {
+          "id": "CH044-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "remove the word",
+            "remove the carpet",
+            "remove the mail",
+            "remove the tourism"
+          ]
+        },
+        {
+          "id": "CH044-Q4",
+          "type": "cloze",
+          "prompt": "The manager said this is what an ______ looks like when the money stops.",
+          "options": [
+            "employer",
+            "expense",
+            "account",
+            "application"
+          ]
+        },
+        {
+          "id": "CH044-Q5",
+          "type": "recall",
+          "prompt": "What did the manager tell them to put in the next version?",
+          "options": [
+            "the word work",
+            "the word career",
+            "the word bank",
+            "the word profit"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH044-Q1",
+          "answer": "every claim would have an account behind it",
+          "explanation": "Each statement needed a documented basis."
+        },
+        {
+          "id": "CH044-Q2",
+          "answer": "intangible",
+          "explanation": "The right to refuse was real but invisible."
+        },
+        {
+          "id": "CH044-Q3",
+          "answer": "remove the word",
+          "explanation": "Remove combines with a word, a label, or an obstacle."
+        },
+        {
+          "id": "CH044-Q4",
+          "answer": "employer",
+          "explanation": "The manager showed them what an employer does under financial pressure."
+        },
+        {
+          "id": "CH044-Q5",
+          "answer": "the word work",
+          "explanation": "He replaced the idea of a career with the fact of work."
+        }
+      ]
+    },
+    {
+      "article_id": "CH045",
+      "english_title": "The First Real Deadline: A Missing Voice",
+      "chinese_title": "第一个真实期限：缺席的声音",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "The missing voice belonged to a woman with a serious face who had been paid off in the last layoff. She came to the office with a purse, a folder, and a paragraph she had written by hand. “You are printing a story about people like me,” she said. “I would like to see the text before it goes to the printer.”",
+        "The team assumed she wanted money. She wanted accuracy. “The collection of interviews you have is a drama,” she said. “It is not a poll. My name is on your list, and I am available to be interviewed properly, together with the others.”",
+        "She was right about the diagram, too: the arrows pointed upwards, and the payroll line went downwards. “Regulate that,” she said, “or your illustration will do the work of a layoff.” A mature engineer from the founding team agreed, and the young kid from the mailroom, who had expected a special bonus, went quiet.",
+        "She asked one question that the panel could not answer: who buys a house on a zero-hours contract? “The means are not the same as the opportunity,” she said. “Your film will deliver a story about insurance and copyright, and it will miss the sale of a person's whole week.” The office was open and idle that afternoon; the craze for the platform had not yet reached the third floor.",
+        "They gave her the text and the location of every print run. “I am glad you asked,” Maya said. “I am not asking,” the woman replied. “I am telling you what an appropriate interview looks like.” The interactive apparatus in the corner hummed; nobody looked at it. The paragraph she had written was better than the one they had, and they used it, including her name at the top.",
+        "For the panel, the interview was also a test of the illustration: was the diagram accurate, and did it serve the reader? A mature engineer from the founding team said the print run was too early, and that the payroll should be regulated before the sale of any subscription. “You assume a small office,” she said. “Allow me to say that a kid from the mailroom can see what a copyright does to a hire.” They were glad to be corrected, together, in a spot the apparatus could record. The purse stayed closed; the drama, at least, was now available to buy. The teacher of the evening class, who had left the industry two years later, said the business of the field was to protect the reader, and that no royalty, however effective, could engage a person who had already turned away."
+      ],
+      "chinese_paragraphs": [
+        "那个缺席的声音属于一位面容严肃的女士，她在上一次裁员中被买断。她带着一个钱包、一个文件夹和一段手写的文字来到办公室。“你们要印一个关于像我这样的人的故事，”她说，“我希望在它进印刷厂之前看到文本。”",
+        "团队以为她要钱。她要的是准确。“你们收集的访谈是一部戏剧，”她说，“不是一次民意调查。我的名字在你们的名单上，我可以和别人一起，被正式地采访。”",
+        "她关于图表的说法也是对的：箭头朝上，而工资线朝下。“去把那一条规范掉，”她说，“否则你们的插图就会干裁员的活。”创始团队一位成熟的工程师表示同意，而那个本以为会拿到特别奖金的收发室孩子沉默了。",
+        "她问了一个评审小组答不上来的问题：谁会拿着一份零时合同去买房子？“手段不等于机会，”她说，“你们的影片会讲述一个关于保险和版权的故事，却会漏掉一个人整周的出售。”那天下午办公室空敞而闲散；对那个平台的狂热还没有传到三楼。",
+        "他们把文本和每一版印刷的所在地都给了她。“我很高兴你问了，”曼雅说。“我不是在问，”女士回答，“我是在告诉你，一次恰当的采访是什么样子。”角落里那台互动装置嗡嗡作响；没有人看它。她写的那段比他们写的好，他们采用了它，包括把她的名字放在最上面。",
+        "对评审小组来说，这次采访也是对插图的检验：图表是否准确，是否对读者有用？创始团队一位成熟的工程师说印得太早了，工资名单应当在任何订阅出售之前被规范。“你假定这是一间小办公室，”她说，“请允许我说：收发室的孩子也能看出版权对一个聘用意味着什么。”他们很高兴被纠正，一起，在一个装置能记录下来的地点。钱包始终没有打开；至少这出戏剧现在可以买到了。那位晚间班的老师，两年后离开了这个行业，说这一行的本分是保护读者；而任何版税，无论多么有效，都无法吸引一个已经转身离开的人。"
+      ],
+      "exercises": [
+        {
+          "id": "CH045-Q1",
+          "type": "context",
+          "prompt": "What did the woman want before printing?",
+          "options": [
+            "to see the text",
+            "a bonus",
+            "a new diagram",
+            "an insurance policy"
+          ]
+        },
+        {
+          "id": "CH045-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “工资名单；发放的工资总额”?",
+          "options": [
+            "payroll",
+            "purse",
+            "panel",
+            "poll"
+          ]
+        },
+        {
+          "id": "CH045-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "deliver a story",
+            "deliver a purse",
+            "deliver a layoff",
+            "deliver a craze"
+          ]
+        },
+        {
+          "id": "CH045-Q4",
+          "type": "cloze",
+          "prompt": "She said the means are not the same as the ______.",
+          "options": [
+            "opportunity",
+            "insurance",
+            "royalty",
+            "printing"
+          ]
+        },
+        {
+          "id": "CH045-Q5",
+          "type": "recall",
+          "prompt": "What did the team do with the paragraph she wrote?",
+          "options": [
+            "they used it with her name",
+            "they deleted it",
+            "they sold it",
+            "they sent it to the panel"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH045-Q1",
+          "answer": "to see the text",
+          "explanation": "She asked to check the text before publication."
+        },
+        {
+          "id": "CH045-Q2",
+          "answer": "payroll",
+          "explanation": "The payroll line dropped while the arrows pointed up."
+        },
+        {
+          "id": "CH045-Q3",
+          "answer": "deliver a story",
+          "explanation": "Deliver combines with a story, a parcel, or a promise."
+        },
+        {
+          "id": "CH045-Q4",
+          "answer": "opportunity",
+          "explanation": "She distinguished the means from the chance to use them."
+        },
+        {
+          "id": "CH045-Q5",
+          "answer": "they used it with her name",
+          "explanation": "Her paragraph replaced theirs and she was named."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH045",
+    "last_event": "The third arc closed with the transferred project still running, and the fourth arc opened with a summer internship at a downtown technology company where the team promised that every claim would have an account behind it.",
+    "unresolved_consequence": "The client supervises the work, the film is unfinished, a permanent bank post has been offered to one of them, and a laid-off employee has forced her own paragraph into the text.",
+    "character_locations": {
+      "Lin Wei": "downtown internship office",
+      "Maya Chen": "downtown internship office",
+      "Grace Liu": "downtown civic-technology company"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year student and summer intern",
+      "Maya Chen": "journalism student, columnist, and summer intern",
+      "Grace Liu": "product manager and workplace mentor"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work"
+    ],
+    "first_required_event_next_chapter": "CH046 must put the rushed release in front of real users and make the team accept professional accountability for what breaks.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name"
+    ]
+  }
+}

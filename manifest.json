@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "project": "CET-4 Vocabulary Stories",
+  "updated_at": "2026-10-06T17:41:51+08:00",
+  "phase": "full_curriculum_generated_and_validated",
+  "source": {
+    "path": "D:\\files\\stroy\\data\\cet4_endict_2016_expanded.json",
+    "sha256": "50143a67069cd69c0ce1221a6f7bb554b992b3295322344907bf784afb5ff9c0",
+    "official_basis": "全国大学英语四、六级考试大纲（2016年修订版）",
+    "repository_commit": "522c17036976c34c994a1d367bd61a7d9fa495d9"
+  },
+  "protected_source_hashes": {
+    "vocabulary_master.csv": "7def4da8730eb4fb",
+    "curriculum_plan.csv": "16193b11d7ddb59f",
+    "review_schedule.csv": "634c4e6eba0f9314",
+    "character_guide.md": "37a9f07d3f969af7",
+    "story_timeline.md": "477a8be8f951c6f4"
+  },
+  "protected_source_hashes_note": "16-character prefixes; full SHA-256 digests are in reports/source_provenance.json",
+  "metadata": {
+    "source_sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "exact_matches": 6127,
+    "with_chinese_meaning": 6127,
+    "with_phonetic": 6079,
+    "with_inferred_pos": 6086,
+    "unresolved_pos": 41,
+    "missing_phonetic": 48
+  },
+  "counts": {
+    "unique_targets": 6127,
+    "planned_articles": 137,
+    "generated_articles": 137,
+    "final_generated_articles": 134,
+    "preserved_sample_articles": 3,
+    "committed_batches": 34,
+    "final_verified_coverage": 6127,
+    "final_needs_revision": 0,
+    "final_uncovered": 0,
+    "review_schedule_rows": 36762,
+    "contextual_review_assignments": 2448,
+    "contextual_review_verified": 2448,
+    "story_pdf_pages": 501,
+    "exercise_pdf_pages": 137,
+    "answer_pdf_pages": 20,
+    "pytest_passed": 94,
+    "pytest_failed": 0,
+    "audio_files": 137
+  },
+  "completed_steps": [
+    "environment_inspected",
+    "vocabulary_source_verified_and_imported",
+    "metadata_enriched_and_validated",
+    "curriculum_allocated",
+    "relative_review_schedule_generated",
+    "three_sample_chapters_generated",
+    "sample_text_coverage_verified",
+    "sample_pdfs_generated",
+    "sample_pdf_programmatic_checks_passed",
+    "sample_pdf_visual_checks_passed",
+    "sample_layout_repaired_and_revalidated",
+    "pipeline_ported_into_real_project",
+    "chapters_CH002_CH137_generated_in_34_validated_batches",
+    "per_batch_coverage_and_continuity_validated",
+    "manuscript_assembled",
+    "vocabulary_coverage_csv_written",
+    "three_final_pdfs_generated",
+    "programmatic_pdf_qa_passed",
+    "visual_contact_sheet_inspection_performed",
+    "chinese_translation_completed_for_all_137_chapters",
+    "arc_carry_over_sentences_added_to_19_arc_edges",
+    "notdef_box_scan_is_zero_on_all_three_volumes"
+  ],
+  "blocked_steps": [],
+  "unresolved_human_review": {
+    "human_semantic_review_completed": false,
+    "unresolved_part_of_speech": 41,
+    "missing_phonetic": 48,
+    "protected_rows_flagged_needs_review": 6127,
+    "note": "Every protected vocabulary row carries needs_review=yes, so that flag is a global marker rather than a per-item triage. No human semantic review of the generated stories has been performed, and none is claimed."
+  },
+  "open_defect": null,
+  "chinese_translation": {
+    "complete": true,
+    "criterion": "every paragraph >= 1.2 CJK characters per English word (faithful renderings in this corpus: median 1.48, 25th percentile 1.36)",
+    "thin_paragraphs_before": 113,
+    "thin_paragraphs_after": 0,
+    "paragraphs_rewritten": 113,
+    "residual_sentence_count_gaps": 10,
+    "residual_note": "The sentence-gap metric cannot distinguish a dropped sentence from a legitimate merge, in which Chinese renders two English sentences as one. All 10 residual gaps were inspected by eye and are merges with the content present."
+  },
+  "arc_edges": {
+    "carry_over_sentences_added": 19,
+    "openers": 9,
+    "closers": 10,
+    "note": "Each arc opener now carries an in-world sentence referencing the previous arc's outcome, and each arc closer an echo of its theme. CH001 is the first chapter and needs no recap. CH137 has no bridge successor, so its closing line states that fact."
+  },
+  "print_test": {
+    "physical_print_test_performed": false,
+    "note": "No physical print test occurred. PDF checks are programmatic plus sampled visual inspection of rendered contact sheets."
+  },
+  "glyph_coverage": {
+    "checked": true,
+    "tool": "build/notdef_scan.py (authoritative); build/glyph_qa.py (source-side)",
+    "test": "tests/test_pdf_glyphs.py; tests/test_glyph_coverage.py",
+    "boxes_found_and_fixed": 6000,
+    "defect_1": "4540 phonetic rows printed as .notdef boxes because the vocabulary table drew IPA with SimHei, which lacks 15 of 19 IPA characters; lemmas and phonetics now use Arial",
+    "defect_2": "548 boxes: the Chinese heading drawn with Arial Bold via styles['section']; reportlab does not fall back between fonts, so Chinese in a Latin-styled paragraph draws boxes",
+    "defect_3": "744 boxes: Chinese meanings quoted inside exercise prompts drawn with Arial via styles['question']",
+    "defect_4": "CH088 Chinese paragraph 2 contained two U+200B zero-width spaces",
+    "fix": "cet4_story.pdf_builder.with_cjk_font() wraps CJK runs in <font name=\"CETChinese\"> for any Latin-styled paragraph; IPA and lemmas are tagged CETEnglish (Arial)",
+    "current_state": "0 notdef boxes in all three volumes, verified by glyph id 0 in the PDF text trace",
+    "note": "The U+FFFD extracted-text check cannot detect this class at all: the PDF stores the correct character and only the glyph is missing. A source-side cmap check passed 1292 of the boxes because it assumed Latin text is always drawn with a Latin font. The working detector was validated against a known-bad file first (8452 boxes found there).",
+    "defect_5": "168 boxes in the sample volumes: build-sample-pdfs uses a near-duplicate renderer (sample_builder.py) that had its own copies of the IPA, Chinese-heading and exercise-prompt defects; found only by scanning all 417 rendered PDFs rather than the three root volumes",
+    "rendered_pdf_sets_verified": {
+      "root_deliverables": 3,
+      "build_preview": 414,
+      "build_samples": 3,
+      "total": 420,
+      "boxes": 0,
+      "characters_drawn": 3579760
+    },
+    "excluded": "build/qa/stories-baseline.pdf is the pre-fix file kept to validate the detector; it contains 8452 boxes deliberately",
+    "shared_helper": "cet4_story/pdf_text.py::with_cjk_font, imported by both pdf_builder and sample_builder (importing it from pdf_builder created a circular import that made build-sample-pdfs a silent no-op)"
+  },
+  "next_step": "Curriculum generation, validation, bilingual completion, arc carry-over sentences and all automated QA are complete. Remaining work is human semantic review and an optional physical print test; no further automated generation step is pending.",
+  "audio": {
+    "files": 137,
+    "location": "build/audio/CH001.mp3 .. CH137.mp3",
+    "language": "English story text only; no Chinese voice is installed on this machine",
+    "voice": "Microsoft Zira Desktop (en-US, offline Windows SAPI)",
+    "rate": -2,
+    "measured_median_wpm": 138,
+    "total_duration_hours": 6.43,
+    "total_bytes": 151247000,
+    "format": "MP3 mono 22050 Hz ~52 kb/s, tagged title/album/artist/track",
+    "manifest": "build/audio/audio_manifest.json",
+    "generator": "build/make_audio.py",
+    "verification": "each file checked at generation time for presence, duration consistent with its word count (catches truncated synthesis), and a mid-file slice above the silence threshold; set ranges 116-153 wpm and -21.6 to -19.4 dB",
+    "limitation": "SAPI is synthetic, not neural. A neural voice would sound more natural but needs a network round trip per file."
+  }
+}

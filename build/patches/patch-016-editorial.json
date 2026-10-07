@@ -1,0 +1,59 @@
+{
+  "batch-CH042-CH045": {
+    "CH042": [
+      {
+        "paragraph": 5,
+        "english_replace": [
+          {
+            "old": "“Shit,” the broker said, when the final total appeared",
+            "new": "“Well,” the broker said, when the final total appeared"
+          }
+        ],
+        "chinese_replace": [
+          {
+            "old": "“见鬼，”当最终数字出现在屏幕上时，经纪人说",
+            "new": "“好吧，”当最终数字出现在屏幕上时，经纪人说"
+          }
+        ]
+      }
+    ]
+  },
+  "batch-CH055-CH058": {
+    "CH058": [
+      {
+        "paragraph": 5,
+        "english_replace": [
+          {
+            "old": "I must say that we are still far from the offer",
+            "new": "It must be said that they were still far from the offer"
+          }
+        ],
+        "chinese_replace": [
+          {
+            "old": "我必须说我们离那份报价还很远",
+            "new": "必须说，他们离那份报价还很远"
+          }
+        ]
+      }
+    ]
+  },
+  "batch-CH059-CH062": {
+    "CH062": [
+      {
+        "paragraph": 5,
+        "english_replace": [
+          {
+            "old": "“I am thankful for the small ones,” Maya said.",
+            "new": "“Be thankful for the small ones,” Maya said."
+          }
+        ],
+        "chinese_replace": [
+          {
+            "old": "“我为这些小东西感到感激，”曼雅说",
+            "new": "“要为这些小东西感到感激，”曼雅说"
+          }
+        ]
+      }
+    ]
+  }
+}

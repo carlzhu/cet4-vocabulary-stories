@@ -1,0 +1,1377 @@
+{
+  "voice": "Microsoft Zira Desktop",
+  "rate": -2,
+  "paragraph_pause_ms": 700,
+  "chapters": [
+    {
+      "chapter_id": "CH001",
+      "title": "New Ground: A Signal",
+      "words": 401,
+      "seconds": 195.34,
+      "words_per_minute": 123.2,
+      "bytes": 1320221,
+      "sha256": "56901dccaa6ce05aaa8ea7071268c10161457a6ae58f050b69c7f01ba02b884c",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH002",
+      "title": "New Ground: The First Promise",
+      "words": 449,
+      "seconds": 206.06,
+      "words_per_minute": 130.7,
+      "bytes": 1347670,
+      "sha256": "7fb6e3e0eb4ef3a800f96588cb162a903946a5e186382430f7d26cbaa792a05c",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH003",
+      "title": "New Ground: A Missing Voice",
+      "words": 436,
+      "seconds": 189.05,
+      "words_per_minute": 138.4,
+      "bytes": 1251169,
+      "sha256": "1d646d00b1e2d41dadbb4de55699af9d10227aef4adc38aeb2e127887cce3872",
+      "mid_slice_mean_db": -20.1
+    },
+    {
+      "chapter_id": "CH004",
+      "title": "New Ground: Evidence on the Table",
+      "words": 449,
+      "seconds": 204.48,
+      "words_per_minute": 131.7,
+      "bytes": 1353102,
+      "sha256": "78ceb4da61c61aeb3e3fc06a0f93b41ba6c266b055d85565e66796ae9a2de2ef",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH005",
+      "title": "New Ground: The Trial Run",
+      "words": 420,
+      "seconds": 182.0,
+      "words_per_minute": 138.5,
+      "bytes": 1237094,
+      "sha256": "166a66aee3881d87facfdc2cadab97c0777e52d644ed4cdcc5f8d0c70e466b5f",
+      "mid_slice_mean_db": -19.6
+    },
+    {
+      "chapter_id": "CH006",
+      "title": "New Ground: Pressure Builds",
+      "words": 446,
+      "seconds": 213.14,
+      "words_per_minute": 125.6,
+      "bytes": 1360193,
+      "sha256": "264c818ebcf52782008b90bffbd2790db2fad63c2688dea41fe0cd3c51d524e1",
+      "mid_slice_mean_db": -19.6
+    },
+    {
+      "chapter_id": "CH007",
+      "title": "New Ground: The Disagreement",
+      "words": 433,
+      "seconds": 193.49,
+      "words_per_minute": 134.3,
+      "bytes": 1291021,
+      "sha256": "0d57704ffc2f15028899f1a52687e1bfef475af3668fb468b74b26fb38675922",
+      "mid_slice_mean_db": -20.1
+    },
+    {
+      "chapter_id": "CH008",
+      "title": "New Ground: What the Numbers Hide",
+      "words": 417,
+      "seconds": 194.23,
+      "words_per_minute": 128.8,
+      "bytes": 1232234,
+      "sha256": "09442ce5f3e73e34fb25492fce6d6f5ed7e8aecb26695d297ea44081a616ab8a",
+      "mid_slice_mean_db": -21.1
+    },
+    {
+      "chapter_id": "CH009",
+      "title": "New Ground: A Better Question",
+      "words": 361,
+      "seconds": 167.87,
+      "words_per_minute": 129.0,
+      "bytes": 1051441,
+      "sha256": "fa2c2bf5b9f03af71eb23516b4c2ddec8cfd40c4fa0a4c9af991bbf11b3d2604",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH010",
+      "title": "New Ground: The Second Attempt",
+      "words": 427,
+      "seconds": 190.7,
+      "words_per_minute": 134.3,
+      "bytes": 1247269,
+      "sha256": "2fefd9d63d41b8d987b0b37fe4f297ec4843bff741b25d869f4a411e8278a5f0",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH011",
+      "title": "New Ground: Outside Pressure",
+      "words": 449,
+      "seconds": 206.81,
+      "words_per_minute": 130.3,
+      "bytes": 1325046,
+      "sha256": "08b5ace77c0a8573bb71e398e4cbea980cdc22f1947b77b53070a26915969d11",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH012",
+      "title": "New Ground: The Decision",
+      "words": 376,
+      "seconds": 170.48,
+      "words_per_minute": 132.3,
+      "bytes": 1101050,
+      "sha256": "4b5bfaf5c4b721871cd7acdbda1e191a82015a05b0c1e69abd4aaeaef2d77ef1",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH013",
+      "title": "New Ground: Consequences",
+      "words": 354,
+      "seconds": 155.85,
+      "words_per_minute": 136.3,
+      "bytes": 996253,
+      "sha256": "75b36d55f645b97b5e2b33406e437ad22215119998cdaa7d6dcbcb7eca9d7bbd",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH014",
+      "title": "New Ground: The Bridge Forward",
+      "words": 440,
+      "seconds": 195.96,
+      "words_per_minute": 134.7,
+      "bytes": 1293513,
+      "sha256": "aa751d1e85c8564d8c5e99b1a1c2bd87ae217ac6b6f2609d92f279abc87cfa82",
+      "mid_slice_mean_db": -19.8
+    },
+    {
+      "chapter_id": "CH015",
+      "title": "Learning How to Learn: A Signal",
+      "words": 429,
+      "seconds": 191.41,
+      "words_per_minute": 134.5,
+      "bytes": 1248096,
+      "sha256": "30f2954327065e64404365efd91efe8ff9ce32bb983b0fce505c3a77ad7c2793",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH016",
+      "title": "Learning How to Learn: The First Promise",
+      "words": 350,
+      "seconds": 161.88,
+      "words_per_minute": 129.7,
+      "bytes": 1064832,
+      "sha256": "9f33cbcd2a0f363ed2460d7518035e8ceef4d7fff6a5af7064826ad1c5abb5df",
+      "mid_slice_mean_db": -20.1
+    },
+    {
+      "chapter_id": "CH017",
+      "title": "Learning How to Learn: A Missing Voice",
+      "words": 417,
+      "seconds": 181.61,
+      "words_per_minute": 137.8,
+      "bytes": 1195788,
+      "sha256": "83675dd76afc5e75d0cb04618780ca7cf6d0728dbd65844a93cbc4bf5e4d7cfe",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH018",
+      "title": "Learning How to Learn: Evidence on the Table",
+      "words": 410,
+      "seconds": 198.08,
+      "words_per_minute": 124.2,
+      "bytes": 1254838,
+      "sha256": "b1e0451e034f39d661c07ace96dcf0cb8a6a52222953d6b2ff44448a7a8d04f7",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH019",
+      "title": "Learning How to Learn: The Trial Run",
+      "words": 447,
+      "seconds": 215.68,
+      "words_per_minute": 124.4,
+      "bytes": 1365634,
+      "sha256": "5855bc6c336b2345635f7f5939ac248efb79dcf80843698f120d1aa814528fb5",
+      "mid_slice_mean_db": -21.2
+    },
+    {
+      "chapter_id": "CH020",
+      "title": "Learning How to Learn: Pressure Builds",
+      "words": 361,
+      "seconds": 164.52,
+      "words_per_minute": 131.7,
+      "bytes": 1061947,
+      "sha256": "c718cf0f1a268310915cb0fe74be48af7a566dd7bb684fc06c0301ab3386c32c",
+      "mid_slice_mean_db": -20.2
+    },
+    {
+      "chapter_id": "CH021",
+      "title": "Learning How to Learn: The Disagreement",
+      "words": 391,
+      "seconds": 189.67,
+      "words_per_minute": 123.7,
+      "bytes": 1188331,
+      "sha256": "8b18a6beb33f22a54e6bc914ba71ed140c9a342ce5aa45698cfb65988a772539",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH022",
+      "title": "Learning How to Learn: What the Numbers Hide",
+      "words": 377,
+      "seconds": 173.38,
+      "words_per_minute": 130.5,
+      "bytes": 1120195,
+      "sha256": "7a2dcfe7b3c3281fcc835b6133dd59fe35e4fd78604290d4d92980c2428b8e4c",
+      "mid_slice_mean_db": -20.9
+    },
+    {
+      "chapter_id": "CH023",
+      "title": "Learning How to Learn: A Better Question",
+      "words": 351,
+      "seconds": 157.12,
+      "words_per_minute": 134.0,
+      "bytes": 1000118,
+      "sha256": "9d32f9950d833b1253db56308f90ee31aee7fa0a8e265da9ff54b6faae90a538",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH024",
+      "title": "Learning How to Learn: The Second Attempt",
+      "words": 359,
+      "seconds": 165.06,
+      "words_per_minute": 130.5,
+      "bytes": 1062944,
+      "sha256": "0f7b2dfae76aed2136da07ea26412641ca3773151b05a62a7ab2273c9ba1a262",
+      "mid_slice_mean_db": -20.1
+    },
+    {
+      "chapter_id": "CH025",
+      "title": "Learning How to Learn: Outside Pressure",
+      "words": 377,
+      "seconds": 176.42,
+      "words_per_minute": 128.2,
+      "bytes": 1139341,
+      "sha256": "814fa8a60cb765a193443db1767aef9cb0d5e94fe81b490132d0e7b27e196013",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH026",
+      "title": "Learning How to Learn: The Decision",
+      "words": 399,
+      "seconds": 173.82,
+      "words_per_minute": 137.7,
+      "bytes": 1111348,
+      "sha256": "ff671dab28b0882faf330c93a5ddc132e84f86b560e9e17a173f4887129195e8",
+      "mid_slice_mean_db": -21.1
+    },
+    {
+      "chapter_id": "CH027",
+      "title": "Learning How to Learn: Consequences",
+      "words": 365,
+      "seconds": 161.37,
+      "words_per_minute": 135.7,
+      "bytes": 1043142,
+      "sha256": "2e6aa417451de6503e4afd21bf62e34e1ced2bca6678eec1e24eb06ee5191832",
+      "mid_slice_mean_db": -19.9
+    },
+    {
+      "chapter_id": "CH028",
+      "title": "Learning How to Learn: The Bridge Forward",
+      "words": 433,
+      "seconds": 193.13,
+      "words_per_minute": 134.5,
+      "bytes": 1249662,
+      "sha256": "6d2cc6d2ca8c9e85cf02d62375b1e6d79dcad835ba942cba91fd2ed07b8f7d8d",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH029",
+      "title": "Promises and Pressure: A Signal",
+      "words": 413,
+      "seconds": 174.43,
+      "words_per_minute": 142.1,
+      "bytes": 1118061,
+      "sha256": "101c17024d153a19715838ddc39194a6096c14040f7e87a52edd24363933c74a",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH030",
+      "title": "Promises and Pressure: The First Promise",
+      "words": 452,
+      "seconds": 195.61,
+      "words_per_minute": 138.6,
+      "bytes": 1278800,
+      "sha256": "bd3f8d411b472760ce4145baf720c518bf9887296d59b9d8244b076d0405e05d",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH031",
+      "title": "Promises and Pressure: A Missing Voice",
+      "words": 439,
+      "seconds": 192.97,
+      "words_per_minute": 136.5,
+      "bytes": 1238101,
+      "sha256": "cec938e65a82270c07625c5e79c538e9f93fe4ba395ee767311100a521e609a2",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH032",
+      "title": "Promises and Pressure: Evidence on the Table",
+      "words": 360,
+      "seconds": 160.87,
+      "words_per_minute": 134.3,
+      "bytes": 1044626,
+      "sha256": "a3183bdfbdad8a865862a550a8ecb2a52570709b09370fce936551bf7ced2a96",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH033",
+      "title": "Promises and Pressure: The Trial Run",
+      "words": 415,
+      "seconds": 176.72,
+      "words_per_minute": 140.9,
+      "bytes": 1132069,
+      "sha256": "2a281c1eb5f98387383863f6fdd11ed3582ffdc4a06d134df69e1367396cacf0",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH034",
+      "title": "Promises and Pressure: Pressure Builds",
+      "words": 432,
+      "seconds": 182.79,
+      "words_per_minute": 141.8,
+      "bytes": 1156540,
+      "sha256": "629a2cd8ac0f79ca53488acb4f89f0a47b5a9536856935fced1e888ad14c6b26",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH035",
+      "title": "Promises and Pressure: The Disagreement",
+      "words": 377,
+      "seconds": 184.83,
+      "words_per_minute": 122.4,
+      "bytes": 1108382,
+      "sha256": "a1de487f3ddf424d59680ec3fb125b677943256e49fb97740b4ef9437ded87dc",
+      "mid_slice_mean_db": -20.9
+    },
+    {
+      "chapter_id": "CH036",
+      "title": "Promises and Pressure: What the Numbers Hide",
+      "words": 363,
+      "seconds": 158.72,
+      "words_per_minute": 137.2,
+      "bytes": 1026127,
+      "sha256": "d149bf0799d167d6c7aa34b74d3395fbbe8528166ad6787b23713dd273021c4d",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH037",
+      "title": "Promises and Pressure: A Better Question",
+      "words": 396,
+      "seconds": 173.99,
+      "words_per_minute": 136.6,
+      "bytes": 1084424,
+      "sha256": "be66d2361e9b537f1b683f65bf3d446a08b8b349b1b32ce8099f59e65ea6fec6",
+      "mid_slice_mean_db": -21.0
+    },
+    {
+      "chapter_id": "CH038",
+      "title": "Promises and Pressure: The Second Attempt",
+      "words": 357,
+      "seconds": 153.32,
+      "words_per_minute": 139.7,
+      "bytes": 987600,
+      "sha256": "f3ff9b70f226f9de9422b1d6779028793a07f1d3adb208d505798056c2a9fa36",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH039",
+      "title": "Promises and Pressure: Outside Pressure",
+      "words": 375,
+      "seconds": 164.74,
+      "words_per_minute": 136.6,
+      "bytes": 1082315,
+      "sha256": "6af1cd7d06298fee405335b04a49705c6c74dd09144bab5c70bd2f75a0ce28e7",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH040",
+      "title": "Promises and Pressure: The Decision",
+      "words": 351,
+      "seconds": 155.65,
+      "words_per_minute": 135.3,
+      "bytes": 977771,
+      "sha256": "c5a1ba70e3311740768892d58df7e2c1f1dafe6e146f33bd880365da4bc99024",
+      "mid_slice_mean_db": -21.3
+    },
+    {
+      "chapter_id": "CH041",
+      "title": "Promises and Pressure: Consequences",
+      "words": 364,
+      "seconds": 149.36,
+      "words_per_minute": 146.2,
+      "bytes": 984528,
+      "sha256": "b73f1c873ff11658366ffcb4a62f8991af6b4f2fb631a7ccc798f4ffe8dde9b7",
+      "mid_slice_mean_db": -21.5
+    },
+    {
+      "chapter_id": "CH042",
+      "title": "Promises and Pressure: The Bridge Forward",
+      "words": 381,
+      "seconds": 175.98,
+      "words_per_minute": 129.9,
+      "bytes": 1117677,
+      "sha256": "9e152e4d875baf4277ddd2d37f46796451bab358a7df890aee76bb5b12afef90",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH043",
+      "title": "The First Real Deadline: A Signal",
+      "words": 389,
+      "seconds": 182.75,
+      "words_per_minute": 127.7,
+      "bytes": 1173456,
+      "sha256": "030f483323a11b128d422fe4ce606190e3a67443d5491b0429aee5b3f8f950d5",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH044",
+      "title": "The First Real Deadline: The First Promise",
+      "words": 388,
+      "seconds": 170.71,
+      "words_per_minute": 136.4,
+      "bytes": 1098322,
+      "sha256": "5cdb11c8654aa0d683b358eb273efe79d27111449b5be18ddcd72124164bfdce",
+      "mid_slice_mean_db": -20.9
+    },
+    {
+      "chapter_id": "CH045",
+      "title": "The First Real Deadline: A Missing Voice",
+      "words": 440,
+      "seconds": 194.71,
+      "words_per_minute": 135.6,
+      "bytes": 1247854,
+      "sha256": "9128ffa8612500b10cc97b5fcfc213a003fa4040e94c939d5ed1eaad3e7e48af",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH046",
+      "title": "The First Real Deadline: Evidence on the Table",
+      "words": 391,
+      "seconds": 170.92,
+      "words_per_minute": 137.3,
+      "bytes": 1123658,
+      "sha256": "01d9237fb5d1e35c1d72110dae58f475a15dde39a354720b4b4956a9cd9604d0",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH047",
+      "title": "The First Real Deadline: The Trial Run",
+      "words": 354,
+      "seconds": 159.84,
+      "words_per_minute": 132.9,
+      "bytes": 1037004,
+      "sha256": "3ecb1b8fd410c4ad2fa3a6feea81a78e7a80d7289400f306dbb6fad3b0bf938c",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH048",
+      "title": "The First Real Deadline: Pressure Builds",
+      "words": 351,
+      "seconds": 155.5,
+      "words_per_minute": 135.4,
+      "bytes": 983758,
+      "sha256": "49edc55e94db231d41de107fdac99a997badc6299ebbdb8295767d70a1b6c460",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH049",
+      "title": "The First Real Deadline: The Disagreement",
+      "words": 369,
+      "seconds": 171.77,
+      "words_per_minute": 128.9,
+      "bytes": 1107980,
+      "sha256": "81f02d3aceab791b8cb1ae93439083e584688550e12c56086cdd69cfae2a927a",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH050",
+      "title": "The First Real Deadline: What the Numbers Hide",
+      "words": 399,
+      "seconds": 206.6,
+      "words_per_minute": 115.9,
+      "bytes": 1428914,
+      "sha256": "d595eceb8e91de59946127d40f8f3bf9cde3692cbcdd6eb80fed3969d6528be3",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH051",
+      "title": "The First Real Deadline: A Better Question",
+      "words": 355,
+      "seconds": 154.53,
+      "words_per_minute": 137.8,
+      "bytes": 996212,
+      "sha256": "b20e8d3faff351ad90b45a69047a40986791122449e46b9849523d365006b791",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH052",
+      "title": "The First Real Deadline: The Second Attempt",
+      "words": 368,
+      "seconds": 157.06,
+      "words_per_minute": 140.6,
+      "bytes": 1022338,
+      "sha256": "644dcd56ed637f9ff4db8faea984dcd43082633e086095f67d0e5ed9ff1a360b",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH053",
+      "title": "The First Real Deadline: Outside Pressure",
+      "words": 354,
+      "seconds": 160.88,
+      "words_per_minute": 132.0,
+      "bytes": 1060404,
+      "sha256": "b2c38d1c519a3d6f4596223bf19e517f469513af75fd060bbc23252f20b684f8",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH054",
+      "title": "The First Real Deadline: The Decision",
+      "words": 357,
+      "seconds": 158.05,
+      "words_per_minute": 135.5,
+      "bytes": 1045657,
+      "sha256": "565890c80afe27812156d5ffaba25278b325d77b32b9eec1aa3d4f3ab7e0e69c",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH055",
+      "title": "The First Real Deadline: Consequences",
+      "words": 350,
+      "seconds": 151.0,
+      "words_per_minute": 139.1,
+      "bytes": 993477,
+      "sha256": "45dbc30ddfeb86d739cb4d0814c61c25d7512096dd89dd55ea6d704ee300746c",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH056",
+      "title": "The First Real Deadline: The Bridge Forward",
+      "words": 371,
+      "seconds": 158.89,
+      "words_per_minute": 140.1,
+      "bytes": 1042247,
+      "sha256": "af9ed60d1b8fe9d16a1dabdcbfabd50fd792122f7fdf532eb9f2f57c0657bdb9",
+      "mid_slice_mean_db": -19.9
+    },
+    {
+      "chapter_id": "CH057",
+      "title": "Across Borders: A Signal",
+      "words": 374,
+      "seconds": 157.12,
+      "words_per_minute": 142.8,
+      "bytes": 1009529,
+      "sha256": "708383a5cb2079b6f20c003114eaabb5b91ca8d8f23173e1d41278334d7c3059",
+      "mid_slice_mean_db": -19.8
+    },
+    {
+      "chapter_id": "CH058",
+      "title": "Across Borders: The First Promise",
+      "words": 358,
+      "seconds": 157.39,
+      "words_per_minute": 136.5,
+      "bytes": 1026729,
+      "sha256": "dd60d0f65a68a9938c75192780bd711a0e16f2acb78296a8513c7e18fd9ecb9a",
+      "mid_slice_mean_db": -21.0
+    },
+    {
+      "chapter_id": "CH059",
+      "title": "Across Borders: A Missing Voice",
+      "words": 402,
+      "seconds": 174.23,
+      "words_per_minute": 138.4,
+      "bytes": 1139586,
+      "sha256": "6bf615f2e02b434a34c2371dbffab1cc8174e3ca69c026d187e6693891390d73",
+      "mid_slice_mean_db": -21.0
+    },
+    {
+      "chapter_id": "CH060",
+      "title": "Across Borders: Evidence on the Table",
+      "words": 377,
+      "seconds": 163.19,
+      "words_per_minute": 138.6,
+      "bytes": 1057225,
+      "sha256": "2edc893ccc32a2ecc28f753cb1d7ac7aa390aabc7dd491b12dda601ffbd9a58a",
+      "mid_slice_mean_db": -21.2
+    },
+    {
+      "chapter_id": "CH061",
+      "title": "Across Borders: The Trial Run",
+      "words": 366,
+      "seconds": 169.01,
+      "words_per_minute": 129.9,
+      "bytes": 1101677,
+      "sha256": "e466173e2669dbfae8625adb559442866fb451c2f5a5cdfed7a4f6d8fb0c7997",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH062",
+      "title": "Across Borders: Pressure Builds",
+      "words": 410,
+      "seconds": 178.05,
+      "words_per_minute": 138.2,
+      "bytes": 1160920,
+      "sha256": "cdf01a715edf689ab68e8fd7c1265f404628354f976bef9e06e9177caf61f5c9",
+      "mid_slice_mean_db": -20.0
+    },
+    {
+      "chapter_id": "CH063",
+      "title": "Across Borders: The Disagreement",
+      "words": 356,
+      "seconds": 155.6,
+      "words_per_minute": 137.3,
+      "bytes": 1001391,
+      "sha256": "ba3c94b306507ff5a66409bcca19666d4a1ca4414adaaf9cf999b128a73ca6d3",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH064",
+      "title": "Across Borders: What the Numbers Hide",
+      "words": 379,
+      "seconds": 167.44,
+      "words_per_minute": 135.8,
+      "bytes": 1105730,
+      "sha256": "26440a590a8803c2c79db3da0810eef64c6c0d6ebdb95aceaa76c3cd7d554850",
+      "mid_slice_mean_db": -20.2
+    },
+    {
+      "chapter_id": "CH065",
+      "title": "Across Borders: A Better Question",
+      "words": 380,
+      "seconds": 166.94,
+      "words_per_minute": 136.6,
+      "bytes": 1081022,
+      "sha256": "aded1128daa3aa86d5843dfab140f54128aa7b3e4ff5ed47949db0b037cad0be",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH066",
+      "title": "Across Borders: The Second Attempt",
+      "words": 382,
+      "seconds": 158.16,
+      "words_per_minute": 144.9,
+      "bytes": 1034197,
+      "sha256": "a964be4b9b6e88c452fbb901f52b0a22aaf590bf3261efe93b05316f473b6134",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH067",
+      "title": "Across Borders: Outside Pressure",
+      "words": 367,
+      "seconds": 153.34,
+      "words_per_minute": 143.6,
+      "bytes": 984977,
+      "sha256": "4737e062773b14212890dc767e099af3327ded0e33e01f99139bee90c9367854",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH068",
+      "title": "Across Borders: The Decision",
+      "words": 352,
+      "seconds": 155.41,
+      "words_per_minute": 135.9,
+      "bytes": 1013708,
+      "sha256": "6dd950ef1c107fbad57f31b33254eef4c4b848c060fe95ee95f17f4e3ffe230f",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH069",
+      "title": "Across Borders: Consequences",
+      "words": 367,
+      "seconds": 156.07,
+      "words_per_minute": 141.1,
+      "bytes": 1033001,
+      "sha256": "5a7243d87c56aa5348db0288d66ee4623e39295b125845497b4f40a860546842",
+      "mid_slice_mean_db": -21.4
+    },
+    {
+      "chapter_id": "CH070",
+      "title": "Across Borders: The Bridge Forward",
+      "words": 401,
+      "seconds": 169.7,
+      "words_per_minute": 141.8,
+      "bytes": 1099289,
+      "sha256": "9f69b23a48ecca5794cde8f4fe4e957f0a4ea88dd3873a0b800cfbfc583c2823",
+      "mid_slice_mean_db": -19.4
+    },
+    {
+      "chapter_id": "CH071",
+      "title": "The Cost of Always Being Busy: A Signal",
+      "words": 407,
+      "seconds": 174.76,
+      "words_per_minute": 139.7,
+      "bytes": 1133815,
+      "sha256": "e20e5ccb94d8527cd95b7b7092e71044052dfae75f3a5f701fc03b8e816302b4",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH072",
+      "title": "The Cost of Always Being Busy: The First Promise",
+      "words": 364,
+      "seconds": 163.89,
+      "words_per_minute": 133.3,
+      "bytes": 1067378,
+      "sha256": "d7d019259ecffc7ae479a37aa700fde254a60f58acb805b7f95bc4e4af1f0857",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH073",
+      "title": "The Cost of Always Being Busy: A Missing Voice",
+      "words": 400,
+      "seconds": 179.42,
+      "words_per_minute": 133.8,
+      "bytes": 1174370,
+      "sha256": "2684cb847402b4f8fcb5d3c0ee89bb7731c8b922da33c1dfb8109a6abff4d478",
+      "mid_slice_mean_db": -21.6
+    },
+    {
+      "chapter_id": "CH074",
+      "title": "The Cost of Always Being Busy: Evidence on the Table",
+      "words": 400,
+      "seconds": 172.51,
+      "words_per_minute": 139.1,
+      "bytes": 1123069,
+      "sha256": "29caee2f90ba10f6a07d70f5f8f996da7addd09559dd457467ff66fd4600e21d",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH075",
+      "title": "The Cost of Always Being Busy: The Trial Run",
+      "words": 411,
+      "seconds": 170.64,
+      "words_per_minute": 144.5,
+      "bytes": 1104575,
+      "sha256": "0d45d241e5af42615ef7cbe16aad5e761416c0938a71b63a9a2bcd184b576392",
+      "mid_slice_mean_db": -20.0
+    },
+    {
+      "chapter_id": "CH076",
+      "title": "The Cost of Always Being Busy: Pressure Builds",
+      "words": 368,
+      "seconds": 162.13,
+      "words_per_minute": 136.2,
+      "bytes": 1054033,
+      "sha256": "0dc339c780628ea1db6ba936c173f81e5cb365214efbf073c1dae4235f4b46e8",
+      "mid_slice_mean_db": -21.0
+    },
+    {
+      "chapter_id": "CH077",
+      "title": "The Cost of Always Being Busy: The Disagreement",
+      "words": 410,
+      "seconds": 177.21,
+      "words_per_minute": 138.8,
+      "bytes": 1164642,
+      "sha256": "fa993b8100afe3419ae4d053222e4142a0f10139f80236b4f5b0716b05a05cb2",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH078",
+      "title": "The Cost of Always Being Busy: What the Numbers Hide",
+      "words": 426,
+      "seconds": 182.12,
+      "words_per_minute": 140.3,
+      "bytes": 1216152,
+      "sha256": "4d540a8cc51fb625c7daa3b2b812b625b078cde1da8a1a92c33f784490cb6dbe",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH079",
+      "title": "The Cost of Always Being Busy: A Better Question",
+      "words": 357,
+      "seconds": 158.0,
+      "words_per_minute": 135.6,
+      "bytes": 1033265,
+      "sha256": "6e35591834bef3e607b08380df6dc537eaf8b7dbd67657a8ea9c3a595391b6d9",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH080",
+      "title": "The Cost of Always Being Busy: The Second Attempt",
+      "words": 367,
+      "seconds": 160.74,
+      "words_per_minute": 137.0,
+      "bytes": 1077142,
+      "sha256": "e8ef0145e43854926e1356ad6cf236559e02b93ea20c6d73d433812ddfa3d403",
+      "mid_slice_mean_db": -20.1
+    },
+    {
+      "chapter_id": "CH081",
+      "title": "The Cost of Always Being Busy: Outside Pressure",
+      "words": 351,
+      "seconds": 161.04,
+      "words_per_minute": 130.8,
+      "bytes": 1045935,
+      "sha256": "36eba7aec8f5d2c554e208c304f5584a7e11f31f4bdf2acf8efa753f26810398",
+      "mid_slice_mean_db": -21.6
+    },
+    {
+      "chapter_id": "CH082",
+      "title": "The Cost of Always Being Busy: The Decision",
+      "words": 403,
+      "seconds": 168.1,
+      "words_per_minute": 143.8,
+      "bytes": 1070260,
+      "sha256": "80acf5d78c0a71c0ce5ff2729399e3b9697cfe7cbe41831ce048955f23346afa",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH083",
+      "title": "The Cost of Always Being Busy: Consequences",
+      "words": 378,
+      "seconds": 160.0,
+      "words_per_minute": 141.8,
+      "bytes": 1042152,
+      "sha256": "c9e6860648de4ce532dd199c48ecb10b57aa5969810f415e6319f824b217d585",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH084",
+      "title": "The Cost of Always Being Busy: The Bridge Forward",
+      "words": 377,
+      "seconds": 159.77,
+      "words_per_minute": 141.6,
+      "bytes": 1071258,
+      "sha256": "c95a69111a0b9c33383317f867aff32775ef91a633ddb6fe6c0c16cd9acb1939",
+      "mid_slice_mean_db": -21.0
+    },
+    {
+      "chapter_id": "CH085",
+      "title": "What the System Remembers: A Signal",
+      "words": 437,
+      "seconds": 183.84,
+      "words_per_minute": 142.6,
+      "bytes": 1213787,
+      "sha256": "c43cce52f9155642ab2c6cef229e1c658fa50d190e8d60265a07a435b8981891",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH086",
+      "title": "What the System Remembers: The First Promise",
+      "words": 398,
+      "seconds": 170.93,
+      "words_per_minute": 139.7,
+      "bytes": 1116320,
+      "sha256": "924e1c382b61c2efbef80f20bb7db4a736ac1c2501b3aa495ee643943223a5e6",
+      "mid_slice_mean_db": -21.5
+    },
+    {
+      "chapter_id": "CH087",
+      "title": "What the System Remembers: A Missing Voice",
+      "words": 352,
+      "seconds": 154.88,
+      "words_per_minute": 136.4,
+      "bytes": 1040684,
+      "sha256": "c769078c70183c94e565d74330e742a342cadad1c19a7eba8fa05ffaf46c8670",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH088",
+      "title": "What the System Remembers: Evidence on the Table",
+      "words": 358,
+      "seconds": 154.08,
+      "words_per_minute": 139.4,
+      "bytes": 1020440,
+      "sha256": "fb2a352aec80391c4db9dfd4d7e7abb94d0cc5e7577b666197951686c148c7f5",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH089",
+      "title": "What the System Remembers: The Trial Run",
+      "words": 372,
+      "seconds": 159.54,
+      "words_per_minute": 139.9,
+      "bytes": 1054567,
+      "sha256": "a869b1435c76ba8fe0087b0e59892727c292b50f1db60c56d159c5dd3ba5e2d9",
+      "mid_slice_mean_db": -19.8
+    },
+    {
+      "chapter_id": "CH090",
+      "title": "What the System Remembers: Pressure Builds",
+      "words": 371,
+      "seconds": 170.51,
+      "words_per_minute": 130.5,
+      "bytes": 1155362,
+      "sha256": "67dabeb2574f2b9e40158f3ed4a03c2c8b69eb2a0189165c51d4b3d836bc447a",
+      "mid_slice_mean_db": -19.9
+    },
+    {
+      "chapter_id": "CH091",
+      "title": "What the System Remembers: The Disagreement",
+      "words": 362,
+      "seconds": 147.77,
+      "words_per_minute": 147.0,
+      "bytes": 966621,
+      "sha256": "c677e398d833751f644a243cccbb1177eefd3157dcac679742eae9223df1e4a2",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH092",
+      "title": "What the System Remembers: What the Numbers Hide",
+      "words": 354,
+      "seconds": 148.54,
+      "words_per_minute": 143.0,
+      "bytes": 992972,
+      "sha256": "931ce2145d8f93463879023a194e08434c2856710e7e2e0528f453fc613defe5",
+      "mid_slice_mean_db": -20.1
+    },
+    {
+      "chapter_id": "CH093",
+      "title": "What the System Remembers: A Better Question",
+      "words": 381,
+      "seconds": 160.7,
+      "words_per_minute": 142.3,
+      "bytes": 1089692,
+      "sha256": "db681d330bf80375318fd9f180d55956b670e32743837cd086b10183988ce738",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH094",
+      "title": "What the System Remembers: The Second Attempt",
+      "words": 385,
+      "seconds": 166.93,
+      "words_per_minute": 138.4,
+      "bytes": 1095468,
+      "sha256": "61f851d7b56873968ea0f96f05615f358bcdedd57a83ff35f58c3515cb926185",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH095",
+      "title": "What the System Remembers: Outside Pressure",
+      "words": 362,
+      "seconds": 162.11,
+      "words_per_minute": 134.0,
+      "bytes": 1044970,
+      "sha256": "46f5523487d7d8a75b7d544b9e6961f94b81aa02f46a20613a2440fc17308f3f",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH096",
+      "title": "What the System Remembers: The Decision",
+      "words": 369,
+      "seconds": 156.37,
+      "words_per_minute": 141.6,
+      "bytes": 1018655,
+      "sha256": "64894ccdd6886e5e2e80f6a8161438db4ccdbee55ce5e84dc733b59e8f1f5fd0",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH097",
+      "title": "What the System Remembers: Consequences",
+      "words": 388,
+      "seconds": 165.64,
+      "words_per_minute": 140.5,
+      "bytes": 1080107,
+      "sha256": "dcad52e87ffbc82445820bbfd3cdf2a20b6e1025dd4f883ebc18c847d51801aa",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH098",
+      "title": "What the System Remembers: The Bridge Forward",
+      "words": 445,
+      "seconds": 188.45,
+      "words_per_minute": 141.7,
+      "bytes": 1234331,
+      "sha256": "81384ea54f00a04fbca0efc361e3192893242115594b94995c394a118461c459",
+      "mid_slice_mean_db": -21.1
+    },
+    {
+      "chapter_id": "CH099",
+      "title": "The River Answers Back: A Signal",
+      "words": 382,
+      "seconds": 164.6,
+      "words_per_minute": 139.3,
+      "bytes": 1085235,
+      "sha256": "622573ab846f73abe7d4c1c4e39e288b305dc0ae2a033eb6e0e053ce9b106dd8",
+      "mid_slice_mean_db": -19.5
+    },
+    {
+      "chapter_id": "CH100",
+      "title": "The River Answers Back: The First Promise",
+      "words": 388,
+      "seconds": 157.0,
+      "words_per_minute": 148.3,
+      "bytes": 1020358,
+      "sha256": "62cca4a6b14511ec58098917a508e1c0e0af4a5de79e3a3203a1e825297e3419",
+      "mid_slice_mean_db": -20.1
+    },
+    {
+      "chapter_id": "CH101",
+      "title": "The River Answers Back: A Missing Voice",
+      "words": 397,
+      "seconds": 167.81,
+      "words_per_minute": 141.9,
+      "bytes": 1113882,
+      "sha256": "1b08261ea068fe06a0eb0f2225f4a082368b76b7c539a455812af384511d8587",
+      "mid_slice_mean_db": -20.2
+    },
+    {
+      "chapter_id": "CH102",
+      "title": "The River Answers Back: Evidence on the Table",
+      "words": 449,
+      "seconds": 197.92,
+      "words_per_minute": 136.1,
+      "bytes": 1288025,
+      "sha256": "da44317fc118b7f597e56342f65da9ef1a7e5afbd5d223553655626a7ad808c8",
+      "mid_slice_mean_db": -19.8
+    },
+    {
+      "chapter_id": "CH103",
+      "title": "The River Answers Back: The Trial Run",
+      "words": 355,
+      "seconds": 145.03,
+      "words_per_minute": 146.9,
+      "bytes": 944553,
+      "sha256": "be8792f2f318ac6e37b2f3cd4c46c4d64ecdbaaa90c072276744742d1e2cd89e",
+      "mid_slice_mean_db": -21.0
+    },
+    {
+      "chapter_id": "CH104",
+      "title": "The River Answers Back: Pressure Builds",
+      "words": 354,
+      "seconds": 141.42,
+      "words_per_minute": 150.2,
+      "bytes": 925983,
+      "sha256": "c0d478c49b328d19aa2b9b177ab3a45b813ef88a63ae2beaea44dc19f2c5f3c3",
+      "mid_slice_mean_db": -21.0
+    },
+    {
+      "chapter_id": "CH105",
+      "title": "The River Answers Back: The Disagreement",
+      "words": 351,
+      "seconds": 143.62,
+      "words_per_minute": 146.6,
+      "bytes": 927913,
+      "sha256": "b2b614aca221bc9747b6517ade6052bdee483842bf5e69c4f8275a27c5c232f3",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH106",
+      "title": "The River Answers Back: What the Numbers Hide",
+      "words": 378,
+      "seconds": 148.28,
+      "words_per_minute": 153.0,
+      "bytes": 961620,
+      "sha256": "2f0cc2a3c6f56ee55340eccffbc98b12a79cda47d9ad25f6bedcb232d25a2a79",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH107",
+      "title": "The River Answers Back: A Better Question",
+      "words": 357,
+      "seconds": 143.44,
+      "words_per_minute": 149.3,
+      "bytes": 905794,
+      "sha256": "1d97c0ee999e24c63813966999a9bde25d6fa4a07c295916f47ec5db1560111a",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH108",
+      "title": "The River Answers Back: The Second Attempt",
+      "words": 366,
+      "seconds": 158.82,
+      "words_per_minute": 138.3,
+      "bytes": 1041432,
+      "sha256": "39237df73b2160146fa5c71176024eaafd2e6981751c4f87966c1f062df8bf62",
+      "mid_slice_mean_db": -20.1
+    },
+    {
+      "chapter_id": "CH109",
+      "title": "The River Answers Back: Outside Pressure",
+      "words": 371,
+      "seconds": 170.09,
+      "words_per_minute": 130.9,
+      "bytes": 1120962,
+      "sha256": "e75a689a038c16957c8a108b743c4ce9ad41e098611cebb5bf749b82f62b90e8",
+      "mid_slice_mean_db": -19.8
+    },
+    {
+      "chapter_id": "CH110",
+      "title": "The River Answers Back: The Decision",
+      "words": 382,
+      "seconds": 164.17,
+      "words_per_minute": 139.6,
+      "bytes": 1106098,
+      "sha256": "12f8f477ec2a3a629a01edfcb425069183a9c31238445f6becca7ad7ca506c19",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH111",
+      "title": "The River Answers Back: Consequences",
+      "words": 357,
+      "seconds": 155.9,
+      "words_per_minute": 137.4,
+      "bytes": 1011627,
+      "sha256": "106f3721482c6bf659f2293c2d716f028d7a67883f1fa08bb9470ab7fd06a9a1",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH112",
+      "title": "The River Answers Back: The Bridge Forward",
+      "words": 387,
+      "seconds": 168.06,
+      "words_per_minute": 138.2,
+      "bytes": 1113609,
+      "sha256": "5b40b8d7e4a97d36b38cd09b4625c3cb80042e4f2990087d5c40a1531d53b89a",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH113",
+      "title": "Who Pays and Who Decides: A Signal",
+      "words": 408,
+      "seconds": 174.4,
+      "words_per_minute": 140.4,
+      "bytes": 1148002,
+      "sha256": "e82e23fa632f0db7da7c2d1dd5bc7b683cc50e20b1b4e75c15914b1c5cc0a714",
+      "mid_slice_mean_db": -21.0
+    },
+    {
+      "chapter_id": "CH114",
+      "title": "Who Pays and Who Decides: The First Promise",
+      "words": 386,
+      "seconds": 169.7,
+      "words_per_minute": 136.5,
+      "bytes": 1126075,
+      "sha256": "a45a12e88ad1a7c8cbbf61c7d950d1b8535e391bbd5b730ab1f99a00db22594b",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH115",
+      "title": "Who Pays and Who Decides: A Missing Voice",
+      "words": 355,
+      "seconds": 151.9,
+      "words_per_minute": 140.2,
+      "bytes": 985836,
+      "sha256": "227895af6b069e840ce8580c7f805944a1787e5fe0d54a2a46d49ade47bec6e5",
+      "mid_slice_mean_db": -19.9
+    },
+    {
+      "chapter_id": "CH116",
+      "title": "Who Pays and Who Decides: Evidence on the Table",
+      "words": 384,
+      "seconds": 166.41,
+      "words_per_minute": 138.5,
+      "bytes": 1106682,
+      "sha256": "909bd440a129f312b8dc40ef04520d3f25e70565a4079f14ac8f0e2b467159eb",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH117",
+      "title": "Who Pays and Who Decides: The Trial Run",
+      "words": 389,
+      "seconds": 169.11,
+      "words_per_minute": 138.0,
+      "bytes": 1105917,
+      "sha256": "ef0100f7b10855a09db40ea38c7c0fd46b1fc296dd32529756cd0e31b50d6257",
+      "mid_slice_mean_db": -20.5
+    },
+    {
+      "chapter_id": "CH118",
+      "title": "Who Pays and Who Decides: Pressure Builds",
+      "words": 430,
+      "seconds": 181.86,
+      "words_per_minute": 141.9,
+      "bytes": 1190458,
+      "sha256": "4081ae83910294e5af01460b15efbbe50a529ad2921caf1950b49cf0bbae6fc8",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH119",
+      "title": "Who Pays and Who Decides: The Disagreement",
+      "words": 354,
+      "seconds": 154.57,
+      "words_per_minute": 137.4,
+      "bytes": 1031520,
+      "sha256": "4036829a240ac249a187fb20677bc779e96a2a7a29e825c5b6b8698a03031d1c",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH120",
+      "title": "Who Pays and Who Decides: What the Numbers Hide",
+      "words": 355,
+      "seconds": 151.89,
+      "words_per_minute": 140.2,
+      "bytes": 997150,
+      "sha256": "40379cc560a4b918808c027f297985000efb5cf456a88ee59a2b80c522704052",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH121",
+      "title": "Who Pays and Who Decides: A Better Question",
+      "words": 401,
+      "seconds": 174.27,
+      "words_per_minute": 138.1,
+      "bytes": 1149292,
+      "sha256": "d81f1d0ab46e4061bcf7a210412cd1075124d5a0287e51db782abfc1d2cbb7a8",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH122",
+      "title": "Who Pays and Who Decides: The Second Attempt",
+      "words": 412,
+      "seconds": 172.81,
+      "words_per_minute": 143.0,
+      "bytes": 1149727,
+      "sha256": "82ea78f594f317cc18713852a4f4d14c43144c29ea609e49ad4615943e5026dd",
+      "mid_slice_mean_db": -20.9
+    },
+    {
+      "chapter_id": "CH123",
+      "title": "Who Pays and Who Decides: Outside Pressure",
+      "words": 351,
+      "seconds": 147.85,
+      "words_per_minute": 142.4,
+      "bytes": 995832,
+      "sha256": "334678f3654edfd60b6a311811367cf0984db43a4d09894ac73180ce80dba07c",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH124",
+      "title": "Who Pays and Who Decides: The Decision",
+      "words": 354,
+      "seconds": 142.92,
+      "words_per_minute": 148.6,
+      "bytes": 953004,
+      "sha256": "ae5b62ffa885cb8284c324638c4c80c27472f37533100b4b1d5b65f4844a3800",
+      "mid_slice_mean_db": -21.4
+    },
+    {
+      "chapter_id": "CH125",
+      "title": "Who Pays and Who Decides: Consequences",
+      "words": 365,
+      "seconds": 154.1,
+      "words_per_minute": 142.1,
+      "bytes": 1025742,
+      "sha256": "164d20c49727c34b0d990ba2c157e9d393e52bea761f90fd533e8e4941162f8b",
+      "mid_slice_mean_db": -20.0
+    },
+    {
+      "chapter_id": "CH126",
+      "title": "Who Pays and Who Decides: The Bridge Forward",
+      "words": 379,
+      "seconds": 166.75,
+      "words_per_minute": 136.4,
+      "bytes": 1106318,
+      "sha256": "e88490abd7294b2cf0c9dcb855bcac2f60b105444214d85df0c19e064cf6745b",
+      "mid_slice_mean_db": -20.4
+    },
+    {
+      "chapter_id": "CH127",
+      "title": "A Choice That Has a Cost: A Signal",
+      "words": 402,
+      "seconds": 170.99,
+      "words_per_minute": 141.1,
+      "bytes": 1148426,
+      "sha256": "a924e0ae5ddbd82fb40b4af7192c3bbbacbd6df2ba0b17508be3c68a9efdc313",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH128",
+      "title": "A Choice That Has a Cost: The First Promise",
+      "words": 365,
+      "seconds": 153.17,
+      "words_per_minute": 143.0,
+      "bytes": 1004545,
+      "sha256": "0525c4429108d3569a1c1e59256a6071f1a77a2ecfba46aa3a63b5f567d816e7",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH129",
+      "title": "A Choice That Has a Cost: A Missing Voice",
+      "words": 387,
+      "seconds": 169.07,
+      "words_per_minute": 137.3,
+      "bytes": 1105295,
+      "sha256": "064d17c9c59282a2b8ec06a5a9d39710d369a8a5cd172c30891c530e5e80a0a3",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH130",
+      "title": "A Choice That Has a Cost: Evidence on the Table",
+      "words": 371,
+      "seconds": 157.42,
+      "words_per_minute": 141.4,
+      "bytes": 1032330,
+      "sha256": "2f02053b0c504148c61076bf60ea2d3f4cbbef5efef2354cbb663e16066ca7fc",
+      "mid_slice_mean_db": -21.2
+    },
+    {
+      "chapter_id": "CH131",
+      "title": "A Choice That Has a Cost: The Trial Run",
+      "words": 361,
+      "seconds": 159.63,
+      "words_per_minute": 135.7,
+      "bytes": 1043818,
+      "sha256": "aba6fe3ab3c90de52a60d57fac70b1e1624a19024979bfb436cb70f9fb7f3065",
+      "mid_slice_mean_db": -20.6
+    },
+    {
+      "chapter_id": "CH132",
+      "title": "A Choice That Has a Cost: Pressure Builds",
+      "words": 388,
+      "seconds": 160.83,
+      "words_per_minute": 144.7,
+      "bytes": 1060029,
+      "sha256": "89f53fd54476bc31fe247e267967c42c5fffef11eac9f545e40c4a92d7e47cfb",
+      "mid_slice_mean_db": -21.4
+    },
+    {
+      "chapter_id": "CH133",
+      "title": "A Choice That Has a Cost: The Disagreement",
+      "words": 380,
+      "seconds": 167.53,
+      "words_per_minute": 136.1,
+      "bytes": 1120161,
+      "sha256": "7bef95d68aa017ed4daf7ff1a3d9ae6d549545751c4802421b35b7fad04eb2fc",
+      "mid_slice_mean_db": -20.0
+    },
+    {
+      "chapter_id": "CH134",
+      "title": "A Choice That Has a Cost: What the Numbers Hide",
+      "words": 393,
+      "seconds": 173.56,
+      "words_per_minute": 135.9,
+      "bytes": 1159610,
+      "sha256": "e53aeff9be195606352ff230edf5d25f459d02266b578941b9e28304d38df1a2",
+      "mid_slice_mean_db": -20.7
+    },
+    {
+      "chapter_id": "CH135",
+      "title": "A Choice That Has a Cost: A Better Question",
+      "words": 370,
+      "seconds": 149.04,
+      "words_per_minute": 149.0,
+      "bytes": 991095,
+      "sha256": "6d8baefb688a7c2a511dcfd22d1aa83759f739581b1d56f78b37a1657577084b",
+      "mid_slice_mean_db": -20.3
+    },
+    {
+      "chapter_id": "CH136",
+      "title": "A Choice That Has a Cost: The Second Attempt",
+      "words": 386,
+      "seconds": 163.71,
+      "words_per_minute": 141.5,
+      "bytes": 1084708,
+      "sha256": "a0547f76e68e3b0f8adc5b248ebd03bafcc9c4d75f9f50f5d523c3b807ac0d79",
+      "mid_slice_mean_db": -20.8
+    },
+    {
+      "chapter_id": "CH137",
+      "title": "A Choice That Has a Cost: Outside Pressure",
+      "words": 412,
+      "seconds": 187.87,
+      "words_per_minute": 131.6,
+      "bytes": 1224733,
+      "sha256": "cf3ed18c0460a4d454850ea2004e531aef2ad8e5bce127a0b67aa67e40a44069",
+      "mid_slice_mean_db": -20.5
+    }
+  ]
+}

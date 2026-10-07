@@ -1,0 +1,554 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH135-CH137",
+  "chapter_ids": [
+    "CH135",
+    "CH136",
+    "CH137"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH135",
+      "english_title": "A Choice That Has a Cost: A Better Question",
+      "chinese_title": "有代价的选择：更好的问题",
+      "theme": "心理、决策、责任与人生选择",
+      "english_paragraphs": [
+        "The better question came out of a long argument about authority: who has the right to make a decision that will outlive the person who makes it? “We think about the election and not about the ten years after it,” the chair said. “A ruling that nobody can revise is not a rule; it is a veto on the future.”",
+        "The sense of the room was that the past had been treated as a guarantee. “Our planning has been built on one assumption, and the assumption is a fashion,” Maya wrote. “We are responsible for a selection of facts, not for all of them, and the waste is in the ones we discarded.”",
+        "The hearing produced a representation of the risk that nobody had prepared for: a variable that was treated as secondary, and a hedge that had become the whole venture. “Be conscious of the motivation behind a number,” the auditor said. “A coherent report can still be a rude one.”",
+        "The abstract part of the question was the hardest: what kind of thinking do we reward? A cue from the dial, an inspiration from the sole survivor of the last flood, and a decision made in peril: the room had a dozen answers and no method for choosing between them.",
+        "“Do not speculate about the dead,” the boatman said. “Consider the living.” The daring part of the proposal was to publish the disagreement itself, with the condensation of six months of argument on a single page, and the careful record of who had said what.",
+        "Therefore the better question was not what the group should decide, but who should be able to revise it. The price of that question was high, the good and the bad answers would both be carried forward, and the moment had arrived to write it down. Against the history of the valley, the value of a selective record was the only thing we could find. The mind does not die with an author, and then the archive must answer for itself; the sole and the ruling were the same word in a different sense. We had to find a way to keep the mind of the project alive after its authors moved on."
+      ],
+      "chinese_paragraphs": [
+        "那个更好的问题出在一场关于权威的漫长争论里：谁有权做出一个将比做决定的人活得更久的决定？“我们想的是选举，而不是它之后的十年，”主席说，“一项没人能修订的裁定不是规则；它是对未来的否决权。”",
+        "屋里的感觉是：过去一直被当作一份担保。“我们的规划建立在一个假定之上，而这个假定是一种时尚，”曼雅写道，“我们只对一部分事实负责，而不是全部，浪费就在我们丢弃的那些里。”",
+        "听证会产出了一份没人准备好的风险陈述：一个被当作次要的变量，以及一道已经变成整笔冒险的对冲。“要意识到一个数字背后的动机，”审计员说，“一份连贯的报告仍然可能是一份粗鲁的报告。”",
+        "这个问题抽象的部分最难：我们奖励的是哪种思考？刻度盘上的一个提示、来自上一场洪水唯一幸存者的灵感，以及在险境中做出的一个决定：屋里有十几种答案，却没有在它们之间做选择的方法。",
+        "“不要揣测死者，”船夫说，“考虑活着的人。”这份提案的大胆之处在于把分歧本身公布出来，把六个月的争论浓缩在一页纸上，并仔细记录谁说了什么。",
+        "因此，更好的问题不是小组该决定什么，而是谁应当有权修订它。这个问题的代价很高，好的和坏的答案都会被带向未来，而写下它的时刻已经到了。与这个山谷的历史相对照，一份有选择的记录的价值，是我们唯一能找到的东西。心智不会随着作者死去，而此后档案必须为自己作答；唯一与裁定，是同一个词在不同意义上的用法。我们必须找到一种办法，让这个项目的心智在它的作者们离开之后继续活着。"
+      ],
+      "exercises": [
+        {
+          "id": "CH135-Q1",
+          "type": "context",
+          "prompt": "What did the chair say a ruling nobody can revise is?",
+          "options": [
+            "a veto on the future",
+            "a guarantee",
+            "a fashion",
+            "a cue"
+          ]
+        },
+        {
+          "id": "CH135-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “否决权”?",
+          "options": [
+            "veto",
+            "peril",
+            "hedge",
+            "dial"
+          ]
+        },
+        {
+          "id": "CH135-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "make a decision",
+            "make a peril",
+            "make a condensation",
+            "make a sole"
+          ]
+        },
+        {
+          "id": "CH135-Q4",
+          "type": "cloze",
+          "prompt": "The boatman said not to speculate about the dead but to consider the ______.",
+          "options": [
+            "living",
+            "ruling",
+            "hearing",
+            "variable"
+          ]
+        },
+        {
+          "id": "CH135-Q5",
+          "type": "recall",
+          "prompt": "What was the better question?",
+          "options": [
+            "who should be able to revise the decision",
+            "how much the decision costs",
+            "when the election is held",
+            "which facts to discard"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH135-Q1",
+          "answer": "a veto on the future",
+          "explanation": "An unrevised ruling binds those who come after."
+        },
+        {
+          "id": "CH135-Q2",
+          "answer": "veto",
+          "explanation": "The rule functioned as a veto."
+        },
+        {
+          "id": "CH135-Q3",
+          "answer": "make a decision",
+          "explanation": "Make combines with a decision, a choice, or a mistake."
+        },
+        {
+          "id": "CH135-Q4",
+          "answer": "living",
+          "explanation": "He redirected attention from the past to the present."
+        },
+        {
+          "id": "CH135-Q5",
+          "answer": "who should be able to revise the decision",
+          "explanation": "She reframed the problem around revisability."
+        }
+      ]
+    },
+    {
+      "article_id": "CH136",
+      "english_title": "A Choice That Has a Cost: The Second Attempt",
+      "chinese_title": "有代价的选择：第二次尝试",
+      "theme": "心理、决策、责任与人生选择",
+      "english_paragraphs": [
+        "The second attempt was designed to answer a question about life rather than about money: what should a person feel when the work he built is handed to somebody else? “He himself shall decide,” the director said. “She herself shall decide. And the future will refer to neither of them by name.”",
+        "The behavior of the two friends was studied by a psychologist during the whole week. “Affect is not character,” she warned. “A circumstance can make an honest person behave badly, and a reform can make a bad habit look like a moral choice.”",
+        "The complex part was the appointment of a successor. “We retain the responsibility and we appoint the accountability,” the auditor said. “The alternative is a psychological knot: anxiety about the fate of the archive and no authority over it.”",
+        "The psychology of the pair was striking. “Every automatic click of the mouse carries an ethic inside it,” Lin said. “The ethics of a small team are embedded in its habits, not in its rules.” A corruption of the process would be visible only to a reader with a conscience.",
+        "The optional parts of the handover were the souvenir, the kite, the yoga mat, and the stormy letter of resignation that nobody sent. “An idealistic plan and a liver complaint have the same effect on a schedule,” Maya wrote, and the joke landed because it was true.",
+        "The second attempt consisted of one page, one signature, and one rule that the friends agreed to obey under pressure. The age of the project was now part of its value, and the water in the well was still the same water. It was important to dream of a secure archive; the evil was not in the ambition but in the corruption of it. The air, the water, and the well were the same as before, and the process was the only thing under our control. These things we never said out loud: that we had thought about leaving, and that the win mattered less than the method. During the second year the authority to appoint was ours, and now it is not. Under it all lay a simple fact, and it was just as true the second time. We had to find a way into the live archive, and it was left to us."
+      ],
+      "chinese_paragraphs": [
+        "第二次尝试的设计目的，是回答一个关于生活而不是关于钱的问题：当一个人亲手建起来的工作被交到别人手里，他应当有什么感受？“他自己来决定，”主管说，“她自己也来决定。而未来不会用名字提到他们中的任何一个。”",
+        "这两位朋友的行为被一位心理学家研究了整整一周。“情感不是品格，”她警告说，“一种处境可以让一个诚实的人行为糟糕，而一场改革可以让一个坏习惯看起来像一个道德选择。”",
+        "复杂的部分是继任者的任命。“我们保留责任，并任命可问责性，”审计员说，“替代方案是一个心理学上的结：对档案命运的焦虑，以及对它毫无权限。”",
+        "这对搭档的心理状态很醒目。“鼠标的每一次自动点击里都含有一种伦理，”林伟说，“一支小团队的伦理嵌在它的习惯里，而不在它的规则里。”流程的腐败，只有一个有良心的读者才看得见。",
+        "交接中可选的几样东西是纪念品、风筝、瑜伽垫，以及那封没人寄出的暴风雨般的辞职信。“一个理想主义的计划和一场肝病对日程有着同样的影响，”曼雅写道，而这个笑话之所以好笑，是因为它是真的。",
+        "第二次尝试由一页纸、一个签名，以及一条两位朋友同意在压力下遵守的规则构成。这个项目的年龄如今成了它价值的一部分，而井里的水仍然是同样的水。梦想一个安全的档案是重要的；恶不在那份雄心，而在它的腐坏。空气、水和井都和从前一样，而流程是我们唯一能控制的东西。有些事我们从未说出口：我们想过离开，而胜利没有方法重要。第二年的时候，任命的权力在我们手里，而现在不在。在这一切之下有一个简单的事实，而它第二次同样成立。我们必须找到进入那份活的档案的路，而这件事落在了我们身上。"
+      ],
+      "exercises": [
+        {
+          "id": "CH136-Q1",
+          "type": "context",
+          "prompt": "What did the second attempt answer a question about?",
+          "options": [
+            "life rather than money",
+            "money rather than life",
+            "the election",
+            "the weather"
+          ]
+        },
+        {
+          "id": "CH136-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “良心”?",
+          "options": [
+            "conscience",
+            "corruption",
+            "anxiety",
+            "fate"
+          ]
+        },
+        {
+          "id": "CH136-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "appoint a successor",
+            "appoint a kite",
+            "appoint a souvenir",
+            "appoint a liver"
+          ]
+        },
+        {
+          "id": "CH136-Q4",
+          "type": "cloze",
+          "prompt": "The psychologist warned that affect is not ______.",
+          "options": [
+            "character",
+            "behavior",
+            "ethics",
+            "reform"
+          ]
+        },
+        {
+          "id": "CH136-Q5",
+          "type": "recall",
+          "prompt": "What did the auditor say the alternative is?",
+          "options": [
+            "a psychological knot",
+            "a larger budget",
+            "a new archive",
+            "an optional souvenir"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH136-Q1",
+          "answer": "life rather than money",
+          "explanation": "The handover question was about meaning."
+        },
+        {
+          "id": "CH136-Q2",
+          "answer": "conscience",
+          "explanation": "Only a reader with a conscience would notice the corruption."
+        },
+        {
+          "id": "CH136-Q3",
+          "answer": "appoint a successor",
+          "explanation": "Appoint combines with a successor, a committee, or a date."
+        },
+        {
+          "id": "CH136-Q4",
+          "answer": "character",
+          "explanation": "Emotion is not the same as character."
+        },
+        {
+          "id": "CH136-Q5",
+          "answer": "a psychological knot",
+          "explanation": "Accountability without authority creates anxiety."
+        }
+      ]
+    },
+    {
+      "article_id": "CH137",
+      "english_title": "A Choice That Has a Cost: Outside Pressure",
+      "chinese_title": "有代价的选择：外部压力",
+      "theme": "心理、决策、责任与人生选择",
+      "english_paragraphs": [
+        "The outside pressure arrived as a call from the publisher's receptionist, on an occasion that nobody had marked in advance: the whole archive would be printed, or the contract would cease. “Whatever we do, the outcome is the same,” the director said. “We have barely three weeks, and the topic is not ours alone.”",
+        "The hesitant answer was to renovate the old chapters temporarily and publish them afterward. “Do it beforehand,” the receptionist said. “A sudden blessing is still a blessing.” Somewhere in the building a printer started, and the hurry became real.",
+        "The loyal reader, the shy volunteer, and the inspirational teacher were the only people who could check the whole series. “A worthless paragraph is worse than a missing one,” Maya wrote. “A miraculous figure is usually a deficient one.”",
+        "The instinctive reaction of the group was to glance at the mode of the distribution and stop there. “A holy number and a momentary one look alike on a page,” the auditor said. “The pronoun in the sentence tells you who is responsible, and the verb tells you when.”",
+        "The thirst for a clean ending was strong, and the ending would not be clean. “A virtuous account and a sacrificial one are different kinds of writing,” Lin said. “One costs money; the other costs somebody.”",
+        "The pressure produced a decision that was neither heroic nor worthless: an hourly check for three weeks, a temporary revision, and a promise that the next edition would carry everything. Whenever the group published one page, the editor asked for another, and the work never once became easy. Although we believe in the build, the effect of everything else is too hard to measure. He himself shall feel the pressure, and she should, too. Therefore we shall try to bring the whole record to the press, and the important thing is the life of the reader rather than the life of the author. It was upon this page that the two friends agreed, and it is to this page that the archive returns. The hard part is not the printing; it is the choosing, and everything else is a matter of time. We want to say, before anything else, that we have tried ever since: somehow, anywhere, sometime, we scarcely had a saying in it, and no guarantee whatsoever, because the deadline was not ours to move. There was no bridge chapter left to write, and that, too, was a fact they had to publish."
+      ],
+      "chinese_paragraphs": [
+        "外部压力以一个电话的形式到来，来自出版社的前台，而这是一个没人提前标记过的场合：要么整份档案付印，要么合同终止。“无论我们怎么做，结果都一样，”主管说，“我们只剩不到三周，而这个话题不只是我们的。”",
+        "迟疑的答案是先把旧章节临时翻新，之后再出版。“那就提前做，”前台说，“突如其来的祝福仍然是祝福。”大楼里某处一台打印机启动了，而匆忙变成了真的。",
+        "那位忠诚的读者、那位害羞的志愿者和那位鼓舞人心的老师，是唯一能通查整个系列的人。“一段没有价值的段落比一段缺失的段落更糟，”曼雅写道，“一个奇迹般的数字通常是一个有缺陷的数字。”",
+        "小组的本能反应是瞥一眼分布的模式然后就停下。“一个神圣的数字和一个瞬间的数字在一页纸上看起来一样，”审计员说，“句子里的代词告诉你谁该负责，动词告诉你什么时候。”",
+        "对干净结局的渴望很强烈，而结局不会是干净的。“一份品德高尚的记述和一份牺牲式的记述是两种不同的写作，”林伟说，“一种花的是钱；另一种花的是某个人。”",
+        "压力促成了一项既不英勇也不无价值的决定：连续三周每小时核对、一次临时修订，以及一个承诺——下一版会带上全部内容。每当小组公布一页，编辑就再要一页，而这份工作一次也没有变得容易。虽然我们相信这次建构，但其他一切的效果都太难衡量。他自己将要感受那股压力，她也应当如此。因此我们将试着把整份记录送到印刷厂，而要紧的是读者的生命，而不是作者的生命。两位朋友正是在这一页上达成了一致，而档案也回到这一页。困难的部分不是印刷，而是选择，其余的一切都只是时间问题。我们想在任何事之前先说一句：我们此后一直在尝试：不知怎么，无论在何处，总在某个时候，我们几乎说不上话，也毫无任何保证，因为那个期限不是我们能挪动的。已经没有一座“桥”的章节可写了，而这一点，也是他们必须公布的事实。"
+      ],
+      "exercises": [
+        {
+          "id": "CH137-Q1",
+          "type": "context",
+          "prompt": "What was the choice the publisher offered?",
+          "options": [
+            "print the whole archive or the contract would cease",
+            "raise the price or delay",
+            "hire a receptionist or stop",
+            "renovate or sell"
+          ]
+        },
+        {
+          "id": "CH137-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “奇迹的；不可思议的”?",
+          "options": [
+            "miraculous",
+            "momentary",
+            "instinctive",
+            "virtuous"
+          ]
+        },
+        {
+          "id": "CH137-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "cease production",
+            "cease a pronoun",
+            "cease a glance",
+            "cease a thirst"
+          ]
+        },
+        {
+          "id": "CH137-Q4",
+          "type": "cloze",
+          "prompt": "The auditor said the pronoun tells you who is responsible and the verb tells you ______.",
+          "options": [
+            "when",
+            "where",
+            "why",
+            "how much"
+          ]
+        },
+        {
+          "id": "CH137-Q5",
+          "type": "recall",
+          "prompt": "What did the group promise about the next edition?",
+          "options": [
+            "it would carry everything",
+            "it would be shorter",
+            "it would be cheaper",
+            "it would be secret"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH137-Q1",
+          "answer": "print the whole archive or the contract would cease",
+          "explanation": "The publisher set a binary condition."
+        },
+        {
+          "id": "CH137-Q2",
+          "answer": "miraculous",
+          "explanation": "A miraculous figure is often a defective one."
+        },
+        {
+          "id": "CH137-Q3",
+          "answer": "cease production",
+          "explanation": "Cease combines with production, a practice, or an argument."
+        },
+        {
+          "id": "CH137-Q4",
+          "answer": "when",
+          "explanation": "The verb locates the action in time."
+        },
+        {
+          "id": "CH137-Q5",
+          "answer": "it would carry everything",
+          "explanation": "They promised a complete next edition."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH137",
+    "last_event": "The final arc closed with a better question about who may revise a decision, a second attempt that handed the archive on with one page and one signature, and an outside deadline of three weeks to print the whole record.",
+    "unresolved_consequence": "The next edition is promised but not written, the two remaining chapters are still unpublished, and the friends now work in separate cities on connected paths.",
+    "character_locations": {
+      "Lin Wei": "Harbor City",
+      "Maya Chen": "Harbor City",
+      "Aisha Rahman": "abroad, collaborating remotely"
+    },
+    "character_roles": {
+      "Lin Wei": "graduate, project co-lead, and now the archive's editor",
+      "Maya Chen": "journalism graduate, columnist, and project co-lead",
+      "Aisha Rahman": "data specialist, working abroad and collaborating remotely"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line",
+      "publish the first national injury figures honestly",
+      "name one responsible person for every system and device",
+      "delete the old address list completely",
+      "publish the one-page consent form before the faculty review",
+      "answer the national inquiry in writing",
+      "pay the five families who take the daily river readings",
+      "finish the concrete pier before the anniversary review",
+      "publish three years of river readings before any construction",
+      "publish every fare exemption while the debate is open",
+      "include the third ward in the water scheme",
+      "give the poorest ward a juror",
+      "keep the record of the water scheme out of private hands",
+      "publish the two remaining chapters with their checker's name",
+      "explain the withdrawal of the second audit",
+      "write the promised next edition in full"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one",
+      "national reporting requirements against a club's own budget",
+      "a launch date against a consented design",
+      "the convenience of a system against the consent of the person inside it",
+      "simplicity against completeness",
+      "a national inquiry against a one-page form",
+      "a model built on dry years against a river that floods",
+      "hard engineering against a living delta",
+      "a canal lock against a working forest",
+      "a fare that pays for the plant against a fare the poor can afford",
+      "public funding against a market rate",
+      "a coastal resort against a residential lawn",
+      "ownership of the record against stewardship of the service",
+      "a steady salary against an unfinished archive",
+      "being accountable to a client against being accountable to a reader",
+      "a clean ending against a complete one"
+    ],
+    "first_required_event_next_chapter": "The curriculum has no chapter after CH137; the next work is publication, not drafting.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries",
+      "a canteen cook reframed the programme around walking, music, and recreation",
+      "the second attempt ran one funded indoor session a week",
+      "the hospital forced a national register of injuries and treatment",
+      "the club committed two funded hours a week and made rest part of training",
+      "the kitchen and the mood of the canteen became part of the evidence",
+      "a regional health register was opened and the group promised to publish its figures honestly",
+      "an unexplained file appeared in a public download of the club's website",
+      "the seventh arc opened with a paused launch and a promised redesign of consent",
+      "a person whose data had been stored without consent asked for a withdrawal mechanism",
+      "the group replaced twelve collection rules with one criterion: nothing on a maybe",
+      "the consent trial deleted what could not be justified and kept the launch paused",
+      "the group agreed that nothing is acquired without a written reason",
+      "the numbers were shown to hide the real product, which was trust",
+      "the group reframed consent around the ease of leaving rather than the ease of joining",
+      "the second redesign ran a trial that the person involved could explain",
+      "the faculty board demanded a clear definition of consent and got four pages",
+      "the group divided the risks and kept a parallel record of what it refused to collect",
+      "the redesign cut the form to one page and began with less",
+      "the seventh arc closed with a national inquiry still open and a scheme small enough to fit in a bucket",
+      "the eighth arc opened with a flood that stopped the road beside the field station",
+      "the old flood model was built on a photographic memory of ten dry years",
+      "a legendary boatman said the river was capable of a third channel",
+      "the field station promised simultaneous readings from both banks",
+      "five families agreed to take one reading a day with the same cheap kit",
+      "a woman who had been left off the list rewrote the questionnaire around memory",
+      "the evidence was reduced to one watertight page that included the river's own answer",
+      "the trial run measured one summer and found that roughly a third of the readings exceeded the limit",
+      "the group paid the five families for one more period",
+      "an ecologist argued that a dam would move the loss to the delta",
+      "the group agreed to publish the whole page rather than a clean summary",
+      "a market trader reframed the river as a well rather than a drain",
+      "the second attempt reused the same instruments in a wetter setting",
+      "an overseas advisor demanded modernisation and was met with a three-year condition",
+      "the group committed to publish three years of readings before any construction",
+      "the group chose the west bank and left the top of the file blank",
+      "a doctor showed that the illness followed the flood rather than the water itself",
+      "the eighth arc closed with a three-member board publishing ten years of data",
+      "the ninth arc opened with an unfunded water treatment plant",
+      "the treasurer warned that enforcement without a collector is theft",
+      "the group promised to publish every exemption while the debate was open",
+      "the first promise of the ninth arc was a public meeting with a full transcript",
+      "a cleaner showed that the benefit passes down and never reaches the people who pay",
+      "the auditor found a wholly irregular account and called the figure misleading",
+      "the first ward trial found the strongest demand among the poor",
+      "the government tied maintenance funding to a market rate",
+      "the council held the rate pending a second audit",
+      "the council argued whether to keep a coastal lawn residential or turn it into a resort",
+      "the editor showed that the circle of payers and the circle of users were drawn in the same square",
+      "the better question became who is entitled to water rather than how much is missing",
+      "the second trial confined one investigation and gave the poorest ward no juror",
+      "an attorney stopped the plant on the ground that a vote is not a lawful title",
+      "the council chose to occupy the retail building rather than sell the land",
+      "the vote was seven to five and the sale was halted until the end of the term",
+      "the ninth arc closed with a public forum and a boring, published account",
+      "the tenth arc opened in a museum of urban history with a career dilemma",
+      "the graduates promised to publish one chapter of the archive each",
+      "a clown at the settlement ceremony forced a heating assessment into every sale",
+      "the twentieth chapter was published with every page carrying its checker's name",
+      "the trial run separated what the group believed from what it could prove",
+      "the two friends split over whose name would stand on the report",
+      "the group published the desertion figures beside the growth figures",
+      "the group asked who should have the power to revise a decision",
+      "the second attempt handed the archive on with one page and one signature",
+      "the publisher gave the group three weeks to print the whole record or lose the contract"
+    ]
+  }
+}

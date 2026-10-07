@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH075-CH078",
+  "chapter_ids": [
+    "CH075",
+    "CH076",
+    "CH077",
+    "CH078"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH075",
+      "english_title": "The Cost of Always Being Busy: The Trial Run",
+      "chinese_title": "忙碌的代价：第一次试行",
+      "theme": "健康、运动与生活习惯",
+      "english_paragraphs": [
+        "The trial run began at the clinic with a physical test and a commitment: one month, three sessions a week, and a written log. “Your body is not a bank,” the doctor said. “You cannot borrow sleep at a deficit and pay it back with an egg.” The attitude of the whole team was measured at the door: who was able to come, who came at the hour available, and who came only to be seen. At the counter you could buy a dish of food, but not a rest.",
+        "The movement of the class was slow and open. A national coach, a physiotherapist, and a student with a disability designed a session for a comfortable range of motion. “Pain is information,” she said. “Fatigue is a bill.” The strain on the knee, the tension in the belt, and the weakness in the posture were all written down, and the pressure to return too early was noted beside them.",
+        "The mental part was harder. The absence of sleep had produced a reaction that no one had predicted: a short temper, a fixation on weight, and a hunting instinct for someone to blame. “You are ill if you cannot rest,” the doctor said. “That is not a weakness of character.” A butterfly on the window and a frog in the yard were the only patients who did not argue.",
+        "The accommodation was a room in the attic of the sports center, with a vessel of water and a colony of pigeons above the stadium. “You may stay here,” the manager said, “but maybe you should go home.” Perhaps the strain was ours, not his. Our task was to make the training tiring in a good way, and to keep the exertion inside a tolerable range.",
+        "The connexion between the mouth and the mind was the lesson of the month: what he said about his own pain was not what he felt. Across the four weeks, the numbers told a story of improvised rest, a colon of small statistics, and one injury that could have been prevented. Together they wrote the second protocol, and the first line was: follow the foot, not the clock. The stress of the schedule and the worried faces at the door told the same story; the mentality of “more is better” was the hardest habit to face, in a group or alone. They had to be tolerant with the people who came late, and firm with the plan."
+      ],
+      "chinese_paragraphs": [
+        "试行在诊所开始，先做体能测试，再立一项承诺：一个月、每周三次、写一份日志。“你的身体不是银行，”医生说，“你不能在赤字状态下借来睡眠，然后用一个鸡蛋还回去。”整个团队的态度在门口就被测量了：谁能来、谁在可用的时间来了、谁只是为了被看见而来。柜台上你可以买到一盘食物，却买不到休息。",
+        "课程的动作缓慢而开放。一位国家级教练、一位理疗师和一位有残疾的学生共同为一舒适的活动幅度设计了训练。“疼痛是信息，”她说，“疲劳是账单。”膝盖上的劳损、腰带处的紧张、姿势里的虚弱都被记录了下来，而“过早复出”的压力被记在旁边。",
+        "心理的部分更难。睡眠的缺席产生了一种没人预见到的反应：脾气变短、对体重执念，以及一种想找个人来怪罪的猎捕本能。“如果你无法休息，你就是病了，”医生说，“这不是性格上的弱点。”窗上的一只蝴蝶和院子里的一只青蛙，是仅有的两个不争辩的病人。",
+        "住处是体育中心阁楼上的一个房间，有一只水罐，以及运动场上方的一群鸽子。“你可以住在这里，”经理说，“但也许你该回家。”也许这份劳损是我们自己的，不是他的。我们的任务是把训练做得累得其所，并把用力保持在可承受的范围内。",
+        "嘴与心之间的联系，是这个月的教训：他对自己疼痛的叙述，并不等于他的感受。四周下来，数字讲述了一个临时凑合的休息、一列小统计，以及一次本可预防的受伤。他们一起写下了第二版方案，第一行是：跟着脚走，不要跟着钟走。时间表的压力与门口那些担忧的面孔讲的是同一个故事；“多多益善”的心态是最难面对的习惯，无论在一个群体里还是独自一人。他们必须对迟到的人宽容，而对计划坚决。"
+      ],
+      "exercises": [
+        {
+          "id": "CH075-Q1",
+          "type": "context",
+          "prompt": "What did the doctor say the body is not?",
+          "options": [
+            "a bank",
+            "a clinic",
+            "a stadium",
+            "a vessel"
+          ]
+        },
+        {
+          "id": "CH075-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “疲劳”?",
+          "options": [
+            "fatigue",
+            "posture",
+            "exertion",
+            "tension"
+          ]
+        },
+        {
+          "id": "CH075-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "prevent an injury",
+            "prevent a butterfly",
+            "prevent an attic",
+            "prevent a colon"
+          ]
+        },
+        {
+          "id": "CH075-Q4",
+          "type": "cloze",
+          "prompt": "The doctor said that being unable to rest is an illness, not a weakness of ______.",
+          "options": [
+            "character",
+            "posture",
+            "motion",
+            "attitude"
+          ]
+        },
+        {
+          "id": "CH075-Q5",
+          "type": "recall",
+          "prompt": "What was the first line of the second protocol?",
+          "options": [
+            "follow the foot, not the clock",
+            "borrow sleep from the bank",
+            "keep the exertion tolerable",
+            "write the log every hour"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH075-Q1",
+          "answer": "a bank",
+          "explanation": "He warned against borrowing rest and repaying it later."
+        },
+        {
+          "id": "CH075-Q2",
+          "answer": "fatigue",
+          "explanation": "She described fatigue as a bill that arrives later."
+        },
+        {
+          "id": "CH075-Q3",
+          "answer": "prevent an injury",
+          "explanation": "Prevent combines with an injury, an error, or a delay."
+        },
+        {
+          "id": "CH075-Q4",
+          "answer": "character",
+          "explanation": "The doctor separated illness from moral weakness."
+        },
+        {
+          "id": "CH075-Q5",
+          "answer": "follow the foot, not the clock",
+          "explanation": "The new protocol followed the body rather than the schedule."
+        }
+      ]
+    },
+    {
+      "article_id": "CH076",
+      "english_title": "The Cost of Always Being Busy: Pressure Builds",
+      "chinese_title": "忙碌的代价：压力上升",
+      "theme": "健康、运动与生活习惯",
+      "english_paragraphs": [
+        "The pressure built in the morning, after the club established a new condition for the season: every athlete would give two hours a week to the open class. “In this shop we do not pay for good health,” the manager said. “We build it.” The food in the canteen changed, the drug cabinet was locked, and the defense of the old timetable finally collapsed.",
+        "The worry was the bird in the hand: a pledge to play in the spring, a meal plan that attracted nobody, and an ideal diet written by somebody who had never been hungry. The suggestion of a bath and a basin of warm water produced a relief that no formula could. Immigration, infection, and consumption were the three old words on the wall, and nobody in the century had liked them.",
+        "The symptom that mattered was silence. “A constitutional weakness is not a personal failure,” the doctor said. “But an addiction to busyness is a complication of the modern timetable.” The rhythm of the week, the outlook of the committee, and the humor of the physiotherapist all had to change together.",
+        "“You can relieve distress without torture,” she said. “Scissors, a satellite image, and a disciplined hour of sleep will do more than an invasion of advice.” The irrigation of the pitch, the ash in the basin, and the hearty soup were small mercies, and the team counted them.",
+        "The pressure did not come only from management. A fixation on numbers, an adaptation of the whole club, and the physiology of digestion were now part of the programme. “We are able to help,” Maya wrote. “We are not able to hurry a body through a century in one season.” The window of the sports center stayed open all winter, and the movement of the class went on. There was no peace in the canteen, and the opposition to the new rule was loud. “The cost is real,” the manager said, “and the way we thank the volunteers is by counting them.” An indication of diabetes in one player, a bank of tests, and a family history of illness made the argument concrete; the word “bank” came back, and this time nobody laughed at it."
+      ],
+      "chinese_paragraphs": [
+        "压力在早晨累积起来，此前俱乐部为这个赛季确立了一个新条件：每位运动员每周为公开课贡献两小时。“在这家商店里，我们不为健康付钱，”经理说，“我们把它建起来。”食堂的食物变了，药柜上了锁，而旧时刻表的防线终于崩塌。",
+        "担忧就像手里的一只鸟：一份春天参赛的誓言、一份谁都吸引不了的餐食计划，以及一份从未挨过饿的人写出的理想饮食。一次沐浴和一小盆温水的建议，产生了任何公式都带不来的舒缓。移民、传染与痨病是墙上的三个旧词，而这个世纪里没人喜欢过它们。",
+        "真正要紧的症状是沉默。“体质上的虚弱不是个人的失败，”医生说，“但对忙碌的沉迷，是现代时间表的一种并发症。”一周的节奏、委员会的前景，以及理疗师的幽默，都必须一起改变。",
+        "“你不必用拷问来缓解苦恼，”她说，“一把剪刀、一张卫星图和一个守纪律的睡眠小时，比一场建议的入侵更有用。”球场的灌溉、盆里的灰烬，以及那锅丰盛的汤，都是小小的慈悲，而团队把它们一一记下。",
+        "压力不只来自管理层。对数字的执念、整个俱乐部的适应，以及消化的生理机制，如今都成了项目的一部分。“我们有能力帮忙，”曼雅写道，“但我们没有能力让一具身体在一个赛季里跑完一个世纪。”体育中心的窗户整个冬天都开着，而课程的动作仍在继续。食堂里没有安宁，对新规定的反对声很大。“代价是真实的，”经理说，“而我们感谢志愿者的方式，就是把他们算进去。”一名球员身上糖尿病的迹象、一组化验，以及一段家族病史，让这场论证变得具体；“银行”这个词又回来了，而这一次没有人笑它。"
+      ],
+      "exercises": [
+        {
+          "id": "CH076-Q1",
+          "type": "context",
+          "prompt": "What new condition did the club establish?",
+          "options": [
+            "every athlete gives two hours a week to the open class",
+            "every athlete buys a new diet",
+            "the canteen closes at dawn",
+            "the drug cabinet stays open"
+          ]
+        },
+        {
+          "id": "CH076-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “并发症；复杂情况”?",
+          "options": [
+            "complication",
+            "consumption",
+            "adaptation",
+            "irrigation"
+          ]
+        },
+        {
+          "id": "CH076-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "relieve distress",
+            "relieve a satellite",
+            "relieve scissors",
+            "relieve a basin"
+          ]
+        },
+        {
+          "id": "CH076-Q4",
+          "type": "cloze",
+          "prompt": "The doctor said an addiction to busyness is a complication of the modern ______.",
+          "options": [
+            "timetable",
+            "cabinet",
+            "pledge",
+            "satellite"
+          ]
+        },
+        {
+          "id": "CH076-Q5",
+          "type": "recall",
+          "prompt": "What did Maya say the team was not able to do?",
+          "options": [
+            "hurry a body through a century in one season",
+            "help at all",
+            "change the canteen",
+            "open the window"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH076-Q1",
+          "answer": "every athlete gives two hours a week to the open class",
+          "explanation": "Health became a shared requirement, not a private choice."
+        },
+        {
+          "id": "CH076-Q2",
+          "answer": "complication",
+          "explanation": "She called overwork a complication of modern scheduling."
+        },
+        {
+          "id": "CH076-Q3",
+          "answer": "relieve distress",
+          "explanation": "Relieve combines with distress, pain, or pressure."
+        },
+        {
+          "id": "CH076-Q4",
+          "answer": "timetable",
+          "explanation": "The doctor blamed the schedule, not the person."
+        },
+        {
+          "id": "CH076-Q5",
+          "answer": "hurry a body through a century in one season",
+          "explanation": "She refused to promise speed the body cannot deliver."
+        }
+      ]
+    },
+    {
+      "article_id": "CH077",
+      "english_title": "The Cost of Always Being Busy: The Disagreement",
+      "chinese_title": "忙碌的代价：分歧",
+      "theme": "健康、运动与生活习惯",
+      "english_paragraphs": [
+        "The disagreement started with a question that nobody wanted to ask: whose body pays for the team's ambition? “We have a provision for everything except rest,” Daniel said. “We explain the diet, the play, the condition of the pitch, and the drug rules, and we never mention the actual cost.” His frustration was recent, and it was not only his.",
+        "Maya took the other side, and she took it with pleasure. “Independence means the team sets its own step,” she said. “Yes, there is a tendency to exclude the slower ones, and yes, the racial history of this sport is a veil over the whole room. But the preventive work is what we have.” The south end of the field was silent, and the north end was not.",
+        "The impact of the argument was circular: the more they attacked the schedule, the more the schedule reacted. An aggression of small deadlines, a hunger for the next season, and a gun on a poster in the church hall: the frustration of the group was predictable, and so was the optimism of the coach.",
+        "The vision of the club had two aspects, and the sight of the two together was tedious. One was the preservation of a team that could win; the other was the refreshment of people who could live. “The proverb is right,” the old physiotherapist said. “A belly full of ambition is still a hungry belly.”",
+        "The realization came slowly: the corrective was not a deletion of the programme but a variation of it. The orbit of the training week had to include the hour nobody trained, and the pleasure of skiing in the winter had to survive the pessimism of the budget office. “The problematic part is not the plan,” she said. “It is the uniformity of the people who wrote it.” The hit came from the numbers: frequent injuries, a worse record than the year before, and an intelligence report from the physiotherapist that nobody had read. “We cannot let one plan prevail over every body,” she said. They explain the team's own food, the drug rules, and the condition of the pitch, but they never ask who pays at the hour of the training. The god of the schedule demanded a defense of every hour, and the negation of rest was its poisonous doctrine; a rosy picture through a telescopic lens is still a picture of the foot that hurts. Give the team its hour back."
+      ],
+      "chinese_paragraphs": [
+        "分歧始于一个没人想问的问题：团队雄心由谁的身体来买单？“我们为一切都做了准备，唯独没有为休息做准备，”丹尼尔说，“我们解释了饮食、比赛、场地状况和用药规则，却从不提实际代价。”他的挫败是最近的，而且不只属于他。",
+        "曼雅站在另一边，并且乐在其中。“独立意味着团队自己定步伐，”她说，“是的，有一种排斥较慢者的倾向；是的，这项运动的历史上的种族问题，是罩在整个房间上的一层面纱。但预防性的工作才是我们拥有的东西。”场地南端沉默着，北端没有。",
+        "这场争论的影响是循环的：他们越是攻击那张时间表，时间表反应得越厉害。一连串小截止日期的侵袭、对下一个赛季的饥渴，以及教堂大厅海报上的一把枪：这个群体的挫败是可以预见的，教练的乐观也是。",
+        "俱乐部的愿景有两个方面，而把两者放在一起看是乏味的。一个是保住一支能赢的队伍；另一个是让能生活的人恢复精神。“谚语说得对，”老理疗师说，“装满雄心的肚子，仍然是一个饥饿的肚子。”",
+        "领悟来得缓慢：纠偏不是删掉整个方案，而是让它有变化。训练周的轨道必须包含那个没人训练的小时，而冬天滑雪的乐趣必须挺过预算办公室的悲观。“成问题的不是计划，”她说，“而是写计划的人那种千篇一律。”打击来自数字：频繁的受伤、比前一年更差的战绩，以及一份没人读过的理疗师报告。“我们不能让一个计划压过每一具身体，”她说。他们解释队伍自己的饮食、用药规则和场地状况，却从不问在训练的那个小时里是谁在付代价。时间表的神要求为每一个小时辩护，而否定休息就是它有毒的教义；透过望远镜看到的一幅玫瑰色画面，仍然是一只疼痛的脚的画面。把那个小时还给队伍。"
+      ],
+      "exercises": [
+        {
+          "id": "CH077-Q1",
+          "type": "context",
+          "prompt": "What question did Daniel say nobody wanted to ask?",
+          "options": [
+            "whose body pays for the team's ambition",
+            "who owns the pitch",
+            "when the season starts",
+            "how much the drug rules cost"
+          ]
+        },
+        {
+          "id": "CH077-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “预防的”?",
+          "options": [
+            "preventive",
+            "corrective",
+            "problematic",
+            "telescopic"
+          ]
+        },
+        {
+          "id": "CH077-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "prevail over pessimism",
+            "prevail over a gun",
+            "prevail over a proverb",
+            "prevail over a veil"
+          ]
+        },
+        {
+          "id": "CH077-Q4",
+          "type": "cloze",
+          "prompt": "The physiotherapist said a belly full of ambition is still a ______ belly.",
+          "options": [
+            "hungry",
+            "rosy",
+            "poisonous",
+            "tedious"
+          ]
+        },
+        {
+          "id": "CH077-Q5",
+          "type": "recall",
+          "prompt": "What did Maya say was the problematic part?",
+          "options": [
+            "the uniformity of the people who wrote the plan",
+            "the plan itself",
+            "the winter skiing",
+            "the budget"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH077-Q1",
+          "answer": "whose body pays for the team's ambition",
+          "explanation": "He put the physical cost at the centre of the dispute."
+        },
+        {
+          "id": "CH077-Q2",
+          "answer": "preventive",
+          "explanation": "She defended prevention over ambition."
+        },
+        {
+          "id": "CH077-Q3",
+          "answer": "prevail over pessimism",
+          "explanation": "Prevail combines with pessimism, an argument, or a difficulty."
+        },
+        {
+          "id": "CH077-Q4",
+          "answer": "hungry",
+          "explanation": "He used the proverb to expose the hidden cost."
+        },
+        {
+          "id": "CH077-Q5",
+          "answer": "the uniformity of the people who wrote the plan",
+          "explanation": "She blamed the sameness of the planners, not the plan."
+        }
+      ]
+    },
+    {
+      "article_id": "CH078",
+      "english_title": "The Cost of Always Being Busy: What the Numbers Hide",
+      "chinese_title": "忙碌的代价：数字隐藏了什么",
+      "theme": "健康、运动与生活习惯",
+      "english_paragraphs": [
+        "The numbers hid a district of silent injuries. A consultant brought a systematic review to the council chamber: the edge of the table was worn where the same three people had signed in every day, and the width of the corridor told its own story about who could take part. “Somebody has to make the body a place we send people to,” she said, “not a place we take them from.”",
+        "The chest, the shirt, the cheek, and the forehead of a young athlete were photographed for the report; a surgeon in a separate office read the file with a neutral face. “The horror is not the injury,” the consultant said. “It is the fantasy that a brave person does not need an arrow pointing home.” Her accent was from the north, and her silence after that sentence was intense.",
+        "The systematic part of the work was ugly: a triangular diagram, a multiplication of small risks, and a tidy list of alterations to the training week. “Maturity is not durability,” the biologist said. “A young body can withstand a season, and the handicap arrives in the tenth.” The rivalry between the two squads had compelled them to hide a miserable truth.",
+        "The numbers were paradoxical and the brilliance of them was misleading. A genius with a systematic mind, a brow full of sweat, and a skirt of afternoon light on the floor: the picture said nothing about the developmental cost of the programme. “Refine the measure,” the consultant said. “Make it perceptive, not just forceful.”",
+        "The review concluded with a plea that was not in the data: an abusive schedule, however effective, is a stupid one; the stupidity is not in the numbers, it is in the question we never ask. They sent the report to the council and brought it to the court of public opinion. For the first time in a day, the quietest person in the room was able to make the whole argument in one sentence: a body is not a bank. A separate list, a systematic edge, and a district of silent injuries: the council, the court, and the day itself could make room for what the numbers had hidden. He had to bring the place, take the move, and send the report again. Might was not the same as a complicated machine, and they had to go back to the number that nobody had taken. “The heart of it is simple,” she said. “If the plan does not involve the slowest person in the district, it is not a plan.”"
+      ],
+      "chinese_paragraphs": [
+        "这些数字掩盖了一个由沉默的伤构成的地区。一位顾问把一份系统的复审带进了委员会大厅：桌边同一处被磨旧了，因为每天签到的总是同三个人；而走廊的宽度本身就说明了谁能参与。“总得有人把身体变成一个我们送人去的地方，”她说，“而不是一个我们从中取东西的地方。”",
+        "一位年轻运动员的胸口、衬衫、脸颊和额头被拍进了报告；另一位在隔壁办公室的外科医生面无表情地读完档案。“可怕的不是受伤，”顾问说，“而是那种幻想：勇敢的人不需要一支指向家的箭。”她的口音来自北方，而说完那句之后的沉默是强烈的。",
+        "这项工作的系统性部分是难看的：一张三角形图、一串小风险的相乘，以及一份整洁的训练周改动清单。“成熟不等于耐久，”生物学家说，“年轻的身体能扛过一个赛季，而障碍会在第十年到来。”两支队伍之间的竞争，迫使他们藏起了一个悲惨的事实。",
+        "这些数字是悖论式的，而它们的卓越具有误导性。一位思路系统化的天才、一片满是汗水的额头，以及地板上一条裙子似的午后光线：这张照片对项目的发育代价什么也没说。“把度量精炼一下，”顾问说，“让它有洞察力，而不只是有力度。”",
+        "这份复审以一句不在数据里的请求结尾：一份滥用的时间表，无论多有效，都是愚蠢的；愚蠢不在数字里，而在我们从不问的那个问题里。他们把报告寄给了委员会，也把它带到了舆论的法庭。那一天里第一次，屋里最安静的人能用一句话说出整个论证：身体不是银行。一份单独的清单、一处系统性的边缘、一个沉默受伤的片区：委员会、法庭，以及日子本身，都可以为数字所掩盖的东西腾出位置。他必须把地方带来、把行动接过来，并把报告再寄一次。力量不等于一台复杂的机器，而他们必须回到那个没人取用的数字。“它的核心很简单，”她说，“如果这个计划不包含这个片区里最慢的那个人，它就不是一个计划。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH078-Q1",
+          "type": "context",
+          "prompt": "What did the consultant say the body should be?",
+          "options": [
+            "a place we send people to, not take them from",
+            "a bank",
+            "a separate office",
+            "a district"
+          ]
+        },
+        {
+          "id": "CH078-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “耐久性”?",
+          "options": [
+            "durability",
+            "maturity",
+            "brilliance",
+            "multiplication"
+          ]
+        },
+        {
+          "id": "CH078-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "refine the measure",
+            "refine the brow",
+            "refine the skirt",
+            "refine the arrow"
+          ]
+        },
+        {
+          "id": "CH078-Q4",
+          "type": "cloze",
+          "prompt": "The biologist said maturity is not ______.",
+          "options": [
+            "durability",
+            "genius",
+            "neutrality",
+            "width"
+          ]
+        },
+        {
+          "id": "CH078-Q5",
+          "type": "recall",
+          "prompt": "What sentence closed the argument?",
+          "options": [
+            "a body is not a bank",
+            "the schedule is abusive",
+            "the numbers are paradoxical",
+            "the corridor is too narrow"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH078-Q1",
+          "answer": "a place we send people to, not take them from",
+          "explanation": "She wanted the body treated as a destination, not a resource."
+        },
+        {
+          "id": "CH078-Q2",
+          "answer": "durability",
+          "explanation": "Maturity was distinguished from mere durability."
+        },
+        {
+          "id": "CH078-Q3",
+          "answer": "refine the measure",
+          "explanation": "Refine combines with a measure, a method, or a plan."
+        },
+        {
+          "id": "CH078-Q4",
+          "answer": "durability",
+          "explanation": "He warned that surviving one season is not maturity."
+        },
+        {
+          "id": "CH078-Q5",
+          "answer": "a body is not a bank",
+          "explanation": "The doctor's early sentence became the conclusion."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH078",
+    "last_event": "The club made health a shared requirement, the group argued about whose body pays for ambition, and a systematic review showed that the numbers hid a district of silent injuries.",
+    "unresolved_consequence": "Daniel is still not cleared to row, the open class runs without a budget line, and the review has gone to the council and to public opinion.",
+    "character_locations": {
+      "Lin Wei": "the campus clinic and sports center",
+      "Maya Chen": "the campus clinic and sports center",
+      "Daniel Brooks": "the sports center, still not cleared to row"
+    },
+    "character_roles": {
+      "Lin Wei": "third-year student and project co-lead",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Daniel Brooks": "sports-science student and rowing-team member, in recovery"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one"
+    ],
+    "first_required_event_next_chapter": "CH079 must show the club deciding what to do with the review, including what it costs to admit that the programme injured its own people.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries"
+    ]
+  }
+}

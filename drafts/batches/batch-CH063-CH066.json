@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH063-CH066",
+  "chapter_ids": [
+    "CH063",
+    "CH064",
+    "CH065",
+    "CH066"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH063",
+      "english_title": "Across Borders: The Disagreement",
+      "chinese_title": "跨越边界：分歧",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The disagreement was about ownership, and it had a famous ancestor. “After a year of work, who has the right to the patent?” the chief of the local committee asked. “The navy has a rule for a wreck, a dictator has a rule for a ballot, and a diplomat has a rule for a tyre. We have none.” A woman in the front row began to explain the distinction, and the room went quiet.",
+        "Generally speaking, the team wanted a salary, a wage, and a share; specifically, they wanted the right to privatize nothing and to inherit the name. “A privatization is not a pardon,” Aisha said, “and a patent is not a reward.” A warrior of the old school, a well-known local businessman, and a selfless volunteer all nodded, which was disappointing to nobody. They could not obtain the forthcoming decision in writing, and the sum was allegedly unpaid, but that was to be expected.",
+        "In accordance with their own rule, they tossed a coin instead of taking a vote. The result was a historic one for the area: the right would be held by the people who used the road, not by the company that had built it. “We are not solely a service,” Maya said. “We are also a habit, and a habit is harder to punish than a crime.”",
+        "After a week of talking, the chief dictated a short clause and the local people signed it. “Yourselves, not the wireless, not the webcast, and not the gadgetry,” she said. “You cannot leave an old-fashioned promise to a machine.” A considerate neighbour brought woolen blankets, and a fluent speaker of three languages read the clause aloud to the queue.",
+        "They agreed to spend the money sparingly and to keep one exclamation out of the report: “At last!” It was an altogether better ending than a quarrel, and their friend the motel owner said so. A child from the night queue, a local car owner, and a woman who had lived there all her life stood behind them at the counter. The people at home always have the last word, and that was fine."
+      ],
+      "chinese_paragraphs": [
+        "分歧在于所有权，而它有一个著名的祖先。“工作一年之后，谁有权拿到这项专利？”本地委员会的领袖问。“海军对沉船有规则，独裁者对选票有规则，外交官对轮胎有规则。我们什么都没有。”前排一位女士开始解释这个区别，屋里安静下来。",
+        "一般来说，团队想要薪水、工资和一份份额；具体来说，他们想保留不私有化任何东西的权利，并继承这个名字。“私有化不是赦免，”艾莎说，“专利也不是奖赏。”一位老派的战士、一位著名的本地商人，以及一位无私的志愿者都点了头，这一点没有让任何人失望。他们拿不到即将到来的书面决定，款项据称也未支付，但这也在预料之中。",
+        "按照他们自己的规则，他们抛硬币而不是投票。对这个地区来说，结果具有历史意义：这项权利将由使用这条道路的人持有，而不是由修建它的公司持有。“我们不仅仅是一项服务，”曼雅说，“我们还是一种习惯，而习惯比罪行更难惩罚。”",
+        "谈了一周之后，领袖口述了一条简短的条款，当地人签了字。“你们自己，而不是无线电、不是网络直播、也不是那些小玩意，”她说，“你们不能把一个老式的承诺留给机器。”一位体贴的邻居拿来了羊毛毯，一位能说三种语言的流利者把条款向队伍朗读了一遍。",
+        "他们同意节省地花钱，并在报告里只留一句感叹：“终于！”这比一场争吵要好得多，他们的朋友——那位汽车旅馆老板娘——也这么说。一个夜里排队的孩子、一位本地车主，以及一位在此生活了一辈子的女士，站在柜台后面支持他们。家里的人总是有最后一句，这没什么不好。"
+      ],
+      "exercises": [
+        {
+          "id": "CH063-Q1",
+          "type": "context",
+          "prompt": "What did the chief say the committee lacked?",
+          "options": [
+            "a rule for ownership",
+            "a navy",
+            "a diplomat",
+            "a ballot box"
+          ]
+        },
+        {
+          "id": "CH063-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “所有权”?",
+          "options": [
+            "ownership",
+            "pardon",
+            "severity",
+            "sponsorship"
+          ]
+        },
+        {
+          "id": "CH063-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "obtain a decision",
+            "obtain a tyre",
+            "obtain a webcast",
+            "obtain a blanket"
+          ]
+        },
+        {
+          "id": "CH063-Q4",
+          "type": "cloze",
+          "prompt": "In accordance with their own rule, they ______ a coin instead of voting.",
+          "options": [
+            "tossed",
+            "dictated",
+            "punished",
+            "inherited"
+          ]
+        },
+        {
+          "id": "CH063-Q5",
+          "type": "recall",
+          "prompt": "Who would hold the right?",
+          "options": [
+            "the people who used the road",
+            "the company that built it",
+            "the navy",
+            "the diplomat"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH063-Q1",
+          "answer": "a rule for ownership",
+          "explanation": "They had rules for wrecks, ballots, and tyres, but none for their own work."
+        },
+        {
+          "id": "CH063-Q2",
+          "answer": "ownership",
+          "explanation": "The whole argument was about who owned the result."
+        },
+        {
+          "id": "CH063-Q3",
+          "answer": "obtain a decision",
+          "explanation": "Obtain combines with a decision, a licence, or consent."
+        },
+        {
+          "id": "CH063-Q4",
+          "answer": "tossed",
+          "explanation": "They tossed a coin instead of holding a vote."
+        },
+        {
+          "id": "CH063-Q5",
+          "answer": "the people who used the road",
+          "explanation": "The right went to the users, not the builders."
+        }
+      ]
+    },
+    {
+      "article_id": "CH064",
+      "english_title": "Across Borders: What the Numbers Hide",
+      "chinese_title": "跨越边界：数字隐藏了什么",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The numbers hid a desert of small failures. Hardly anyone had received the training they were promised, and a gift of two tickets was given twice to the same family. “I may be wrong, perhaps,” Aisha said, “but an survey that only counts participants will always be sure of itself.” I own the mistake, she added, and the room went quiet.",
+        "Primarily the report measured sponsorship, and the sponsorship was dirty money from a dusty road fund. “An incredible friendship is worth more than warmth from a machine,” Maya wrote. “We are seemingly measuring geography when we are actually measuring power.” Owing to the frosty reception, the numbers went into the appendix, and the appendix went moldy in the damp.",
+        "The excessive intent behind the count was not hidden from the biochemist who joined them for a month. “You cannot compute holiness,” she said, “and a repetitive figure will overtake the truth if you let it.” Downward pressure on the budget followed; the severity of it was overwhelming, and the mood in the office turned gloomy.",
+        "Lastly, the rarity of the good numbers made them even more dangerous. “An eternal average is a lie with a long life,” the old man said. “Do not let them ridicule the messy part, and do not exaggerate the clean one.” A speechless trainee sympathized and said nothing; the perilous part was the silence.",
+        "They decided to globalize nothing and to publish a second sheet: one for the figures and one for the frosty mornings. It was not a dramatic return, but it was a return, and they were desirous of one thing only: that the report be readable by the people it described. Maybe it would be; perhaps it would not. Across the pavement, the training had been offered to anyone who wished to participate, and hardly anyone had. “We hope they will not depart before the vote,” the biochemist said, “and we hope they will not obey a heaven made of averages.” Still, the man who had come back from the desert said the mood was overwhelmingly better than the year before, and the figures that had been thrown away were carried back into the room. They would not lose the argument; it was over before the second sheet was printed."
+      ],
+      "chinese_paragraphs": [
+        "这些数字掩盖了一片由小失败组成的沙漠。几乎没有一个人得到过承诺过的培训，而一份两张票的礼物被同一家人拿走了两次。“我也许错了，或许吧，”艾莎说，“但一项只统计参与者的调查，总会对自己充满确信。”她补充说，这个错误算我的——屋里安静下来。",
+        "这份报告主要衡量的是赞助，而赞助来自一笔走漏到肮脏道路基金的钱。“一段难以置信的友谊比机器带来的温暖更值钱，”曼雅写道，“我们表面上在测量地理，实际上却在测量权力。”由于那次冷淡的接待，数字被放进了附录，而附录在潮湿中发霉了。",
+        "这次计数背后过度的意图，没能瞒过和他们共事一个月的生物化学家。“你无法计算神圣，”她说，“而一个重复的数字，只要你放任它，就会超越真相。”预算随之承受向下的压力；其严酷程度是压倒性的，办公室里的气氛变得阴郁。",
+        "最后，那些好数字的罕见反而使它们更危险。“一个永恒的均值，是一条长寿的谎言，”老人说。“不要让他们嘲弄混乱的那部分，也不要夸大干净的那部分。”一位说不出话的实习生表示同情，却什么也没说；危险的部分正是这份沉默。",
+        "他们决定不把任何东西全球化，而是发布第二张纸：一张写给数字，一张写给那些结霜的早晨。这不是一次戏剧性的回归，但它是一次回归；他们只渴望一件事：让这份报告能被它所描述的人读懂。也许能，也许不能。人行道对面，那项培训向任何愿意参加的人开放，而几乎没有人参加。“我们希望他们不要在表决之前离开，”那位生物化学家说，“也希望他们不要去服从一个由平均数造出来的天堂。”尽管如此，那位从沙漠回来的人说，气氛比前一年好了太多，而那些被扔掉的数字被重新搬回了屋里。他们不会输掉这场论证；在第二张纸印出来之前，它就已经结束了。"
+      ],
+      "exercises": [
+        {
+          "id": "CH064-Q1",
+          "type": "context",
+          "prompt": "What had hardly anyone received?",
+          "options": [
+            "the promised training",
+            "the second ticket",
+            "the frosty morning",
+            "the appendix"
+          ]
+        },
+        {
+          "id": "CH064-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “压倒性地”?",
+          "options": [
+            "overwhelmingly",
+            "seemingly",
+            "primarily",
+            "downward"
+          ]
+        },
+        {
+          "id": "CH064-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "compute a figure",
+            "compute a friendship",
+            "compute holiness",
+            "compute a gift"
+          ]
+        },
+        {
+          "id": "CH064-Q4",
+          "type": "cloze",
+          "prompt": "The biochemist said a ______ figure will overtake the truth if you let it.",
+          "options": [
+            "repetitive",
+            "perilous",
+            "eternal",
+            "frosty"
+          ]
+        },
+        {
+          "id": "CH064-Q5",
+          "type": "recall",
+          "prompt": "What second sheet did they decide to publish?",
+          "options": [
+            "one for the frosty mornings",
+            "one for the sponsors",
+            "one for the budget",
+            "one for the biochemist"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH064-Q1",
+          "answer": "the promised training",
+          "explanation": "The promised training had almost never happened."
+        },
+        {
+          "id": "CH064-Q2",
+          "answer": "overwhelmingly",
+          "explanation": "The severity of the cuts was overwhelming."
+        },
+        {
+          "id": "CH064-Q3",
+          "answer": "compute a figure",
+          "explanation": "Compute combines with a figure, a total, or a cost."
+        },
+        {
+          "id": "CH064-Q4",
+          "answer": "repetitive",
+          "explanation": "A repeated number can displace the truth."
+        },
+        {
+          "id": "CH064-Q5",
+          "answer": "one for the frosty mornings",
+          "explanation": "They published a second sheet for lived experience."
+        }
+      ]
+    },
+    {
+      "article_id": "CH065",
+      "english_title": "Across Borders: A Better Question",
+      "chinese_title": "跨越边界：更好的问题",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The better question came from a pedestrian at a rural stop, late in the season. “Do you understand what a short walk to the station means here?” she asked. “In the countryside, a walk is not exercise. It is the whole approach to the world.” The team had a fact, a date, and a century of assumption, and none of them answered her.",
+        "The royal reception, the agricultural bulletin, and the local championship had all been covered; the scholarship and the fellowship had not. “A partner is not a trainer,” the sailor said. “A trainee is not a medal.” Their uniform, their tune, and their romance with the city were the background of the report, and the report was flattering to the wrong people.",
+        "The dramatic episode, when it came, was a telephone call: the sponsor had abandoned the membership list to a transmitter in the capital. “I speak for the pedestrian,” Aisha said. “He is alone, and he is not a cartoon.” It was a descriptive sentence, not a scholarly one, and it was the best line in the file.",
+        "The false assumption was that a flourish in the figures meant a flourishing service. “The companionship of the queue is not an instalment plan,” the trainer said. “You cannot steer a village with a spreadsheet.” The reserved young man from the lodge, the last sailor of the old line, and the manager of the reception desk all agreed with him.",
+        "After the meeting, the team stopped writing about colonialism and began writing about the stop itself: who waited there, what they carried, and how long they had been waiting. It was certainly a smaller question, and it was finally the right one. They thanked the pedestrian, ran the numbers again through the month, and put her sentence at the top. After all, the date was far off, and it was likely that the matter would run into another month. Yesterday it had seemed an ordinary affair; today it was a dear one. “We must thank the training, and we must relate the new figure to the old,” she said. It was certainly the better question, and finally they could say so — an answer they had been walking through since the morning of the first day, for a century."
+      ],
+      "chinese_paragraphs": [
+        "更好的问题来自一位在乡村车站候车的行人，时令已晚。“你们明白在这里走到车站代表什么吗？”她问，“在乡下，走路不是锻炼。它是对待整个世界的完整方式。”团队有一个事实、一个日期和一百年的假设，而没有一样能回答她。",
+        "皇家招待会、农业简报和本地锦标赛都被报道过；奖学金和研究员职位没有。“合伙人不等于教练，”那位水手说，“实习生也不等于奖章。”他们的制服、他们的曲调和他们与这座城市的一段浪漫，是这份报告的背景，而这份报告讨好的是错误的人。",
+        "那个戏剧性的插曲，是一通电话：赞助人把会员名单丢给了首都的一台发射机。“我为行人说话，”艾莎说，“他独自一人，而他不是一幅漫画。”这是一句描述性的句子，不是学术性的，却是整份文件里最好的一句。",
+        "那个错误的假设是：数字上的花哨意味着服务兴旺。“队伍的陪伴不是分期付款计划，”教练说，“你无法用一张电子表格引导一个村庄。”客栈里那位腼腆的年轻人、老线路上的最后一位水手，以及前台接待处的经理，都同意他的看法。",
+        "会后，团队不再写殖民主义，而开始写那个车站本身：谁在那里等、他们带着什么、他们等了多久。这当然是个更小的问题，而它终于是对的那个。他们感谢了那位行人，把数字在整月里重新跑了一遍，并把她的那句话放在了开头。毕竟日期还远，而这件事很可能会拖到下一个月。昨天它看起来还是一件平常事；今天它变得贵重了。“我们必须感谢那项培训，也必须把新的数字与旧的数字联系起来，”她说。这当然是那个更好的问题，而他们终于可以说出来了——一个他们从第一天早上起就一直在走进去的答案，走了一个世纪。"
+      ],
+      "exercises": [
+        {
+          "id": "CH065-Q1",
+          "type": "context",
+          "prompt": "What did the pedestrian ask the team to understand?",
+          "options": [
+            "what a short walk to the station means in the countryside",
+            "how to steer a village",
+            "why the sponsor left",
+            "when the train arrives"
+          ]
+        },
+        {
+          "id": "CH065-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “腼腆的；保留的”?",
+          "options": [
+            "reserved",
+            "descriptive",
+            "scholarly",
+            "royal"
+          ]
+        },
+        {
+          "id": "CH065-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "abandon a membership list",
+            "abandon a tune",
+            "abandon a medal",
+            "abandon a uniform"
+          ]
+        },
+        {
+          "id": "CH065-Q4",
+          "type": "cloze",
+          "prompt": "The trainer said you cannot ______ a village with a spreadsheet.",
+          "options": [
+            "steer",
+            "flourish",
+            "relate",
+            "abandon"
+          ]
+        },
+        {
+          "id": "CH065-Q5",
+          "type": "recall",
+          "prompt": "What did they put at the top of the report?",
+          "options": [
+            "the pedestrian's sentence",
+            "the sponsor's letter",
+            "the fellowship list",
+            "the agricultural bulletin"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH065-Q1",
+          "answer": "what a short walk to the station means in the countryside",
+          "explanation": "She reframed distance as meaning, not metres."
+        },
+        {
+          "id": "CH065-Q2",
+          "answer": "reserved",
+          "explanation": "The young man from the lodge said little."
+        },
+        {
+          "id": "CH065-Q3",
+          "answer": "abandon a membership list",
+          "explanation": "Abandon combines with a list, a plan, or a person."
+        },
+        {
+          "id": "CH065-Q4",
+          "answer": "steer",
+          "explanation": "He rejected managing a community by spreadsheet."
+        },
+        {
+          "id": "CH065-Q5",
+          "answer": "the pedestrian's sentence",
+          "explanation": "Her sentence opened the rewritten report."
+        }
+      ]
+    },
+    {
+      "article_id": "CH066",
+      "english_title": "Across Borders: The Second Attempt",
+      "chinese_title": "跨越边界：第二次尝试",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The second attempt was built on a large sheet of paper with a strict charter beside it. “The committee must explain the plan to the nation in the context of the war,” the technician said. “We have cash for one month, a licence for one line, and a grade of patience that is nearly exhausted.” Their approach had to change, and they realized it together.",
+        "The collective load was carried by a wagon, a tractor, and a portable radio. “A brand is not a blade,” the marine said, “and a grip is not a temple.” A duck on the deck, a candle in the lodge, and a crab in the bucket: the wild harbour had every kind of cargo except a timetable.",
+        "The extensive survey had one fault: it measured speed and mileage but not the subway ride home. “A pirate on the curb can steal a bicycle faster than we can chart a flood,” the engineer said. “What we need is a bumper and a sheet of plywood, not another report.”",
+        "The dove on the roof, the second watch of the night, and the sail of the fishing boat marked the hours. “Bondage is a strong word,” Aisha said, “but a timetable that ignores the elbow of a crowded deck is a kind of bondage.” Their own committee could not explain that sentence to the ministry, so they printed it without explanation.",
+        "The film of the trial was late, as usual, and the short season was over. They had to obtain one more month, and they had to relate the new plan to the old one. “Speak plainly,” the committee chair said. “Understand that we do not own the road.” The stop, the walk, and the fly on the window were all in the final shot. The approach, the plan, the fact, and the film were all late; the committee had to explain, once more, how they had obtained the licence with their own cash and a short season. “We realize that a royal charter is not a plain licence,” she said. “We must speak to the people who walk and stop at the station.” The season was over, and the second attempt had one month left. A crate of china and a meter of cable were still on the deck."
+      ],
+      "chinese_paragraphs": [
+        "第二次尝试建立在一大张纸上，旁边放着一部严格的章程。“委员会必须在战争的背景下向全国解释这个计划，”技师说，“我们有一个月的现金、一条线路的许可，以及一份几乎耗尽的耐心。”他们的做法必须改变，而他们一起意识到了这一点。",
+        "集体的负荷由一辆货车、一台拖拉机和一台便携收音机承担。“品牌不是刀刃，”那位海军陆战队员说，“而紧握不是庙宇。”甲板上的一只鸭子、客栈里的一支蜡烛、桶里的一只螃蟹：这个野性的港口拥有各种货物，唯独没有时刻表。",
+        "那份广泛的调查有一个缺陷：它测量了速度和英里数，却没有测回家坐地铁的那一段。“路缘上的海盗偷一辆自行车，比我们绘制一场洪水还快，”工程师说，“我们需要的是一个保险杠和一张胶合板，而不是又一份报告。”",
+        "屋顶上的鸽子、夜里第二班值守，以及渔船的帆标记着时间。“奴役是个很重的词，”艾莎说，“但一张忽视拥挤甲板上手肘的时刻表，就是一种奴役。”他们自己的委员会无法向部里解释这句话，于是他们不加解释地把它印了出来。",
+        "试行的影片照例迟了，而短暂的季节已经过去。他们必须再争取一个月，并且必须把新计划与旧计划联系起来。“说清楚点，”委员会主席说，“要明白我们并不拥有这条路。”那个车站、那段步行，以及窗上的那只苍蝇，都出现在最后的镜头里。方案、计划、事实和影片全都迟了；委员会不得不再次解释，他们是如何用自己的现金和一个短暂的季节拿到这张许可的。“我们明白，一份皇家特许状不是一张普通许可，”她说，“我们必须去和那些在车站步行、停留的人说话。”季节结束了，第二次尝试只剩下一个月。甲板上还放着一箱瓷器和一米电缆。"
+      ],
+      "exercises": [
+        {
+          "id": "CH066-Q1",
+          "type": "context",
+          "prompt": "What did the technician say the committee must explain?",
+          "options": [
+            "the plan in the context of the war",
+            "the price of a tractor",
+            "the route of the subway",
+            "the colour of the charter"
+          ]
+        },
+        {
+          "id": "CH066-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “广泛的；大量的”?",
+          "options": [
+            "extensive",
+            "strict",
+            "collective",
+            "portable"
+          ]
+        },
+        {
+          "id": "CH066-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "carry the load",
+            "carry the temple",
+            "carry the candle",
+            "carry the dove"
+          ]
+        },
+        {
+          "id": "CH066-Q4",
+          "type": "cloze",
+          "prompt": "The survey measured speed and mileage but not the ______ ride home.",
+          "options": [
+            "subway",
+            "wagon",
+            "sail",
+            "deck"
+          ]
+        },
+        {
+          "id": "CH066-Q5",
+          "type": "recall",
+          "prompt": "What did the chair tell them to understand?",
+          "options": [
+            "that they do not own the road",
+            "that the season is short",
+            "that the film is late",
+            "that the war is over"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH066-Q1",
+          "answer": "the plan in the context of the war",
+          "explanation": "The technician demanded a public explanation of the plan."
+        },
+        {
+          "id": "CH066-Q2",
+          "answer": "extensive",
+          "explanation": "The survey was broad but blind to one leg of the journey."
+        },
+        {
+          "id": "CH066-Q3",
+          "answer": "carry the load",
+          "explanation": "Carry combines with a load, a cost, or a risk."
+        },
+        {
+          "id": "CH066-Q4",
+          "answer": "subway",
+          "explanation": "The survey ignored the underground leg of the commute."
+        },
+        {
+          "id": "CH066-Q5",
+          "answer": "that they do not own the road",
+          "explanation": "The chair reminded them who the road belongs to."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH066",
+    "last_event": "The team won the right to hold the route themselves, published a second sheet showing what the figures hid, and rebuilt the second attempt around a stricter charter.",
+    "unresolved_consequence": "The licence covers one line for one month, the sponsor has left, and the committee still cannot explain its own sentence to the ministry.",
+    "character_locations": {
+      "Lin Wei": "exchange campus and rural stations",
+      "Maya Chen": "exchange campus and rural stations",
+      "Aisha Rahman": "exchange campus"
+    },
+    "character_roles": {
+      "Lin Wei": "second-year student and project co-lead",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Aisha Rahman": "exchange student and data specialist, now a collaborator"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders"
+    ],
+    "first_required_event_next_chapter": "CH067 must show the route's first month under the users' own ownership, including a failure they cannot blame on anyone else.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash"
+    ]
+  }
+}

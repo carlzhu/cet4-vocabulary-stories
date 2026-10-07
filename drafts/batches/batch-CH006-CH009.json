@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH006-CH009",
+  "chapter_ids": [
+    "CH006",
+    "CH007",
+    "CH008",
+    "CH009"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH006",
+      "english_title": "New Ground: Pressure Builds",
+      "chinese_title": "新的起点：压力上升",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "The second week brought the first real pressure. Maya asked why the project had to grow, and Lin could not answer. A new opportunity appeared: the student union offered a suitable room and a camera, but only if the group promised more work than they could sustain. “We cannot afford to rely on a favor,” Maya said. “We need an honest system, not a kind one.” She was equally tired; to her delight the union also sent digestive biscuits for the folk on the night shift.",
+        "Their confidence was smaller than their ambition. Lin tried to assure her that faith in a good idea would be enough, but he did not sound confident, and she was too tired to cheer him. “I am sad,” she admitted, “not discouraged.” The distinction mattered: discouragement ends work, and sadness only slows it. An envious volunteer said the same thing in a less merciful tone, and Maya answered with an appreciative nod. They had to evaluate the plan again that night.",
+        "Money was the next rival. A discount on printing expired, and the sum looked like rubbish against their budget. A woman from the union called their plan encouraging and then asked for a guarantee they could not give. “Do not exploit goodwill,” she said. “It will not renew itself.” Her manner was gracious, and her warning gave Maya a small boost of admiration for the project's own kindness. The union called its own new logo sexy; Maya called it a distraction. Regarding the money, she wrote, the project was already behind.",
+        "Two volunteers began to dislike the crowded evenings. Obviously the evenings were too long. They were alike in one way only: neither could be relied on after midnight, and both often said so. Their reasons did not resemble each other. The group's accord held, though a wary silence crept in. Lin was grateful for the honest statement and sorry for its cause. A lonely walk home along the river made the choice clearer, not easier. “Give me one more week,” he said again.",
+        "Spring arrived late and snowy. In an appealing, hospitable voice, Professor Zhao reminded them that a project ripens like fruit: slowly, and only if someone waters it. His disapproval of their rush was gentle but complete, and the sorrowful faces in the room told him it had landed. “You are mistaken about the cost,” he said. “The goal is not.” They agreed to re-evaluate the plan, recycle the wasted printing, and describe their limits to every willing volunteer. Otherwise the next version would fail where this one did, and no photo shoot would hide it. The consent form, they decided, was their only real asset."
+      ],
+      "chinese_paragraphs": [
+        "第二周带来了第一次真正的压力。曼雅问这个项目为什么必须扩张，林伟答不上来。同一天早上出现了一个新机会：学生会愿意提供一间合适的房间和一台相机，但前提是小组承诺做超出他们承受能力的工作。“我们承担不起靠人情办事的代价，”曼雅说，“我们需要一个诚实的系统，而不是一个善良的系统。”她同样疲惫，而让她高兴的是，学生会还给上夜班的普通人送去了一盘消化饼干。",
+        "他们的信心小于他们的雄心。林伟试图向她保证：只要对一个好想法有信心就够了；但他听起来并不自信，而她也累得没力气鼓励他。“我很难过，”她承认，“但不是气馁。”这个区别很重要：气馁会终止工作，难过只会让它变慢。一位心怀嫉妒的志愿者用不那么慈悲的口气说了同样的话，曼雅则以感激的点头回应。那天晚上他们不得不再次评估这份计划。",
+        "钱是下一个对手。印刷折扣到期，那笔钱在预算面前看起来像垃圾。学生会的一位女士称他们的方案令人鼓舞，随后又要求一个他们给不出的保证。“不要滥用善意，”她说，“它不会自行更新。”她的举止很亲切，而她这句警告让曼雅对这个项目自身的善意多了一份敬意。学生会说自己的新标志很性感；曼雅说那只是干扰。关于钱，她写道，项目已经落后了。",
+        "两名志愿者开始厌恶拥挤的夜晚。显然这些夜晚太长了。他们只有一个共同点：午夜之后谁都靠不住，而两人也常常这么说。他们的理由彼此并不相似。小组的共识还在，尽管一种警惕的沉默慢慢渗了进来。林伟感激那句诚实的话，也为它的起因感到抱歉。沿着河边独自走回家的路并没有让选择更容易，只是让它更清楚。“再给我一周，”他又说了一遍。",
+        "春天来得晚，还下着雪。赵教授用动人而好客的语气提醒他们：项目像果实一样成熟——很慢，而且只有有人浇水才行。他对他们急躁的不赞成温和却彻底，屋里那些悲伤的脸说明这话已经落地。“你们弄错的不是目标，”他说，“而是代价。”他们同意重新评估计划、回收浪费的印刷品，并向每一位愿意听的志愿者说明自己的限度。否则下一个版本会在这个版本失败的地方原样失败，而再多的拍照也掩盖不了。他们认定，同意书是他们唯一真正的资产。"
+      ],
+      "exercises": [
+        {
+          "id": "CH006-Q1",
+          "type": "context",
+          "prompt": "What did the union want in exchange for the room and camera?",
+          "options": [
+            "more work than the group could sustain",
+            "a share of the map",
+            "a signed consent form",
+            "a weekly photo shoot"
+          ]
+        },
+        {
+          "id": "CH006-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “气馁；使泄气”?",
+          "options": [
+            "discourage",
+            "sustain",
+            "renew",
+            "recycle"
+          ]
+        },
+        {
+          "id": "CH006-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "exploit goodwill",
+            "exploit a biscuit",
+            "exploit the snow",
+            "exploit a discount"
+          ]
+        },
+        {
+          "id": "CH006-Q4",
+          "type": "cloze",
+          "prompt": "Professor Zhao's ______ of their rush was gentle but complete.",
+          "options": [
+            "disapproval",
+            "admiration",
+            "confidence",
+            "delight"
+          ]
+        },
+        {
+          "id": "CH006-Q5",
+          "type": "recall",
+          "prompt": "What did the group call their only real asset?",
+          "options": [
+            "the consent form",
+            "the camera",
+            "the discount",
+            "the logo"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH006-Q1",
+          "answer": "more work than the group could sustain",
+          "explanation": "The union attached a heavier workload to its offer."
+        },
+        {
+          "id": "CH006-Q2",
+          "answer": "discourage",
+          "explanation": "Maya said she was sad but not discouraged, meaning her will to continue survived."
+        },
+        {
+          "id": "CH006-Q3",
+          "answer": "exploit goodwill",
+          "explanation": "Exploit is used with abstract resources such as goodwill or trust."
+        },
+        {
+          "id": "CH006-Q4",
+          "answer": "disapproval",
+          "explanation": "He did not approve of their haste, though he expressed it mildly."
+        },
+        {
+          "id": "CH006-Q5",
+          "answer": "the consent form",
+          "explanation": "They decided the one-sentence consent form was the only asset they truly owned."
+        }
+      ]
+    },
+    {
+      "article_id": "CH007",
+      "english_title": "New Ground: The Disagreement",
+      "chinese_title": "新的起点：分歧",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "By March the map had grown into an argument. A college leader wanted to hand it to the university administration; a student group wanted to keep it personal. “A president signs a policy,” Maya said, “but a student stands in the rain.” She meant that two priorities could not both come first, and that a student with wet hair in a thin coat had no vote in either plan. The disagreement was not about ability; it was about who owned the story, and individualism was not the enemy of a shared map — silence was.",
+        "On campus the argument had a history. A senior dean with a grey beard blew a small horn for tradition, and a young lecturer brushed the dust off an old statistic: the rise of youth enrolment had changed the undergraduate body, and each dormitory now held a different idea of adulthood. A young woman in the dormitory laughed at the horn, and Maya wrote her words down. Neither a gown nor a lecture could settle the question of identity.",
+        "Lin's major was environmental engineering, and he trusted numbers. Maya studied journalism, and she trusted persons. “An individual is not a statistic,” she said. Professor Zhao called this the dense nucleus of the problem: growth has an extension, a personality, and a cost. In the spring the campus turned green, and a poster about nutrition and protein looked more urgent than a lecture on cultivation.",
+        "“You promote the map,” Maya said, “and they promote themselves.” A rag of an old notice, mold on the wall behind it, and a letter from an academician were the only evidence the office had produced. There was no promotion and no budget line, only a rush to finish before the summer. Maya's grandmother had died of cancer the year before; she did not say it to win the argument, but the room went quiet when she mentioned the bus that took two hours.",
+        "The second opportunity came from the alumni office itself. Among the three hundred replies, a hundred had come from people who could not afford a taxi. “Why do those numbers matter?” a gentleman from that office asked. “Because a lady in the dorm and a girl in the laboratory rely on the same bus,” Maya said. The group agreed to develop the map in two versions, to alter nothing without asking, and also to publish its cost. Confidence, Lin wrote, is not faith; it is the amount of evidence you are willing to show. Professor Zhao encouraged them, and the answer to the disagreement was yes and no at once."
+      ],
+      "chinese_paragraphs": [
+        "到三月，那张地图已经变成一场争论。一位学院领导想把它交给学校行政部门；一个学生团体想让它保持个人色彩。“校长可以签署一项政策，”曼雅说，“但学生是站在雨里的那个人。”她的意思是：两种优先事项不可能同时排第一，而一个头发湿透、只穿薄外套的学生在两种方案里都没有投票权。分歧不在于能力，而在于故事归谁所有；个人主义并不是共享地图的敌人——沉默才是。",
+        "在校园里，这场争论有它的历史。一位留着灰胡子的资深院长为传统吹响小号，一位年轻讲师则刷掉了旧统计数字上的灰尘：青年入学人数的上升改变了本科生群体，每栋宿舍楼现在都抱着不同的成年观。宿舍里的一位年轻女生被小号逗笑了，曼雅把她说的话记了下来。无论是学位袍还是一场讲座，都无法解决身份这个问题。",
+        "林伟的专业是环境工程，他相信数字。曼雅学的是新闻，她相信人。“个人不是统计数字，”她说。赵教授称这是问题的致密核心：增长有它的外延、它的性格，也有它的代价。春天校园变绿，一张关于营养和蛋白质的海报看起来比一堂关于耕作培养的讲座更紧迫。",
+        "“你们在推广这张地图，”曼雅说，“而他们在推广自己。”一张破布似的旧通知、它背后墙上的霉斑，以及一位院士的来信，就是办公室拿出的全部证据。没有推广、没有预算科目，只有赶在夏天之前完成的仓促。曼雅的祖母前一年死于癌症；她说起这件事不是为了赢得争论，但当她提到那趟要坐两小时的公交车时，房间安静了。",
+        "第二个机会来自校友会本身。在三百份回复中，有一百份来自坐不起出租车的人。“这些数字为什么重要？”校友会的一位先生问。“因为宿舍里的女士和实验室里的女孩依赖同一趟公交，”曼雅说。小组同意把地图做成两个版本、未经询问不改动任何内容，并且也公布它的成本。林伟写道：信心不是信仰，而是你愿意展示的证据总量。赵教授鼓励了他们，而这场分歧的答案是“是”与“否”同时成立。"
+      ],
+      "exercises": [
+        {
+          "id": "CH007-Q1",
+          "type": "context",
+          "prompt": "What was the disagreement really about?",
+          "options": [
+            "who owned the story",
+            "how to print the map",
+            "which bus to take",
+            "who would pay for the camera"
+          ]
+        },
+        {
+          "id": "CH007-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “耕作；培养”?",
+          "options": [
+            "cultivation",
+            "extension",
+            "promotion",
+            "nucleus"
+          ]
+        },
+        {
+          "id": "CH007-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "develop the map",
+            "develop a beard",
+            "develop a horn",
+            "develop a gown"
+          ]
+        },
+        {
+          "id": "CH007-Q4",
+          "type": "cloze",
+          "prompt": "The ______ of youth enrolment had changed the undergraduate body.",
+          "options": [
+            "rise",
+            "rag",
+            "rush",
+            "mold"
+          ]
+        },
+        {
+          "id": "CH007-Q5",
+          "type": "recall",
+          "prompt": "What did the group agree to publish?",
+          "options": [
+            "the cost of the map",
+            "the dean's letter",
+            "the grandmother's story",
+            "the alumni list"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH007-Q1",
+          "answer": "who owned the story",
+          "explanation": "The conflict was about ownership, not about the group's ability."
+        },
+        {
+          "id": "CH007-Q2",
+          "answer": "cultivation",
+          "explanation": "Cultivation appeared beside nutrition in the poster about growth."
+        },
+        {
+          "id": "CH007-Q3",
+          "answer": "develop the map",
+          "explanation": "Develop naturally combines with a product, plan, or map."
+        },
+        {
+          "id": "CH007-Q4",
+          "answer": "rise",
+          "explanation": "A rise in enrolment changed who studied at the university."
+        },
+        {
+          "id": "CH007-Q5",
+          "answer": "the cost of the map",
+          "explanation": "They decided to publish the real cost alongside the map."
+        }
+      ]
+    },
+    {
+      "article_id": "CH008",
+      "english_title": "New Ground: What the Numbers Hide",
+      "chinese_title": "新的起点：数字隐藏了什么",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "The numbers were brand new and, yeah, they also seemed to contradict each other. A councilor praised the rise in enrolment; a pensioner in the same queue said the buses had not improved at all. “Your figures are convincing,” Professor Zhao said, “but they cannot describe what a commuter feels when the bus never comes. You ought to ask what the numbers hide.”",
+        "The team listed what they lacked. A single, vivid story is not enough; a hundred forgettable ones are not either. The complexity was real, and the schedule was merely tolerable. “The data vary by street,” Lin said, “and a smelly corridor can be more harmful than a missing sign. The corridor is virtually empty after eight, but the bus is incredibly slow all day.” A naughty child had once kicked the bag of a bully down the stairs; the incident was attributable to a broken lift, not to a bad temper.",
+        "Being truly independent was harder than it looked. A talented student could enhance one section, but a diverse team needed the flexibility to rewrite the rest. Accordingly, they invited a pensioner's group to check the route. “I shiver when I think of the old plan,” a comrade said. “It was predictable and useless.” There was a vacancy on the committee, and filling it would complicate everything.",
+        "The opponent of the project was not a person but a habit. A raging argument about an addictive game, a rumour about brutality in the dormitory, and an elective course on manners all drifted through the same group chat. Lin found it hurtful and, at first, unbelievable. “Am I nosy?” Maya asked. “No,” he said. “You are hopeful, and that is rare.”",
+        "They agreed to improve the report, to enrol two more volunteers, and to enrich the sample with voices a spreadsheet cannot hold. The work was not glamorous; it was merely useful, though the queue was long. “Yeah,” Maya said, “a leader is someone who asks again.” She had grown used to the smelly corridor and the lady with the umbrella, and so had the president of the student union, who now stood beside them at the gate with wet hair and a personal note in his hand. Three months ago the same man had called the plan forgettable. “Good lord,” he said, “you have achieved something small. My major taught me to develop a model; you taught me to visit one. Give me the list.” The university press wanted a photograph for its college edition."
+      ],
+      "chinese_paragraphs": [
+        "这些数字是崭新的，而且，是的，它们还自相矛盾。一位议员称赞入学率的上升；同一条队伍里的一位领养老金者却说公交毫无改善。“你的数据很有说服力，”赵教授说，“但它们描述不了一个通勤者在公交永不到站时的感受。你应该问问数字藏起了什么。”",
+        "团队列出了自己缺少的东西。一个生动的故事不够；一百个容易被遗忘的故事也不够。复杂性是真实的，而日程只是勉强可以忍受。“数据因街道而异，”林伟说，“一条发臭的走廊可能比一块缺失的指示牌更有害。八点以后走廊几乎空无一人，而公交车一整天都慢得难以置信。”一个顽皮的孩子曾把一个恶霸的书包踢下楼梯；这件事应归因于坏掉的电梯，而不是坏脾气。",
+        "真正独立比看上去更难。一位有天赋的学生可以改善某一部分，但一个多元的团队需要重写其余部分的灵活性。因此，他们邀请了一个领养老金者的团体来核查路线。“一想到旧方案我就发抖，”一位同志说，“它可预测，而且毫无用处。”委员会有一个空缺，而填补它会弄复杂一切。",
+        "项目的对手不是某个人，而是一种习惯。一场关于上瘾游戏的激烈争吵、一则关于宿舍暴行的传闻，以及一门关于礼仪的选修课，都在同一个群聊里飘来飘去。林伟觉得这伤人，起初也觉得难以置信。“我爱打听吗？”曼雅问。“不，”他说，“你有希望，而这很稀有。”",
+        "他们同意改进报告、再登记两名志愿者，并用电子表格装不下的声音来充实样本。这份工作并不光鲜，只是有用，尽管队伍很长。“是的，”曼雅说，“领导者就是那个会再问一次的人。”她已经习惯了那条发臭的走廊和那位撑伞的女士；学生会的会长也一样——他此刻就站在他们身旁的大门口，头发湿着，手里拿着一封私人短笺。三个月前，同一个人还说这个方案不值一提。“天哪，”他说，“你们做成了一件小事。我的专业教我开发模型，你们教我去走访一次。把名单给我。”校报想要一张照片用于学院版。"
+      ],
+      "exercises": [
+        {
+          "id": "CH008-Q1",
+          "type": "context",
+          "prompt": "What did Professor Zhao say the figures could not do?",
+          "options": [
+            "describe a commuter's experience",
+            "predict the enrolment",
+            "convince a councilor",
+            "measure a corridor"
+          ]
+        },
+        {
+          "id": "CH008-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “可归因于…的”?",
+          "options": [
+            "attributable",
+            "predictable",
+            "tolerable",
+            "forgettable"
+          ]
+        },
+        {
+          "id": "CH008-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "enrich the sample",
+            "enrich the queue",
+            "enrich a shiver",
+            "enrich the store"
+          ]
+        },
+        {
+          "id": "CH008-Q4",
+          "type": "cloze",
+          "prompt": "The incident was ______ to a broken lift.",
+          "options": [
+            "attributable",
+            "addictive",
+            "raging",
+            "nosy"
+          ]
+        },
+        {
+          "id": "CH008-Q5",
+          "type": "recall",
+          "prompt": "What did the president finally ask for?",
+          "options": [
+            "the list",
+            "the umbrella",
+            "the photograph",
+            "the dormitory key"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH008-Q1",
+          "answer": "describe a commuter's experience",
+          "explanation": "Numbers cannot carry what a person feels while waiting."
+        },
+        {
+          "id": "CH008-Q2",
+          "answer": "attributable",
+          "explanation": "The accident could be attributed to a broken lift rather than to temper."
+        },
+        {
+          "id": "CH008-Q3",
+          "answer": "enrich the sample",
+          "explanation": "Enrich is used when adding depth or quality to data or soil."
+        },
+        {
+          "id": "CH008-Q4",
+          "answer": "attributable",
+          "explanation": "Attributable means able to be explained by a particular cause."
+        },
+        {
+          "id": "CH008-Q5",
+          "answer": "the list",
+          "explanation": "He asked for the list after admitting the project had achieved something."
+        }
+      ]
+    },
+    {
+      "article_id": "CH009",
+      "english_title": "New Ground: A Better Question",
+      "chinese_title": "新的起点：更好的问题",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "The better question arrived in the evening, on the back of a report. Which item on the list actually changes a decision? The number of complaints was a score; the quality of one private note was a factor. “A city is not a unit,” Maya said. “It is a league of small arrangements.” Her hand moved across the page and stopped at a single line.",
+        "The club had spread its stuff across the table: a map, a gas bill, a cover from an old magazine, and a photograph of a soldier. The group had no property, no estate, and no independent income. Their pride was the only capital they had. “Where is the conflict?” Lin asked. “It is in the distance between what we measure and what people need.”",
+        "Mark the limit, then adjust the shape. A voluntary member of the committee, a captain of the rowing team, and a student who studied philosophy all said the same thing: the decline of trust had a consequence that no chart showed. The old colonial map was still on the wall under a protective sheet of plastic. Restraint, not enthusiasm, would decide whether they could keep their idea alive.",
+        "The climax came on a Thursday, when the student union demanded a decision. Lin wanted to clone the successful west-gate experiment; Maya wanted to keep the club's independence. “That is not a choice,” she said. “That is a descent into the same mistake.” Anything else, she thought, would be pride wearing a new coat.",
+        "They chose a third path. The report would change one line: from “cover every gate” to “ask a better question at every gate.” But the rate of progress was slower than anyone liked, and no one could explain why. A guy from the city desk laughed at their absolute rule, and then wrote it down. “Your notes are the only thing holding this together,” Lin said. “Each member has to share them, and that is an opportunity, not a burden.” Until the summer, a voluntary team would keep the notes public; after that, the arrangement would have to stand on its own. “Yeah,” Maya said, “that is worth the risk.”"
+      ],
+      "chinese_paragraphs": [
+        "更好的问题在傍晚到来，写在一份报告的背面。清单上哪一项真正改变决定？抱怨的数量只是一个分数；一条私人笔记的品质才是一个因子。“城市不是一个单位，”曼雅说，“它是许多小安排的联盟。”她的手在纸面上移动，停在单独一行上。",
+        "社团的东西摊了一桌：一张地图、一张燃气账单、一本旧杂志的封面，还有一张士兵的照片。小组没有财产、没有地产，也没有独立收入。他们的自尊是唯一的资本。“冲突在哪里？”林伟问。“它就在我们所测量的和人们所需要的之间的距离里。”",
+        "标出界限，然后调整形状。委员会里一位自愿参加的成员、赛艇队的队长，以及一名学哲学的学生都说了同一件事：信任的衰退有一个任何图表都显示不出的后果。那张旧的殖民地地图还挂在墙上，盖着一层保护性的塑料膜。决定他们能否让想法活下来的是克制，而不是热情。",
+        "高潮在周四到来，学生会要求他们做出决定。林伟想复制西门的成功实验；曼雅想保住社团的独立性。“这不是选择，”她说，“这是坠入同一个错误。”她心想，其他任何做法都只是披着新外套的自尊。",
+        "他们选了第三条路。报告只改一行：从“覆盖每一道门”改成“在每一道门前问一个更好的问题”。但进展的速度比任何人希望的都慢，也没人说得清为什么。城市版的一位家伙嘲笑他们那条绝对规则，随后又把它记了下来。“你的笔记是唯一撑住这一切的东西，”林伟说，“每个成员都必须共享它们，而这是一个机会，不是负担。”在夏天之前，一支自愿的团队会让笔记保持公开；之后，这套安排必须自己站得住。“是的，”曼雅说，“这值得冒险。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH009-Q1",
+          "type": "context",
+          "prompt": "What did the group change in the report?",
+          "options": [
+            "one line about the question at each gate",
+            "the name of the club",
+            "the price of the map",
+            "the colour of the cover"
+          ]
+        },
+        {
+          "id": "CH009-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “克制；抑制”?",
+          "options": [
+            "restraint",
+            "climax",
+            "descent",
+            "pride"
+          ]
+        },
+        {
+          "id": "CH009-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "adjust the shape",
+            "adjust the soldier",
+            "adjust the gas",
+            "adjust the estate"
+          ]
+        },
+        {
+          "id": "CH009-Q4",
+          "type": "cloze",
+          "prompt": "The group had no property and no ______ income.",
+          "options": [
+            "independent",
+            "colonial",
+            "voluntary",
+            "protective"
+          ]
+        },
+        {
+          "id": "CH009-Q5",
+          "type": "recall",
+          "prompt": "How long would the notes stay public?",
+          "options": [
+            "until the summer",
+            "until the Thursday meeting",
+            "for one week",
+            "forever"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH009-Q1",
+          "answer": "one line about the question at each gate",
+          "explanation": "They replaced full coverage with a better question at every gate."
+        },
+        {
+          "id": "CH009-Q2",
+          "answer": "restraint",
+          "explanation": "Restraint, not enthusiasm, would keep the project alive."
+        },
+        {
+          "id": "CH009-Q3",
+          "answer": "adjust the shape",
+          "explanation": "Adjust combines naturally with shape, plan, or setting."
+        },
+        {
+          "id": "CH009-Q4",
+          "answer": "independent",
+          "explanation": "The group had no income of its own."
+        },
+        {
+          "id": "CH009-Q5",
+          "answer": "until the summer",
+          "explanation": "A voluntary team would keep the notes public until the summer."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH009",
+    "last_event": "The group replaced the goal of covering every gate with a better question at every gate, and kept the notes public under a voluntary team.",
+    "unresolved_consequence": "The project still depends on volunteers, money is short, and the faculty term review is still ahead.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year environmental-engineering student",
+      "Maya Chen": "journalism student and co-lead",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map"
+    ],
+    "first_required_event_next_chapter": "CH010 must put the group's own map to a test that the group did not design.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage"
+    ]
+  }
+}

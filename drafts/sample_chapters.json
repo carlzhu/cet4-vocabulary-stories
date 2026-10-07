@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "chapters": [
+    {
+      "article_id": "CH001",
+      "english_title": "New Ground: A Signal",
+      "chinese_title": "新的起点：一个信号",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "Three months ago, Lin Wei had imagined university as a quiet place where success would depend on private effort. Yet on a bright autumn morning, he stood outside Harbor City University's registration hall with a cell phone in one hand and a paper map in the other. The university had recently released an orientation app, but it kept sending students to a locked door. Lately, Lin had tried to appear calm and youthful. Now he watched a creative crowd invent its own directions.",
+        "“Good lord, there are plenty of maps, but none of them agree,” said Maya Chen, who was eating a noodle from a paper cup. A visitor nearby waved an unlit cigar and complained that the smoggy air made every building look alike. On one map, a grassy path crossed land marked for drought research; on another, the same path ended beside a tidal laboratory. The campus signs did little to illustrate which route was open.",
+        "Then the registration kiosk broke. Its screen automatically moved upward through a list of error messages, including one called “address normalization.” A picky administrator told everyone to conform to the printed instructions. Maya gave an exclamatory reply—“How?”—and asked Lin to summarize the problem. In language class, an infinitive might be easy to identify; in a crowd, “to register” was harder to achieve. Lin used the maps to illustrate the contradiction instead of arguing about blame.",
+        "A volunteer stretched a rope across the unsafe path, and the line of students moved steadily toward the wrong building. Some looked helpless. Lin expected Maya to brag about finding the error first, but she was supportive. Together they made a simple sign, then added photographs to the app. Each clear image could strengthen one instruction and reinforce the next. Their correction worked with surprising rapidity.",
+        "The old maps were theirs to criticize, but the new solution would be theirs to maintain. Near a wall of remembrance, under a starry design painted by former students, Maya said that a useful system should inspire confidence rather than reward the people who excel at guessing. Lin admitted that silence would have been cowardice. A boastful solution could not dignify its users, and technology alone could not civilize an institution. Their first design had to be adaptive: it should learn from mistakes, purify bad data, and respect people who needed help. That small decision became the beginning of their shared project."
+      ],
+      "chinese_paragraphs": [
+        "三个月前，林伟曾把大学想象成一个安静的地方，成功全靠个人努力。然而在一个明亮的秋日早晨，他站在港城大学注册大厅外，一手拿着手机，一手拿着纸质地图。学校最近发布了一款迎新应用，但它不断把学生引向一扇上锁的门。最近林伟一直努力显得镇定而有朝气，此刻却看到一群富有创意的人各自发明路线。",
+        "“天哪，地图多得很，却没有两张说法一致。”陈曼雅一边从纸杯里夹起一根面条一边说。一位访客挥着一支没有点燃的雪茄，抱怨烟雾弥漫的空气让所有建筑看起来都一样。一张地图上的草地小路穿过标为干旱研究区的土地；另一张地图却让同一条路终止在潮汐实验室旁。校园标识完全没有说明哪条路可以通行。",
+        "随后注册终端坏了。屏幕自动向上滚动一串错误信息，其中一项叫作“地址规范化”。一名挑剔的管理员让所有人遵照纸质说明。曼雅用感叹的语气反问：“怎么遵照？”并请林伟概括问题。在语言课上，辨认不定式也许很容易；但在人群中，“去注册”却很难实现。林伟用几张地图说明矛盾，没有争论该怪谁。",
+        "一名志愿者用绳子拦住危险小路，学生队伍却稳定地向错误的大楼移动，有些人显得无助。林伟以为曼雅会吹嘘自己最先发现错误，但她非常支持他。他们一起做了一块简易指示牌，又在应用里加入照片。每张清晰图片都能加强一条说明，并巩固下一条。修正以惊人的速度奏效。",
+        "旧地图是前辈们制作的，他们可以批评；新方案则属于他们，也要由他们维护。在一面纪念墙旁、历届学生绘制的星空图案下，曼雅说，一个有用的系统应当激发信心，而不是只奖励擅长猜测的人。林伟承认，保持沉默会是一种怯懦。自夸的方案不能赋予使用者尊严，技术本身也不能使机构文明。第一次设计必须具有适应性：从错误中学习、清除坏数据，并尊重需要帮助的人。这个小决定成了他们共同项目的起点。"
+      ],
+      "exercises": [
+        {"id": "CH001-Q1", "type": "context", "prompt": "In paragraph 3, what does “conform” most nearly mean?", "options": ["follow a rule", "draw a map", "break a machine", "leave a crowd"]},
+        {"id": "CH001-Q2", "type": "collocation", "prompt": "Choose the natural phrase.", "options": ["reinforce an instruction", "reinforce a noodle", "reinforce a visitor", "reinforce an autumn"]},
+        {"id": "CH001-Q3", "type": "cloze", "prompt": "The design had to be ______ so it could learn from mistakes.", "options": ["adaptive", "starry", "picky", "tidal"]},
+        {"id": "CH001-Q4", "type": "meaning", "prompt": "Which word means “概括”?", "options": ["summarize", "purify", "brag", "dignify"]},
+        {"id": "CH001-Q5", "type": "recall", "prompt": "Complete the phrase: ______ confidence.", "options": ["inspire", "broke", "conform", "depend"]}
+      ],
+      "answers": [
+        {"id": "CH001-Q1", "answer": "follow a rule", "explanation": "The administrator asked everyone to follow the printed instructions."},
+        {"id": "CH001-Q2", "answer": "reinforce an instruction", "explanation": "Reinforce commonly means strengthen an idea, rule, or structure."},
+        {"id": "CH001-Q3", "answer": "adaptive", "explanation": "An adaptive design changes in response to new information."},
+        {"id": "CH001-Q4", "answer": "summarize", "explanation": "Summarize means express the main points briefly."},
+        {"id": "CH001-Q5", "answer": "inspire", "explanation": "Inspire confidence is a common collocation."}
+      ]
+    },
+    {
+      "article_id": "CH050",
+      "english_title": "The First Real Deadline: What the Numbers Hide",
+      "chinese_title": "第一个真实期限：数字隐藏了什么",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "By the first minute of Monday's management meeting, the team could hear that something was wrong. Here was a wonderful dashboard showing a huge increase in admission requests—especially from a mountainous district—but the figures did not match the paper receipt kept by each local office. All sixteen charts used the same framework, and each looked somewhat convincing. Management had always called this a big success and asked the team to show it to investors; Maya reminded them that the missing forms belonged to real people. Maya, now practicing journalism at the company, asked one particular question: did the missing applications still exist?",
+        "Grace opened fourteen sample files, then thirteen more. A considerable number had disappeared after a regulatory update. Seventeen users had tried repeatedly, but the system treated every resumption as a new session. The problem was increasingly serious. A conditional rule was meant to prohibit duplicate claims; instead, it could violate equal-access policy by blocking people with slow connections. The apparent avoidance of fraud had created a discriminatory result.",
+        "The software vendor wanted to simplify the report and authorize release. Its representative described the loss as petty, then praised the vast benefits for an immense user base. Lin felt deeply disappointed. Good oversight could not abolish evidence merely because the evidence was inconvenient. A preferential success rate for well-connected users was not beneficial to the public, and no form of professional admission could excuse concealment.",
+        "Daniel placed a metallic box on the table. It held the wreckage of a damaged field terminal, a manual, an old coinage sample used in training, and a printed receipt. The physical evidence made the immensity of the digital gap visible. In areas of scarcity, equipment was not plentiful; a commuter might spend a week traveling to submit one form. The team asked the police liaison only about device theft, not about applicants. That separation mattered.",
+        "Maya wrote up the finding without deceit or exaggeration. The accountant calculated the mounting cost of correction, while Grace prepared a lawful resumption plan. The company would prohibit automatic rejection, restore the missing records, and publish the oversight. The decision would disappoint investors expecting an immediate launch, but it protected admittance for real users. Faced with the immensity of the repair, Lin still felt some puzzlement; yet the team's practice was now clear: strong journalism, careful management, and honest collaboration had to come before a promising deadline."
+      ],
+      "chinese_paragraphs": [
+        "周一管理会议开始不到一分钟，团队就听出事情不对。仪表盘漂亮地显示某山区的申请数量大幅上升，尤其显眼；但这些数字与当地各办公室保存的纸质收据不符。十六张图表全部使用同一个框架，看起来都颇有说服力。管理层一直把这称为一次巨大成功，并要求团队向投资者展示；曼雅提醒他们，丢失的表格属于真实的人。正在公司实习做新闻工作的曼雅提出了一个具体问题：那些消失的申请是否仍然存在？",
+        "刘佳打开十四份样本文件，又查看了十三份。大量记录在一次监管更新后消失。十七名用户反复尝试，但系统把每次恢复操作都当成新会话。问题越来越严重。一条附带条件的规则原本用于禁止重复申报，却可能因拦截网络较慢的人而违反平等准入政策。表面上的防欺诈措施造成了歧视性结果。",
+        "软件供应商希望简化报告并批准发布。代表称损失微不足道，随后大谈庞大用户群能够获得的广泛好处。林伟深感失望。良好的监督不能因为证据不方便就废除证据。只让网络条件良好的用户享受优惠成功率并不符合公共利益，任何职业资格都不能成为隐瞒的借口。",
+        "丹尼尔把一个金属盒放到桌上，里面装着损坏现场终端的残骸、一本手册、培训中使用的旧币样本和一张打印收据。实物证据让数字鸿沟的巨大程度变得可见。在资源匮乏地区，设备并不充足；通勤者可能要花一周时间才能提交一份表格。团队只向警方联络员询问了设备失窃，却没有询问申请人。这种割裂非常关键。",
+        "曼雅如实写下发现，没有欺骗，也没有夸张。会计核算不断上升的修复成本，刘佳则制定合法的恢复计划。公司将禁止自动拒绝，恢复丢失记录，并公布监督失误。这个决定会让期待立即上线的投资者失望，却保护了真实用户的准入权。面对庞大的修复工作，林伟仍有些困惑，但团队的做法已经明确：有力的新闻调查、谨慎的管理和诚实合作必须优先于一个看似前景光明的期限。"
+      ],
+      "exercises": [
+        {"id": "CH050-Q1", "type": "context", "prompt": "Why was the dashboard misleading?", "options": ["It hid missing applications", "It used no charts", "It counted only police records", "It was written by applicants"]},
+        {"id": "CH050-Q2", "type": "meaning", "prompt": "Which word means “监督；疏忽”?", "options": ["oversight", "coinage", "wreckage", "admittance"]},
+        {"id": "CH050-Q3", "type": "collocation", "prompt": "Choose the natural phrase.", "options": ["regulatory update", "regulatory noodle", "regulatory mountain", "regulatory Monday"]},
+        {"id": "CH050-Q4", "type": "cloze", "prompt": "The rule produced a ______ result by blocking one group unfairly.", "options": ["discriminatory", "metallic", "plentiful", "wonderful"]},
+        {"id": "CH050-Q5", "type": "recall", "prompt": "What did the company decide to restore?", "options": ["the missing records", "the old coinage", "the investors", "the mountains"]}
+      ],
+      "answers": [
+        {"id": "CH050-Q1", "answer": "It hid missing applications", "explanation": "The charts looked positive because failed records had disappeared."},
+        {"id": "CH050-Q2", "answer": "oversight", "explanation": "Oversight can mean supervision or an unintentional failure to notice something."},
+        {"id": "CH050-Q3", "answer": "regulatory update", "explanation": "Regulatory commonly modifies rules, requirements, or changes governed by authorities."},
+        {"id": "CH050-Q4", "answer": "discriminatory", "explanation": "The rule treated users differently because of their connection quality."},
+        {"id": "CH050-Q5", "answer": "the missing records", "explanation": "Restoring records was part of the resumption plan."}
+      ]
+    },
+    {
+      "article_id": "CH090",
+      "english_title": "What the System Remembers: Pressure Builds",
+      "chinese_title": "系统记住了什么：压力上升",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "At this stage of development, the international airport project had a long record of safe tests. The local team used a computer screen to view every runway, road, parking area, and service car across the full range of the site, from the control-room door to the nearest street. As Lin entered, a red statement appeared: GET NEW DATA. It was not the style of warning they had designed, nor did it give the next step. They had little time to wait.",
+        "A group of engineers began to draw the system in the limited space on a wall. Each column showed one period in the data sequence; each row showed a different condition. A blue card represented food deliveries, a white card represented a medical drug shipment, and a gold card represented a high-security flight. A thick string formed the link between each record and the person who approved it. The visual combination exposed a gap. A red cross marked the exact link where the sequence broke.",
+        "The database could capture a driver's face but also contained a gene field copied from another version. That field had no useful purpose here. A negative flag should have blocked it under privacy regulation, yet an old construction template had carried it across. In contrast, the system failed to record damage on the lip of a fuel tray. The screen displayed noise instead of a precise measurement.",
+        "Outside, workers used tape and a tin seal to protect a cable box. A hammer lay beside the yard marker, and a warning bell beat against the wind. No one could press the emergency button until the control-room director confirmed the fault. Lin removed the copied field, but the remainder of the sequence still needed review. The force of habit had allowed a technical shortcut to play the role of policy, leaving no safety net when the copied field passed inspection.",
+        "The team decided to get independent approval before reopening the runway. They would block unnecessary personal data, cross-check every card, and give each operator a clear phrase for reporting an error. Thus the delay became evidence rather than embarrassment. The airport remained safe, and the group gained time to rebuild the system without hiding what had happened."
+      ],
+      "chinese_paragraphs": [
+        "项目开发进行到这一阶段时，这套国际机场系统已经有很长的安全测试记录。本地团队用电脑屏幕查看整个场地范围内的每条跑道、道路、停车区域和服务车辆，从控制室门口一直到最近的街道。林伟走进来时，屏幕出现一条红色提示：“获取新数据。”这既不是他们设计的警告样式，也没有说明下一步该做什么，而他们没有多少时间等待。",
+        "一组工程师开始在有限的墙面空间里画出系统。每一列代表数据序列中的一个时期，每一行代表一种不同状态。蓝卡代表食品运输，白卡代表医药货物，金卡代表高安全级别航班。一根粗绳表示每条记录与批准人之间的联系。这个可视化组合暴露出一个缺口，一个红色的叉标出了序列断裂的确切环节。",
+        "数据库可以捕捉司机的面部，却还包含一个从其他版本复制来的基因字段。该字段在这里没有任何用途。按照隐私规定，否定标记本应阻止它，但一份旧建筑模板把它带了过来。相反，系统没有记录燃料托盘边缘的损伤，屏幕显示的是噪声而非精确测量。",
+        "室外，工人用胶带和锡封保护电缆箱。锤子放在码标旁，警铃在风中不断敲响。控制室主管确认故障前，任何人都不能按紧急按钮。林伟删除了复制字段，但序列的其余部分仍需检查。习惯的力量让一个技术捷径扮演了政策的角色，也让复制字段通过检查时没有任何安全网。",
+        "团队决定在重新开放跑道前取得独立批准。他们会拦截不必要的个人数据，交叉核对每张卡片，并给每名操作员一句清晰的报错用语。因此，这次延误成了证据，而不是难堪。机场保持安全，团队也获得时间，在不隐瞒事件的前提下重建系统。"
+      ],
+      "exercises": [
+        {"id": "CH090-Q1", "type": "context", "prompt": "What did the visual cards expose?", "options": ["a gap in the data sequence", "a closed airport restaurant", "a broken car door", "a new international road"]},
+        {"id": "CH090-Q2", "type": "meaning", "prompt": "Which word means “剩余部分”?", "options": ["remainder", "contrast", "column", "runway"]},
+        {"id": "CH090-Q3", "type": "collocation", "prompt": "Choose the natural phrase.", "options": ["privacy regulation", "privacy hammer", "privacy tin", "privacy yard"]},
+        {"id": "CH090-Q4", "type": "cloze", "prompt": "The team would ______-check every card.", "options": ["cross", "press", "beat", "seal"]},
+        {"id": "CH090-Q5", "type": "recall", "prompt": "Why did the team delay reopening the runway?", "options": ["to obtain independent approval", "to buy a gold card", "to move the wall", "to shorten the road"]}
+      ],
+      "answers": [
+        {"id": "CH090-Q1", "answer": "a gap in the data sequence", "explanation": "The wall diagram showed that one link in the approval data was missing."},
+        {"id": "CH090-Q2", "answer": "remainder", "explanation": "Remainder means what is left after another part is removed or used."},
+        {"id": "CH090-Q3", "answer": "privacy regulation", "explanation": "Regulation naturally combines with privacy, safety, or industry rules."},
+        {"id": "CH090-Q4", "answer": "cross", "explanation": "Cross-check means verify information using another source."},
+        {"id": "CH090-Q5", "answer": "to obtain independent approval", "explanation": "The team chose verification before speed."}
+      ]
+    }
+  ]
+}

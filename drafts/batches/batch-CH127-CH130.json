@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH127-CH130",
+  "chapter_ids": [
+    "CH127",
+    "CH128",
+    "CH129",
+    "CH130"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH127",
+      "english_title": "A Choice That Has a Cost: A Signal",
+      "chinese_title": "有代价的选择：一个信号",
+      "theme": "心理、决策、责任与人生选择",
+      "english_paragraphs": [
+        "They had published every exemption and still lost the room; now the only question left was what each of them would choose. The tenth arc began in a museum of urban history, where the choice of a career seemed to require an assessment that nobody had written. “A birth in a village and a degree in the city do not produce the same consciousness,” the director said. “You have a steady record and a supreme reputation, and now you must decide what it is for.”",
+        "The dilemma was polite and fierce at once. “I appreciate the offer,” Lin said, “but an elegant title is not the same as integrity.” A prospective employer had sent a memo and a memorandum about the modernization of the plant; a second letter mentioned its modernisation in the same breath, and a third asked about neutrality in a dispute the plant had already lost.",
+        "The wildlife survey was the reminder of what the group actually owned: a decent dataset, a doubtful forecast, and a dying weather station. “A reversal of the verdict would require a decisive report,” Maya wrote. “We can imitate a respectable process and we cannot fake the perseverance behind it.”",
+        "The puzzle of the second week was the acidity of the river. “A permissive rule and a corrupt reading have the same effect on a sample,” the analyst said. “The difference is who signs it.” Her willpower had carried the survey through a coarse season, and the group had not noticed.",
+        "The reproductive data and the urbanisation figures arrived on the same morning. “We urbanise a district and we call it growth,” the planner said. “To urbanize is not the same as to improve.” The hesitation in the room was honest, and it was the first useful signal of the whole arc.",
+        "The insanity of the summer had been the attempt to do both jobs, and the healthy response was to let one of them go. “A fire in the building would not require less of us,” the director said. “It would require the same people, now, with a true answer.” It was a pleasant fortune, and it did not appear by accident. We had to guess how the production of a survey could fill the role of a job, and we could avoid the fall only by refusing to sell the museum's data. A sincere sorry would not do; a quiet defiance would."
+      ],
+      "chinese_paragraphs": [
+        "他们已经公布了每一份豁免，却仍然失去了那间屋子；如今剩下的唯一问题是，他们各自会选择什么。第十段弧线开始于一座城市历史博物馆，在那里，职业的选择似乎需要一份没人写过的评估。“出生在村庄和在城市获得学位，并不会产生同样的意识，”主管说，“你有一份稳定的履历和一个至高的名声，现在你必须决定它是为了什么。”",
+        "这个困境既有礼貌又凶猛。“我感激这份邀约，”林伟说，“但一个优雅的头衔不等于正直。”一位潜在的雇主寄来一份备忘录和一份关于工厂现代化的备忘文件；第二封信在同一口气里提到了它的另一种拼法；第三封信问的是在一场工厂已经输掉的争议中的中立。",
+        "野生动物调查提醒了他们真正拥有什么：一份尚可的数据集、一份可疑的预报，以及一座垂死的气象站。“要翻转这个裁决，需要一份果断的报告，”曼雅写道，“我们可以模仿一个体面的流程，却无法伪造它背后的毅力。”",
+        "第二周的难题是河流的酸性。“一条纵容的规则和一次腐败的读法，对样本产生同样的影响，”分析师说，“区别在于谁签的字。”她的意志力让这项调查撑过了一个粗糙的季节，而小组没有注意到。",
+        "生殖数据与城市化数字在同一个早上到来。“我们把一个区都市化，然后称之为增长，”规划者说，“使都市化不等于改善。”屋里那份犹豫是诚实的，而它是整段弧线第一个有用的信号。",
+        "这个夏天的荒唐之处在于想同时做两份工作，而健康的回应是放掉其中一份。“楼里着火不会要求我们更少，”主管说，“它会要求同样这些人，在此时此刻，给出一个真实的答案。”这是一份令人愉快的运气，而它不是偶然出现的。我们必须猜测，一份调查的生产如何才能填满一份工作的角色，而只有拒绝出售博物馆的数据，我们才能避开那次跌落。一句真诚的道歉没有用；一次安静的蔑视才有用。"
+      ],
+      "exercises": [
+        {
+          "id": "CH127-Q1",
+          "type": "context",
+          "prompt": "Where did the tenth arc begin?",
+          "options": [
+            "in a museum of urban history",
+            "in a weather station",
+            "at the plant",
+            "in a village school"
+          ]
+        },
+        {
+          "id": "CH127-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “困境；两难”?",
+          "options": [
+            "dilemma",
+            "reversal",
+            "hesitation",
+            "defiance"
+          ]
+        },
+        {
+          "id": "CH127-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "fake perseverance",
+            "fake wildlife",
+            "fake acidity",
+            "fake neutrality"
+          ]
+        },
+        {
+          "id": "CH127-Q4",
+          "type": "cloze",
+          "prompt": "The analyst said a permissive rule and a corrupt reading have the same effect on a ______.",
+          "options": [
+            "sample",
+            "museum",
+            "memo",
+            "career"
+          ]
+        },
+        {
+          "id": "CH127-Q5",
+          "type": "recall",
+          "prompt": "What did Lin say an elegant title is not the same as?",
+          "options": [
+            "integrity",
+            "a reputation",
+            "a memo",
+            "a degree"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH127-Q1",
+          "answer": "in a museum of urban history",
+          "explanation": "The final arc opened in a museum."
+        },
+        {
+          "id": "CH127-Q2",
+          "answer": "dilemma",
+          "explanation": "The career choice was a real dilemma."
+        },
+        {
+          "id": "CH127-Q3",
+          "answer": "fake perseverance",
+          "explanation": "Process can be imitated; perseverance cannot be faked."
+        },
+        {
+          "id": "CH127-Q4",
+          "answer": "sample",
+          "explanation": "Permissiveness and corruption distort a reading equally."
+        },
+        {
+          "id": "CH127-Q5",
+          "answer": "integrity",
+          "explanation": "He separated status from honesty."
+        }
+      ]
+    },
+    {
+      "article_id": "CH128",
+      "english_title": "A Choice That Has a Cost: The First Promise",
+      "chinese_title": "有代价的选择：第一次承诺",
+      "theme": "心理、决策、责任与人生选择",
+      "english_paragraphs": [
+        "The first promise was made at the graduation ceremony, in the cold of a western winter: each graduate would publish one chapter of the group's history. “The goal is not the size of the report,” the director said at the meeting, “it is the duty to hand over the primary record.”",
+        "The average reader of the index would never see the distribution of the evidence, and that was the point. “A dead archive is a kind of lie,” Maya said. “A present-tense account is a kind of evidence.” The spirit of the assignment was to write down the origin of every number, including the ones with a fault.",
+        "The moment of conversion came with a photograph. “This image is identical to the one in the party's leaflet,” Lin said. “We have tied our history to a political leaflet, and we did not notice.” The stake was not money but the taste of the whole project.",
+        "The rough draft of the fifth chapter had a tie to an antique map and a reserve of unprocessed field notes. “A trick of presentation will not save a weak index,” the director said. “A sacrifice is required, and it is the sacrifice of the pretty sentence.”",
+        "The confusion in the room was about ownership. “Only ten of us wrote it, and even the town has a claim,” the editor said. “We cannot cling to a private sphere and call it public scholarship.” The reward for publishing was, in the end, the release itself.",
+        "A faint frost on the window, a stroke of the pen, and the preview of the last page: the promise was convert into a series of small assignments, and the convertible one was the only one the group could honestly sign. The ten of us met then, and the section on the party was the hardest. A type of town, a certain world, a town that would not die: the evidence was political even when we said that it was not. We had to show the break in the record and let the reader see it, and only the town could decide what to publish. The present page would seem to choke on its own inclination."
+      ],
+      "chinese_paragraphs": [
+        "第一个承诺是在毕业典礼上做出的，在一个西方冬天的寒冷里：每位毕业生将公开这个小组历史中的一章。“目标不是报告的规模，”主管在会上说，“而是移交第一手记录的责任。”",
+        "索引的普通读者永远不会看到证据的分布，而重点正在这里。“一座死的档案是一种谎言，”曼雅说，“一份现在时态的记述是一种证据。”这项任务的精神是写下每一个数字的来源，包括那些有毛病的。",
+        "转变的时刻随着一张照片到来。“这张影像与那份党传单上的一模一样，”林伟说，“我们把我们的历史系在了一份政治传单上，而我们没有注意到。”赌注不是钱，而是整个项目的情调。",
+        "第五章的粗略草稿与一张古董地图和一批未整理的野外笔记有关。“呈现上的一个诀窍救不了一个虚弱的索引，”主管说，“需要一种牺牲，而它就是牺牲那句漂亮的句子。”",
+        "屋里的混乱是关于归属的。“只有我们十个人写了它，而连镇上也有份，”编辑说，“我们不能紧抓着一个私人领域，然后称之为公共学术。”公开的报酬，说到底，就是那次公开本身。",
+        "窗上一层淡淡的霜、笔的一划，以及最后一页的预览：这个承诺被转换成一连串小任务，而可转换的那一个，是小组唯一能诚实地签下的一个。我们十个人那时聚在一起，而关于那个党的那一节最难写。一种城镇、一个特定的世界、一个不会死去的城镇：即使我们说它不是政治的，这些证据也是政治的。我们必须展示记录中的断裂，并让读者看见它，而只有那个镇能决定公布什么。眼前这一页似乎会被自己的倾向噎住。"
+      ],
+      "exercises": [
+        {
+          "id": "CH128-Q1",
+          "type": "context",
+          "prompt": "What would each graduate publish?",
+          "options": [
+            "one chapter of the group's history",
+            "one photograph",
+            "one index",
+            "one leaflet"
+          ]
+        },
+        {
+          "id": "CH128-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “牺牲；祭品”?",
+          "options": [
+            "sacrifice",
+            "conversion",
+            "inclination",
+            "reserve"
+          ]
+        },
+        {
+          "id": "CH128-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "hand over a record",
+            "hand over a frost",
+            "hand over a sphere",
+            "hand over a stroke"
+          ]
+        },
+        {
+          "id": "CH128-Q4",
+          "type": "cloze",
+          "prompt": "Maya said a dead archive is a kind of ______.",
+          "options": [
+            "lie",
+            "index",
+            "preview",
+            "reward"
+          ]
+        },
+        {
+          "id": "CH128-Q5",
+          "type": "recall",
+          "prompt": "What did the director say was required?",
+          "options": [
+            "the sacrifice of the pretty sentence",
+            "a larger report",
+            "a new photograph",
+            "a private archive"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH128-Q1",
+          "answer": "one chapter of the group's history",
+          "explanation": "Each graduate published one chapter."
+        },
+        {
+          "id": "CH128-Q2",
+          "answer": "sacrifice",
+          "explanation": "The sacrifice was stylistic, not financial."
+        },
+        {
+          "id": "CH128-Q3",
+          "answer": "hand over a record",
+          "explanation": "Hand over combines with a record, a key, or a duty."
+        },
+        {
+          "id": "CH128-Q4",
+          "answer": "lie",
+          "explanation": "A dead archive still makes a false claim."
+        },
+        {
+          "id": "CH128-Q5",
+          "answer": "the sacrifice of the pretty sentence",
+          "explanation": "Clarity required giving up fine writing."
+        }
+      ]
+    },
+    {
+      "article_id": "CH129",
+      "english_title": "A Choice That Has a Cost: A Missing Voice",
+      "chinese_title": "有代价的选择：缺席的声音",
+      "theme": "心理、决策、责任与人生选择",
+      "english_paragraphs": [
+        "The missing voice belonged to a clown at the children's ceremony during the settlement week. “You never asked the age of the people who will live under this roof,” he said. “You have a purpose and a vote, and you have not asked whether the house is impossible to heat.”",
+        "The apparent answer was attractive: select a smaller unit, choose a cautious price, and forget the rest. “Sorrow is not a clinical condition,” he said, “and a guidance note is not counsel.” A stir in the hall made the identification of the real problem evident: there was no equality in the plan.",
+        "The equality he meant was measured in decades. “A materialist reads a house as an asset,” he said. “A materialist should also read it as a lifetime.” His idealism, he admitted, was cheerful and his realism was not; the seeming contradiction was the whole of his argument.",
+        "The solidity of the building was never in doubt, and the eternity of a mortgage was. “You can visualize a family in it, and you cannot visualize a family paying for it,” he said. “A clear-cut plan would say who repays and when.”",
+        "The blame for the confusion lay with the guidance, not with the family. “A cautious buyer and a cheating seller can look alike on paper,” Maya wrote. “The difference is the second page.” The voice he raised was mad by their standards and just by his own.",
+        "The settlement was revised by one clause: every unit would be sold with a heating assessment attached. It was almost nothing, and it was nearly everything, and the group agreed to appear at the next meeting with the figure. They agreed almost at once, and I nearly said nothing. We need a similar kind of free claim, and a true history is not a chapter that dies. A kind moment, an image, and a win were not enough while nearly half the residents were absent. The break in the plan appeared as a missing page, and almost everyone who could vote did; the need was similar to the earlier survey. We must decide whether the dead govern us; a house is alive in a way that materialism cannot visualise, and the death of the old plan did not settle the question. The settlement would visualise the cost instead."
+      ],
+      "chinese_paragraphs": [
+        "那个缺席的声音属于安置周期间儿童典礼上的一个小丑。“你们从来没有问过将要住在这个屋顶下的人的年龄，”他说，“你们有一个目的和一次表决，而你们没有问过这栋房子是不是无法取暖。”",
+        "表面的答案是吸引人的：选一个更小的单元、挑一个谨慎的价格，其余的忘掉。“悲伤不是一种临床状态，”他说，“一份指导说明不是法律顾问。”大厅里的一阵骚动让真正问题的身份变得明显：这份方案里没有平等。",
+        "他所说的平等是以十年为单位计量的。“唯物主义者把房子读成一项资产，”他说，“唯物主义者也应该把它读成一辈子。”他承认，他的理想主义是欢快的，而他的现实主义不是；这个表面上的矛盾就是他论证的全部。",
+        "这栋楼的坚固性从未被怀疑，而被怀疑的是一笔按揭的永恒。“你可以在里面想象一个家庭，却无法想象一个家庭在付它的钱，”他说，“一份明确的方案会说明谁偿还、何时偿还。”",
+        "混乱该归咎于那份指导，而不是那个家庭。“一个谨慎的买家和一个作弊的卖家在纸上看起来可以很像，”曼雅写道，“区别在第二页。”他提高的嗓音按他们的标准是疯狂的，按他自己的标准是公正的。",
+        "安置方案因一条条款而被修改：每个单元出售时都必须附一份取暖评估。这几乎什么都不是，也几乎就是一切，而小组同意带着这个数字出现在下次会议上。他们几乎立刻就同意了，而我几乎什么也没说。我们需要一种类似的、自由的诉求，而一部真实的历史不是一章会死去的东西。在将近一半居民缺席的时候，一个善意的时刻、一张图像和一场胜利都不够。方案里的断裂以一张缺页的形式出现，而几乎所有能投票的人都投了；这种需要与早先那次调查相似。我们必须决定死者是否在统治我们；一栋房子是活的，其方式唯物主义无法想象，而旧计划的死亡并没有解决这个问题。这份安置方案将转而把代价想象出来。"
+      ],
+      "exercises": [
+        {
+          "id": "CH129-Q1",
+          "type": "context",
+          "prompt": "What had the group never asked?",
+          "options": [
+            "the age of the people who would live under the roof",
+            "the price of the land",
+            "the size of the ceremony",
+            "the name of the clown"
+          ]
+        },
+        {
+          "id": "CH129-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “平等；相等”?",
+          "options": [
+            "equality",
+            "solidity",
+            "eternity",
+            "realism"
+          ]
+        },
+        {
+          "id": "CH129-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "repay a mortgage",
+            "repay a clown",
+            "repay a ceremony",
+            "repay a stir"
+          ]
+        },
+        {
+          "id": "CH129-Q4",
+          "type": "cloze",
+          "prompt": "He said a materialist reads a house as an asset and should also read it as a ______.",
+          "options": [
+            "lifetime",
+            "ceremony",
+            "guidance",
+            "clown"
+          ]
+        },
+        {
+          "id": "CH129-Q5",
+          "type": "recall",
+          "prompt": "What clause was added to the settlement?",
+          "options": [
+            "every unit sold with a heating assessment",
+            "a smaller unit size",
+            "a longer mortgage",
+            "a children's ceremony"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH129-Q1",
+          "answer": "the age of the people who would live under the roof",
+          "explanation": "The plan ignored who would actually live there."
+        },
+        {
+          "id": "CH129-Q2",
+          "answer": "equality",
+          "explanation": "Equality was measured in decades of payment."
+        },
+        {
+          "id": "CH129-Q3",
+          "answer": "repay a mortgage",
+          "explanation": "Repay combines with a mortgage, a loan, or a kindness."
+        },
+        {
+          "id": "CH129-Q4",
+          "answer": "lifetime",
+          "explanation": "A house is both an asset and a lifetime."
+        },
+        {
+          "id": "CH129-Q5",
+          "answer": "every unit sold with a heating assessment",
+          "explanation": "One clause attached a physical fact to the sale."
+        }
+      ]
+    },
+    {
+      "article_id": "CH130",
+      "english_title": "A Choice That Has a Cost: Evidence on the Table",
+      "chinese_title": "有代价的选择：摆上桌面的证据",
+      "theme": "心理、决策、责任与人生选择",
+      "english_paragraphs": [
+        "The evidence meeting was held tonight because the news could not wait, and the argument on the table was about a defective pearl. “I believe the report and I cannot approve it,” the auditor said. “Everything upon it rests on one page, and that page was written prior to the test.”",
+        "The dispute concerning the twentieth chapter was simple: accept the figure or deny it. “You insist that we respond tonight,” Lin said. “I would rather remind you that a compelling thesis can still be wrong.” A generous reader would argue the same point, and a cop at the door would not.",
+        "The group had promised not to pretend. “We will declare the error and we will not seize the moment to look good,” Maya wrote. “Onto every page we will put the name of the person who checked it, and okay means checked.”",
+        "The prior year had been wound backwards: a nightly habit of re-doing each report, an entrepreneurial push that frightened the volunteers, and a forgetful editor who had misplaced one page. “Weep if you like,” the auditor said, “but stabilize the process first.”",
+        "The surrounding argument was about the underwear factory and the couple who owned it. “It is too easy to rob a small firm of its name,” Lin said. “A fine is not the same as a fair verdict, and an exception is not a rule.”",
+        "The choice of the twentieth chapter was to publish everything except the private correspondence, and to try the whole record against the purpose it claimed. “A generous account is not a flattering one,” the auditor said, and the meeting closed without an argument. Age is different from death, and during the year we decided to keep every point about the effect. The fine was never news, the purpose was never just, and the couple who built it seemed to be under a different sky. The choice was to decide during the same meeting, and to choose the harder option; it was never only about the fine, and the news, the point, and the effect were the same as before. Although we cannot swear to every page, we welcome the check, and we will not entertain a version that hides it."
+      ],
+      "chinese_paragraphs": [
+        "证据会议在今晚召开，因为消息等不了，而桌上的争论关乎一颗有缺陷的珍珠。“我相信这份报告，但我无法批准它，”审计员说，“它之上的一切都依赖一页纸，而那一页是在测试之前写的。”",
+        "关于第二十章的争论很简单：接受这个数字，或者否认它。“你坚持要我们今晚回应，”林伟说，“我更愿意提醒你，一篇有说服力的论文仍然可能是错的。”一位慷慨的读者会提出同样的观点，而门口那位警察不会。",
+        "小组承诺过不假装。“我们会声明这个错误，也不会抓住这个时机让自己好看，”曼雅写道，“在每一页上，我们都会写上核对者的名字，而‘可以’的意思就是已核对。”",
+        "前一年是被倒着缠回去的：每晚重做每份报告的习气、一次吓得志愿者发抖的创业式推进，以及一位把某一页放错了地方的健忘编辑。“你想哭就哭吧，”审计员说，“但请先把流程稳住。”",
+        "外围的争论关乎那家内衣厂和拥有它的那对夫妇。“太容易就剥夺一家小公司的名声了，”林伟说，“一笔罚款不等于一个公正的裁决，而一个例外不是一条规则。”",
+        "第二十章的选择是：除了私人通信以外全部公开，并尝试用整份记录去检验它所声称的目的。“一份慷慨的记述不是一份谄媚的记述，”审计员说，而会议在没有争执的情况下结束。年龄不同于死亡，而在这一年里我们决定保留关于那个影响的每一个要点。那笔罚款从来不是新闻，那个目的从来不是公正的，而建造它的那对夫妇似乎生活在另一片天空下。这个选择是在同一次会议上作出决定，并选择更难的那个选项；它从来不只关乎那笔罚款，而新闻、那个要点以及那个影响，都和从前一样。虽然我们无法为每一页发誓，但我们欢迎这次核对，也不会去迎合一个把它藏起来的版本。"
+      ],
+      "exercises": [
+        {
+          "id": "CH130-Q1",
+          "type": "context",
+          "prompt": "Why was the meeting held tonight?",
+          "options": [
+            "because the news could not wait",
+            "because the pearl arrived",
+            "because the cop insisted",
+            "because the factory closed"
+          ]
+        },
+        {
+          "id": "CH130-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “有缺陷的；欠缺的”?",
+          "options": [
+            "defective",
+            "compelling",
+            "forgetful",
+            "entrepreneurial"
+          ]
+        },
+        {
+          "id": "CH130-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "seize a moment",
+            "seize a pearl",
+            "seize underwear",
+            "seize a thesis"
+          ]
+        },
+        {
+          "id": "CH130-Q4",
+          "type": "cloze",
+          "prompt": "Maya wrote that on every page they would put the name of the person who ______ it.",
+          "options": [
+            "checked",
+            "robbed",
+            "frightened",
+            "entertained"
+          ]
+        },
+        {
+          "id": "CH130-Q5",
+          "type": "recall",
+          "prompt": "What did the auditor say a generous account is not?",
+          "options": [
+            "a flattering one",
+            "a short one",
+            "a nightly one",
+            "a private one"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH130-Q1",
+          "answer": "because the news could not wait",
+          "explanation": "The timing was forced by external news."
+        },
+        {
+          "id": "CH130-Q2",
+          "answer": "defective",
+          "explanation": "The pearl was defective and so was the record."
+        },
+        {
+          "id": "CH130-Q3",
+          "answer": "seize a moment",
+          "explanation": "Seize combines with a moment, an opportunity, or evidence."
+        },
+        {
+          "id": "CH130-Q4",
+          "answer": "checked",
+          "explanation": "Each page would carry its checker's name."
+        },
+        {
+          "id": "CH130-Q5",
+          "answer": "a flattering one",
+          "explanation": "Generosity in reporting is not flattery."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH130",
+    "last_event": "The final arc opened with a career dilemma at graduation, a promise to publish one chapter each, a settlement clause forced by a clown, and an evidence meeting that published everything except private correspondence.",
+    "unresolved_consequence": "Two of the ten chapters remain unpublished, the heating assessment has not been costed, and the private correspondence is still only in a box.",
+    "character_locations": {
+      "Lin Wei": "Harbor City and the graduation hall",
+      "Maya Chen": "Harbor City and the graduation hall",
+      "Aisha Rahman": "remotely online from the exchange campus"
+    },
+    "character_roles": {
+      "Lin Wei": "graduate and project co-lead starting a first job",
+      "Maya Chen": "journalism graduate, columnist, and project co-lead",
+      "Aisha Rahman": "data specialist, now working abroad and collaborating remotely"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line",
+      "publish the first national injury figures honestly",
+      "name one responsible person for every system and device",
+      "delete the old address list completely",
+      "publish the one-page consent form before the faculty review",
+      "answer the national inquiry in writing",
+      "pay the five families who take the daily river readings",
+      "finish the concrete pier before the anniversary review",
+      "publish three years of river readings before any construction",
+      "publish every fare exemption while the debate is open",
+      "include the third ward in the water scheme",
+      "give the poorest ward a juror",
+      "keep the record of the water scheme out of private hands",
+      "publish the two remaining chapters with their checker's name"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one",
+      "national reporting requirements against a club's own budget",
+      "a launch date against a consented design",
+      "the convenience of a system against the consent of the person inside it",
+      "simplicity against completeness",
+      "a national inquiry against a one-page form",
+      "a model built on dry years against a river that floods",
+      "hard engineering against a living delta",
+      "a canal lock against a working forest",
+      "a fare that pays for the plant against a fare the poor can afford",
+      "public funding against a market rate",
+      "a coastal resort against a residential lawn",
+      "ownership of the record against stewardship of the service",
+      "a steady salary against an unfinished archive"
+    ],
+    "first_required_event_next_chapter": "CH131 must show the group splitting into two cities and deciding which parts of the archive each takes.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries",
+      "a canteen cook reframed the programme around walking, music, and recreation",
+      "the second attempt ran one funded indoor session a week",
+      "the hospital forced a national register of injuries and treatment",
+      "the club committed two funded hours a week and made rest part of training",
+      "the kitchen and the mood of the canteen became part of the evidence",
+      "a regional health register was opened and the group promised to publish its figures honestly",
+      "an unexplained file appeared in a public download of the club's website",
+      "the seventh arc opened with a paused launch and a promised redesign of consent",
+      "a person whose data had been stored without consent asked for a withdrawal mechanism",
+      "the group replaced twelve collection rules with one criterion: nothing on a maybe",
+      "the consent trial deleted what could not be justified and kept the launch paused",
+      "the group agreed that nothing is acquired without a written reason",
+      "the numbers were shown to hide the real product, which was trust",
+      "the group reframed consent around the ease of leaving rather than the ease of joining",
+      "the second redesign ran a trial that the person involved could explain",
+      "the faculty board demanded a clear definition of consent and got four pages",
+      "the group divided the risks and kept a parallel record of what it refused to collect",
+      "the redesign cut the form to one page and began with less",
+      "the seventh arc closed with a national inquiry still open and a scheme small enough to fit in a bucket",
+      "the eighth arc opened with a flood that stopped the road beside the field station",
+      "the old flood model was built on a photographic memory of ten dry years",
+      "a legendary boatman said the river was capable of a third channel",
+      "the field station promised simultaneous readings from both banks",
+      "five families agreed to take one reading a day with the same cheap kit",
+      "a woman who had been left off the list rewrote the questionnaire around memory",
+      "the evidence was reduced to one watertight page that included the river's own answer",
+      "the trial run measured one summer and found that roughly a third of the readings exceeded the limit",
+      "the group paid the five families for one more period",
+      "an ecologist argued that a dam would move the loss to the delta",
+      "the group agreed to publish the whole page rather than a clean summary",
+      "a market trader reframed the river as a well rather than a drain",
+      "the second attempt reused the same instruments in a wetter setting",
+      "an overseas advisor demanded modernisation and was met with a three-year condition",
+      "the group committed to publish three years of readings before any construction",
+      "the group chose the west bank and left the top of the file blank",
+      "a doctor showed that the illness followed the flood rather than the water itself",
+      "the eighth arc closed with a three-member board publishing ten years of data",
+      "the ninth arc opened with an unfunded water treatment plant",
+      "the treasurer warned that enforcement without a collector is theft",
+      "the group promised to publish every exemption while the debate was open",
+      "the first promise of the ninth arc was a public meeting with a full transcript",
+      "a cleaner showed that the benefit passes down and never reaches the people who pay",
+      "the auditor found a wholly irregular account and called the figure misleading",
+      "the first ward trial found the strongest demand among the poor",
+      "the government tied maintenance funding to a market rate",
+      "the council held the rate pending a second audit",
+      "the council argued whether to keep a coastal lawn residential or turn it into a resort",
+      "the editor showed that the circle of payers and the circle of users were drawn in the same square",
+      "the better question became who is entitled to water rather than how much is missing",
+      "the second trial confined one investigation and gave the poorest ward no juror",
+      "an attorney stopped the plant on the ground that a vote is not a lawful title",
+      "the council chose to occupy the retail building rather than sell the land",
+      "the vote was seven to five and the sale was halted until the end of the term",
+      "the ninth arc closed with a public forum and a boring, published account",
+      "the tenth arc opened in a museum of urban history with a career dilemma",
+      "the graduates promised to publish one chapter of the archive each",
+      "a clown at the settlement ceremony forced a heating assessment into every sale",
+      "the twentieth chapter was published with every page carrying its checker's name"
+    ]
+  }
+}

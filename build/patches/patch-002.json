@@ -1,0 +1,42 @@
+{
+  "batch-CH014-CH017": {
+    "CH014": [
+      {
+        "paragraph": 5,
+        "append_english": "A first map does not teach you a city; it teaches you how many doors you have not tried.",
+        "append_chinese": "第一张地图教不会你一座城市；它只教你还剩多少扇门没有试过。"
+      }
+    ],
+    "CH015": [
+      {
+        "paragraph": 1,
+        "english": "The map was finished, and the only question it had left behind was whether anyone had learned anything from it. The second arc opened with a signal, not with a plan. A researcher from the education faculty asked the group a single question at the end of a lecture: how would they prove that the map taught anyone anything? The early answer was a sketch; the later answer was a blueprint. “At every turn,” she said, “you will be asked for evidence, and such a demand is healthy.”",
+        "chinese": "那张地图做完了，而它留下的唯一问题是：究竟有没有人从中学到过任何东西。第二段弧线以一个信号开始，而不是以一个计划开始。教育学院的一位研究人员在一场讲座结束时问了小组一个问题：他们怎么证明这张地图教会了任何人任何东西？最早的答案是草图，后来的答案是蓝图。“在每一个转折点，”她说，“都会有人向你要证据，而这种要求是健康的。”"
+      }
+    ],
+    "CH017": [
+      {
+        "paragraph": 2,
+        "chinese": "她自己的学校教育很早就结束了。她从母亲那里学医，从收音机里学文学，从一个小本子里学记忆的艺术。“我没有文凭，”她说，“但我并不无知。我是学习者。”她通晓三种语言，而她的启蒙来自劳作，而不是来自一堂课。在这一个小时之前，这一切没有一个字被写下来。为校报做记录的那位作家在一小时结束时称她为学者。"
+      },
+      {
+        "paragraph": 5,
+        "chinese": "他写了一篇关于这一周的评论，她在联谊会上把它朗读出来。“如果我们从一位保洁员身上做概括，”那位博学的教授说，“我们什么都学不到。”“如果我们不这样做，”曼雅回答，“我们学到的更少。”他自己对阅览室的研究用的是另一种方法，他也常常这么说；到那一周接近尾声时，他开始研究职工自己那个例子的语言。这位学习者教给了学院一些任何考试都装不下的东西。这份记录的第一位读者是一名二年级学生，而这一周对教职员工的教化，比那张地图三年做的还多。学院现在必须去寻求第二种意见，而职工们很乐意提供一种。"
+      }
+    ]
+  },
+  "batch-CH018-CH021": {
+    "CH019": [
+      {
+        "paragraph": 5,
+        "append_chinese": "“不，”她说。"
+      }
+    ],
+    "CH021": [
+      {
+        "paragraph": 5,
+        "chinese": "他们询问、打听、澄清，最终写出了一份两人都能签字的论证。它有方法、有敬意，并且对自己的限度有深刻见解；它也诚实地处理了上个月的那笔交易。她的好奇心熬过了这个月，他的也是。“没有一个值得注意的发现，”林伟承认。“不，”她说，“是一种方法的开端。这就够了，而这也很多了。”他们的宇宙就是一座图书馆、一间实验室和一家咖啡馆，而问题依然是同一个问题。“不管怎样，”她补充说，“数字是在朝正确的方向走。”他断定，一颗爱追问的心不是弱点。这是他们第一次共同成长而非偶然长成的东西；他意识到，自己的专业只教会了他其中一半。"
+      }
+    ]
+  }
+}

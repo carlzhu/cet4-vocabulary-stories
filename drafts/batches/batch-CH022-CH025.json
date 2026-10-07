@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH022-CH025",
+  "chapter_ids": [
+    "CH022",
+    "CH023",
+    "CH024",
+    "CH025"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH022",
+      "english_title": "Learning How to Learn: What the Numbers Hide",
+      "chinese_title": "学会学习：数字隐藏了什么",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The charge came early and it was explicit: the group had measured the wrong thing. A visiting examiner glanced at their table and asked what the numbers could mean. “You count arrivals,” she said. “You cannot see comprehension.” There was a lack of wisdom in the early draft, and they knew it. The criticism was not commercial; it was about territory. But their numbers did not increase, and that was the first sign of trouble.",
+        "A sensible answer would separate retention from recognition. A student who can recite a definition may still fail to recognize the same idea in a new context. Memory, they wrote, is not a certificate; it is a presence that decays unless it is used. The decrease was visible in their own data, and the meaning of that line was the catch.",
+        "The obstacle was perception. A skilled reader could penetrate a vague sentence at a glance, and a beginner could not; an oval diagram of their results made that difference noticeable, and her finger followed it while she talked. “You should instruct with an illustrative example,” Professor Zhao said. “Show the glimpse of understanding, not the purchase of a book.”",
+        "They began to oppose the easy number. A gifted singer, a rental clerk, and a boy with a rifle on a poster all appeared in the same week's notes, and none of them could qualify as evidence. “We must greet the sceptic,” Maya said, “and not be bothered by her.” It was a sophisticated position, and it took sophistication to defend it without sparkle. Other volunteers agreed; a kid from the first year asked the sharpest question of the evening.",
+        "So they rebuilt the study around two questions: what would a reader remember, and what could a reader do? An invention of their own — a seven-line test — became the new instrument, and its performance improved the whole file. They were readily aware of its limits, and they did not regret stating them. “Do not let the outside world intrude on the meaning,” Lin wrote. “Enlighten it instead.” Later, a fresh teacher asked whether the test prevented guessing; the honest answer was that it did not, and they wrote that down too. “Yeah,” Maya said. “Turn the page and start again.”"
+      ],
+      "chinese_paragraphs": [
+        "指控来得很早，而且明确：小组测量错了东西。一位来访的考官瞥了一眼他们的表格，问这些数字能意味着什么。“你们数的是到场人数，”她说，“你们看不到理解。”早期草稿里缺少智慧，他们自己也知道。这项批评不是商业性的，而是地盘性的。但他们的数字没有增加，而这是麻烦的第一个信号。",
+        "一个明智的答案会把保持与识别分开。一个能背出定义的学生，仍可能在新情境中认不出同一个概念。他们写道：记忆不是一张证书，而是一种会衰败的在场，除非被使用。下降在自己数据里是可见的，而那一行的含义正是陷阱所在。",
+        "障碍在于知觉。熟练的读者一瞥就能穿透含糊的句子，初学者却不能；他们结果的那张椭圆图把这种差别显现得相当明显，她说话时手指一直顺着它移动。“你应该用一个作例证的例子来讲，”赵教授说，“展示理解的一瞥，而不是购买一本书。”",
+        "他们开始反对那个容易的数字。一位有天赋的歌手、一位租车店员，以及海报上一个拿着步枪的男孩都出现在同一周的笔记里，而他们当中没有一个能算作证据。“我们必须欢迎怀疑者，”曼雅说，“而不是被她烦到。”这是一个久经世故的立场，而要既捍卫它又不靠卖弄光彩，需要同样的世故。其他志愿者也同意了；一个一年级的孩子提出了当晚最尖锐的问题。",
+        "于是他们围绕两个问题重建研究：读者会记住什么，读者能做什么？他们自己的一项发明——一份七行测试——成了新工具，它的表现改善了整个档案。他们很快就意识到它的限度，也并不后悔把它写出来。“不要让外部世界闯入意义，”林伟写道，“而是去启发它。”后来，一位新来的教师问这项测试是否防止了猜测；诚实的回答是并没有，他们把这一点也写了下来。“是的，”曼雅说，“翻过这一页，重新开始。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH022-Q1",
+          "type": "context",
+          "prompt": "What did the examiner say the group could not see?",
+          "options": [
+            "comprehension",
+            "attendance",
+            "the timetable",
+            "the budget"
+          ]
+        },
+        {
+          "id": "CH022-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “保持；保留”?",
+          "options": [
+            "retention",
+            "perception",
+            "presence",
+            "decay"
+          ]
+        },
+        {
+          "id": "CH022-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "penetrate a vague sentence",
+            "penetrate a certificate",
+            "penetrate a purchase",
+            "penetrate a rental"
+          ]
+        },
+        {
+          "id": "CH022-Q4",
+          "type": "cloze",
+          "prompt": "They wrote that memory is not a ______ but a presence.",
+          "options": [
+            "certificate",
+            "glimpse",
+            "sparkle",
+            "rifle"
+          ]
+        },
+        {
+          "id": "CH022-Q5",
+          "type": "recall",
+          "prompt": "What did they invent for the new study?",
+          "options": [
+            "a seven-line test",
+            "a new certificate",
+            "an oval poster",
+            "a dictionary"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH022-Q1",
+          "answer": "comprehension",
+          "explanation": "Counting arrivals says nothing about understanding."
+        },
+        {
+          "id": "CH022-Q2",
+          "answer": "retention",
+          "explanation": "They separated what is retained from what is recognised."
+        },
+        {
+          "id": "CH022-Q3",
+          "answer": "penetrate a vague sentence",
+          "explanation": "Penetrate means to see through something difficult."
+        },
+        {
+          "id": "CH022-Q4",
+          "answer": "certificate",
+          "explanation": "They argued that memory is a living presence, not a document."
+        },
+        {
+          "id": "CH022-Q5",
+          "answer": "a seven-line test",
+          "explanation": "The group wrote a short test of its own."
+        }
+      ]
+    },
+    {
+      "article_id": "CH023",
+      "english_title": "Learning How to Learn: A Better Question",
+      "chinese_title": "学会学习：更好的问题",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The better question came from a criticism in the monthly round of the association: what, exactly, does the course prove? “A member of your department could not answer that,” the reviewer wrote. “The blank in your form is not a modest pause; it is a hole.” She meant that the team had been writing around the problem.",
+        "The team gathered in the department office with a picture, an album, and a slide of the campus in snow. “We are ready to dig,” Maya said. “The search has to be narrower.” A gradual correction replaced an early apology: they had been determined to prove too much, and determination is not a method.",
+        "So they specialized. One member kept a drawer of index cards; another ran a calculation on a slice of the data; a third hunted for the sort of question that survives an oral examination. “Be receptive,” Professor Zhao said, “not combative.” The enterprise would suspend its louder claims till the sand settled. A marsh on the edge of the region had taught them the same lesson: water finds the lowest line, and so does a good question.",
+        "A singer from the nobility of the student choir, an aggressive reviewer, and a boy with a nut allergy appeared in the notes of the same week. The team could not concentrate, and the upset was visible in every face at the table. “This is not a novel,” Lin said. “It is a report.” Her initiative was to cut the first page entirely.",
+        "They wrote a new first line, which they would defend here and everywhere: every number carries a name. All of them signed it, and her name came last. “Could you say it more plainly?” the reviewer asked. “No,” Maya said, “but we can say it again.” A handy wood frame held the sheet above the desk, where visitors could not avoid it. His own book, which he had not finished, said the same thing; the number of pages meant nothing. This was the point they kept coming up against, and they would write it down until they could hear it."
+      ],
+      "chinese_paragraphs": [
+        "更好的问题来自协会月度评议里的一句批评：这门课程究竟证明了什么？“你系里的一位成员回答不了这个问题，”评论者写道，“你表格里的空白不是谦虚的停顿，而是一个洞。”她的意思是：团队一直在绕着问题写作。",
+        "团队在系办公室聚齐，带着一张照片、一本相册，以及一张校园雪景的幻灯片。“我们准备好挖下去了，”曼雅说，“但搜索范围必须更窄。”一次渐进的更正取代了早先的道歉：他们曾下定决心要证明太多东西，而决心并不是方法。",
+        "于是他们做了专门化。一位成员保留一抽屉索引卡；另一位对一片数据做了计算；第三位则去寻找那种能经受口试的问题。“要有接纳力，”赵教授说，“而不是好斗。”这家“事业”将暂缓它更响亮的说法，直到沙尘落定。区域边缘的一片沼泽教过他们同样的道理：水会找到最低的那条线，一个好问题也会。",
+        "学生合唱团里一位出身贵族的歌手、一位咄咄逼人的评论者，以及一个对坚果过敏的男孩出现在同一周的笔记里。团队无法集中，烦躁显而易见。“这不是小说，”林伟说，“这是一份报告。”她的主动之举是把第一页整个删掉。",
+        "他们写下了新的第一行，也是他们将在此处和所有地方捍卫的一行：每个数字背后都有一个名字。他们所有人都签了名，她的名字在最后。“你能说得更直白些吗？”评论者问。“不能，”曼雅说，“但我们可以再说一遍。”一只便利的木框把这张纸固定在桌子上方。他自己那本没读完的书说的也是同一件事；页数本身毫无意义。这正是他们反复撞上的那一点，而他们会一直写下去，直到自己能听见它。"
+      ],
+      "exercises": [
+        {
+          "id": "CH023-Q1",
+          "type": "context",
+          "prompt": "What did the reviewer call the blank in the form?",
+          "options": [
+            "a hole",
+            "a modest pause",
+            "a signature",
+            "a footnote"
+          ]
+        },
+        {
+          "id": "CH023-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “主动行动；首创精神”?",
+          "options": [
+            "initiative",
+            "nobility",
+            "calculation",
+            "criticism"
+          ]
+        },
+        {
+          "id": "CH023-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "concentrate on the data",
+            "concentrate on the sand",
+            "concentrate on the drawer",
+            "concentrate on the choir"
+          ]
+        },
+        {
+          "id": "CH023-Q4",
+          "type": "cloze",
+          "prompt": "Professor Zhao told them to be ______ rather than combative.",
+          "options": [
+            "receptive",
+            "aggressive",
+            "upset",
+            "lame"
+          ]
+        },
+        {
+          "id": "CH023-Q5",
+          "type": "recall",
+          "prompt": "What was the new first line?",
+          "options": [
+            "every number carries a name",
+            "every name carries a number",
+            "the search must be narrower",
+            "this is not a novel"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH023-Q1",
+          "answer": "a hole",
+          "explanation": "The reviewer saw an unanswered question, not a polite gap."
+        },
+        {
+          "id": "CH023-Q2",
+          "answer": "initiative",
+          "explanation": "She took the initiative and cut the first page."
+        },
+        {
+          "id": "CH023-Q3",
+          "answer": "concentrate on the data",
+          "explanation": "Concentrate combines with data, a task, or a problem."
+        },
+        {
+          "id": "CH023-Q4",
+          "answer": "receptive",
+          "explanation": "He preferred an open mind to a combative one."
+        },
+        {
+          "id": "CH023-Q5",
+          "answer": "every number carries a name",
+          "explanation": "The new opening line tied each figure to a person."
+        }
+      ]
+    },
+    {
+      "article_id": "CH024",
+      "english_title": "Learning How to Learn: The Second Attempt",
+      "chinese_title": "学会学习：第二次尝试",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The second attempt began in January with a slim brochure and a wide table. There were six copies of the manual, a dozen notebooks, and a mug that said “read me twice”. “So this is the semester of paper,” Maya said. “However, a good handbook is not a bestseller.”",
+        "Both of them collected citations the way other people collect stamps, rather than the way examiners collect mistakes. A quarterly commentary, a monthly dictionary supplement, a weekly song sheet, and a yearly report were piled above the desk. “Cite the page,” Lin said. “Quote the line. Otherwise the reader cannot check us.” The preface of the slim volume was written last, and an additional dozen copies were ordered before anyone had read it.",
+        "He taught a short course on the introduction of numbers into prose. Experience, he said, is not information; a battalion of facts can hide a single mistake. A coal fire kept the winter evening warm, a jacket hung on the back of a chair, and a bible lay open at a genealogy: all made the same point — the staff usually remember what they can picture.",
+        "They sought a dual method: one page for the reader, one page for oneself. A commentary in the margin, a datum in the corner, and a second commentary on the commentary kept them honest. The art of it was restraint, and the education faculty noticed. A monthly review of their own pages, written in pencil, became the habit that held the whole project together.",
+        "Twelve thousand words later, the department could learn from the mistakes of the first edition. Twenty pages in, nine of them had to be rewritten; he did not mention it to the others. Sometimes they remembered the old wording; mostly they did not. “Seek the sort of sentence that can survive being read aloud,” she said, and so they did, in the school library, with the first snow of the year on the roof. Above the shelves a lamp burned all afternoon. The second attempt was not a correction of the first; it was a different book with the same subject, and both of them knew it."
+      ],
+      "chinese_paragraphs": [
+        "第二次尝试在一月以一本薄薄的小册子和一张宽桌子开始。那里有六份手册、一打笔记本，还有一只写着“读我两遍”的杯子。“所以这就是纸的学期，”曼雅说，“不过，一本好手册不会是畅销书。”",
+        "他们两人像别人收集邮票那样收集引注，而不是像考官收集错误那样。一份季度评论、一份月度词典增补、一份每周歌单，以及一份年度报告，堆在桌子上方。“引用要给出页码，”林伟说，“引语要给出原句。否则读者无法核对。”这本薄书的前言是最后写的，而在任何人读过它之前，又加订了十二本。",
+        "他开了一门短课，讲数字如何被引入散文。他说，经验不是信息；一营的事实能掩盖一个错误。一个煤黑的冬夜、一件搭在椅背上的外套、一本翻在族谱处的圣经，都在说明同一点：职工通常只记得住自己能想象的东西。",
+        "他们寻求一种双重的方法：一页给读者，一页给自己。页边的评注、角落里的一个数据，以及关于评注的第二层评注，让他们保持诚实。它的艺术在于克制，而教育学院注意到了这一点。每月用铅笔写下一次对自己页面的复查，成了把这整个项目维系在一起的习惯。",
+        "一万二千字之后，系里能够从第一版的错误中学习了。写到二十页时，其中九页必须重写；他没有向其他人提起这件事。有时他们记得旧的措辞，大多数时候不记得。“去寻找那种能被朗读出来的句子，”她说，于是他们就这样做了，在学校的图书馆里，屋顶上落着那年第一场雪。书架上方的灯整个下午都亮着。第二次尝试不是对第一次的修正；它是一本主题相同而内容不同的书，而他们两人都知道这一点。"
+      ],
+      "exercises": [
+        {
+          "id": "CH024-Q1",
+          "type": "context",
+          "prompt": "What did the mug say?",
+          "options": [
+            "read me twice",
+            "read me once",
+            "drink me slowly",
+            "check the page"
+          ]
+        },
+        {
+          "id": "CH024-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “双重的”?",
+          "options": [
+            "dual",
+            "slim",
+            "wide",
+            "yearly"
+          ]
+        },
+        {
+          "id": "CH024-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "cite the page",
+            "cite the mug",
+            "cite the jacket",
+            "cite the snow"
+          ]
+        },
+        {
+          "id": "CH024-Q4",
+          "type": "cloze",
+          "prompt": "A battalion of facts can hide a single ______.",
+          "options": [
+            "mistake",
+            "brochure",
+            "preface",
+            "semester"
+          ]
+        },
+        {
+          "id": "CH024-Q5",
+          "type": "recall",
+          "prompt": "What did they seek for the reader?",
+          "options": [
+            "a sentence that survives being read aloud",
+            "a bestseller",
+            "a monthly report",
+            "a new dictionary"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH024-Q1",
+          "answer": "read me twice",
+          "explanation": "The mug carried the group's rule for careful reading."
+        },
+        {
+          "id": "CH024-Q2",
+          "answer": "dual",
+          "explanation": "The method had two pages with two purposes."
+        },
+        {
+          "id": "CH024-Q3",
+          "answer": "cite the page",
+          "explanation": "Cite combines with a page, a source, or an author."
+        },
+        {
+          "id": "CH024-Q4",
+          "answer": "mistake",
+          "explanation": "Volume of facts does not guarantee accuracy."
+        },
+        {
+          "id": "CH024-Q5",
+          "answer": "a sentence that survives being read aloud",
+          "explanation": "She set a test of readability."
+        }
+      ]
+    },
+    {
+      "article_id": "CH025",
+      "english_title": "Learning How to Learn: Outside Pressure",
+      "chinese_title": "学会学习：外部压力",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "An inspection in the spring brought outside pressure of a very specific kind. A classified report on the language programme in the tower called the map's claims “a decorative curtain”. “It is not false,” the inspector said, “but it is not success either. Unless you can show a real increase in comprehension, the funding goes elsewhere.”",
+        "The students had begun to complain, and the complaint was realistic; it stung. A movie about a miracle teacher had made the public expect miracles, and the group had to explain that a quiet change is not a disappearance. “We cannot motivate a funder with beauty,” Maya said. “We have to classify what we actually do.” The silence in the room was the loudest thing in it.",
+        "The damage was done to their timeline rather than to their data. A report had to be written in prose, with no room for a lame excuse; every verb, adverb, and preposition would be examined. “Do not elevate the language above the evidence,” Professor Zhao said. “Converse with the reader, do not narrate at them.”",
+        "The inspector was intelligent, and her intelligence was not the problem; the problem was the imaginary reader she represented. A vacant office, a mix of old and new rules, and a devil of a deadline made the work harder. The disappointment was real, and the ruin of the old plan was complete. “I would rather be honest than wide,” Lin wrote. “There is a reason we keep the ugly numbers.”",
+        "Awareness grew slowly, and so did the paperwork. The coordinator overheard two students in the corridor and put their sentence at the top of the report: “It is not easy, but it is really ours.” That line did more than the thousand figures; six weeks later, twenty pages of additional material were requested, and the coordinate of their next move was actually simple: publish everything, including the failure. “The hindrance was never the method,” she said. “It was the deceptive quiet of the middle class of donors.” A regretful paragraph replaced it, and the group united behind one sentence: a small true thing, repeated. However, much of the paper was already written, and sometimes a single sheet could carry a speech. They could mean it, which was not nothing."
+      ],
+      "chinese_paragraphs": [
+        "春天的一次检查带来了非常具体的外部压力。一份关于这座塔楼语言项目的机密报告把地图的主张称为“一块装饰性的帷幕”。“它不是假的，”检查员说，“但也不是成功。除非你们能证明理解力有真实的提高，资金就会流向别处。”",
+        "这项抱怨是现实的，也刺痛了他们。一部关于奇迹教师的电影让公众期待奇迹，而小组必须解释：一种安静的变化并不是消失。“我们无法用美来激励出资人，”曼雅说，“我们必须把我们实际做的事分类说清。”屋里最响的东西就是那份沉默。",
+        "受损的是时间表，而不是数据。报告必须用散文写成，没有留给他们一个蹩脚借口的空间；每一个动词、副词和介词都会被审查。“不要把语言抬到证据之上，”赵教授说，“要与读者交谈，而不是对他们叙述。”",
+        "问题不是检查员的智力，而是她所代表的那个想象中的读者。一间空置的办公室、一套新旧规则混杂的制度，以及一个魔鬼般的截止日期，让工作更难。失望是真实的，旧计划的废墟也彻底落定。“我宁可诚实，也不要宽泛，”林伟写道，“我们保留那些难看的数字是有原因的。”",
+        "意识慢慢增长，文书工作也是。协调员在走廊里无意中听到两名学生的话，把他们的句子放在了报告的最前面：“这不容易，但它真的是我们的。”这句话比一千个数字更有用；六周后，二十页补充材料被要求提交，而他们下一步行动的坐标其实很简单：把一切公布出来，包括失败。“障碍从来不是方法，”她说，“而是中产阶级捐赠者那种具有欺骗性的安静。”一段遗憾的文字取代了它，小组团结在一句话背后：一件小而真的事，重复下去。"
+      ],
+      "exercises": [
+        {
+          "id": "CH025-Q1",
+          "type": "context",
+          "prompt": "What did the classified report call the map's claims?",
+          "options": [
+            "a decorative curtain",
+            "a quiet change",
+            "a real increase",
+            "a lame excuse"
+          ]
+        },
+        {
+          "id": "CH025-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “障碍；妨害”?",
+          "options": [
+            "hindrance",
+            "coordinate",
+            "inspection",
+            "awareness"
+          ]
+        },
+        {
+          "id": "CH025-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "elevate the language",
+            "elevate the curtain",
+            "elevate the corridor",
+            "elevate the miracle"
+          ]
+        },
+        {
+          "id": "CH025-Q4",
+          "type": "cloze",
+          "prompt": "Lin wrote that he would rather be honest than ______.",
+          "options": [
+            "wide",
+            "false",
+            "vacant",
+            "regretful"
+          ]
+        },
+        {
+          "id": "CH025-Q5",
+          "type": "recall",
+          "prompt": "What sentence did the coordinator overhear?",
+          "options": [
+            "it is not easy, but it is really ours",
+            "the funding goes elsewhere",
+            "beauty is not evidence",
+            "publish everything"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH025-Q1",
+          "answer": "a decorative curtain",
+          "explanation": "The inspector judged the claims ornamental rather than false."
+        },
+        {
+          "id": "CH025-Q2",
+          "answer": "hindrance",
+          "explanation": "She said the obstacle had never been the method itself."
+        },
+        {
+          "id": "CH025-Q3",
+          "answer": "elevate the language",
+          "explanation": "Elevate combines with language, a tone, or a standard."
+        },
+        {
+          "id": "CH025-Q4",
+          "answer": "wide",
+          "explanation": "He chose a narrow, honest claim over a broad one."
+        },
+        {
+          "id": "CH025-Q5",
+          "answer": "it is not easy, but it is really ours",
+          "explanation": "Two students in the corridor supplied the report's opening line."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH025",
+    "last_event": "A spring inspection called the group's claims decorative and made funding conditional on a measurable increase in comprehension; the team chose to publish everything, including the failure.",
+    "unresolved_consequence": "The funding decision is still open, the report must survive a prose examination, and the group has promised to publish its weak numbers.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year environmental-engineering student",
+      "Maya Chen": "journalism student and student-paper columnist",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts"
+    ],
+    "first_required_event_next_chapter": "CH026 must put the documented method through a test the group cannot control, where the result could contradict its own findings.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension"
+    ]
+  }
+}

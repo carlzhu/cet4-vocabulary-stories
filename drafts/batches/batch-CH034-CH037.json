@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH034-CH037",
+  "chapter_ids": [
+    "CH034",
+    "CH035",
+    "CH036",
+    "CH037"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH034",
+      "english_title": "Promises and Pressure: Pressure Builds",
+      "chinese_title": "承诺与压力：压力上升",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The cost of the renegotiated roles arrived as a letter. The three of them had promised to be at every Thursday meeting; by the third week, one of them was not there. “I cannot be in two places,” Lin said. “This is not a gesture. I am telling you what is true.” His grandmother was in hospital, and the trial of the new care plan fell in the same week.",
+        "Maya took the minutes alone for three weeks. “The majority of the work is invisible,” she wrote. “A trustee of a small thing is a guardian of other people's time.” She was sure of one point only: a promise that depends on one person is not a promise, it is a hope. Her will was stronger than his schedule, and both of them knew it.",
+        "A man from the mill, an old friend of his grandfather, came to the house on the eve of the funeral and spoke about trust. “Your grandfather was a radical,” he said. “He burned the lease in the yard, and three families kept their homes because of it.” It was a model of a certain kind of courage, and it was also a warning.",
+        "At the grave, an uncle and two aunts stood with the children. “Yes,” his auntie said, “he was a proper witness to a bad century.” A violent storm came up, and the Medicare papers in his bag got wet. “You cannot substitute a plan for a person,” his mother said. “That is the profound part, and it is the part nobody writes down.”",
+        "He went back to the dormitory and wrote himself a note: do not lose the thread, and do not bribe yourself with busyness. A desperate week is not a failure; it is a critical week, and judgment is easy from the outside. His peer group — a friendly cyclist and a young woman from the third floor — offered to guard the Thursday slot. “The return will be slow,” Maya said. “Be sure that it happens. Ask yourself what you would tackle first if you had one clear shot at it.” All of those promises were still on the board when he left. “I hear you,” he said, “and here is what I can carry.” Him, of all people, she trusted. People came and went; the ones who stayed were the ones who said honestly what they could hold. He wanted to see whether the promise would hold. He watched the others go away down the corridor and understood that obedience to a timetable is not the same as loyalty."
+      ],
+      "chinese_paragraphs": [
+        "重新商定的角色带来的代价，以一封信的形式到来。他们三人承诺出席每一次周四会议；到第三周，其中一人没有出现。“我不能同时在两个地方，”林伟说，“这不是姿态。我是在告诉你事实。”他祖母住院了，而新照料方案的试行正好落在同一周。",
+        "曼雅独自记录了三周的会议纪要。“大部分工作是看不见的，”她写道，“一件小事的受托人，是别人时间的监护人。”她只确定一点：一个依赖某一个人的承诺不是承诺，而是希望。她的意志比他的时间表更强，两人都明白这一点。",
+        "一位来自磨坊的男人，他祖父的老朋友，在葬礼前夜来到家里，谈起信任。“你祖父是个激进分子，”他说，“他在院子里烧掉了租约，三户人家因此保住了住处。”这是某类勇气的典范，同时也是一记警告。",
+        "在墓旁，一位叔父和两位姑母与孩子们站在一起。“是的，”他的姨妈说，“他是一个糟糕世纪的合格见证人。”一场猛烈的风暴袭来，他包里的医保文件被打湿了。“你不能用一个计划替代一个人，”他母亲说，“那才是深刻的部分，也正是没人写下来的部分。”",
+        "他回到宿舍，给自己写了一张纸条：不要丢掉线索，也不要用忙碌来贿赂自己。绝望的一周不是失败，而是关键的一周；而从外面看，判断总是容易的。他的同伴们——一位友善的骑车人和三楼的一位年轻女士——主动提出替他守周四那一班。“回报会很慢，”曼雅说，“务必让它发生。问问你自己：如果只有一次干净的机会，你会先抓住哪件事？”他离开时，所有这些承诺都还写在白板上。“我听到了，”他说，“而这是我能承担的部分。”她信任的是他，偏偏是他。人来来去去；留下来的，是那些诚实说出自己能拿多少的人。他想看看这个承诺能不能守住。他望着其他人沿着走廊走远，明白了一件事：服从一张时间表，并不等于忠诚。"
+      ],
+      "exercises": [
+        {
+          "id": "CH034-Q1",
+          "type": "context",
+          "prompt": "What made Lin miss the Thursday meeting?",
+          "options": [
+            "his grandmother was in hospital",
+            "he lost the minutes",
+            "the mill closed",
+            "he was away on holiday"
+          ]
+        },
+        {
+          "id": "CH034-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “受托人；理事”?",
+          "options": [
+            "trustee",
+            "guardian",
+            "substitute",
+            "witness"
+          ]
+        },
+        {
+          "id": "CH034-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "keep a promise",
+            "keep a grave",
+            "keep a lease",
+            "keep a bribe"
+          ]
+        },
+        {
+          "id": "CH034-Q4",
+          "type": "cloze",
+          "prompt": "His mother said you cannot ______ a plan for a person.",
+          "options": [
+            "substitute",
+            "burn",
+            "insure",
+            "dominate"
+          ]
+        },
+        {
+          "id": "CH034-Q5",
+          "type": "recall",
+          "prompt": "What did Maya say a promise depending on one person really is?",
+          "options": [
+            "a hope",
+            "a lease",
+            "a model",
+            "a judgment"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH034-Q1",
+          "answer": "his grandmother was in hospital",
+          "explanation": "Family duty and the meeting fell in the same week."
+        },
+        {
+          "id": "CH034-Q2",
+          "answer": "trustee",
+          "explanation": "She described herself as a trustee of other people's time."
+        },
+        {
+          "id": "CH034-Q3",
+          "answer": "keep a promise",
+          "explanation": "Keep combines naturally with a promise or a word."
+        },
+        {
+          "id": "CH034-Q4",
+          "answer": "substitute",
+          "explanation": "She refused to let a plan stand in for a person."
+        },
+        {
+          "id": "CH034-Q5",
+          "answer": "a hope",
+          "explanation": "A promise resting on one person is only a hope."
+        }
+      ]
+    },
+    {
+      "article_id": "CH035",
+      "english_title": "Promises and Pressure: The Disagreement",
+      "chinese_title": "承诺与压力：分歧",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The disagreement began with a slight. “You did not listen to me,” Maya said. “You hear me, but you do not listen.” Lin was certainly tired, and he said something foolish about supervision. Everybody in the room went quiet. “Hello?” she said. “Is anybody there?”",
+        "She had a distinctive way of arguing: firstly the fact, then the feeling, then the request. “I owe you an apology,” he said, “and you owe me one.” She admired his honesty but not his timing. “That is undoubtedly true,” she said, “and utterly useless.”",
+        "The real subject was the shape of the work. She wanted a mainstream project with a proper structure; he wanted a deliberate, slow one. “You cannot distinguish the two any more,” she said. “One of us has to be the beast.” A fisherman on the television talked about tides, and the sofa was covered in papers.",
+        "They inspected the last three months like accountants. The parenting column, the letter from the preacher, a witty idiom, a tasty recipe: everything they had expended on pleasing other people. “This is a scar, not a strategy,” she said. “We are insuring a wreck. And the word for it is attributive: we keep describing, and never deciding.”",
+        "He was exhausted and, he admitted, easily distracted. “A figurative promise is worthless,” she said. “A priceless one costs something.” She spoke about sightseeing in an underdeveloped region and the way a town will beautify its front street while the back lanes flood. “A lick of paint is not a plan,” she said. Again and again he came back to one thing. “You are sure,” he said. “I am. Since March, definitely. And when I say it, I mean it literally — not as an excellent metaphor, not as a superb line, but as the plain fact that the work is ours.” “Any of it?” “All of it.” “Then it is invaluable,” he said, “and I will not lose it.” Clearly, one of them would have to dominate the schedule, though neither wanted to. An old man, a fisherman with a wooden boat, told them on the beach that a tide does not remain; whether you stay or go away is your own business, and the sea will never be more than the sea."
+      ],
+      "chinese_paragraphs": [
+        "分歧始于一次轻慢。“你没有听我说话，”曼雅说，“你听见了，但你没有听。”林伟当然疲惫，他说了一句关于监督的蠢话。屋里所有人都安静下来。“喂？”她说，“有人在那儿吗？”",
+        "她争论的方式很有特色：先是事实，再是感受，最后是请求。“我欠你一个道歉，”他说，“你也欠我一个。”她钦佩他的诚实，但不欣赏他的时机。“那毫无疑问是真的，”她说，“而且完全没用。”",
+        "真正的问题在于工作的形态。她要一个结构合理的主流项目；他要一个深思熟虑、缓慢的项目。“你已经分不清这两者了，”她说，“我们中的一个必须当那头野兽。”电视里一位渔夫在讲潮水，沙发上铺满了纸。",
+        "他们像会计一样检查了过去三个月。育儿专栏、传道士的来信、一句诙谐的习语、一份可口的食谱：他们把一切都花在了取悦别人上。“这是伤疤，不是策略，”她说，“我们在给一艘沉船投保。而形容这件事的词是‘定语性的’：我们一直在描述，从不做决定。”",
+        "他精疲力尽，而且他承认，很容易分心。“一个比喻式的承诺不值钱，”她说，“无价的承诺是要付出代价的。”她谈到在一个不发达地区的观光，以及一个城镇如何美化它的前街，而后巷却在淹水。“刷一层漆不是计划，”她说。他一次又一次回到同一件事上。“你确定吗？”他问。“我确定。从三月起，明确无疑。我说的时候是字面意思——不是一句出色的比喻，不是一句华丽的台词，而是一个朴素的事实：这份工作是我们的。”“全部吗？”“全部。”“那它就是无价的，”他说，“我不会丢掉它。”显然，他们中得有一个人来主导日程，虽然两人都不愿意。一位老人，一个划木船的渔夫，在海滩上告诉他们：潮水不会停留；你是留下还是离开是你自己的事，而海永远只是海。"
+      ],
+      "exercises": [
+        {
+          "id": "CH035-Q1",
+          "type": "context",
+          "prompt": "What did Maya say Lin did instead of listening?",
+          "options": [
+            "he heard her but did not listen",
+            "he read the minutes",
+            "he left the room",
+            "he called the preacher"
+          ]
+        },
+        {
+          "id": "CH035-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “深思熟虑的；故意的”?",
+          "options": [
+            "deliberate",
+            "distinctive",
+            "foolish",
+            "witty"
+          ]
+        },
+        {
+          "id": "CH035-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "inspect the work",
+            "inspect the sofa",
+            "inspect the tide",
+            "inspect the recipe"
+          ]
+        },
+        {
+          "id": "CH035-Q4",
+          "type": "cloze",
+          "prompt": "She said that a ______ promise is worthless.",
+          "options": [
+            "figurative",
+            "tasty",
+            "excellent",
+            "mainstream"
+          ]
+        },
+        {
+          "id": "CH035-Q5",
+          "type": "recall",
+          "prompt": "What did Lin finally say he would not do?",
+          "options": [
+            "lose the work",
+            "listen again",
+            "insure the wreck",
+            "beautify the street"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH035-Q1",
+          "answer": "he heard her but did not listen",
+          "explanation": "She distinguished hearing from listening."
+        },
+        {
+          "id": "CH035-Q2",
+          "answer": "deliberate",
+          "explanation": "He wanted a deliberate and slow project."
+        },
+        {
+          "id": "CH035-Q3",
+          "answer": "inspect the work",
+          "explanation": "Inspect combines with work, a site, or a document."
+        },
+        {
+          "id": "CH035-Q4",
+          "answer": "figurative",
+          "explanation": "A promise that exists only in metaphor costs nothing."
+        },
+        {
+          "id": "CH035-Q5",
+          "answer": "lose the work",
+          "explanation": "He promised not to let the shared project go."
+        }
+      ]
+    },
+    {
+      "article_id": "CH036",
+      "english_title": "Promises and Pressure: What the Numbers Hide",
+      "chinese_title": "承诺与压力：数字隐藏了什么",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The reporter arrived with a photographer, a film crew, a documentary camera, and a question the group could not answer: why does the same failure look different in every home? A cyclist, a pianist, and a cartoonist gave three different accounts of one afternoon in the clinic, and an ancient habit of counting only the first one won again.",
+        "The numbers were a glass wall: transparent and hard. A user of the service, a client of the council, a debtor on the fifth floor: each had a different estimation of the same wait. “The constant is care,” Maya said. “Everything else is a bubble.”",
+        "A spokesman for the council, an interviewer from the radio, and an informant who asked not to be named described the playground as a success. “A brick, a diamond, and a jewel are all hard,” Lin said. “Only one of them is the gift of a ruler.” The emperor of that sentence was, he admitted, a fool, and the answer he gave the reporter was a stupid one.",
+        "A photographer wrapped a blanket around a child who had been waiting since morning, and took a photo of the queue. A woman with a bandaged arm waited with a second photo in her hand. “Certainly you have room for one more,” she said, and the camera turned toward her. “That is a laugh and a sigh in one gesture,” the assistant said. “Our transparency is childish,” the designer replied, “and the offender is the system, not the blanket.” A contestant in the queue agreed, and asked for a second blanket.",
+        "The recipient of the service, a prisoner on day release, a buyer of the cheapest plan, and an adventurer who had walked the whole route: none of them had been asked for a single line. “A messenger is not a liar,” the spokesperson said, “but a messenger is not a witness either.” The group had its highest increase in trust that week, and its lowest in love. A patient would have said it better; a friend would have said it more kindly. The mean version was this: that the subject of the survey had never been the people in it."
+      ],
+      "chinese_paragraphs": [
+        "记者带着一名摄影师、一个摄制组，以及一个小组答不上来的问题到来：为什么同一次失败在每个家庭里看起来都不一样？一位骑车人、一位钢琴家和一位漫画家，对诊所里同一个下午给出了三种不同说法；而只统计第一个说法的那种古老习惯又一次赢了。",
+        "数字是一堵玻璃墙：透明而坚硬。服务的使用者、议会的客户、五楼的债务人：每个人对同一次等待都有不同的估计。“恒量是照料，”曼雅说，“其他一切都是泡沫。”",
+        "议会的一位发言人、电台的一位采访者，以及一位要求匿名的线人，把那个运动场说成一次成功。“砖块、钻石和珠宝都很硬，”林伟说，“但其中只有一件是统治者的礼物。”他承认，写出这句话的皇帝是个傻瓜，而他给记者的回答是个愚蠢的回答。",
+        "一位摄影师把一条毯子裹在一个从早上就开始等待的孩子身上，并拍下了队伍的照片。一位手臂缠着绷带的女士在等待，手里拿着第二张照片。“你当然还有位置再加一个，”她说，镜头转向了她。“那是一个手势里的笑声与叹息，”助理说。“我们的透明很幼稚，”设计师回答，“有罪的是这个系统，不是这条毯子。”队伍里一位参赛者表示同意，并要了第二条毯子。",
+        "服务的接受者、一位白天获释的囚犯、最便宜方案的购买者，以及一位走完全程的冒险者：他们当中没有一个人被问过一句话。“信使不是说谎者，”那位发言人说，“但信使也不是证人。”那一周小组在信任上增幅最高，在爱上却是最低。一位病人会说得更好，一位朋友会说得更温和。刻薄的版本是这样的：调查的主题从来不是其中的人。"
+      ],
+      "exercises": [
+        {
+          "id": "CH036-Q1",
+          "type": "context",
+          "prompt": "What question could the group not answer?",
+          "options": [
+            "why the same failure looks different in every home",
+            "how much the film crew cost",
+            "who owned the playground",
+            "when the clinic opened"
+          ]
+        },
+        {
+          "id": "CH036-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “估计；判断”?",
+          "options": [
+            "estimation",
+            "transparency",
+            "increase",
+            "bubble"
+          ]
+        },
+        {
+          "id": "CH036-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "wrap a blanket around a child",
+            "wrap a brick around a child",
+            "wrap a jewel around a child",
+            "wrap a ruler around a child"
+          ]
+        },
+        {
+          "id": "CH036-Q4",
+          "type": "cloze",
+          "prompt": "Maya said the constant is ______.",
+          "options": [
+            "care",
+            "glass",
+            "noise",
+            "the film"
+          ]
+        },
+        {
+          "id": "CH036-Q5",
+          "type": "recall",
+          "prompt": "Whom had the group never asked for a single line?",
+          "options": [
+            "the people who used the service",
+            "the council spokesman",
+            "the radio interviewer",
+            "the photographer"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH036-Q1",
+          "answer": "why the same failure looks different in every home",
+          "explanation": "The same problem has a different shape in each household."
+        },
+        {
+          "id": "CH036-Q2",
+          "answer": "estimation",
+          "explanation": "Each person estimated the same wait differently."
+        },
+        {
+          "id": "CH036-Q3",
+          "answer": "wrap a blanket around a child",
+          "explanation": "Wrap combines with a blanket, a parcel, or a wound."
+        },
+        {
+          "id": "CH036-Q4",
+          "answer": "care",
+          "explanation": "She called care the only constant in the data."
+        },
+        {
+          "id": "CH036-Q5",
+          "answer": "the people who used the service",
+          "explanation": "Users, debtors, and prisoners had never been interviewed."
+        }
+      ]
+    },
+    {
+      "article_id": "CH037",
+      "english_title": "Promises and Pressure: A Better Question",
+      "chinese_title": "承诺与压力：更好的问题",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The better question came from a nurse in the maternity house: whose family is this, biologically speaking? A baby had two mothers on the form — one who carried him and one who would raise him — and the old system had only one line for both. A great part of the control belonged to whoever wrote the first column.",
+        "The head of the department, a modern man with a quiet voice, asked what a fingerprint was for. “Identification,” the deputy said. “No,” the nurse said. “It is a pure fact that has nothing to do with kin.” There was a little contempt in the room, and a great deal of envy.",
+        "A priest, a spouse, a parent, and a student stood around the table. “The whole function of a form is to decide what counts,” the priest said. “A palm, a wound, a bite on the arm: three ways of saying the same thing.” Half the name, a figure, an active feature of the throat: the primitive grammar of the form decided everything before the nurse spoke. The president of the union wrote it down.",
+        "A sympathetic social worker showed them a secret file with a facial photograph of a baby, a blood test, and a feeding schedule. “Is that biology or care?” she asked. “Both,” Maya said. “And the form makes you choose.” A black cat crossed the litter in the yard, indifferent to all of it.",
+        "The envelope on the table contained two forms: one biological, one social. “Which one does the breast belong to,” the nurse asked, “when the baby will not feed?” Nobody answered. The baby was weighed again, the figures were written down, and the second mother came back from the corridor with a bottle and a blanket, then carried the empty tray away.",
+        "The expansive claim — that a commune could replace a family — was met with silence. “A relay is not a race,” Lin wrote, “and a harness is not a horse.” The oceanic feeling of the room was mostly fatigue. “Something has to change in the double column,” the nurse said. “The skin of the form, not the skin of the child.” Of course the father of the second mother was sure that the form would lose the case; but a person who has never filled in such a form has no idea what it costs."
+      ],
+      "chinese_paragraphs": [
+        "更好的问题来自产房的一位护士：从生物学上说，这是谁的家庭？表格上一个婴儿有两位母亲——一位生了他，一位要养育他——而旧系统只为两者留了一行。很大一部分控制权属于写下第一栏的人。",
+        "系主任是一位声音安静的现代人，他问指纹有什么用。“身份识别，”副主任说。“不，”护士说，“它是一个与血缘毫无关系的纯粹事实。”屋里有一点轻蔑，也有很多嫉妒。",
+        "一位神父、一位配偶、一位家长和一名学生围在桌旁。“表格的整个功能就是决定什么算数，”神父说，“一只手掌、一处创伤、手臂上的一口咬痕：三种说法，同一件事。”半个名字、一个数字、喉咙的一项活跃特征：表格那原始的语法在护士开口之前就决定了一切。工会主席把它记了下来。",
+        "一位富有同情心的社工给他们看了一份秘密档案：一张婴儿的面部照片、一次血液检验和一份喂养时间表。“那是生物学还是照料？”她问。“都是，”曼雅说，“而表格逼你二选一。”一只黑猫穿过院子里的杂物，对这一切漠不关心。",
+        "桌上的信封里装着两份表格：一份生物学的，一份社会性的。“当婴儿不肯吃奶的时候，乳房属于哪一份？”护士问。没有人回答。婴儿被重新称重，数字被记下，第二位母亲从走廊回来，手里拿着奶瓶和一条毯子，随后把空托盘端走了。",
+        "那个扩张性的主张——社区可以取代家庭——遇到了沉默。“接力不是赛跑，”林伟写道，“马具也不是马。”屋里那种海洋般的感觉多半是疲惫。“双栏里必须改点什么，”护士说，“改表格的皮，不是孩子的皮。”当然，第二位的母亲的父亲认定这场官司会输；但一个从未填过这种表格的人，根本不知道它要付出什么。"
+      ],
+      "exercises": [
+        {
+          "id": "CH037-Q1",
+          "type": "context",
+          "prompt": "What problem did the maternity form have?",
+          "options": [
+            "it had one line for two mothers",
+            "it had no fingerprint",
+            "it was written by the priest",
+            "it asked about the cat"
+          ]
+        },
+        {
+          "id": "CH037-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “漠不关心的”?",
+          "options": [
+            "indifferent",
+            "sympathetic",
+            "expansive",
+            "primitive"
+          ]
+        },
+        {
+          "id": "CH037-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "decide what counts",
+            "decide the litter",
+            "decide the harness",
+            "decide the envy"
+          ]
+        },
+        {
+          "id": "CH037-Q4",
+          "type": "cloze",
+          "prompt": "The nurse said a fingerprint is a ______ fact that has nothing to do with kin.",
+          "options": [
+            "pure",
+            "secret",
+            "double",
+            "facial"
+          ]
+        },
+        {
+          "id": "CH037-Q5",
+          "type": "recall",
+          "prompt": "What did Lin say a harness is not?",
+          "options": [
+            "a horse",
+            "a relay",
+            "a race",
+            "a column"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH037-Q1",
+          "answer": "it had one line for two mothers",
+          "explanation": "The old form could not hold two kinds of motherhood."
+        },
+        {
+          "id": "CH037-Q2",
+          "answer": "indifferent",
+          "explanation": "The cat was untouched by the argument."
+        },
+        {
+          "id": "CH037-Q3",
+          "answer": "decide what counts",
+          "explanation": "Decide combines with what counts, a course, or a date."
+        },
+        {
+          "id": "CH037-Q4",
+          "answer": "pure",
+          "explanation": "She called the fingerprint a pure fact, unrelated to kinship."
+        },
+        {
+          "id": "CH037-Q5",
+          "answer": "a horse",
+          "explanation": "He distinguished the instrument from the living thing it serves."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH037",
+    "last_event": "The group reframed its third-arc question around a maternity form that had one line for two mothers, and the disagreement between Maya and Lin was settled by an explicit division of the work.",
+    "unresolved_consequence": "The renegotiated roles still cost more than expected, the council has not acted, and the form itself has not been changed.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University and his family home",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year student and part-time carer for his family",
+      "Maya Chen": "journalism student, student-paper columnist, and Thursday meeting host",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one"
+    ],
+    "first_required_event_next_chapter": "CH038 must show the friendship surviving a week in which neither of them can carry the other's part.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question"
+    ]
+  }
+}

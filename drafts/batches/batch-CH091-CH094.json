@@ -1,0 +1,588 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH091-CH094",
+  "chapter_ids": [
+    "CH091",
+    "CH092",
+    "CH093",
+    "CH094"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH091",
+      "english_title": "What the System Remembers: The Disagreement",
+      "chinese_title": "系统记住了什么：分歧",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The disagreement was about the level of the result. “If we extend the trial, the wait is permanent,” Maya said. “If we pull it back, the current of data will drag us to the start.” At the end of a long talk, four of the group held one view and the rest held another, and the period of the launch had already been extended twice.",
+        "The action they agreed on was small: acquire one more sensor, restore the old lamp, and cap the pipe that emitted the raw carbon. The mask, the tissue, and the plain dot on the screen were the only evidence in the room, and the dim light made the skeleton of the machine look like a creature.",
+        "A chemist in the biochemistry lab explained the mechanics of the failure: a lag in the acceleration of the reaction, an explosive mixture of hydrogen and gasoline vapour, and a pitch of the sensor that nobody had ever calibrated. Across the corridor, the busy lab and the quiet one were a mile apart in length but not in kind, and they had to get the answer together.",
+        "“You may not quit,” the officer said. “The formality of a signature is not a cure.” The endless bounce of the cursor, the bright exit sign, and the small dots that circulated on the screen: it was a phenomenon that none of the four could name.",
+        "They were asked to hold the line on one point only: nothing would be acquired, not one byte, without a written reason. At this elevation, with the anchorage of a hundred years of practice behind them, the answer was not going to be simple. One team would recover; one would not.",
+        "Perhaps the launch would be off for a season; perhaps for good. The development of the service and the safety of the people in it were on the same table, and the time had come to choose which one would pay. Nobody in the room wanted to be the one who said it first. Across the table, the four of them could not get past the same question, and the end of the period was still on."
+      ],
+      "chinese_paragraphs": [
+        "分歧在于结果的层级。“如果我们延长试行，等待就变成永久的，”曼雅说，“如果我们把它撤回来，数据的潮流就会把我们拖回起点。”在一场漫长的谈话结束时，小组里四个人持一种看法，其余人持另一种，而发布的期限已经被延长了两次。",
+        "他们达成一致的行动很小：再取得一个传感器、修好那盏旧灯，并把那根排放生碳的管子盖上盖子。面具、薄纸，以及屏幕上那个平淡无奇的点，是屋里仅有的证据，而昏暗的灯光让机器的骨架看起来像一个生物。",
+        "生物化学实验室的一位化学家解释了失效的机理：反应加速中的一段滞后、氢与汽油蒸气的爆炸性混合物，以及一个从未被校准过的传感器倾角。走廊对面，忙碌的实验室和安静的实验室在长度上相隔一英里，在性质上却并非如此，而他们必须一起得到答案。",
+        "“你不可以辞职，”官员说，“签名的礼节不是一剂解药。”光标无休止地跳动、明亮的出口标志，以及屏幕上循环移动的小点：这是一种四个人都叫不出名字的现象。",
+        "他们被要求只在一个点上守住底线：任何东西都不能被取得，一个字节也不行，除非有书面的理由。在这样的高度上，身后有一个世纪实践的锚地，答案不会简单。一支队伍会恢复过来；另一支不会。",
+        "也许发布会停一个季度；也许是永久。这项服务的发展与其中人们的安全摆在同一张桌上，而选择谁付代价的时候到了。屋里没有人愿意做第一个说出这句话的人。桌子对面，他们四个人都绕不过同一个问题，而这个周期的终点仍然悬着。"
+      ],
+      "exercises": [
+        {
+          "id": "CH091-Q1",
+          "type": "context",
+          "prompt": "What did Maya say would happen if they extended the trial?",
+          "options": [
+            "the wait would become permanent",
+            "the data would be deleted",
+            "the lab would close",
+            "the sensor would fail"
+          ]
+        },
+        {
+          "id": "CH091-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “现象”?",
+          "options": [
+            "phenomenon",
+            "formality",
+            "anchorage",
+            "elevation"
+          ]
+        },
+        {
+          "id": "CH091-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "restore the lamp",
+            "restore the mask",
+            "restore the dot",
+            "restore the skeleton"
+          ]
+        },
+        {
+          "id": "CH091-Q4",
+          "type": "cloze",
+          "prompt": "The officer said the formality of a signature is not a ______.",
+          "options": [
+            "cure",
+            "lag",
+            "pitch",
+            "drag"
+          ]
+        },
+        {
+          "id": "CH091-Q5",
+          "type": "recall",
+          "prompt": "What single point did they agree to hold?",
+          "options": [
+            "nothing would be acquired without a written reason",
+            "the launch would go ahead",
+            "the lab would be closed",
+            "the sensor would be replaced"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH091-Q1",
+          "answer": "the wait would become permanent",
+          "explanation": "An open-ended extension would never end."
+        },
+        {
+          "id": "CH091-Q2",
+          "answer": "phenomenon",
+          "explanation": "The cursor behaviour was a phenomenon they could not name."
+        },
+        {
+          "id": "CH091-Q3",
+          "answer": "restore the lamp",
+          "explanation": "Restore combines with a lamp, a right, or a file."
+        },
+        {
+          "id": "CH091-Q4",
+          "answer": "cure",
+          "explanation": "A signature alone does not fix the underlying problem."
+        },
+        {
+          "id": "CH091-Q5",
+          "answer": "nothing would be acquired without a written reason",
+          "explanation": "They agreed on one non-negotiable rule."
+        }
+      ]
+    },
+    {
+      "article_id": "CH092",
+      "english_title": "What the System Remembers: What the Numbers Hide",
+      "chinese_title": "系统记住了什么：数字隐藏了什么",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The numbers hid the main product: trust. A list of four hundred tokens, a standard of measurement that nobody had signed, and a principle that the group had agreed on in the morning were all that stood between the service and the next audit.",
+        "The theory was elegant and the practice was not. An object in the system could be exchanged for a key, a key for a match, a match for a wheel of electricity, and the whole exchange bound the user to a contract nobody had read. “A flag on a digital form is not a signature,” the analyst said.",
+        "The alarm had been patched twice, and the patch had a defect. A reverse of the battery polarity in the assembly, a crystal in the elevator sensor, and a developer who had left the company: the assembly line of small errors had one characteristic in common, and it was invisible to the accounting.",
+        "The instrument that measured the response had a zero point nobody had calibrated since the previous century. “If the base is wrong, the transformation is theatre,” the regulator said. A calendar of releases, an anchor for the bracket, and a token in the conductor's hand: the automation was only as good as the person who watched it.",
+        "The intermediate step, which everyone wanted to skip, was the plain one: ask the user what the light on the sun-facing panel actually meant to them. After the third pass, finally, they pulled the report and waited at the gate for the answer — and the answer was not in the numbers at all. At the end, the level of detail was the problem. “AIDS does not care about our calendar,” the analyst said. “We might analyze a thousand results and still not thank the person who waited.” The engine of the current report, the conductor of the morning shift, and the panel facing the sun: none of them could tell down from up in the chart. A century of accounting had taught them one thing: the standard is the instrument, and the instrument is the person holding it in the morning."
+      ],
+      "chinese_paragraphs": [
+        "这些数字掩盖了主要的产品：信任。一份四百个代币的清单、一项没人签署过的计量标准，以及小组在早上达成的一条原则，就是这项服务与下一次审计之间的全部屏障。",
+        "理论是优雅的，实践不是。系统中的一个物体可以换一把钥匙，一把钥匙换一场比赛，一场比赛换一个电力的轮子，而整个交换把用户绑定到一份没人读过的合同上。“数字表格上的一面旗子不是签名，”分析师说。",
+        "警报被修补过两次，而那个补丁有一个缺点。装配中电池极性的反接、电梯传感器里的一块晶体，以及一位已经离职的开发者：这条小错误的装配线上有一个共同特征，而它对会计是不可见的。",
+        "测量反应的那台仪器，自上个世纪以来就没有人校准过它的零点。“如果基点是错的，那个变换就是戏剧，”监管者说。一份发布日历、一个支架的锚点，以及指挥者手中的一个代币：自动化的好坏，只取决于看着它的那个人。",
+        "每个人都想跳过的那一步，恰恰是最朴素的一步：去问用户，那块朝向太阳的面板上的灯，对他们究竟意味着什么。第三轮之后，他们终于抽回了报告，在门口等待答案——而答案根本不在数字里。到最后，细节的层级本身就是问题。“艾滋病不在乎我们的日历，”分析师说，“我们也许分析了一千个结果，却仍然不会感谢那个等待的人。”这份现行报告的引擎、早班的售票员，以及朝太阳的那块面板：它们中没有一个能在图表里分清上和下。一个世纪的会计学教会了他们一件事：标准就是仪器，而仪器就是早上拿着它的那个人。"
+      ],
+      "exercises": [
+        {
+          "id": "CH092-Q1",
+          "type": "context",
+          "prompt": "What main product did the numbers hide?",
+          "options": [
+            "trust",
+            "a calendar",
+            "a battery",
+            "a crystal"
+          ]
+        },
+        {
+          "id": "CH092-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “缺陷；缺点”?",
+          "options": [
+            "defect",
+            "reverse",
+            "anchor",
+            "bracket"
+          ]
+        },
+        {
+          "id": "CH092-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "calibrate an instrument",
+            "calibrate a token",
+            "calibrate a flag",
+            "calibrate a calendar"
+          ]
+        },
+        {
+          "id": "CH092-Q4",
+          "type": "cloze",
+          "prompt": "The analyst said a flag on a digital form is not a ______.",
+          "options": [
+            "signature",
+            "battery",
+            "crystal",
+            "wheel"
+          ]
+        },
+        {
+          "id": "CH092-Q5",
+          "type": "recall",
+          "prompt": "What was the step everyone wanted to skip?",
+          "options": [
+            "asking the user what the light meant",
+            "replacing the battery",
+            "patching the alarm",
+            "calibrating the elevator"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH092-Q1",
+          "answer": "trust",
+          "explanation": "Trust was the real product the numbers concealed."
+        },
+        {
+          "id": "CH092-Q2",
+          "answer": "defect",
+          "explanation": "The patch itself carried a defect."
+        },
+        {
+          "id": "CH092-Q3",
+          "answer": "calibrate an instrument",
+          "explanation": "Calibrate combines with an instrument, a sensor, or a scale."
+        },
+        {
+          "id": "CH092-Q4",
+          "answer": "signature",
+          "explanation": "A digital flag is not informed consent."
+        },
+        {
+          "id": "CH092-Q5",
+          "answer": "asking the user what the light meant",
+          "explanation": "The plain step was the one everyone skipped."
+        }
+      ]
+    },
+    {
+      "article_id": "CH093",
+      "english_title": "What the System Remembers: A Better Question",
+      "chinese_title": "系统记住了什么：更好的问题",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "A better question arrived as a message on a laptop in the middle of a long period of development: does this system enable a person to leave as easily as it enables them to join? The group had drawn up a summary of the program, but nobody had written the exit line.",
+        "The precise measurement of privacy turned out to be simple: the number of steps required to cancel an account. A summary with numerous footnotes, a brilliant formulation of the principle, and a heap of approvals from the main office were useless if the answer was forty-seven clicks on a tablet.",
+        "The false assumption was that simplicity is a weakness. “Simplicity is not the superiority of the lazy,” the analyst said. “It is the only thing a slender budget can buy.” A vitamin company had asked for an attribute they could not explain, and a dating service had asked for a beverage sponsor: both wanted data they could not justify.",
+        "The paradox was mathematical. In arithmetic, a zero costs nothing; in privacy, a zero is the only permissible value for the data you do not need. A cardboard box, a torch, and a calculator on the desk made the point better than the geometry on the whiteboard.",
+        "The consensus was to minimize, not to delete: every field would need an owner, and every owner would need to fold their data into one page. The elegance of the new form was that a user could read it aloud; the true test of a high-tech system is whether a microscopic line of password text can be explained by the person who typed it.",
+        "The networking diagram had a shadow of its own: a fertilizer of small features that nobody had asked for. “We cannot solve a trust problem with an extra field,” Maya wrote. “We can only stop adding them.” The next revision would be shorter than the previous one, and that would be the whole argument. It was difficult to see the manipulation in a form that looked so plain; the math was renewable, but an astronomical budget is not. The effort to get the product to the people who need it, to provide the music of a simple interface, and to reach them in time was the real design work."
+      ],
+      "chinese_paragraphs": [
+        "一个更好的问题在一段漫长开发期的中途，以笔记本电脑上的一条消息到来：这个系统让人离开，是否和让人加入一样容易？小组拟出了程序的一份摘要，却没有人写下退出的那一行。",
+        "对隐私的精确测量原来很简单：注销一个账户需要多少步。一份带众多脚注的摘要、一条精彩的原理表述，以及总部的一堆批准，如果答案是平板上四十七次点击，那全都是无用的。",
+        "那个错误的假设是：简单是一种弱点。“简单不是懒惰者的优越，”分析师说，“它是微薄的预算唯一买得到的东西。”一家维生素公司要求一个他们解释不了的属性，一家约会服务要求一个饮料赞助商：两者都想要他们无法自证的数据。",
+        "这个悖论是数学性的。在算术里，一个零不花任何成本；在隐私里，零是你不需要的数据唯一可容许的取值。桌上一个纸板箱、一支火把和一台计算器，比白板上的几何更好地说明了这一点。",
+        "共识是最小化，而不是删除：每个字段都要有一个负责人，而每个负责人都要把自己的数据折成一页。新表格的优雅之处在于用户能把它朗读出来；一个高科技系统真正的考验，在于输入密码的那个人能否解释那一行显微镜般细小的文字。",
+        "那张网络图有它自己的影子：一堆没人要求过的小功能，像肥料一样堆着。“我们无法用多加一个字段来解决信任问题，”曼雅写道，“我们只能停止继续加。”下一次修订会比上一版更短，而这就是全部的论证。很难在一份看起来如此朴素的东西里看出那种操纵；数学是可以更新的，而一笔天文数字的预算不是。把产品送到需要它的人手上、为一个简单界面提供那种音乐感，并及时触达他们——这才是真正的设计工作。"
+      ],
+      "exercises": [
+        {
+          "id": "CH093-Q1",
+          "type": "context",
+          "prompt": "What was the better question?",
+          "options": [
+            "does the system let a person leave as easily as join",
+            "how many fields can we add",
+            "who owns the laptop",
+            "which sponsor pays best"
+          ]
+        },
+        {
+          "id": "CH093-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “悖论；自相矛盾的话”?",
+          "options": [
+            "paradox",
+            "consensus",
+            "formulation",
+            "attribute"
+          ]
+        },
+        {
+          "id": "CH093-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "cancel an account",
+            "cancel a vitamin",
+            "cancel a beverage",
+            "cancel a torch"
+          ]
+        },
+        {
+          "id": "CH093-Q4",
+          "type": "cloze",
+          "prompt": "The analyst said simplicity is not the superiority of the ______.",
+          "options": [
+            "lazy",
+            "slender",
+            "brilliant",
+            "microscopic"
+          ]
+        },
+        {
+          "id": "CH093-Q5",
+          "type": "recall",
+          "prompt": "What did Maya say they could only do?",
+          "options": [
+            "stop adding fields",
+            "delete the system",
+            "hire a sponsor",
+            "shorten the password"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH093-Q1",
+          "answer": "does the system let a person leave as easily as join",
+          "explanation": "She tested the system by its exit, not its entrance."
+        },
+        {
+          "id": "CH093-Q2",
+          "answer": "paradox",
+          "explanation": "Zero cost in arithmetic, zero value in privacy."
+        },
+        {
+          "id": "CH093-Q3",
+          "answer": "cancel an account",
+          "explanation": "Cancel combines with an account, a plan, or a meeting."
+        },
+        {
+          "id": "CH093-Q4",
+          "answer": "lazy",
+          "explanation": "He defended simplicity as economy, not laziness."
+        },
+        {
+          "id": "CH093-Q5",
+          "answer": "stop adding fields",
+          "explanation": "She argued for subtraction rather than invention."
+        }
+      ]
+    },
+    {
+      "article_id": "CH094",
+      "english_title": "What the System Remembers: The Second Attempt",
+      "chinese_title": "系统记住了什么：第二次尝试",
+      "theme": "科学、技术与互联网",
+      "english_paragraphs": [
+        "The second attempt began with a bit of routine maintenance and a kilo of new cable. Its power came from a smaller motor, a quieter drive, and an electronic mixture of sensors that could be arranged in any order. “If the component fails, the whole activity stops,” the engineer said. “That is the point.”",
+        "The concert in the park, the bush beside the path, and the script of the presentation were all part of the same routine. The intensity of the mechanical work was low; the intensity of the mathematics was not. A trigger in the software, a hook in the interface, and a chaos of small updates had to be replaced by feedback.",
+        "The laser scanned the surface, the gravity sensor dipped, and the suspension of the scan was logged twice. “Consistency is not repetition,” the analyst said. “A repeated test that changes nothing proves nothing.” An odor of burnt plastic, a graphic of the new methodology, and a projector that erased a digit: the lab was learning to trust its own instruments.",
+        "The voltage had to be upgraded before the consolidation of the two servers. An elimination of three old linkages, a cohesion of the remaining ones, and a relativity of standards between the two labs made the merge slower than anyone expected.",
+        "As an end to the attempt, they arranged one public session: a pull of the plug, a message on the screen, and a current of questions from the audience. “We can enable the exit,” Maya said. “We cannot enable the trust.” It was a level of honesty that the training had not prepared them for, and they waited at the end of the day for the result.",
+        "The mile of cable, the wait of a week, and the pick of the third option were, in the end, the same decision: to keep the system small enough to be explained by the person it remembers. It was an attempt at something small, and the training had prepared them for none of it. The current had turned; the force of the argument was on their side, and they could enable the end they wanted without a fight. A capture of one screen and a consolidate of two registers: the last step was to make the record smaller than the thing it described."
+      ],
+      "chinese_paragraphs": [
+        "第二次尝试从一点例行维护和一公斤新电缆开始。它的动力来自一台更小的马达、更安静的驱动，以及一种可以任意排列的电子传感器混合物。“如果组件失效，整个活动就停下，”工程师说，“这正是要点。”",
+        "公园里的音乐会、小径旁的灌木，以及演示的脚本，都属于同一套例行安排。机械工作的强度不高；数学的强度则不然。软件里的一个触发器、界面上的一个钩子，以及一团混乱的小更新，都必须被反馈取代。",
+        "激光扫描表面，重力传感器下沉，扫描的悬停被记录了两次。“一致不是重复，”分析师说，“一个什么都没改变的重复杂测试，什么都证明不了。”一股烧焦塑料的气味、一张新方法论的图表，以及一台抹掉了一位数字的放映机：实验室正在学着信任自己的仪器。",
+        "在两台服务器合并之前，电压必须先升级。消除三条旧的连接、剩下几条的内聚，以及两个实验室之间标准的相对性，让这次合并比任何人预想的都慢。",
+        "作为这次尝试的结束，他们安排了一场公开会议：拔掉插头、屏幕上的一条消息，以及观众席涌来的一股问题。“我们能够开通退出，”曼雅说，“我们无法开通信任。”这是训练没能让他们准备好的一种诚实程度，而他们在一天结束时等待着结果。",
+        "那一英里电缆、那一周的等待，以及对第三个选项的选择，说到底都是同一个决定：让这个系统小到能被它所记住的那个人解释清楚。这是一次针对某种小东西的尝试，而训练没有让他们对其中任何一样做好准备。潮流已经转向；论证的力量在他们这一边，而他们可以不必争斗就促成他们想要的结局。截取一个屏幕、合并两份登记簿：最后一步，是让记录比它所描述的东西更小。"
+      ],
+      "exercises": [
+        {
+          "id": "CH094-Q1",
+          "type": "context",
+          "prompt": "What did the engineer say happens if the component fails?",
+          "options": [
+            "the whole activity stops",
+            "the cable melts",
+            "the park closes",
+            "the projector starts"
+          ]
+        },
+        {
+          "id": "CH094-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “一致性；黏稠度”?",
+          "options": [
+            "consistency",
+            "cohesion",
+            "linkage",
+            "relativity"
+          ]
+        },
+        {
+          "id": "CH094-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "upgrade the voltage",
+            "upgrade the odor",
+            "upgrade the bush",
+            "upgrade the script"
+          ]
+        },
+        {
+          "id": "CH094-Q4",
+          "type": "cloze",
+          "prompt": "What did the analyst say an unchanged repetition proves?",
+          "options": [
+            "nothing",
+            "everything",
+            "the methodology",
+            "the digit"
+          ]
+        },
+        {
+          "id": "CH094-Q5",
+          "type": "recall",
+          "prompt": "What could the group enable, and what could it not?",
+          "options": [
+            "the exit, but not the trust",
+            "the trust, but not the exit",
+            "the laser, but not the motor",
+            "the concert, but not the park"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH094-Q1",
+          "answer": "the whole activity stops",
+          "explanation": "The design deliberately fails as a whole."
+        },
+        {
+          "id": "CH094-Q2",
+          "answer": "consistency",
+          "explanation": "She distinguished consistency from mere repetition."
+        },
+        {
+          "id": "CH094-Q3",
+          "answer": "upgrade the voltage",
+          "explanation": "Upgrade combines with voltage, a system, or a version."
+        },
+        {
+          "id": "CH094-Q4",
+          "answer": "nothing",
+          "explanation": "An unchanged repeat carries no information."
+        },
+        {
+          "id": "CH094-Q5",
+          "answer": "the exit, but not the trust",
+          "explanation": "They could build the mechanism, not the confidence."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH094",
+    "last_event": "The group agreed that nothing would be collected without a written reason, reduced the form to one readable page, and ran a second trial that could be explained by the person it remembers.",
+    "unresolved_consequence": "The launch is still paused, the old data has not been fully deleted, and the faculty review is now weeks away.",
+    "character_locations": {
+      "Lin Wei": "the innovation lab",
+      "Maya Chen": "the innovation lab",
+      "Aisha Rahman": "the innovation lab and remotely online"
+    },
+    "character_roles": {
+      "Lin Wei": "third-year student and project co-lead",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Aisha Rahman": "data specialist and remote collaborator on the redesign"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line",
+      "publish the first national injury figures honestly",
+      "name one responsible person for every system and device",
+      "delete the old address list completely",
+      "publish the one-page consent form before the faculty review"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one",
+      "national reporting requirements against a club's own budget",
+      "a launch date against a consented design",
+      "the convenience of a system against the consent of the person inside it",
+      "simplicity against completeness"
+    ],
+    "first_required_event_next_chapter": "CH095 must take the redesigned service into the faculty review, where the group has to defend what it deleted.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries",
+      "a canteen cook reframed the programme around walking, music, and recreation",
+      "the second attempt ran one funded indoor session a week",
+      "the hospital forced a national register of injuries and treatment",
+      "the club committed two funded hours a week and made rest part of training",
+      "the kitchen and the mood of the canteen became part of the evidence",
+      "a regional health register was opened and the group promised to publish its figures honestly",
+      "an unexplained file appeared in a public download of the club's website",
+      "the seventh arc opened with a paused launch and a promised redesign of consent",
+      "a person whose data had been stored without consent asked for a withdrawal mechanism",
+      "the group replaced twelve collection rules with one criterion: nothing on a maybe",
+      "the consent trial deleted what could not be justified and kept the launch paused",
+      "the group agreed that nothing is acquired without a written reason",
+      "the numbers were shown to hide the real product, which was trust",
+      "the group reframed consent around the ease of leaving rather than the ease of joining",
+      "the second redesign ran a trial that the person involved could explain"
+    ]
+  }
+}

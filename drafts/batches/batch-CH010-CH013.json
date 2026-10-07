@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH010-CH013",
+  "chapter_ids": [
+    "CH010",
+    "CH011",
+    "CH012",
+    "CH013"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH010",
+      "english_title": "New Ground: The Second Attempt",
+      "chinese_title": "新的起点：第二次尝试",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "The second attempt began with a test the group had not designed. A member of the college council, a guy named Wen, handed them a list of five buildings and said that a student leader should walk the route with his eyes closed. He was joking; nobody laughed. Beneath the joke lay a fair demand: the map had to work for someone who had never seen the campus. Hence the rule that Lin, usually the fastest walker, would go first, while the president of the council waited at the gate.",
+        "Initially the walk went well. Then he lost track of the alley behind the sports hall, where a showy artificial sign pointed nowhere. Both of them stood there, and her patience narrowed. “Normally a map is a promise,” she said. “This one is a luxury.” Elsewhere, water from the swimming pool had accumulated along the avenue, and the ugly cloth banner above the door was too wet to read. A small crowd began to gather behind them, which was worse than the rain.",
+        "They resolved to test the wording instead of the route. On behalf of the volunteers, Maya rewrote each line and duly recorded every hesitation. “Preferable” became “better”; “atop the hill” became “at the top of the hill”. Gradually the sentences grew shorter, their eyesight of the real problem sharpened, and the emergence of a telling detail came on the fourth page: nobody had described the door from the outside. “We should often read our own report as a stranger would,” she said.",
+        "The practicality of the project troubled Lin. To cultivate trust, he thought, you must first sow patience and then reap attention. A blouse soaked by rain, a cap left idly on a bench, and a troublesome locked gate all told the same story: the map was accurate and unusable. Ironically, the second walk missed the gate narrowly, and the narrowest point of the route was the one the designer had photographed most carefully. A major question had been answered, and it had produced a worse answer than doubt.",
+        "The reunification of the two maps took three evenings. It was no luxurious achievement and nobody wanted to celebrate it, but it was an advancement: the group could develop one gate at a time and conquer it in a single pass. The number of wrong turns had fallen, though not far. The smell near the canteen began to sicken Lin, and the queue continued to grow in the rain. “We have not overcome the city,” Maya said. “We have only stopped lying about it.”"
+      ],
+      "chinese_paragraphs": [
+        "第二次尝试从一场不是他们自己设计的测试开始。学院委员会的一位成员，一个叫文的家伙，递给他们一张写着五栋楼的清单，说学生领袖应该闭着眼睛走完这条路线。他是在开玩笑；没人笑。玩笑底下是一个合理的要求：这张地图必须对一个从未见过校园的人也有用。于是有了这条规则：通常是走得最快的林伟先走，而委员会主席在门口等着。",
+        "起初这段路走得很顺。随后他弄不清体育馆后面那条小巷的编号，那里一块艳丽的人造指示牌指向空处。两人站在那里，她的耐心变窄了。“通常地图是一个承诺，”她说，“而这个是奢侈品。”别处，游泳池的水顺着大道积了起来，门上方那块难看的布横幅湿得看不清。一小群人开始在他们身后聚集，这比下雨更糟。",
+        "他们决定测试措辞，而不是路线。曼雅代表志愿者重写了每一行并按时记录了每一次犹豫。“更可取”改成“更好”；“在山顶之上”改成“在山顶”。句子渐渐变短，他们对真正问题的眼力也变锐利了，第四页上浮现出一个说明问题的细节：没有人从外面描述过那扇门。“我们应该常常像陌生人那样读自己的报告，”她说。",
+        "项目的实用性让林伟不安。他想到，要培养信任，必须先播下耐心，才能收获关注。一件被雨浸透的上衣、一顶被闲闲留在长椅上的帽子、一道麻烦的锁门，都在讲同一个故事：这张地图准确却无法使用。讽刺的是，整条路线中最窄的那一点，正是设计者拍得最仔细的地方。一个重要问题被回答了，而它给出的答案比怀疑更糟。",
+        "两张地图的重新统一花了三个晚上。这不是什么豪华的成就，也没人想庆祝，但它确实是一次进步：小组可以一次只开发一道门，并在一趟之内把它攻克。走错路的次数减少了，虽然减少得不多。食堂附近的气味开始让林伟恶心，队伍在雨里继续变长。“我们并没有战胜这座城市，”曼雅说，“我们只是不再对它说谎。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH010-Q1",
+          "type": "context",
+          "prompt": "What rule did the council member's joke produce?",
+          "options": [
+            "Lin had to walk the route without seeing it",
+            "the map had to be printed twice",
+            "the council would pay for the banner",
+            "Maya had to rewrite the report"
+          ]
+        },
+        {
+          "id": "CH010-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “逐渐地”?",
+          "options": [
+            "gradually",
+            "initially",
+            "narrowly",
+            "duly"
+          ]
+        },
+        {
+          "id": "CH010-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "cultivate trust",
+            "cultivate a banner",
+            "cultivate an alley",
+            "cultivate a pool"
+          ]
+        },
+        {
+          "id": "CH010-Q4",
+          "type": "cloze",
+          "prompt": "The group could ______ one gate in a single pass.",
+          "options": [
+            "conquer",
+            "sicken",
+            "celebrate",
+            "accumulate"
+          ]
+        },
+        {
+          "id": "CH010-Q5",
+          "type": "recall",
+          "prompt": "What did the group finally admit?",
+          "options": [
+            "that they had stopped lying about the city",
+            "that the map was luxurious",
+            "that the council was useless",
+            "that the rain had stopped"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH010-Q1",
+          "answer": "Lin had to walk the route without seeing it",
+          "explanation": "The joke became a real test: Lin walked the route as a stranger would."
+        },
+        {
+          "id": "CH010-Q2",
+          "answer": "gradually",
+          "explanation": "The sentences became shorter little by little."
+        },
+        {
+          "id": "CH010-Q3",
+          "answer": "cultivate trust",
+          "explanation": "Cultivate is used with trust, patience, or a habit."
+        },
+        {
+          "id": "CH010-Q4",
+          "answer": "conquer",
+          "explanation": "After the reunification they could handle one gate in one pass."
+        },
+        {
+          "id": "CH010-Q5",
+          "answer": "that they had stopped lying about the city",
+          "explanation": "Maya said they had not overcome the city, only stopped lying about it."
+        }
+      ]
+    },
+    {
+      "article_id": "CH011",
+      "english_title": "New Ground: Outside Pressure",
+      "chinese_title": "新的起点：外部压力",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "A legislative aide came to the campus in a purple coat and asked to see the map. She stared at the wall for a long minute, her gaze moving from the gate to the legend. “The potential is obvious,” she said, “but this is controversial, and the council will not fund a hazy promise.” The sheer enthusiasm of the volunteers met a cold room. A funny detail softened nothing: the lady from the council had arrived with a cigaret she was not allowed to light, and she held it like a small, useless tool.",
+        "The condition was stated precisely: show a working bypass for every closed gate, or lose the room. An enthusiastic volunteer asked whether a sketch would do; he was told that it would not. “That is amazing,” Maya said, meaning the opposite. “It is also impossible.” The shock was that the aide agreed. Those five buildings were, normally, the least interesting part of the campus, and yet the whole project now depended on them. The delay began to weaken their hold on the room. A brutal deadline can sharpen a design or terrify its makers; this one did both.",
+        "They worked in a muddy room that began to darken at four o'clock. The mist outside was thick enough to hide the far gate. A creamy soup and a delicious bun arrived, and the volunteers ate standing up, usually in silence. “This is disgusting,” one girl said, meaning the corridor rather than the food. Small delays began to annoy everyone, including the two of them, and a bloody scratch on Lin's hand came from fastening the board to the wall.",
+        "Among the three hundred notes, a hundred mentioned a lack of light and an equal amount mentioned the cold. A colorful diagram fascinated the visitors, and the fascination was mutual: the students were in awe of the aide's patience, and she was in awe of their stamina. Both of them watched her read the whole file. “Do not deceive yourselves,” she said at last. “Urbanization is not your problem. Access is.” An awesome responsibility, Lin thought, for one thin folder.",
+        "The overthrow of their own first plan necessitated a new method. They fastened the map to a board, sharpened the wording, and built an adaptive and innovative version that could be edited in an hour. The potentiality was real and the excitement was also real, which horrified Professor Zhao slightly. “Yeah,” Lin said, “but a positive attitude does not improve a locked door, and patience alone will not pay for one.” “Instead of defending the room,” he went on, “we should defend the route.” “Yes,” said the aide, “and that is precisely why I am still here.”"
+      ],
+      "chinese_paragraphs": [
+        "一位立法助理穿着紫色外套来到校园，要求看看那张地图。她盯着墙面看了很久。“潜力很明显，”她说，“但这件事有争议，委员会不会资助一个模糊的承诺。”志愿者们十足的热情遇上了一间冷冰冰的房间。一个滑稽的细节什么也缓和不了：这位来自委员会的女士带来一支不许点燃的香烟，像握着一件无用的小工具。",
+        "条件被精确地说明：为每一道关闭的门拿出可用的绕行方案，否则就失去这间房间。一位热情的志愿者问一张草图行不行；他被告知不行。“太惊人了，”曼雅说，意思是相反的意思，“而且也不可能。”令人震惊的是，这位助理同意她的说法。那五栋楼通常来说是校园里最没意思的部分，而如今整个项目都依赖它们。拖延开始削弱他们对这间房间的掌控。残酷的期限可以让设计变锐利，也可以吓坏它的制作者；这一个两者都做到了。",
+        "他们在一间泥泞的屋子里工作，屋子到四点就开始变暗。外面的雾厚得足以遮住远处的大门。一碗奶油汤和一个美味的面包送来了，志愿者们站着吃，通常沉默不语。“这真恶心，”一个女孩说，指的是走廊而不是食物。小小的延误开始让所有人恼火，包括他们两个人；林伟手上那道流血的划痕，是把板子固定到墙上时弄的。",
+        "在三百条笔记里，有一百条提到了光线不足，同样数量的笔记提到了寒冷。一张色彩丰富的图表让来访者着迷，而这种着迷是相互的：学生们敬畏这位助理的耐心，她也敬畏他们的耐力。他们两人看着她读完了整份文件。“不要欺骗自己，”她最后说，“城市化不是你们的问题，通行才是。”林伟想，对一份薄薄的文件夹来说，这是一份令人敬畏的责任。",
+        "推翻自己第一份计划使新方法成为必需。他们把地图固定在板子上，把措辞磨得更锋利，并做出一个能在一小时内修改的适应型版本。潜在性是真实的，兴奋也是真实的，这让赵教授略微感到恐惧。“是的，”林伟说，“但积极的态度并不能改善一扇锁住的门。” “没错，”助理说，“这正是我还在这里的原因。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH011-Q1",
+          "type": "context",
+          "prompt": "What condition did the council impose?",
+          "options": [
+            "a working bypass for every closed gate",
+            "a purple uniform",
+            "a new swimming pool",
+            "a weekly seminar"
+          ]
+        },
+        {
+          "id": "CH011-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “使必需；迫使”?",
+          "options": [
+            "necessitate",
+            "fascinate",
+            "soften",
+            "darken"
+          ]
+        },
+        {
+          "id": "CH011-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "sharpen the wording",
+            "sharpen the soup",
+            "sharpen the mist",
+            "sharpen the awe"
+          ]
+        },
+        {
+          "id": "CH011-Q4",
+          "type": "cloze",
+          "prompt": "The aide said the students must not ______ themselves.",
+          "options": [
+            "deceive",
+            "fasten",
+            "weaken",
+            "terrify"
+          ]
+        },
+        {
+          "id": "CH011-Q5",
+          "type": "recall",
+          "prompt": "Why was the aide still there?",
+          "options": [
+            "because a positive attitude does not fix a locked door",
+            "because she wanted the cigarette",
+            "because the room was warm",
+            "because the diagram was colourful"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH011-Q1",
+          "answer": "a working bypass for every closed gate",
+          "explanation": "The council offered the room only for a complete, testable route."
+        },
+        {
+          "id": "CH011-Q2",
+          "answer": "necessitate",
+          "explanation": "The failure of the first plan made a new method necessary."
+        },
+        {
+          "id": "CH011-Q3",
+          "answer": "sharpen the wording",
+          "explanation": "Sharpen is used with wording, a design, or a skill."
+        },
+        {
+          "id": "CH011-Q4",
+          "answer": "deceive",
+          "explanation": "She warned them not to fool themselves about the cause of the problem."
+        },
+        {
+          "id": "CH011-Q5",
+          "answer": "because a positive attitude does not fix a locked door",
+          "explanation": "She stayed because the practical failure remained."
+        }
+      ]
+    },
+    {
+      "article_id": "CH012",
+      "english_title": "New Ground: The Decision",
+      "chinese_title": "新的起点：决定",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "The discussion lasted until midnight. Some members wanted to lend the map to the council; many wanted to keep it private; a few wanted to stop altogether. “Every option has a price,” Lin said. “No option is free.” He sat with his eye on the hole in the tent where the rain came through, and nobody could describe the shape of the decision. There were a number of gates still untested, though the room was warm.",
+        "Each member wrote one sentence on a piece of paper. Most of them were unusable. There were several commas, one plural mistake, and a remark from a tutor about the ultimate purpose of the project. “A single arbitrary rule,” Maya said, “is worse than no rule at all.” She had quite enough of niceties, and which of them had the patience left to argue? “Write the next page for me,” she added, “and keep it to one sentence.”",
+        "The confrontation came in a seminar on dynamic systems. A guest lecturer in golf trousers and a bright sleeve described how an army of small decisions can cover a million small failures. “You cannot bless a plan into working,” he said with an excess of confidence. “You have to test it.” His umbrella, a parcel of notes, a necklace of coffee stains on the napkin, and a hamburger eaten in three bites made him a highly unlikely authority. The seminar turned into a tutorial on how quickly a good idea can become a habit.",
+        "The team chose the least dramatic path: multiple small trials, one per gate, with the results of each published beside the respective gate. The lesson was simple and the several commas of the first draft were gone. The extreme option, a single official map, would fail; the ultimate one, no map at all, would fail worse.",
+        "They met again in the city office, where the report was finally accepted. “Again,” the guy from the city desk said, “you have done something small and honest.” Her answer was a smile and one sentence: “That is the whole unit of progress.” It was not a quality they could measure, but it was property they could defend, and that was the point. Every member of the team signed the last page."
+      ],
+      "chinese_paragraphs": [
+        "讨论持续到午夜。一些成员想把地图借给委员会；很多人想让它保持私密；少数人想干脆停下。“每个选项都有代价，”林伟说，“没有哪个选项是免费的。”他坐着，眼睛盯着帐篷上漏雨的那个洞，没人能描述这个决定的形状。还有若干道门没测过，尽管屋子里很暖和。",
+        "每位成员在一张纸上写一句话。大多数都用不了。里面有好几个逗号、一个复数错误，还有导师关于项目终极目的的一句评论。“一条单独的武断规则，”曼雅说，“比完全没有规则更糟。”她已经受够了这些细枝末节，而他们当中谁还有耐心继续争论呢？“替我把下一页写出来，”她补充说，“一句话就行。”",
+        "对抗发生在一场关于动态系统的研讨会上。一位穿着高尔夫长裤、袖口鲜亮的客座讲师讲述了：一支由小决定组成的军队，如何覆盖一百万个小的失败。“你没法靠祝福让一个计划运转起来，”他带着过度的自信说，“你必须测试它。”他的雨伞、一包笔记、餐巾上像项链一样的咖啡渍，以及三口吃完的汉堡，使他看起来不太像个权威。这场研讨会变成了一堂课，讲的是一个好想法能多快变成一个习惯。",
+        "团队选择了最不戏剧化的一条路：多个小规模试验，每道门一个，每个结果都公布在对应的门旁。教训很简单。极端方案——一张唯一的官方地图——会失败；终极方案——完全没有地图——会失败得更惨。",
+        "他们又在市政办公室见面，报告终于被接受。“又一次，”市政版的那位家伙说，“你们做成了一件小而诚实的事。”她的回答是一个微笑和一句话：“这就是进步的整个单位。”这不是他们能衡量的品质，却是他们能捍卫的财产，而这就是重点。"
+      ],
+      "exercises": [
+        {
+          "id": "CH012-Q1",
+          "type": "context",
+          "prompt": "Which path did the team choose?",
+          "options": [
+            "multiple small trials, one per gate",
+            "one official map",
+            "no map at all",
+            "lending the map to the council"
+          ]
+        },
+        {
+          "id": "CH012-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “武断的；任意的”?",
+          "options": [
+            "arbitrary",
+            "respective",
+            "dynamic",
+            "extreme"
+          ]
+        },
+        {
+          "id": "CH012-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "a single arbitrary rule",
+            "a single delicious rule",
+            "a single muddy rule",
+            "a single purple rule"
+          ]
+        },
+        {
+          "id": "CH012-Q4",
+          "type": "cloze",
+          "prompt": "The results were published beside the ______ gate.",
+          "options": [
+            "respective",
+            "excessive",
+            "plural",
+            "ultimate"
+          ]
+        },
+        {
+          "id": "CH012-Q5",
+          "type": "recall",
+          "prompt": "What did Maya say was the whole unit of progress?",
+          "options": [
+            "something small and honest",
+            "a printed document",
+            "a dynamic system",
+            "a golf lesson"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH012-Q1",
+          "answer": "multiple small trials, one per gate",
+          "explanation": "The least dramatic path tested each gate separately."
+        },
+        {
+          "id": "CH012-Q2",
+          "answer": "arbitrary",
+          "explanation": "A rule chosen without evidence is arbitrary."
+        },
+        {
+          "id": "CH012-Q3",
+          "answer": "a single arbitrary rule",
+          "explanation": "Arbitrary describes a rule imposed without reason."
+        },
+        {
+          "id": "CH012-Q4",
+          "answer": "respective",
+          "explanation": "Each result was published beside its own gate."
+        },
+        {
+          "id": "CH012-Q5",
+          "answer": "something small and honest",
+          "explanation": "She summarised the project as small, honest work."
+        }
+      ]
+    },
+    {
+      "article_id": "CH013",
+      "english_title": "New Ground: Consequences",
+      "chinese_title": "新的起点：后果",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "The consequences arrived slowly, the way a fox creeps along a hedge. The union had accepted the report, but the registration office wanted a printed copy without changes. “Every edit must be approved,” a young clerk said. “From now on, the map is a document, not a notion.” His phone rang twice while he was speaking, and he did not answer it.",
+        "Several volunteers left. The doubt in the canteen was easy to hear: some said the project had become official, many said it had become useless, and a few said both. “An opinion is not evidence,” Maya said, “but every opinion is a signal.” She kept a bag of cards with the various complaints written on them, one card for each gate.",
+        "Lin went home for a weekend and helped his uncle on the plantation. They planted cabbage and paddy, checked a grape vine, and watched a bud open into bloom. “A crop fails for a hundred reasons,” his uncle said. “A wise farmer saves the seed and keeps the sheep away from the beans.” It was the opposite of a rocket launch: no single event, only survival, and at least a million small decisions.",
+        "The test he needed was simpler than any assurance from the university. He stood on the grass beside the canteen and watched a boy and a lady with a cane take the route he had drawn. The impression was not good. The frame of the sign had been broken by the stem of a fallen tree, and the lead paint on the post had peeled. His eye followed the damage and his usually steady mood slipped.",
+        "Most of the team still wanted to preserve the map. They could not do it without money, and the money was uncertain. “Every plan needs a moon to aim at,” Lin wrote, “and a canteen to meet in.” The produce of that winter was small: one page, per gate, signed by the self that wrote it. He did not know why the sentence pleased him, but he kept it. Enough people cared; quite a few of them were sitting in that room."
+      ],
+      "chinese_paragraphs": [
+        "后果来得很慢，像一只狐狸沿着树篱潜行。工会接受了报告，但注册办公室想要一份不得改动的打印版。“每一次编辑都必须获批，”一位年轻职员说，“从现在起，这张地图是一份文件，而不是一个想法。”他说话时手机响了两次，他没有接。",
+        "几名志愿者离开了。食堂里的疑虑很容易听见：有人说这个项目变得官方了，很多人说它变得没用了，少数人说两者都是。“意见不是证据，”曼雅说，“但每一条意见都是信号。”她留着一袋卡片，上面写着各种抱怨，每道门一张。",
+        "林伟回家过了一个周末，在种植园里帮叔叔干活。他们种了卷心菜和稻子，查看了一株葡萄藤，看着一个芽苞开成花。叔叔说：“一季作物会因为一百个理由歉收。明智的农夫会留种，也会把羊群挡在豆子外面。”这与发射火箭正好相反：没有单一事件，只有生存，以及至少上百万个小决定。",
+        "他需要的测试比大学给出的任何保证都更简单。他站在食堂旁的草地上，看着一个男孩和一位拄着手杖的女士走他画的那条路线。印象并不好。指示牌的框被倒下的一棵树干压坏了，柱子上的铅漆已经剥落。他的眼睛顺着那些破损看去，平日稳定的心情也滑落了。",
+        "团队里大多数人仍想保住这张地图。没有钱就做不到，而钱是不确定的。“每个计划都需要一个瞄准的月亮，”林伟写道，“以及一间可以碰头的食堂。”那个冬天的产出很小：每道门一页，由写下它的那个自我签名。他不知道这句话为什么让自己满意，但他留下了它。在意的人足够多；其中有相当一些人就坐在那间屋子里。"
+      ],
+      "exercises": [
+        {
+          "id": "CH013-Q1",
+          "type": "context",
+          "prompt": "What did the registration office demand?",
+          "options": [
+            "a printed copy that cannot be edited freely",
+            "a new plantation",
+            "a weekly opinion poll",
+            "a larger canteen"
+          ]
+        },
+        {
+          "id": "CH013-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “不确定的”?",
+          "options": [
+            "uncertain",
+            "opposite",
+            "various",
+            "young"
+          ]
+        },
+        {
+          "id": "CH013-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "preserve the map",
+            "preserve the phone",
+            "preserve the moon",
+            "preserve the canteen"
+          ]
+        },
+        {
+          "id": "CH013-Q4",
+          "type": "cloze",
+          "prompt": "A wise farmer saves the seed and keeps the ______ away from the beans.",
+          "options": [
+            "sheep",
+            "rocket",
+            "fox",
+            "crop"
+          ]
+        },
+        {
+          "id": "CH013-Q5",
+          "type": "recall",
+          "prompt": "What did Lin find beside the canteen?",
+          "options": [
+            "a broken sign frame",
+            "a new gate",
+            "a bag of cards",
+            "a printed report"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH013-Q1",
+          "answer": "a printed copy that cannot be edited freely",
+          "explanation": "The office turned the map into a document that needed approval for every edit."
+        },
+        {
+          "id": "CH013-Q2",
+          "answer": "uncertain",
+          "explanation": "The funding was uncertain, which put the map at risk."
+        },
+        {
+          "id": "CH013-Q3",
+          "answer": "preserve the map",
+          "explanation": "Preserve combines naturally with a document, a place, or a habit."
+        },
+        {
+          "id": "CH013-Q4",
+          "answer": "sheep",
+          "explanation": "His uncle used the image of protecting crops from sheep."
+        },
+        {
+          "id": "CH013-Q5",
+          "answer": "a broken sign frame",
+          "explanation": "The frame was crushed by a fallen tree stem and the paint had peeled."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH013",
+    "last_event": "The registration office accepted the map as an official document without free edits, several volunteers left, and Lin tested the route himself with poor results.",
+    "unresolved_consequence": "The map is now an official document that cannot be edited freely, the team has fewer volunteers and less money, and the faculty term review is still ahead.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year environmental-engineering student",
+      "Maya Chen": "journalism student and co-lead",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload"
+    ],
+    "first_required_event_next_chapter": "CH014 must close the first arc by showing what the group has built and what it still owes before the term review.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate"
+    ]
+  }
+}

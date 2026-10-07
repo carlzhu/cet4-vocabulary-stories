@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH055-CH058",
+  "chapter_ids": [
+    "CH055",
+    "CH056",
+    "CH057",
+    "CH058"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH055",
+      "english_title": "The First Real Deadline: Consequences",
+      "chinese_title": "第一个真实期限：后果",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "The consequences arrived as a notification on a very ordinary day. The officer from the council submitted a conduct report, and the candidate who had lost the recruitment had gone to court over it. “It was possible,” the minister said, “that we caused this.” Indeed, the offer carried a corresponding obligation, and nobody had read the last page. They would go back to the case and move the reason onto the record.",
+        "The removal of the seasonal officer was a surprise. A competitor with a presidency to protect, a counterpart in the other office, and a resident of the third storey all wanted a rating, and the rating obliged them to decorate the cafeteria before the visit. The workforce had been seasonal for eighteen years, and nobody had thought to tell the residents.",
+        "The work was not really useful to them, and that was the question: for whose job was this a service? “A furnace and a gadget are both machines,” Maya said. “One heats a house, the other sells a house.” The wire, the lid, and the pig on the poster were the only decoration in the room, and the table was covered in outgoing mail.",
+        "The outgoing chair had an urge to computerize everything and a wish to instal a new system by the winter. “We lean on the young workforce,” Lin wrote, “and then we call their fatigue a repayment.” A suspense of three weeks followed, and the congratulation that finally came was signed by someone who had never visited.",
+        "The cause was, in the end, an orientation: the department was built for the orient and not for the town, and its recruitment followed the same map. “That is a proud way to fail,” the officer said, and everyone at the table knew that she was right. Their clothes, their dress, and their very habits in the corridor were part of the evidence. They had learned to operate the old system by habit, and the habit would haunt them for another year at least. Actually, the whole case had been in front of them for a month."
+      ],
+      "chinese_paragraphs": [
+        "后果在一个非常普通的日子里，以一条通知的形式到来。委员会的那位官员提交了一份行为报告，而那位在招聘中落选的候选人已经为此上了法庭。“有可能，”部长说，“是我们造成了这件事。”的确，那份录用带有一项相应的义务，而没有人读过最后一页。他们会回到案件上，把原因写进记录。",
+        "那位季节性官员的免职令人意外。一位要保住主席职位的竞争者、另一间办公室里的对等人物，以及三楼上的一位住户都想要一个评级，而这个评级迫使他们在那次来访之前把自助餐厅装饰一番。这支劳动力队伍已经季节性存在了十八年，却没有人想到要告诉那些住户。",
+        "这份工作对他们其实没什么用，而问题正在于此：这是为谁的工作在提供一种服务？“火炉和小玩意都是机器，”曼雅说，“一个给房子加热，另一个把房子卖掉。”电线、盖子和海报上的那头猪，是屋里仅有的装饰，而桌上堆满了待寄出的邮件。",
+        "即将卸任的主席有一股冲动，想把一切都电脑化，并希望在冬天之前安装一套新系统。“我们倚靠年轻的劳动力，”林伟写道，“然后把他们的疲惫称作报偿。”随后是三周的悬念，而最终到来的祝贺，签名的是一位从未到访过的人。",
+        "原因说到底是一种取向：这个部门是为东方、而不是为这座城建的，它的招聘遵循同一张地图。“这是一种骄傲的失败方式，”那位官员说，桌边每个人都知道她说得对。他们的衣物、他们的穿着，乃至他们在走廊里的习惯，都是证据的一部分。他们已经习惯于按老办法操作这套旧系统，而这个习惯至少还会缠着他们一年。事实上，整个案件已经摆在他们面前一个月了。"
+      ],
+      "exercises": [
+        {
+          "id": "CH055-Q1",
+          "type": "context",
+          "prompt": "What did the officer submit?",
+          "options": [
+            "a conduct report",
+            "a new furnace",
+            "a seasonal rating",
+            "a poster"
+          ]
+        },
+        {
+          "id": "CH055-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “强迫；使感激”?",
+          "options": [
+            "oblige",
+            "submit",
+            "decorate",
+            "computerize"
+          ]
+        },
+        {
+          "id": "CH055-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "submit a report",
+            "submit a furnace",
+            "submit a pig",
+            "submit a lid"
+          ]
+        },
+        {
+          "id": "CH055-Q4",
+          "type": "cloze",
+          "prompt": "Lin wrote that the young workforce is leaned on and their fatigue is called a ______.",
+          "options": [
+            "repayment",
+            "rating",
+            "presidency",
+            "recruitment"
+          ]
+        },
+        {
+          "id": "CH055-Q5",
+          "type": "recall",
+          "prompt": "Why was the department built the way it was?",
+          "options": [
+            "for the orient, not for the town",
+            "for the winter",
+            "for the cafeteria",
+            "for the competitors"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH055-Q1",
+          "answer": "a conduct report",
+          "explanation": "The officer filed a report on the department's conduct."
+        },
+        {
+          "id": "CH055-Q2",
+          "answer": "oblige",
+          "explanation": "The rating obliged them to redecorate before the visit."
+        },
+        {
+          "id": "CH055-Q3",
+          "answer": "submit a report",
+          "explanation": "Submit combines with a report, a claim, or an application."
+        },
+        {
+          "id": "CH055-Q4",
+          "answer": "repayment",
+          "explanation": "He described exhaustion being called a reward."
+        },
+        {
+          "id": "CH055-Q5",
+          "answer": "for the orient, not for the town",
+          "explanation": "The department's orientation never matched the town it served."
+        }
+      ]
+    },
+    {
+      "article_id": "CH056",
+      "english_title": "The First Real Deadline: The Bridge Forward",
+      "chinese_title": "第一个真实期限：通向下一程",
+      "theme": "求职、职场与职业发展",
+      "english_paragraphs": [
+        "The fourth arc closed with a contract and a conference. The overall theme was “the opening of the year”, and the executive from the central company arrived with a conventional bid and an extraordinary recommendation: hire the founder, not the contractor. The police were at the door, and the offer came with a white envelope.",
+        "The agreement had a loophole: a contractor could leave after one visit, and the placement of the mining permit was left to the general office. “We always know the best position and never the price,” the attendant said. The petrol bill, the processor, and the specification for the jeans were all in the annex.",
+        "In the evening they joined the police and the company at a memorial dinner. “It is possible to spend a week on a white memorial and a pound on a plug,” Maya said. “The functional part is the part nobody photographs.” A contraction of the budget followed, and the design of the balcony had to be redone.",
+        "The shift in the market was indeed a cause of the closure, but not the only one. “A lot of small engagements are one engagement,” the executive said, and the room noticed the white sheet under the forge. The forge, the garden, and the night shift were all that remained of the older plan.",
+        "They created a small notice, an ad, and an explanation of the estimate in three languages. The acceptance of the offer, when it came, was shorter than the offer itself. “Tell them we are not a department,” she said. “We are a position, a detail, and a year of work.”",
+        "The general office wrote back within a week. It accepted the contract, ignored the loophole, and sent a second attendant to the balcony with a functional plug and a printed estimate. “A conventional bid is a promise in a suit,” the founder said. “An extraordinary one is a promise in jeans.” They spent the last of the month on petrol and a processor, and told the police exactly what they had spent and why the loophole mattered to a public contract. The deadline had been met; what it had cost them was the belief that a deadline is the hard part."
+      ],
+      "chinese_paragraphs": [
+        "第四段弧线以一份合同和一场会议收尾。总主题是“一年的开幕”，中央公司的那位高管带着一个常规报价和一条非凡的建议到来：雇那位创立者，而不是承包商。警察就在门口，而那份录用附着一个白色信封。",
+        "协议里有一个漏洞：承包商可以在一次到访后离开，而采矿许可的安置被留给了总办公室。“我们总是知道最好的位置，从不知道价格，”那位随从说。汽油账单、处理器和牛仔裤的规格说明都在附件里。",
+        "傍晚，他们和警察、公司一起参加了一场纪念晚宴。“可以用一周时间做一块白色纪念碑，花一英镑买一个插头，”曼雅说，“功能性的部分就是没人拍照的那部分。”随后预算出现了一次收缩，阳台的设计不得不重做。",
+        "市场上的转变的确是倒闭的原因之一，但不是唯一的原因。“很多小的约定其实只是一个约定，”那位高管说，屋里的人注意到了冶铁炉下那张白纸。冶铁炉、花园和夜班，是旧计划留下的一切。",
+        "他们用三种语言做了一份小通告、一则广告和一份对估算的解释。那份对录用的接受，到来时比录用通知本身还短。“告诉他们，我们不是一个部门，”她说，“我们是一个位置、一个细节和一年的工作。”",
+        "总办公室在一周内回了信。它接受了合同，忽略了那个漏洞，并派了第二位随从到阳台，带着一个功能正常的插头和一份打印的估算。“常规报价是穿西装的承诺，”创立者说，“非凡的那一种是穿牛仔裤的承诺。”他们把那个月剩下的钱花在汽油和一台处理器上，并如实告诉警察他们花了多少，以及那个漏洞为什么对一份公共合同至关重要。期限是赶上了；它让他们付出的代价，是“期限才是最难的”这个信念。"
+      ],
+      "exercises": [
+        {
+          "id": "CH056-Q1",
+          "type": "context",
+          "prompt": "What was the conference's overall theme?",
+          "options": [
+            "the opening of the year",
+            "the closing of the forge",
+            "the price of petrol",
+            "the police visit"
+          ]
+        },
+        {
+          "id": "CH056-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “漏洞（条款中的）”?",
+          "options": [
+            "loophole",
+            "estimate",
+            "contract",
+            "acceptance"
+          ]
+        },
+        {
+          "id": "CH056-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "join the police at dinner",
+            "join the petrol",
+            "join the balcony",
+            "join the specification"
+          ]
+        },
+        {
+          "id": "CH056-Q4",
+          "type": "cloze",
+          "prompt": "Maya said the ______ part is the part nobody photographs.",
+          "options": [
+            "functional",
+            "extraordinary",
+            "conventional",
+            "seasonal"
+          ]
+        },
+        {
+          "id": "CH056-Q5",
+          "type": "recall",
+          "prompt": "What three things did she say they were?",
+          "options": [
+            "a position, a detail, and a year of work",
+            "a department, an office, and a budget",
+            "a contract, a bid, and an ad",
+            "a forge, a garden, and a night shift"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH056-Q1",
+          "answer": "the opening of the year",
+          "explanation": "The conference framed the year's start."
+        },
+        {
+          "id": "CH056-Q2",
+          "answer": "loophole",
+          "explanation": "A clause allowed the contractor to leave early."
+        },
+        {
+          "id": "CH056-Q3",
+          "answer": "join the police at dinner",
+          "explanation": "Join combines with a group, a table, or a service."
+        },
+        {
+          "id": "CH056-Q4",
+          "answer": "functional",
+          "explanation": "She defended the unglamorous, working part of the system."
+        },
+        {
+          "id": "CH056-Q5",
+          "answer": "a position, a detail, and a year of work",
+          "explanation": "She refused the word department."
+        }
+      ]
+    },
+    {
+      "article_id": "CH057",
+      "english_title": "Across Borders: A Signal",
+      "chinese_title": "跨越边界：一个信号",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The film was delivered and the office was behind them; the next deadline would be in another language. The fifth arc began with a journey: a plane, a truck, a jeep, and a tunnel in the same week. Aisha met them at the station with a thermometer in her bag and a pronunciation guide in her hand. “The tone of a language is part of its safety,” she said. “I is not the same as I am.” They themselves had left a service job for this.",
+        "The big case was the rail line itself: a barrel of fluid, a coil of cable, and a cargo of berries had been waiting three days. The management of the rail service blamed the tide; the minister blamed the weather. “We survive by rumor here,” Aisha said, “and rumor is a rocky road.” We have to tell them that, and the night shift at the table was the position where the work of a year stood.",
+        "The hope was a quiet one: that a small team could steal a march on a system with a billion reasons to ignore them. A football match on the platform, a piano playing jazz in the hall, and a drum and a whip in the market gave the place a rhythm they did not know. Him they watched most closely of all; itself, the station, kept its own time.",
+        "The prime difficulty was not technical. “A mushroom grows overnight; a habit does not,” their host said. A pan, a chop, a knot of wire, and a ray of light through the carriage window: their host used objects to explain usage, and the therapy of it was patience.",
+        "The hardship of the journey gave them a spur: a curl of paper with the timetable, a spit of rain on the glass, and the quiet endurance of a station cat. “They will treat us as tame,” Lin said, “until we are useful.” Aisha, who had created the timetable herself, said nothing. The king of the district had died that spring, and the station was still quiet; the journey home via the coast road was over before the fifth day. They would remember the tunnel, the tide, and the tone of a farewell for years."
+      ],
+      "chinese_paragraphs": [
+        "影片交付了，办公室留在了身后；下一个期限会用另一种语言到来。第五段弧线以一段旅程开始：飞机、卡车、吉普车和隧道都出现在同一周。艾莎在车站接他们，包里装着一支温度计，手里拿着一份发音指南。“一种语言的语调是它安全的一部分，”她说，“‘我’和‘我是’不是一回事。”他们自己是放弃了服务工作才来到这里的。",
+        "最大的案子就是那条铁路线本身：一桶液体、一卷电缆和一批浆果已经等了三天。铁路管理部门怪潮水；部长怪天气。“我们这里靠传言活着，”艾莎说，“而传言是一条多石的路。”这一点我们必须告诉他们，而桌边的那一班夜岗，正是这一年的工作所站的位置。",
+        "那份希望是安静的：一支小团队能在一个有十亿个理由忽视他们的系统里抢占一步。站台上的足球赛、大厅里弹爵士乐的钢琴，以及市场里的鼓和鞭子，给了这个地方一种他们不熟悉的节奏。他们最仔细打量的是他；而车站本身，按着自己的时间走。",
+        "最主要的困难不是技术上的。“蘑菇一夜之间就能长出来；习惯不能，”接待他们的人说。一口平锅、一块排骨、一团打结的电线和一缕穿过车厢窗户的光：主人用实物来解释用法，而其中的疗愈之处就是耐心。",
+        "旅途的艰难给了他们一个激励：一张写着时刻表的卷纸、玻璃上的一阵雨沫，以及一只站台猫安静的忍耐。“他们会把我们当作温顺的，”林伟说，“直到我们有用。”而亲手做出那张时刻表的艾莎，什么也没说。那年春天，这个地区的国王去世了，车站仍然很安静；沿海岸公路回家的旅程在第五天之前就结束了。他们会记住那条隧道、那道潮水，以及一句告别的语调，记很多年。"
+      ],
+      "exercises": [
+        {
+          "id": "CH057-Q1",
+          "type": "context",
+          "prompt": "What did Aisha say about the tone of a language?",
+          "options": [
+            "that it is part of its safety",
+            "that it is a rumor",
+            "that it is a rocky road",
+            "that it is overnight"
+          ]
+        },
+        {
+          "id": "CH057-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “忍耐；忍耐力”?",
+          "options": [
+            "endurance",
+            "hardship",
+            "spur",
+            "usage"
+          ]
+        },
+        {
+          "id": "CH057-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "steal a march",
+            "steal a thermometer",
+            "steal a piano",
+            "steal a mushroom"
+          ]
+        },
+        {
+          "id": "CH057-Q4",
+          "type": "cloze",
+          "prompt": "Their host said a ______ grows overnight but a habit does not.",
+          "options": [
+            "mushroom",
+            "barrel",
+            "tunnel",
+            "cargo"
+          ]
+        },
+        {
+          "id": "CH057-Q5",
+          "type": "recall",
+          "prompt": "What did their host use to explain usage?",
+          "options": [
+            "objects",
+            "a piano",
+            "a jeep",
+            "a thermometer"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH057-Q1",
+          "answer": "that it is part of its safety",
+          "explanation": "She treated tone as a safety matter, not decoration."
+        },
+        {
+          "id": "CH057-Q2",
+          "answer": "endurance",
+          "explanation": "The station cat's quiet endurance impressed them."
+        },
+        {
+          "id": "CH057-Q3",
+          "answer": "steal a march",
+          "explanation": "Steal a march means to gain an advantage secretly or early."
+        },
+        {
+          "id": "CH057-Q4",
+          "answer": "mushroom",
+          "explanation": "He contrasted fast growth with slow habit."
+        },
+        {
+          "id": "CH057-Q5",
+          "answer": "objects",
+          "explanation": "The host used everyday objects as teaching aids."
+        }
+      ]
+    },
+    {
+      "article_id": "CH058",
+      "english_title": "Across Borders: The First Promise",
+      "chinese_title": "跨越边界：第一次承诺",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The first promise of the fifth arc was made on a Sunday, near the bottom of a hill, under the roof of a station cafe. “We proceed through the exchange office,” Aisha said. “Through, not around.” A visa, a tight connection, and a loose plan were the whole of it, and the run of the first week was worse than any of them had feared.",
+        "The field was new, and the industry was not. An immigrant family ran a parking service near the airline counter; their van, their bike, and their carriage were the only transport for a hundred metres. “A cab is not a decoration,” the mistress of the house said. “It is a roof.”",
+        "The distant hills were on the television in the lounge, and the overhead lights of the carriage stayed on all night. “A homeless man understands the interior of a station better than any engineer,” she said. “That is a familiarity we cannot buy.”",
+        "The bark of a dog, a procession of claps, and the countdown to a spacecraft launch: the cafe television had everything except the freight timetable. “It is ridiculous,” Lin said, “that a starter can find the fuel but not the train.” The trip, for him, was over before it began.",
+        "They would relax for one evening, then smash the last problem: a hijack of the schedule by a cruiser of tourists who had bought every seat. “Any business has a special month,” Aisha said. “This is ours, and it matters particularly to the office in the capital.” A note in the margin said: “I must say that we are still far from the offer.”, and it is likely that the baggage rules will change today; a passenger cannot comprehend a rule that the staff themselves cannot restrain. It was possible that a ragged timetable would never be intimate with a stranger's need; the trip had taught them that much. A distant hill, a tight connection, and a loose plan: the pattern of the whole arc was already visible in the first Sunday afternoon of the journey. It was, in the end, a promise about the use of a timetable."
+      ],
+      "chinese_paragraphs": [
+        "第五段弧线的第一个承诺是在一个星期天做出的，在山脚附近、车站咖啡馆的屋檐下。“我们通过兑换办公室走，”艾莎说，“是穿过，不是绕开。”一张签证、一次紧张的换乘和一个松散的方案就是全部内容，而第一周的那种奔跑比他们任何人担心的都糟。",
+        "这个领域是新的，行业却不是。一户移民家庭在航空公司柜台旁经营着一项停车服务；他们的货车、自行车和马车是一百米之内唯一的交通方式。“出租车不是装饰，”那家房屋的女主人说，“它是一片屋顶。”",
+        "休息室里电视上放着远处的山丘，车厢顶灯整夜亮着。“一个无家可归的人比任何工程师都更懂车站的内部，”她说，“这是一种我们买不到的熟悉感。”",
+        "一条狗的吠叫、一阵掌声的队列，以及航天飞船发射的倒计时：咖啡馆的电视什么都有，只没有货运时刻表。“太荒谬了，”林伟说，“新手找得到燃料，却找不到火车。”对他来说，这趟旅程还没开始就结束了。",
+        "他们会放松一个晚上，然后击碎最后一个问题：一船游客买下了所有座位，劫持了整张时刻表。“任何生意都有它的特殊月份，”艾莎说，“这就是我们的，而且对首都那间办公室尤其重要。”页边的一条注记写着：“我必须说我们离那份报价还很远。”，而且行李规定很可能今天就变；一名乘客无法理解一条连工作人员自己都无法约束的规则。一张粗糙的时刻表，也许永远不会与一个陌生人的需要亲密无间；这趟旅程至少教会了他们这一点。一座远处的山、一次紧凑的换乘、一个松散的计划：整段弧线的图案，在旅程的第一个周日下午就已经看得见了。说到底，这是一个关于如何使用时刻表的承诺。"
+      ],
+      "exercises": [
+        {
+          "id": "CH058-Q1",
+          "type": "context",
+          "prompt": "How did Aisha say they would pass the exchange office?",
+          "options": [
+            "through it, not around it",
+            "around it, not through it",
+            "by train",
+            "with a visa only"
+          ]
+        },
+        {
+          "id": "CH058-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “无家可归的”?",
+          "options": [
+            "homeless",
+            "distant",
+            "ridiculous",
+            "intimate"
+          ]
+        },
+        {
+          "id": "CH058-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "run a parking service",
+            "run a roof",
+            "run a bark",
+            "run a countdown"
+          ]
+        },
+        {
+          "id": "CH058-Q4",
+          "type": "cloze",
+          "prompt": "The mistress of the house said a cab is not a decoration but a ______.",
+          "options": [
+            "roof",
+            "visa",
+            "bike",
+            "smash"
+          ]
+        },
+        {
+          "id": "CH058-Q5",
+          "type": "recall",
+          "prompt": "What hijacked the schedule?",
+          "options": [
+            "a cruiser of tourists",
+            "a spacecraft",
+            "a procession",
+            "a freight train"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH058-Q1",
+          "answer": "through it, not around it",
+          "explanation": "Aisha insisted on dealing with the office directly."
+        },
+        {
+          "id": "CH058-Q2",
+          "answer": "homeless",
+          "explanation": "She said a homeless man knows the station's interior best."
+        },
+        {
+          "id": "CH058-Q3",
+          "answer": "run a parking service",
+          "explanation": "Run combines with a service, a business, or a risk."
+        },
+        {
+          "id": "CH058-Q4",
+          "answer": "roof",
+          "explanation": "She described the cab as shelter, not ornament."
+        },
+        {
+          "id": "CH058-Q5",
+          "answer": "a cruiser of tourists",
+          "explanation": "The tourists bought every seat and broke the timetable."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH058",
+    "last_event": "The fourth arc closed with a contract and a conference, and the fifth arc opened with a cross-border journey in which Aisha joined the team and the timetable was hijacked by a cruiser of tourists.",
+    "unresolved_consequence": "The film remains unfinished, the team is far from the offer it wanted, and the fifth arc has already produced a transport failure that nobody has explained.",
+    "character_locations": {
+      "Lin Wei": "exchange campus and rail station",
+      "Maya Chen": "exchange campus and rail station",
+      "Aisha Rahman": "exchange campus"
+    },
+    "character_roles": {
+      "Lin Wei": "second-year student and intern without a salary",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Aisha Rahman": "exchange student and data specialist, now a collaborator"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several"
+    ],
+    "first_required_event_next_chapter": "CH059 must show the team rebuilding the timetable across two languages and discovering what their assumptions cost a traveller.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable"
+    ]
+  }
+}

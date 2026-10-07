@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH115-CH118",
+  "chapter_ids": [
+    "CH115",
+    "CH116",
+    "CH117",
+    "CH118"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH115",
+      "english_title": "Who Pays and Who Decides: A Missing Voice",
+      "chinese_title": "谁承担，谁决定：缺席的声音",
+      "theme": "社会问题、经济与公共生活",
+      "english_paragraphs": [
+        "The third meeting of the congress was held in a pub down the road from city hall, and the missing voice was already there. “The claim is that the fee is free,” a cleaner from the county said. “The truth is that the benefit passes down to the base and never reaches us.” The budget for the treatment plant contained a sum of eight million euro and no line for the people who would pay it.",
+        "“We have a procedure, a species of language, and an internal review,” the mayor said. “That is how a republic works.” She was obedient to the rule and wholly unaware that the rule had a limitation. “Every revolution begins with a small accumulation of annoyance,” the cleaner said. “This is the seven hundredth one.”",
+        "The consultant from the bureau showed a slide about productivity and evolution, and a second about the operational capability of the new plant. “A superior design is not the same as a deed,” an economist in the row behind said. “You have found a tragedy, not a plan, and the underground pipe is misleading.”",
+        "“Do not undermine the small businesses and call it virtue,” the cleaner said. “A civilian and a governor both drink the same water.” The ministerial party, the dance hall, the disco, and the pub had all sent someone, and the nationality of the taxpayer was never mentioned.",
+        "The embarrassment of the meeting was the set of two maps: one showing the eight districts that would pay, and one showing the five that would drink. “We probably need a third map,” Maya wrote. “The same oil, the same pipe, and a different set of names.”",
+        "The voice that had been missing turned out to contain the whole argument. “Show us the passage of the money,” the cleaner said, “and the world will decide for itself.” The meeting ended without a vote, and the next one was set for the following week. The evidence would confront the council with a twist it did not want; an aid package and a supper in the pub were not a settlement, and the county knew it."
+      ],
+      "chinese_paragraphs": [
+        "国会第三次会议开在市厅路下的一家酒馆里，而那个缺席的声音其实早就在那儿了。“说法是这笔费用是免费的，”县里来的一位清洁工说，“实情是好处顺着底部流下去，从来到不了我们这儿。”水处理厂的预算里有一笔八百万欧元的总额，却没有一行留给将要付钱的人。",
+        "“我们有程序、有一类语言、有一次内部审查，”市长说，“共和国就是这样运作的。”她对规则很顺从，也完全没有意识到这条规则本身有一个局限。“每一场革命都始于一桩小小的烦恼的积累，”清洁工说，“这是第七百桩。”",
+        "局里来的顾问讲了一页关于生产力与演化的幻灯片，又讲了一页关于新厂的运营能力。“优秀的设计不等于一件行为，”后排一位经济学家说，“你们找到的是一场悲剧，不是一个方案，而那条地下管道是误导人的。”",
+        "“不要破坏小本生意，然后称之为美德，”清洁工说，“平民和总督喝的是同一口水。”部长的党、舞厅、迪斯科和酒馆都派了人来，而纳税人的国籍从未被提到。",
+        "会议令人困窘之处是那两张地图：一张显示将要付钱的八个区，一张显示将要喝水的五个区。“我们大概需要第三张地图，”曼雅写道，“同样的油、同样的管道，却是另一组名字。”",
+        "那个一直缺席的声音，其实包含着整个论证。“把钱的流经给我们看，”清洁工说，“世界会自己作决定。”会议在没有表决的情况下结束，下一次定在下一周。这些证据将用一个委员会不想要的反转来面对它；一揽子援助和酒馆里的一顿晚餐不是和解，而这个县知道这一点。"
+      ],
+      "exercises": [
+        {
+          "id": "CH115-Q1",
+          "type": "context",
+          "prompt": "Where was the third meeting of the congress held?",
+          "options": [
+            "in a pub down the road from city hall",
+            "in the city hall chamber",
+            "in the treatment plant",
+            "in a disco"
+          ]
+        },
+        {
+          "id": "CH115-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “积聚；累积”?",
+          "options": [
+            "accumulation",
+            "limitation",
+            "capability",
+            "embarrassment"
+          ]
+        },
+        {
+          "id": "CH115-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "undermine a business",
+            "undermine a slide",
+            "undermine a sum",
+            "undermine a pub"
+          ]
+        },
+        {
+          "id": "CH115-Q4",
+          "type": "cloze",
+          "prompt": "The economist said a superior design is not the same as a ______.",
+          "options": [
+            "deed",
+            "budget",
+            "species",
+            "republic"
+          ]
+        },
+        {
+          "id": "CH115-Q5",
+          "type": "recall",
+          "prompt": "What did the cleaner ask the meeting to show?",
+          "options": [
+            "the passage of the money",
+            "the new design",
+            "the eight districts",
+            "the minister's letter"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH115-Q1",
+          "answer": "in a pub down the road from city hall",
+          "explanation": "The congress met in a pub, not a chamber."
+        },
+        {
+          "id": "CH115-Q2",
+          "answer": "accumulation",
+          "explanation": "Grievances accumulate into a revolution."
+        },
+        {
+          "id": "CH115-Q3",
+          "answer": "undermine a business",
+          "explanation": "Undermine combines with a business, a claim, or trust."
+        },
+        {
+          "id": "CH115-Q4",
+          "answer": "deed",
+          "explanation": "A design is not an action."
+        },
+        {
+          "id": "CH115-Q5",
+          "answer": "the passage of the money",
+          "explanation": "She wanted the flow of funds made visible."
+        }
+      ]
+    },
+    {
+      "article_id": "CH116",
+      "english_title": "Who Pays and Who Decides: Evidence on the Table",
+      "chinese_title": "谁承担，谁决定：摆上桌面的证据",
+      "theme": "社会问题、经济与公共生活",
+      "english_paragraphs": [
+        "The evidence on the table concerned a point of law and a pile of old bills. “The previous administration left a wholly irregular account,” the auditor said. “There is no factual basis for the figure, and the province has been lodging the cost in the wrong column.” Nobody was afraid to say it aloud this time.",
+        "The incident that made the case was a robbery of the meter box and a riot at the water office. “A scandal of this size is not occasional,” an economist said. “It is inevitable while the system dissolves into a hundred small payments.” A jealous official had disturbed the record, and the golden seal on the monument outside had been stolen twice.",
+        "The stable next to the yard, the foggy morning, and the haze over the river all pointed to the same corner. “We cannot climb out of this with encouragement and amusement,” she said. “The cornerstone of the argument is a single account, kept in its entirety.”",
+        "The weather of the meeting turned when a shopkeeper spoke about a continual stream of small payments. “My jealousy of the big firms is not the point,” he said. “The point is that the meter melts my margin and the guarantee boils away.”",
+        "The committee asked for a convenient summary of a monstrous file. “A stable budget and a solemnity of procedure are not the same thing,” the mayor said. “Legislate quickly and the impossibility becomes a grievance.”",
+        "The evidence was complete enough to name the misfortune: a system with no single owner, a spoil of small favours, and a shade of doubt over every receipt. “The total is not the story,” the auditor said. “The story is who signed the lodging bills.” The benefit of the congress was a data set and a computer program that could name every county claim; the cell of auditors had nothing but a machine and a story. “This is not science,” the auditor said. “It is a system with a source and an operation, and it grieves me that it works.” A grand disorder, a shady ledger, and a stability bought with a grievous loan: the whole fulfilment of the account turned out to be instantaneous and false. Free energy was not a technology the council owned, and the county knew that too."
+      ],
+      "chinese_paragraphs": [
+        "桌上的证据涉及一个法律要点和一堆旧账单。“上一届政府留下了一个完全不合规的账户，”审计员说，“那个数字没有事实依据，而这个省一直把成本寄存在错误的栏目里。”这一次没有人害怕把它大声说出来。",
+        "让这个案子成立的事件是电表箱被抢和水务办公室的一场骚乱。“这种规模的丑闻不是偶然的，”一位经济学家说，“只要系统瓦解成上百笔小额付款，它就是不可避免的。”一位嫉妒的官员扰乱了记录，而外面纪念碑上的金印已被偷过两次。",
+        "院子旁的牛棚、雾蒙蒙的早晨，以及河上的阴霾，都指向同一个角落。“我们无法靠鼓励和消遣爬出这个坑，”她说，“这场论证的奠基石是一个单一的账户，而且要完整地保存。”",
+        "会议的天气在一个店主谈到持续不断的小额付款时变了。“我对大公司的嫉妒不是重点，”他说，“重点是电表熔化我的利润，而保证金就这样煮沸蒸发。”",
+        "委员会要求对一个庞大的档案给出一份方便的摘要。“稳定的预算和程序的庄重不是同一回事，”市长说，“匆忙立法，那种不可能就会变成一桩冤情。”",
+        "证据完整到足以给这桩不幸命名：一个没有单一主人的系统、一份小额人情的战利品，以及笼罩在每张收据上的一层怀疑。“总数不是故事，”审计员说，“故事是谁在那些寄存账单上签了字。”这场国会的好处是一份数据集和一个能为每一笔县级索赔命名的电脑程序；而审计小组只有一台机器和一个故事。“这不是科学，”审计员说，“这是一个带有来源和运作的系统，而它居然运转，这让我难过。”一场宏大的混乱、一本可疑的账，以及用一笔沉重的贷款买来的稳定：这份账目的全部履行，结果是瞬间的、虚假的。免费能源不是议会拥有的技术，而这个县也知道这一点。"
+      ],
+      "exercises": [
+        {
+          "id": "CH116-Q1",
+          "type": "context",
+          "prompt": "What did the auditor say about the previous account?",
+          "options": [
+            "it was wholly irregular",
+            "it was balanced",
+            "it was too small",
+            "it was published"
+          ]
+        },
+        {
+          "id": "CH116-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “不可避免的”?",
+          "options": [
+            "inevitable",
+            "occasional",
+            "irregular",
+            "convenient"
+          ]
+        },
+        {
+          "id": "CH116-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "keep an account",
+            "keep a haze",
+            "keep a riot",
+            "keep a monument"
+          ]
+        },
+        {
+          "id": "CH116-Q4",
+          "type": "cloze",
+          "prompt": "The auditor said the story is who signed the ______ bills.",
+          "options": [
+            "lodging",
+            "golden",
+            "foggy",
+            "monstrous"
+          ]
+        },
+        {
+          "id": "CH116-Q5",
+          "type": "recall",
+          "prompt": "What did the committee ask for?",
+          "options": [
+            "a convenient summary of a monstrous file",
+            "a new monument",
+            "a smaller budget",
+            "a longer procedure"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH116-Q1",
+          "answer": "it was wholly irregular",
+          "explanation": "The account was entirely out of order."
+        },
+        {
+          "id": "CH116-Q2",
+          "answer": "inevitable",
+          "explanation": "The economist called the scandal structurally inevitable."
+        },
+        {
+          "id": "CH116-Q3",
+          "answer": "keep an account",
+          "explanation": "Keep combines with an account, a promise, or a record."
+        },
+        {
+          "id": "CH116-Q4",
+          "answer": "lodging",
+          "explanation": "The signatures on the lodging bills were the real story."
+        },
+        {
+          "id": "CH116-Q5",
+          "answer": "a convenient summary of a monstrous file",
+          "explanation": "They wanted the huge file reduced to a summary."
+        }
+      ]
+    },
+    {
+      "article_id": "CH117",
+      "english_title": "Who Pays and Who Decides: The Trial Run",
+      "chinese_title": "谁承担，谁决定：第一次试行",
+      "theme": "社会问题、经济与公共生活",
+      "english_paragraphs": [
+        "The trial run began with an act of the council and a fund of real money. “The issue is not the answer, it is the order of the questions,” the mayor said. “We will assess one ward, then decide.” Security, welfare, and liability were all in the proclamation, and so was the obligatory payment of two pounds a month.",
+        "The finding of the first week was a surprise: the appeal of the scheme was strongest among the poor. “They are not chasing charity,” the social worker said. “They are buying certainty.” A complaint from an elite household, a pile of forms, and a monetary flaw in the tariff were the first three items on the list.",
+        "The truth of the trial was that a small payment produced a large satisfaction. “The economy of a wallet is not the economy of a city,” the treasurer warned, “and a boom in small deposits can float a false confidence.” The point was written on the board in a chip of chalk.",
+        "The discovery of the second week was the involvement of the retailers. “Either the shop pays or the citizen does, whereas both of them already pay twice,” a shopkeeper said. The handicapped residents of the third ward were the group the scheme had missed entirely.",
+        "The valid objection came from the defendant in a pending case about the water bill. “A competent administration does not need perfection,” she said. “It needs a flaw it can admit.” The authorization for the second trial was signed the same afternoon.",
+        "The containment of the cost, the answer to the liability question, and the announcement of the next stage were the three things the meeting produced. “There is no support in a proclamation,” Lin wrote. “There is support in a payment that arrives every month.” The point of the trial was simple, and it had to be shown. We had to pick between a force and an argument, and between a thing and a promise. “Introduce the payment, show the evidence, and let the meeting decide,” the mayor said. It was the same party and the same poor ward, either way, and someone within the world of city hall had to be wrong first. As an institution, the council was liable for the imposition of the fee, and a turkey dinner was not the answer."
+      ],
+      "chinese_paragraphs": [
+        "试行以议会的一项法案和一笔真金白银的基金开始。“问题不在答案，而在问题的次序，”市长说，“我们先评估一个选区，再作决定。”安全、福利与责任都写进了那份公告，强制性的每月两英镑缴款也在其中。",
+        "第一周的发现令人意外：这套方案在穷人中最有吸引力。“他们不是在追慈善，”社工说，“他们是在买确定性。”一户精英家庭的投诉、一堆表格，以及费率中一处货币上的缺陷，是清单上的头三项。",
+        "试行的真相是：一笔小额付款产生了很大的满足感。“钱包的经济学不是城市的经济学，”司库警告说，“小额存款的繁荣可以托起一种虚假的信心。”这一点被用一截粉笔写在了黑板上。",
+        "第二周的发现是零售商的卷入。“要么店主付，要么市民付，然而两者早已付了两次，”一位店主说。第三选区的残疾居民，是这套方案完全漏掉的群体。",
+        "有效的异议来自一位待审水费案中的被告。“一个称职的行政当局不需要完美，”她说，“它需要一个它敢于承认的缺陷。”第二次试行的授权在当天下午就签了字。",
+        "成本的抑制、责任问题的答案，以及下一阶段的公告，是这次会议产出的三样东西。“公告里没有支持，”林伟写道，“支持在于每个月按时到来的一笔付款。”这次试行的要点很简单，而且必须被展示出来。我们必须在一种力量与一个论证之间、在一件东西与一个承诺之间做选择。“引入这笔付款，把证据拿出来，让会议决定，”市长说。无论怎么选，都是同一个党和同一个贫困选区，而市政厅这个世界里必须有人先出错。作为一个机构，议会要为这项费用的征收负责，而一顿火鸡晚餐不是答案。"
+      ],
+      "exercises": [
+        {
+          "id": "CH117-Q1",
+          "type": "context",
+          "prompt": "What did the mayor say the issue was?",
+          "options": [
+            "the order of the questions",
+            "the size of the fund",
+            "the security guards",
+            "the water bill"
+          ]
+        },
+        {
+          "id": "CH117-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “责任；债务”?",
+          "options": [
+            "liability",
+            "welfare",
+            "satisfaction",
+            "finding"
+          ]
+        },
+        {
+          "id": "CH117-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "assess a ward",
+            "assess a wallet",
+            "assess a turkey",
+            "assess a chip"
+          ]
+        },
+        {
+          "id": "CH117-Q4",
+          "type": "cloze",
+          "prompt": "The treasurer warned that a boom in small deposits can float a false ______.",
+          "options": [
+            "confidence",
+            "liability",
+            "proclamation",
+            "authorization"
+          ]
+        },
+        {
+          "id": "CH117-Q5",
+          "type": "recall",
+          "prompt": "What did the defendant say a competent administration needs?",
+          "options": [
+            "a flaw it can admit",
+            "a perfect system",
+            "a larger fund",
+            "a longer trial"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH117-Q1",
+          "answer": "the order of the questions",
+          "explanation": "The sequence of decisions was the real issue."
+        },
+        {
+          "id": "CH117-Q2",
+          "answer": "liability",
+          "explanation": "The liability question had to be answered."
+        },
+        {
+          "id": "CH117-Q3",
+          "answer": "assess a ward",
+          "explanation": "Assess combines with a ward, a risk, or a cost."
+        },
+        {
+          "id": "CH117-Q4",
+          "answer": "confidence",
+          "explanation": "Small deposits can inflate false confidence."
+        },
+        {
+          "id": "CH117-Q5",
+          "answer": "a flaw it can admit",
+          "explanation": "She asked for honesty rather than perfection."
+        }
+      ]
+    },
+    {
+      "article_id": "CH118",
+      "english_title": "Who Pays and Who Decides: Pressure Builds",
+      "chinese_title": "谁承担，谁决定：压力上升",
+      "theme": "社会问题、经济与公共生活",
+      "english_paragraphs": [
+        "The pressure built when the government changed the funding rule for the water utility. “The state will not carry the maintenance of a plant that the market cannot finance,” the minister said. “A dollar of public money has to buy a right, not a habit.” The declaration was short and the objection was long.",
+        "The social argument was harder than the economic one. “A policy that works in the capital does not work in a community of four thousand,” a sociologist said. “The wealth of a society is not the same as the wealth of a sector.” The left wing of the council and the liberal bloc both claimed the phrase as their own.",
+        "The civil question was who counted as a citizen. “A tax on water is not the same as a fee,” a socialist economist wrote. “One is a bill, the other is a bail for a utility that has already failed once.” The legal opinion on the table said the two could not be separated.",
+        "The popular politics of the moment made the economics harder. “The market is not a democracy,” the mayor said, “and the interest of the taxpayer is not the interest of the citizen.” A dozen rates, four audits, and one red line across the page: the argument had a real shape at last.",
+        "The pressure from the banks was simple: a declaration of socialism would close the credit line. “A dollar of funding deferred is a dollar of maintenance lost,” the treasurer said. The republican member disagreed, and so did the socialist member, and both of them were right.",
+        "The act of the council was to hold the rate, off the record and on the condition of a second audit. “We can talk about capitalism later,” the mayor said. “The pipe under this street will not wait.” The pressure had produced a decision, and the decision had produced the next pressure. The act of the council, the order of the day, and the real support of the four wards: all of it was on the record. Free water for the poor, a red line for the rich, and a republican objection from the left: the talk had a shape at last, and the issue was no longer off the table. The law was federal, the economy was local, and the citation of Marxism in a footnote about imperialism was, as one member said, a remark about civilisation rather than about the water bill. The only action left to the council was to wait, and the low point of the debate was still ahead."
+      ],
+      "chinese_paragraphs": [
+        "当政府修改水务公用事业的资金规则时，压力就累积起来了。“国家不会承担一家市场无法融资的工厂的维护费，”部长说，“一美元公共资金必须买来一项权利，而不是一个习惯。”那份宣告很短，而异议很长。",
+        "社会层面的论证比经济层面的更难。“一项在首都有效的政策，在四千人的社区里无效，”一位社会学家说，“一个社会的财富不等于一个部门的财富。”议会的左翼和自由派集团都把这句话当成了自己的。",
+        "市民层面的问题是谁算作公民。“对水征的税和对水收的费不是一回事，”一位社会主义派经济学家写道，“一个是账单，另一个是为一家已经失败过一次的公用事业公司的保释金。”桌上的法律意见说，两者无法分开。",
+        "当时的流行政治让经济问题更难。“市场不是民主，”市长说，“纳税人的利益不等于公民的利益。”十二种费率、四次审计，以及横跨页面的一条红线：这场论证终于有了真实的形状。",
+        "来自银行的压力很简单：一份社会主义的宣告会关掉授信额度。“被推迟的一美元资金，就是失去的一美元维护，”司库说。共和派成员不同意，社会主义派成员也不同意，而两个人都是对的。",
+        "议会的法案是维持费率不变，不记录在案，并以第二次审计为条件。“资本主义我们可以晚点再谈，”市长说，“这条街下面的管子不会等。”压力促成了一项决定，而这项决定又催生了下一轮压力。议会的法案、当日的议程，以及四个选区真正的支持：全都在记录上。给穷人的免费水、给富人的一条红线，以及来自左翼的一位共和派的反对：这场谈话终于有了形状，而这个问题不再被搁在桌下。法律是联邦的，经济是地方的，而在一篇关于帝国主义的脚注里引用马克思主义，正如一位成员所说，是一句关于文明的评论，而不是关于水费的。议会剩下的唯一行动就是等待，而这场辩论的低点还在前面。"
+      ],
+      "exercises": [
+        {
+          "id": "CH118-Q1",
+          "type": "context",
+          "prompt": "What did the minister say a dollar of public money must buy?",
+          "options": [
+            "a right, not a habit",
+            "a pipe",
+            "a subsidy",
+            "a new plant"
+          ]
+        },
+        {
+          "id": "CH118-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “公用事业；功用”?",
+          "options": [
+            "utility",
+            "sector",
+            "capital",
+            "bail"
+          ]
+        },
+        {
+          "id": "CH118-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "carry the maintenance",
+            "carry the socialism",
+            "carry the sociologist",
+            "carry the imperialism"
+          ]
+        },
+        {
+          "id": "CH118-Q4",
+          "type": "cloze",
+          "prompt": "The mayor said the market is not a ______.",
+          "options": [
+            "democracy",
+            "utility",
+            "declaration",
+            "citation"
+          ]
+        },
+        {
+          "id": "CH118-Q5",
+          "type": "recall",
+          "prompt": "What condition did the council attach to holding the rate?",
+          "options": [
+            "a second audit",
+            "a new tax",
+            "a public vote",
+            "a federal grant"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH118-Q1",
+          "answer": "a right, not a habit",
+          "explanation": "Public money had to purchase entitlement, not routine."
+        },
+        {
+          "id": "CH118-Q2",
+          "answer": "utility",
+          "explanation": "The water utility could not finance its own maintenance."
+        },
+        {
+          "id": "CH118-Q3",
+          "answer": "carry the maintenance",
+          "explanation": "Carry combines with maintenance, a cost, or a risk."
+        },
+        {
+          "id": "CH118-Q4",
+          "answer": "democracy",
+          "explanation": "He separated market choice from civic decision."
+        },
+        {
+          "id": "CH118-Q5",
+          "answer": "a second audit",
+          "explanation": "The rate hold required another audit."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH118",
+    "last_event": "A cleaner exposed who pays and who drinks, the first ward trial produced strong demand from the poor, and the government changed the funding rule while the council held the rate pending a second audit.",
+    "unresolved_consequence": "The second audit is unpaid for, the handicapped residents of the third ward are still outside the scheme, and the credit line is under threat.",
+    "character_locations": {
+      "Lin Wei": "city hall and the river district",
+      "Maya Chen": "city hall and the river district",
+      "Aisha Rahman": "remotely online"
+    },
+    "character_roles": {
+      "Lin Wei": "fourth-year student and project co-lead",
+      "Maya Chen": "journalism graduate, columnist, and project co-lead",
+      "Aisha Rahman": "data specialist and remote collaborator"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line",
+      "publish the first national injury figures honestly",
+      "name one responsible person for every system and device",
+      "delete the old address list completely",
+      "publish the one-page consent form before the faculty review",
+      "answer the national inquiry in writing",
+      "pay the five families who take the daily river readings",
+      "finish the concrete pier before the anniversary review",
+      "publish three years of river readings before any construction",
+      "publish every fare exemption while the debate is open",
+      "include the third ward in the water scheme"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one",
+      "national reporting requirements against a club's own budget",
+      "a launch date against a consented design",
+      "the convenience of a system against the consent of the person inside it",
+      "simplicity against completeness",
+      "a national inquiry against a one-page form",
+      "a model built on dry years against a river that floods",
+      "hard engineering against a living delta",
+      "a canal lock against a working forest",
+      "a fare that pays for the plant against a fare the poor can afford",
+      "public funding against a market rate"
+    ],
+    "first_required_event_next_chapter": "CH119 must show the second audit failing to find the money, and the group deciding what to cut first.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries",
+      "a canteen cook reframed the programme around walking, music, and recreation",
+      "the second attempt ran one funded indoor session a week",
+      "the hospital forced a national register of injuries and treatment",
+      "the club committed two funded hours a week and made rest part of training",
+      "the kitchen and the mood of the canteen became part of the evidence",
+      "a regional health register was opened and the group promised to publish its figures honestly",
+      "an unexplained file appeared in a public download of the club's website",
+      "the seventh arc opened with a paused launch and a promised redesign of consent",
+      "a person whose data had been stored without consent asked for a withdrawal mechanism",
+      "the group replaced twelve collection rules with one criterion: nothing on a maybe",
+      "the consent trial deleted what could not be justified and kept the launch paused",
+      "the group agreed that nothing is acquired without a written reason",
+      "the numbers were shown to hide the real product, which was trust",
+      "the group reframed consent around the ease of leaving rather than the ease of joining",
+      "the second redesign ran a trial that the person involved could explain",
+      "the faculty board demanded a clear definition of consent and got four pages",
+      "the group divided the risks and kept a parallel record of what it refused to collect",
+      "the redesign cut the form to one page and began with less",
+      "the seventh arc closed with a national inquiry still open and a scheme small enough to fit in a bucket",
+      "the eighth arc opened with a flood that stopped the road beside the field station",
+      "the old flood model was built on a photographic memory of ten dry years",
+      "a legendary boatman said the river was capable of a third channel",
+      "the field station promised simultaneous readings from both banks",
+      "five families agreed to take one reading a day with the same cheap kit",
+      "a woman who had been left off the list rewrote the questionnaire around memory",
+      "the evidence was reduced to one watertight page that included the river's own answer",
+      "the trial run measured one summer and found that roughly a third of the readings exceeded the limit",
+      "the group paid the five families for one more period",
+      "an ecologist argued that a dam would move the loss to the delta",
+      "the group agreed to publish the whole page rather than a clean summary",
+      "a market trader reframed the river as a well rather than a drain",
+      "the second attempt reused the same instruments in a wetter setting",
+      "an overseas advisor demanded modernisation and was met with a three-year condition",
+      "the group committed to publish three years of readings before any construction",
+      "the group chose the west bank and left the top of the file blank",
+      "a doctor showed that the illness followed the flood rather than the water itself",
+      "the eighth arc closed with a three-member board publishing ten years of data",
+      "the ninth arc opened with an unfunded water treatment plant",
+      "the treasurer warned that enforcement without a collector is theft",
+      "the group promised to publish every exemption while the debate was open",
+      "the first promise of the ninth arc was a public meeting with a full transcript",
+      "a cleaner showed that the benefit passes down and never reaches the people who pay",
+      "the auditor found a wholly irregular account and called the figure misleading",
+      "the first ward trial found the strongest demand among the poor",
+      "the government tied maintenance funding to a market rate",
+      "the council held the rate pending a second audit"
+    ]
+  }
+}

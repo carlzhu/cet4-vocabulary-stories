@@ -1,0 +1,309 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kirocrew.local/schemas/cet4-story/chapter.schema.json",
+  "title": "CET-4 Story Curriculum Chapter",
+  "description": "Schema for one approved bilingual CET-4 story chapter.",
+  "type": "object",
+  "required": [
+    "article_id",
+    "english_title",
+    "chinese_title",
+    "theme",
+    "english_paragraphs",
+    "chinese_paragraphs",
+    "exercises",
+    "answers"
+  ],
+  "properties": {
+    "article_id": {
+      "$ref": "#/$defs/articleId"
+    },
+    "english_title": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "chinese_title": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "theme": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "english_paragraphs": {
+      "$ref": "#/$defs/paragraphs"
+    },
+    "chinese_paragraphs": {
+      "$ref": "#/$defs/paragraphs"
+    },
+    "exercises": {
+      "$ref": "#/$defs/exercises"
+    },
+    "answers": {
+      "$ref": "#/$defs/answers"
+    }
+  },
+  "allOf": [
+    {
+      "oneOf": [
+        {
+          "properties": {
+            "english_paragraphs": {
+              "minItems": 4,
+              "maxItems": 4
+            },
+            "chinese_paragraphs": {
+              "minItems": 4,
+              "maxItems": 4
+            }
+          }
+        },
+        {
+          "properties": {
+            "english_paragraphs": {
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "chinese_paragraphs": {
+              "minItems": 5,
+              "maxItems": 5
+            }
+          }
+        },
+        {
+          "properties": {
+            "english_paragraphs": {
+              "minItems": 6,
+              "maxItems": 6
+            },
+            "chinese_paragraphs": {
+              "minItems": 6,
+              "maxItems": 6
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "articleId": {
+      "type": "string",
+      "pattern": "^CH\\d{3}$"
+    },
+    "paragraphs": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 6,
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      }
+    },
+    "exerciseBase": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "prompt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "prompt": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "answerBase": {
+      "type": "object",
+      "required": [
+        "id",
+        "answer",
+        "explanation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "answer": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "explanation": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
+      },
+      "additionalProperties": false
+    },
+    "exercises": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "prefixItems": [
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/exerciseBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q1$"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/exerciseBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q2$"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/exerciseBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q3$"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/exerciseBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q4$"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/exerciseBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q5$"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "items": false
+    },
+    "answers": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "prefixItems": [
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/answerBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q1$"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/answerBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q2$"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/answerBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q3$"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/answerBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q4$"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "#/$defs/answerBase"
+            },
+            {
+              "properties": {
+                "id": {
+                  "pattern": "^CH\\d{3}-Q5$"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "items": false
+    }
+  }
+}

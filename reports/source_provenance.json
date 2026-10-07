@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-10-06T06:54:44+00:00",
+  "schema_version": 1,
+  "sources": {
+    "character_guide.md": {
+      "sha256": "37a9f07d3f969af70785e25bebfb034dc1589d2326a3eb7ec635af81632ff402"
+    },
+    "curriculum_plan.csv": {
+      "record_count": 137,
+      "sha256": "16193b11d7ddb59f527759cffff550ffcd354bcb7f9e43b59865dd27bbb6f908"
+    },
+    "review_schedule.csv": {
+      "record_count": 36762,
+      "sha256": "634c4e6eba0f9314b04600a91090c97b80df3ac0ef7ab8c76f29d68a64cabf23"
+    },
+    "story_timeline.md": {
+      "sha256": "477a8be8f951c6f43c30a5dd60a018e332a7e0569391bacc6eedca6f2f89fc0b"
+    },
+    "vocabulary_master.csv": {
+      "record_count": 6127,
+      "sha256": "7def4da8730eb4fb1820894edc178302026c3e385dd6b6e01c8b4f0e5d4a2f50"
+    }
+  }
+}

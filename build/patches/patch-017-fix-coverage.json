@@ -1,0 +1,40 @@
+{
+  "batch-CH042-CH045": {
+    "CH042": [
+      {
+        "paragraph": 5,
+        "english_replace": [
+          {
+            "old": "“Well,” the broker said, when the final total appeared",
+            "new": "“Shit,” the broker said, when the final total appeared"
+          }
+        ],
+        "chinese_replace": [
+          {
+            "old": "“好吧，”当最终数字出现在屏幕上时，经纪人说",
+            "new": "“见鬼，”当最终数字出现在屏幕上时，经纪人说"
+          }
+        ]
+      }
+    ]
+  },
+  "batch-CH055-CH058": {
+    "CH058": [
+      {
+        "paragraph": 5,
+        "english_replace": [
+          {
+            "old": "It must be said that they were still far from the offer",
+            "new": "A note in the margin said: “I must say that we are still far from the offer.”"
+          }
+        ],
+        "chinese_replace": [
+          {
+            "old": "必须说，他们离那份报价还很远",
+            "new": "页边的一条注记写着：“我必须说我们离那份报价还很远。”"
+          }
+        ]
+      }
+    ]
+  }
+}

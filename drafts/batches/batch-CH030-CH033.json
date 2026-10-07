@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH030-CH033",
+  "chapter_ids": [
+    "CH030",
+    "CH031",
+    "CH032",
+    "CH033"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH030",
+      "english_title": "Promises and Pressure: The First Promise",
+      "chinese_title": "承诺与压力：第一次承诺",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The collision happened on a Sunday. Lin's mother was in the hospital ward where his grandmother had worked as a nurse, and the project meeting was at the same hour. “What do you expect me to say?” he asked. “That the study is more faithful than a family?” His sister said nothing; his brother laughed. The photograph on the wall — a wedding in black and white, a honeymoon in the hills — was the only picture there.",
+        "The elder of the family, his grandfather, had been an orphan; the orphanage had given him a name and very little else. “A parent is a person,” he said. “Not an objective.” Lin felt the old fear of being superficial — an acquaintance of everyone, attached to no one. The word isolation pierced him more than the argument did, and something in his soul went quiet.",
+        "His mother's voice was quiet too. “You have a domestic heart,” she said, “and a research heart, and only one portion of attention.” She spoke about influence, connection, attachment, and the slow transference of love from one generation to the next. A relative would have agreed. A pet rat in a junior class, a quarrel between lovers in the dormitory, a marriage that had held for thirty years: all of it belonged to the same study of how people keep promises.",
+        "They agreed on three roles and wrote them on the back of a photograph: Lin would come home every second Sunday; Maya would host the Thursday meeting alone; the group would embrace a smaller scope until the spring. “This is not a separation,” Maya said. “It is a renegotiation, and a confidential one if you need it to be.” Confucianism, she added, had a word for it, but the plain word was enough. The orientation of the whole project changed by a few degrees that afternoon.",
+        "He kept that promise five weeks. The book he was reading, the class he was teaching, the example of good practice set by the department: none of it mattered on the Sunday his grandfather died. His mother said only that she was glad he had come. “A voice on the telephone is not a person,” she said. “You know that better than your father did.” He wrote it down in the language he used for research, and then he wrote it again in his own, because the first version was the method talking and the second was him. Of course the group understood it: the project could not arouse the interest of a grandparent by itself, and the adoption of a smaller scope was the only honest sort of promise. They taught themselves to turn toward the people in the room."
+      ],
+      "chinese_paragraphs": [
+        "冲突出现在一个周日。林伟的母亲在医院的病房里——他祖母曾在那里当护士——而项目会议正好在同一时间。“你想让我说什么？”他问。“说研究比家庭更忠实？”他妹妹什么也没说，他哥哥笑了。墙上那张照片——一场黑白婚礼、一次山间蜜月——是屋里唯一的画。",
+        "家里的长辈、他的祖父，曾是个孤儿；孤儿院给了他一个名字，别的东西很少。“父母是人，”他说，“不是一个目标。”林伟感到那种古老的恐惧：成为一个肤浅的人——认识所有人，却谁也不亲近。“隔绝”这个词比争论更刺穿了他，而他灵魂里的某样东西安静了下来。",
+        "他母亲的声音也很轻。“你有一颗家庭的心，”她说，“也有一颗研究的心，而注意力只有一份。”她谈到影响力、联系、依恋，以及爱如何一代一代缓慢转移。任何一位亲戚都会说同样的话。少年班教室里的一只宠物鼠、宿舍里情人的争吵、维持了三十年的婚姻：所有这些都属于同一项关于人如何守信的研究。",
+        "他们定了三个角色，写在一张照片的背面：林伟每隔一个周日回家；曼雅独自主持周四的会议；小组把范围缩到春天为止。“这不是分开，”曼雅说，“这是一次重新商定；如果你需要，它也可以是保密的。”她补充说，儒家思想里有一个词专门说这件事，但用平常的话就够了。整个项目的方向在那个下午偏转了几度。",
+        "他坚持了五个星期。他正在读的书、他教的课、系里当作良好实践的例子：在他祖父去世的那个周日，这些都不重要了。他母亲只说，她很高兴他回来了。“电话里的声音不是一个人，”她说，“这一点你比你父亲明白。”他用做研究时的语言把它写了下来，然后又用自己的语言写了一遍——因为第一版是方法在说话，第二版才是他。当然，小组明白这一点：这个项目本身唤不起一位祖辈的兴趣，而缩小范围是唯一诚实的承诺方式。他们学着把注意力转向屋子里的那些人。"
+      ],
+      "exercises": [
+        {
+          "id": "CH030-Q1",
+          "type": "context",
+          "prompt": "What caused the collision on that Sunday?",
+          "options": [
+            "a hospital visit and a project meeting at the same hour",
+            "a wedding and a lecture",
+            "two examinations",
+            "a broken photograph"
+          ]
+        },
+        {
+          "id": "CH030-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “隔绝；孤立”?",
+          "options": [
+            "isolation",
+            "attention",
+            "transference",
+            "orientation"
+          ]
+        },
+        {
+          "id": "CH030-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "keep a promise",
+            "keep a photograph",
+            "keep a ward",
+            "keep a soul"
+          ]
+        },
+        {
+          "id": "CH030-Q4",
+          "type": "cloze",
+          "prompt": "His mother said he had a domestic heart and only one ______ of attention.",
+          "options": [
+            "portion",
+            "relative",
+            "elder",
+            "orphan"
+          ]
+        },
+        {
+          "id": "CH030-Q5",
+          "type": "recall",
+          "prompt": "What did they write on the back of the photograph?",
+          "options": [
+            "three roles",
+            "a telephone number",
+            "a wedding date",
+            "a hospital address"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH030-Q1",
+          "answer": "a hospital visit and a project meeting at the same hour",
+          "explanation": "Family duty and the project demanded the same Sunday."
+        },
+        {
+          "id": "CH030-Q2",
+          "answer": "isolation",
+          "explanation": "He feared being superficially connected to everyone and close to no one."
+        },
+        {
+          "id": "CH030-Q3",
+          "answer": "keep a promise",
+          "explanation": "Keep combines naturally with a promise or a word."
+        },
+        {
+          "id": "CH030-Q4",
+          "answer": "portion",
+          "explanation": "She described attention as something divided into portions."
+        },
+        {
+          "id": "CH030-Q5",
+          "answer": "three roles",
+          "explanation": "The renegotiation was written on the back of a photograph."
+        }
+      ]
+    },
+    {
+      "article_id": "CH031",
+      "english_title": "Promises and Pressure: A Missing Voice",
+      "chinese_title": "承诺与压力：缺席的声音",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "A neighbor in the dormitory, a careful woman who had never once complained, asked to speak to the group. She was a delegate from the night shift, and her story had no art in it: an alcoholic father, a mother who worked six days a week, and a brother who had left school at fifteen. “I do not hate them,” she said. “I just remember everything.” Six months ago the project had one voice; see how a single person can change the parent document.",
+        "Her expression did not change when she described the accident, but her hands did. “There was no violence in our house,” she said, “only a fright every evening.” The group had expected a story about money; what emerged was a story about a clock, a lap, and a chair by the window. “So the survey missed the substance,” Maya said. However, the information was still thin, and not one word of it had been checked.",
+        "The dominant voice in the room had always belonged to people with qualifications. “A qualification is a permission, not a person,” the woman said. “Do not be a coward about the scope.” A thoughtful word, a homely detail, a neat list of small comforts: the group wrote them down with the devotion of students who had learned to listen.",
+        "The palace of theory was immune to such evidence, and that was the sting. “An intellectual project that cannot communicate grief is a bore,” Professor Zhao said. “Not a failure — a bore.” The sting of the word angered Maya, and she was careless about her own tone in reply; the black coat made her look older than she was. “Any of you would have done the same,” she said, and regretted it at once.",
+        "They invited the woman to sit on the panel and allowed her to set the agenda. She stimulated one change immediately: the survey would ask what people tend in their own homes, not what they wear to the interview. “There is a probable reason nobody asked before,” Lin wrote. “The people who write surveys are the people who answer them.” His mother telephoned that evening, and he told her about the woman; she said only, “Good,” which was, from her, a long speech. A conscientious student would have apologized at once; the shame of the moment was that she had not. A charitable reading was possible, but it did not make the room any warmer, and the dominance of the loudest voice in it was itself a kind of violence that no contemporary account would ever record. She had seen enough suffering to know the difference."
+      ],
+      "chinese_paragraphs": [
+        "宿舍里的一位邻居，一位从不抱怨的细心女人，请求和小组谈一谈。她是夜班的代表，她的故事里没有艺术：一个酗酒的父亲、一个每周工作六天的母亲，以及一个十五岁就离开学校的哥哥。“我不恨他们，”她说，“我只是记得一切。”六个月前这个项目只有一个声音；看看一个人如何改变那份母文件。",
+        "她描述那场事故时表情没有变化，但她的手变了。“我们家没有暴力，”她说，“只有每天晚上的一场惊吓。”小组原本期待一个关于钱的故事；浮现出来的却是关于一只钟、一个膝头，以及窗边一把椅子的故事。“所以调查漏掉了实质，”曼雅说。然而，这些信息仍然很薄，而且其中没有一个字被核对过。",
+        "屋里占主导的声音一直属于那些有资格的人。“资格是一种许可，不是一个人，”那位女士说，“不要因为范围就做个懦夫。”一句体贴的话、一个朴实的细节、一份整洁的小小安慰清单：小组用学会了倾听的学生的虔诚把它们记下来。",
+        "理论的宫殿对这类证据免疫，而这就是刺痛之处。“一个无法传达悲痛的智识项目是令人厌烦的，”赵教授说，“不是失败——是令人厌烦。”这个词的刺痛让曼雅愤怒，而她回话时的语气也很粗心。“你们任何人都会这么做，”她说，随即就后悔了。",
+        "他们邀请这位女士进入评审小组，并允许她来设定议程。她立刻促成了一项改变：调查要问人们在自家照料什么，而不是问他们穿着什么来面试。“没有人早先问过，有一个很可能的理由，”林伟写道，“写调查的人，就是回答调查的人。”那天晚上他母亲打来电话，他跟她讲了这位女士；她只说了一句“好”——而对她来说，那就是一段很长的讲话。一个尽责的学生本会立刻道歉；此刻的耻辱正在于她没有。做一种善意的解读是可能的，但这并不会让屋里更暖一些；而屋里最响的那个声音所占的支配地位，本身就是一种暴力，任何当代的记述都不会把它记下来。她见过的苦难足够多，因此分得清其中的差别。"
+      ],
+      "exercises": [
+        {
+          "id": "CH031-Q1",
+          "type": "context",
+          "prompt": "What did the woman say about qualifications?",
+          "options": [
+            "a qualification is a permission, not a person",
+            "a qualification is a family duty",
+            "a qualification is a survey",
+            "a qualification is a comfort"
+          ]
+        },
+        {
+          "id": "CH031-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “体贴的；深思的”?",
+          "options": [
+            "thoughtful",
+            "careless",
+            "skinny",
+            "neat"
+          ]
+        },
+        {
+          "id": "CH031-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "communicate grief",
+            "communicate a pillow",
+            "communicate a violin",
+            "communicate a clock"
+          ]
+        },
+        {
+          "id": "CH031-Q4",
+          "type": "cloze",
+          "prompt": "Professor Zhao said an intellectual project that cannot communicate grief is a ______.",
+          "options": [
+            "bore",
+            "delegate",
+            "sting",
+            "coward"
+          ]
+        },
+        {
+          "id": "CH031-Q5",
+          "type": "recall",
+          "prompt": "What change did the woman's panel seat produce?",
+          "options": [
+            "the survey asked what people tend at home",
+            "the survey was cancelled",
+            "the night shift was closed",
+            "the dormitory was renamed"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH031-Q1",
+          "answer": "a qualification is a permission, not a person",
+          "explanation": "She refused to let credentials stand in for experience."
+        },
+        {
+          "id": "CH031-Q2",
+          "answer": "thoughtful",
+          "explanation": "The group recorded her small, considerate details."
+        },
+        {
+          "id": "CH031-Q3",
+          "answer": "communicate grief",
+          "explanation": "Communicate combines with grief, a finding, or a feeling."
+        },
+        {
+          "id": "CH031-Q4",
+          "answer": "bore",
+          "explanation": "He judged dullness harsher than failure."
+        },
+        {
+          "id": "CH031-Q5",
+          "answer": "the survey asked what people tend at home",
+          "explanation": "Her intervention changed the survey's opening question."
+        }
+      ]
+    },
+    {
+      "article_id": "CH032",
+      "english_title": "Promises and Pressure: Evidence on the Table",
+      "chinese_title": "承诺与压力：摆上桌面的证据",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The evidence meeting had a different shape since the survey had been rewritten. One measure replaced twelve: whether a person could find, in one minute, the thing they came for. “When the number is smaller than the argument, the argument wins,” Maya said. “Until we can stay small and honest, we should not grow.”",
+        "They pinned a chart to the retreat wall and compared two households in the southwest: one with a car and a reliable piano teacher, one with a dependent grandmother and four bicycles. The rate of attendance was the same; the sadness was not. “Apparently that is called a clash of measures,” Lin wrote. “Really it is a clash of lives.”",
+        "A parental question on the committee asked whether the project could remain neutral, and the verbal answer was easy. “Communication is not a crowd,” the enthusiast with the violin said. “It is a dialog.” Her singular habit of speaking in the present tense had already changed the room, and the change involved the status of every volunteer.",
+        "A skinny boy in worn clothing brought a pillow and a pencil to the gathering and asked to stay. “Hand me the list,” he said. “I will check one entry.” They allowed him to isolate three errors in an hour, and not one of them was small. “Your idea is a conjunction,” he said, “not a sentence.”",
+        "A calculating visitor from the city office asked whether the project could be utilized by anyone else. “That is the whole reason it exists,” Maya said. “Keep the till open.” Her confident front concealed a real problem: an encounter with a nude statue in the art building had produced the best photograph of the year, and no data at all. “Put it on the wall anyway,” she said. They could see where the argument was going, and their very assumption that a number could settle it was the problem. Much of the analysis expected a clean answer, and none was there. The human relationship behind every number was the part no table could confirm; a herd of students in the corridor was not a relation, and a photograph was not a measurement."
+      ],
+      "chinese_paragraphs": [
+        "证据会议的样子和以往不同，因为调查已经被重写。一项指标取代了十二项：一个人能否在一分钟内找到他来的目的。“当数字比论证小的时候，赢的是论证，”曼雅说，“在我们能够既小又诚实之前，我们不该长大。”",
+        "他们把一张图表钉在休养所的墙上，比较西南部的两户人家：一户有汽车和一位可靠的钢琴老师，另一户有一位需要照料的祖母和四辆自行车。出席率是一样的，悲伤却不一样。“据说这叫指标的冲突，”林伟写道，“其实这是生活的冲突。”",
+        "委员会里一位父母辈的人问，这个项目能否保持中立，口头上的回答很容易。“交流不是人群，”那位带小提琴的热心者说，“它是一场对话。”她只用现在时说话的这个独特习惯已经改变了房间，而这个改变牵涉到每位志愿者的地位。",
+        "一个穿着破旧衣服的瘦男孩带着一只枕头和一支铅笔来到聚会，要求留下。“把名单递给我，”他说，“我来核对一条。”他们允许他在一小时内孤立出三个错误，而其中没有一个是小的。“你的想法是一个连词，”他说，“不是一个句子。”",
+        "市政办公室一位精于算计的来访者问，这个项目能否被别人利用。“这正是它存在的全部理由，”曼雅说，“把柜台开着。”她自信的外表掩盖了一个真实的难题：在艺术楼里与一座裸体雕像的一次邂逅，产出了全年最好的一张照片，却没有任何数据。“还是把它挂到墙上吧，”她说。他们看得出这场论证正走向哪里，而他们那个“一个数字就能解决它”的假设本身就是问题。大部分分析都期待一个干净的答案，而一个都没有。每个数字背后的人际关系是任何表格都无法确认的部分；走廊里的一群学生不是一种关系，而一张照片也不是一次测量。"
+      ],
+      "exercises": [
+        {
+          "id": "CH032-Q1",
+          "type": "context",
+          "prompt": "What single measure replaced twelve?",
+          "options": [
+            "whether a person can find what they came for in a minute",
+            "how many volunteers attend",
+            "the cost of the retreat",
+            "the number of bicycles"
+          ]
+        },
+        {
+          "id": "CH032-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “可靠的；可信赖的”?",
+          "options": [
+            "reliable",
+            "calculating",
+            "dependent",
+            "verbal"
+          ]
+        },
+        {
+          "id": "CH032-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "confirm a finding",
+            "confirm a pillow",
+            "confirm a violin",
+            "confirm a herd"
+          ]
+        },
+        {
+          "id": "CH032-Q4",
+          "type": "cloze",
+          "prompt": "The enthusiast said that communication is a ______, not a crowd.",
+          "options": [
+            "dialog",
+            "conjunction",
+            "retreat",
+            "clash"
+          ]
+        },
+        {
+          "id": "CH032-Q5",
+          "type": "recall",
+          "prompt": "What did Maya say to do with the photograph?",
+          "options": [
+            "put it on the wall anyway",
+            "delete it",
+            "send it to the council",
+            "use it as a measurement"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH032-Q1",
+          "answer": "whether a person can find what they came for in a minute",
+          "explanation": "The group replaced a dozen indicators with one usable test."
+        },
+        {
+          "id": "CH032-Q2",
+          "answer": "reliable",
+          "explanation": "One household had a dependable piano teacher."
+        },
+        {
+          "id": "CH032-Q3",
+          "answer": "confirm a finding",
+          "explanation": "Confirm combines with a finding, a date, or a suspicion."
+        },
+        {
+          "id": "CH032-Q4",
+          "answer": "dialog",
+          "explanation": "She described communication as an exchange between two people."
+        },
+        {
+          "id": "CH032-Q5",
+          "answer": "put it on the wall anyway",
+          "explanation": "She valued the photograph even though it proved nothing."
+        }
+      ]
+    },
+    {
+      "article_id": "CH033",
+      "english_title": "Promises and Pressure: The Trial Run",
+      "chinese_title": "承诺与压力：第一次试行",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The trial run for the third arc had one subject: care. A home-care worker, a night nurse, and a housewife who had raised four children agreed to be interviewed by people who had never done any of those things. “You want to know what love costs,” the worker said. “Write it in a file, then come and do a shift.” No one had measured what care cost in the home.",
+        "A patient in the ward had a photograph of her husband in a black suit; an old copper coin, a bottle of medicine, and a white envelope sat on the cabinet beside her. “He was an agent for a textile company,” she said. “He had a lovely laugh and a lot of debts.” The strike at the plant that winter was the only thing in her file that anyone had bothered to record.",
+        "The interview drifted toward inheritance: what a mother passes to a daughter, what a father cannot pass at all. “A child is not stock,” she said. “And a marriage is not an alliance.” Her own intimacy with her husband had survived exile from the south, an empty counter, and a queue for everything.",
+        "Her companion in the next bed was a former teacher; his buddy came every Thursday with a lamb stew and a paper tag on the container. “A friend is not a limb,” she said. “You cannot cut one off and call the rest whole.” The terror of the empty chair was familiar to everyone in the ward, and the hostility of the young nurse toward tears was, in its own way, an affection. She held his arm like a professional.",
+        "A woman from the city cabinet arrived to represent the council, wearing a suit and carrying a lens in a leather case. “Tell me what you found,” she said. “That is what we know: one pulse, one queen, one snake in the grass.” Her pulse was steady; her tail, as she left, was a cold goodbye. “Since you asked,” Maya said, “we found that people care whether the person writing the file can imagine their life.” A line of chairs, a single emotion on every face: this was the evidence nobody had asked for. One ally in the cabinet was often enough; when the new file reached the other desk, a person who had never met them would read it, and that was more than what the old system could claim. Whether the council would act was another matter."
+      ],
+      "chinese_paragraphs": [
+        "第三段弧线的试行只有一个主题：照料。一位居家照护员、一位夜班护士，以及一位养育了四个孩子的家庭主妇，同意接受从未做过这些事的人的采访。“你想知道爱要付出什么代价，”那位照护员说，“把它写进档案，然后来做一班。”",
+        "病房里一位病人有一张她丈夫穿黑色套装的合影；她旁边的柜子上放着一枚旧铜币、一瓶药和一封白色信封。“他是一家纺织公司的代理商，”她说，“他笑起来很可爱，欠了很多债。”那年冬天厂里的罢工，是她档案里唯一有人费心记录的事。",
+        "访谈转向了传承：母亲传给女儿什么，父亲有什么完全传不下去。“孩子不是存货，”她说，“婚姻也不是结盟。”她与丈夫之间的亲密，挺过了从南方来的流亡、一只空柜台，以及为一切排队的日子。",
+        "她邻床的伙伴是一位退休教师；他的好友每周四带着一锅羔羊肉炖菜来，容器上贴着纸标签。“朋友不是肢体，”她说，“你不能砍掉一个，然后说剩下的还完整。”空椅子的恐怖对病房里的每个人都很熟悉，而那位年轻护士对眼泪的敌意，从它自己的方式来说，也是一种深情。",
+        "市政内阁的一位女士前来代表议会，穿着套装，皮套里装着一枚镜片。“告诉我你们发现了什么，”她说。“这是我们知道的：一次脉搏、一位女王、草丛里的一条蛇。”她的脉搏很稳；她离开时的背影是一句冷淡的告别。“既然你问了，”曼雅说，“我们发现的是：人们在意写这份档案的人是否能想象他们的生活。”内阁里有一个盟友往往就够了；当新档案送到另一张桌上时，一个从未见过他们的人会读它——这已经比旧体系所能声称的更多。议会是否会行动，则是另一回事。"
+      ],
+      "exercises": [
+        {
+          "id": "CH033-Q1",
+          "type": "context",
+          "prompt": "What did the home-care worker tell the group to do?",
+          "options": [
+            "write the cost of love in a file and then work a shift",
+            "interview four children",
+            "buy a copper coin",
+            "read the patient's file"
+          ]
+        },
+        {
+          "id": "CH033-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “遗产；遗传”?",
+          "options": [
+            "inheritance",
+            "intimacy",
+            "hostility",
+            "affection"
+          ]
+        },
+        {
+          "id": "CH033-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "represent the council",
+            "represent a lamb",
+            "represent a pulse",
+            "represent a lens"
+          ]
+        },
+        {
+          "id": "CH033-Q4",
+          "type": "cloze",
+          "prompt": "The patient said that a child is not ______.",
+          "options": [
+            "stock",
+            "an agent",
+            "a suit",
+            "a cabinet"
+          ]
+        },
+        {
+          "id": "CH033-Q5",
+          "type": "recall",
+          "prompt": "What did the group say people care about?",
+          "options": [
+            "whether the writer can imagine their life",
+            "the price of the file",
+            "the colour of the envelope",
+            "the length of the queue"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH033-Q1",
+          "answer": "write the cost of love in a file and then work a shift",
+          "explanation": "She demanded that the interviewers experience the work."
+        },
+        {
+          "id": "CH033-Q2",
+          "answer": "inheritance",
+          "explanation": "The interview turned to what parents can and cannot pass on."
+        },
+        {
+          "id": "CH033-Q3",
+          "answer": "represent the council",
+          "explanation": "Represent combines with a body, a group, or an interest."
+        },
+        {
+          "id": "CH033-Q4",
+          "answer": "stock",
+          "explanation": "She refused to treat a child as property or inventory."
+        },
+        {
+          "id": "CH033-Q5",
+          "answer": "whether the writer can imagine their life",
+          "explanation": "The trial's finding was about the writer, not only the reader."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH033",
+    "last_event": "The third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care, and a delegate from the night shift set the panel's new agenda.",
+    "unresolved_consequence": "The renegotiated roles have been tested once, the council has not acted, and the group has promised a smaller, slower project than its members can comfortably sustain.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University and his family home",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year student and part-time carer for his family",
+      "Maya Chen": "journalism student, student-paper columnist, and Thursday meeting host",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition"
+    ],
+    "first_required_event_next_chapter": "CH034 must show what the renegotiated roles cost when one of the three people cannot keep their part.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care"
+    ]
+  }
+}

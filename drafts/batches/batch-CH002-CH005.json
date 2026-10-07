@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH002-CH005",
+  "chapter_ids": [
+    "CH002",
+    "CH003",
+    "CH004",
+    "CH005"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH002",
+      "english_title": "New Ground: The First Promise",
+      "chinese_title": "新的起点：第一次承诺",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "Three weeks ago, Lin Wei still believed that a university ran on official notices. Recently he had begun to doubt it. Lately, every evening, a new complaint appeared in the group chat: a locked door, a missing sign, a laboratory that no map admitted. Plenty of people gave up. A freshman from a provincial town stood beside a broken printer on the upper floor of the library and asked a stranger where the lecture hall was. Autumn rain made every wrong turn worse. Lin promised Maya that their project would not depend on anyone else.",
+        "On Tuesday they wrote the promise on a whiteboard in a borrowed club room. Their idea was simple: keep one honest map of campus information and change it whenever reality changed. Professor Zhao, who held the faculty chair for first-year studies, read it twice. “Your map,” he said, “is a hypothesis. Good lord, leadership is not a scholarship or an allowance. A senator or a statesman may sponsor a report, but a map must answer to the student standing in the rain.” Maya thought the remark was subjective; Lin thought it was a test.",
+        "Their second meeting produced a rate they could defend. The survey had recorded age and sex, but not the need for a ramp. Of two hundred doors in the preliminary count, a measurable proportion opened only for people who knew the trick. A doctorate, a bat, a lion on a crest, or a pair of wet shoes made no difference to the lock. The rear entrance had its own flow of traffic, and nobody had ever recorded it. “Personally,” Maya said, “I do not believe in anticipation. I believe in a note, a number, and a witness.”",
+        "Lin began to doubt his own originality. A creator needs an original thought, not a semicolon in the right place. Until midnight he sat with the record, and nothing in it looked like anything a designer would admire. He raised his hand once to speak and put it down again. Anyway, the map was not art; it was a promise that had to survive a closed door.",
+        "On Friday the club agreed to help, because Maya had been supportive. Their support would reinforce the map and strengthen the case for a small budget. She used three photographs to illustrate the failure, and the group voted to conform to one rule: report only what a student sees. A rope across the unsafe path meant that nobody would automatically follow the crowd. Progress came steadily, and they began to believe they could achieve something real before the term review. Their work began to inspire first-year students; even Lin admitted a creative solution was worth it."
+      ],
+      "chinese_paragraphs": [
+        "三周前，林伟还相信大学是靠官方通知运转的。最近他开始怀疑这一点。近来，每天傍晚群聊里都会出现新的抱怨：一扇锁住的门、一块缺失的指示牌、一间任何地图都不承认的实验室。很多人干脆放弃了。一名来自外省的新生站在图书馆上层一台坏掉的打印机旁，向陌生人打听报告厅在哪里。秋雨让每一次走错都更加难熬。林伟向陈曼雅承诺：他们的项目不会依赖任何人的许可。",
+        "周二，他们在一间借来的社团活动室里把承诺写在白板上。他们的想法很简单：维护一份诚实的校园信息地图，只要现实改变就跟着改。为一年级课程担任院系负责人的赵教授看了两遍。“你们的地图，”他说，“只是一个假设。天哪，领导力既不是奖学金也不是零用钱。参议员或政治家可以为一份报告做赞助人，但地图必须对站在雨里的学生负责。”曼雅觉得这番话太主观；林伟觉得这只是初步的考验。",
+        "第二次会议得出了一个他们能站得住脚的比例。问卷记录了年龄和性别，却没有记录对坡道的需求。在初步统计的两百扇门里，有相当比例只对已经知道诀窍的人打开。博士学位、球棒、纹章上的狮子，或者一双湿鞋，对那把锁毫无影响。后门有自己的人流，却从没有人记录过。“就我个人而言，”曼雅说，“我不相信预感。我相信一条记录、一个数字和一名证人。”",
+        "林伟开始怀疑自己的原创能力。创造者需要的是原创的想法，而不是一个位置正确的分号。他对着记录一直坐到午夜，里面没有任何东西像设计师会欣赏的作品。他有一次举手想发言，又放了下来。无论如何，这张地图不是艺术品，而是一个必须在关着的门面前存活下来的承诺。",
+        "周五，社团同意帮忙，因为曼雅从一开始就非常支持。他们的支持会加强这张地图，也会强化申请小额预算的理由。她用三张照片说明故障，大家投票一致同意遵守一条规则：只报告学生真正看得见的东西。危险小路上一根绳子意味着不会有人再自动跟着人群走。此后进展稳定，他们开始相信自己能在学期评审之前做成一件真实的事。他们的工作开始鼓舞一年级学生，连林伟也承认，一个有创意的方案值得付出这些努力。"
+      ],
+      "exercises": [
+        {
+          "id": "CH002-Q1",
+          "type": "context",
+          "prompt": "What did the group promise each other?",
+          "options": [
+            "a map that does not depend on permission",
+            "a new scholarship",
+            "a larger club room",
+            "a printed textbook"
+          ]
+        },
+        {
+          "id": "CH002-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “预感；预期”?",
+          "options": [
+            "anticipation",
+            "proportion",
+            "semicolon",
+            "allowance"
+          ]
+        },
+        {
+          "id": "CH002-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "reinforce the case",
+            "reinforce the rain",
+            "reinforce a printer",
+            "reinforce midnight"
+          ]
+        },
+        {
+          "id": "CH002-Q4",
+          "type": "cloze",
+          "prompt": "Progress came ______ after the first photographs were shown.",
+          "options": [
+            "steadily",
+            "subjective",
+            "provincial",
+            "rear"
+          ]
+        },
+        {
+          "id": "CH002-Q5",
+          "type": "recall",
+          "prompt": "What did the group decide to report?",
+          "options": [
+            "only what a student can see",
+            "every rumour in the chat",
+            "the professor's opinion",
+            "the cost of the rope"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH002-Q1",
+          "answer": "a map that does not depend on permission",
+          "explanation": "Lin promised that their project would not depend on anyone else's permission."
+        },
+        {
+          "id": "CH002-Q2",
+          "answer": "anticipation",
+          "explanation": "Maya said she did not believe in anticipation, only in notes, numbers, and witnesses."
+        },
+        {
+          "id": "CH002-Q3",
+          "answer": "reinforce the case",
+          "explanation": "Reinforce commonly strengthens an argument, a structure, or a habit."
+        },
+        {
+          "id": "CH002-Q4",
+          "answer": "steadily",
+          "explanation": "Progress advanced without sudden changes after the evidence was shown."
+        },
+        {
+          "id": "CH002-Q5",
+          "answer": "only what a student can see",
+          "explanation": "The rule limited reports to first-hand observation."
+        }
+      ]
+    },
+    {
+      "article_id": "CH003",
+      "english_title": "New Ground: A Missing Voice",
+      "chinese_title": "新的起点：缺席的声音",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "A group of folk who worked the evening shift often passed the club room without stopping. Obviously they had something to say, and neither Lin nor Maya had asked them. Maya walked along the queue with her notebook, raised her hand to greet each worker, and kept a diary of every remark she heard. She was willing to evaluate the evidence without defending her own idea. “Regarding the map,” one worker said, “you are asking the wrong people. Your notes record where the doors are, but not who cannot reach them.” The two problems were equally serious.",
+        "On Thursday a drunken man in a worn coat leaned sideways against the railing and exclaimed that the east gate had no ramp at all. He was not resistant to help; he was simply accustomed to being asked nothing. When Maya said goodbye, he added, aloud, that the queue needed a suitable ramp and that the gossip in the line was more informative than any official notice. She wrote it down. Anything else, she decided, would be guesswork, and anyway a survey that ignores a queue is not a survey. The form asked for age and sex before it asked whether the door opened.",
+        "The path to the east gate ran down a steep slope with a geological fault under the paving. It was picturesque in photographs and useless in rain. On ceremonial days the gate opened for guests; on ordinary days it awaited a guard. “Liberty,” Maya wrote in her diary, “is a door that opens without a ceremony.” Professor Zhao read the sentence and said that an original observation is worth more than a rate with three decimal places.",
+        "Lin was inclined to be forgiving. The mistake was divisive only if they hid it, and a secretive report would look creditable while proving nothing. With modesty, they listed what they did not know. The submissive tone of the old notice, the stuffy room where it was written, and the joyful assumption that everything worked — all of it pointed onward to one eventuality: someone would be left outside, and their promise of change would never reach that person.",
+        "Maya wiped the whiteboard and turned it outwards so the corridor could read it. She was fond of the small map, but she was impatient with its silence, and she had thought about the missing voice until midnight. The work was not rewarding in the way a score is rewarding; it was rewarding because a stranger could now find the gate. Lin felt contented for the first time that month. “Otherwise,” Maya said, “we are only decorating a wall.”"
+      ],
+      "chinese_paragraphs": [
+        "一群上晚班的劳动者常常经过社团活动室却从不进来。显然他们有话要说，而林伟和曼雅都没有问过他们。曼雅拿着笔记本沿队伍走过去，举手向每位工人打招呼，把她听到的每句评论都记进日记。她愿意评估证据，而不是维护自己的想法。“关于这张地图，”一位工人说，“你们问错了人。你们的记录写着门在哪里，却没写谁走不到那里。”这两个问题同样严重。",
+        "周四，一个穿着旧外套的醉汉斜靠在栏杆上，大声说东门根本没有坡道。他并不抗拒帮助，只是习惯了没有人问他。曼雅道别时，他又出声补充：队伍需要一条合适的坡道，而且队伍里的闲话比任何官方通知都更有信息量。她把话记了下来。她认定，其他任何做法都只是猜测；无论如何，一份忽略排队的调查算不上调查。表格先问年龄和性别，之后才问门是否能打开。",
+        "通往东门的小路沿一段陡坡向下，铺路石下还有一条地质断层。它在照片里风景如画，在雨里却毫无用处。仪式日大门为来宾开放；平常日子它只等一名警卫。“自由，”曼雅在日记里写道，“是一扇不需要仪式就能打开的门。”赵教授读了这句话，说一段原创的观察比一个精确到小数点后三位的比例更有价值。",
+        "林伟倾向于宽容。这个错误只有在他们隐瞒时才会造成分裂，而一份偷偷摸摸的报告看起来可信，却什么也证明不了。他们带着谦逊，把不知道的部分也列了出来。旧通知里那种顺从的语气、写它时那间闷热的屋子、以及一切运转正常的快乐假设——所有这些都指向同一个可能：有人会被留在外面，而他们的承诺永远到不了那个人身上。",
+        "曼雅擦掉白板，把它转向外侧，好让走廊里的人都能看到。她喜欢这张小地图，却对它的沉默感到不耐烦；她一直想到午夜，想着那个缺席的声音。这份工作不像得分那样令人有回报感；它的回报在于陌生人现在能找到大门了。林伟那个月第一次感到满足。“否则，”曼雅说，“我们只是在装饰一面墙。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH003-Q1",
+          "type": "context",
+          "prompt": "Why did the worker say the group was asking the wrong people?",
+          "options": [
+            "the notes ignored who could not reach the doors",
+            "the club room was too small",
+            "the map was too colourful",
+            "the professor was absent"
+          ]
+        },
+        {
+          "id": "CH003-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “谦逊”?",
+          "options": [
+            "modesty",
+            "liberty",
+            "slope",
+            "gossip"
+          ]
+        },
+        {
+          "id": "CH003-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "a suitable ramp",
+            "a suitable gossip",
+            "a suitable diary",
+            "a suitable semicolon"
+          ]
+        },
+        {
+          "id": "CH003-Q4",
+          "type": "cloze",
+          "prompt": "The east gate was ______ in photographs and useless in rain.",
+          "options": [
+            "picturesque",
+            "creditable",
+            "stuffy",
+            "submissive"
+          ]
+        },
+        {
+          "id": "CH003-Q5",
+          "type": "recall",
+          "prompt": "What did Maya do with the whiteboard?",
+          "options": [
+            "turned it outwards for the corridor",
+            "erased the whole map",
+            "sold it to the club",
+            "covered it with a coat"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH003-Q1",
+          "answer": "the notes ignored who could not reach the doors",
+          "explanation": "The worker said the notes recorded where doors were, not who could not reach them."
+        },
+        {
+          "id": "CH003-Q2",
+          "answer": "modesty",
+          "explanation": "They listed what they did not know, which is an act of modesty."
+        },
+        {
+          "id": "CH003-Q3",
+          "answer": "a suitable ramp",
+          "explanation": "Suitable describes something that fits a need, such as a ramp at a gate."
+        },
+        {
+          "id": "CH003-Q4",
+          "answer": "picturesque",
+          "explanation": "The path looked attractive in photographs but failed in rain."
+        },
+        {
+          "id": "CH003-Q5",
+          "answer": "turned it outwards for the corridor",
+          "explanation": "She wanted everyone passing the corridor to read the corrected map."
+        }
+      ]
+    },
+    {
+      "article_id": "CH004",
+      "english_title": "New Ground: Evidence on the Table",
+      "chinese_title": "新的起点：摆上桌面的证据",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "Among the three hundred replies, only a hundred described a door that failed. Yes, those answers also included complaints about buses, and the amount of noise in the chat was remarkable. “A survey is not evidence,” Professor Zhao said, “until you can characterize what it leaves out.” Three people came to the table in person: a girl from a suburban district, a waitress who worked nights, and a lass who cleaned the laboratories before dawn.",
+        "The lady who ran the hostel and a gentleman from the alumni office sat with them. Mister Chen, the porter, brought a plate of ice cream, and the room began to brighten. Nobody altered the record. Whichever version they chose, the merit of the argument depended on one costly detail: the ramp had never been built. Supposedly it existed in a plan from 2019, and the glory of that plan lasted exactly one afternoon.",
+        "Maya kept her grasp on the practical question. A seedling in a cracked pot stood on the windowsill, and its odorous soil filled the small room. She had no talent for algebra and no interest in an empress or an ornament; she wanted a graceful sentence and a working door. At dusk she watched the light change and momentarily lost the thread of her own argument.",
+        "A waitress told them that an angry customer had once tried to force the gate. He had told the locked door to fuck off, and the room went quiet for a moment. Amidst the laughter that followed, the point stood: a locked door makes people angry. Lest they forget it, Maya pinned the shortcoming of the old design to the wall. An ornamental hostess trolley, a manly poster about endurance, and a photograph of an old empire were no substitute for a ramp.",
+        "The team agreed to familiarize themselves with the site before the next meeting. Maya, who often walked along the corridor after dusk, was willing to test every door herself. Wherever a door failed, they would mark it with a creative, suitable tag, equally visible by day and by night. Regarding the old plan, she said: “Good lord, we have to illustrate the failures, not merely list them.” A hilly district and a suburban one had produced completely different answers, and the saving in effort was the real discovery. Recently they had learned this lesson the hard way; otherwise they would still be arguing about posters. “Obviously,” Lin said, “we cannot depend on a plan drawn ago by people who never came here.” Plenty of folk had said the same thing for years; neither of them had listened, and the evidence was on the table, though they had yet to achieve anything."
+      ],
+      "chinese_paragraphs": [
+        "在三百份回复中，只有一百份描述了打不开的门。是的，那些回答里也包含对公交的抱怨，群聊里的噪声量大得惊人。“问卷不是证据，”赵教授说，“直到你能说清它漏掉了什么。”有三个人亲自来到桌边：一名来自郊区行政区的女孩、一名上夜班的女服务员，还有一名天亮前打扫实验室的姑娘。",
+        "经营宿舍的女士和一位校友会的先生和他们坐在一起。门房陈先生端来一盘冰淇淋，房间开始亮堂起来。没有人改动记录。无论他们选哪个版本，论点的价值都取决于一个代价高昂的细节：那条坡道从未建成。据说它存在于2019年的一份图纸里，而那份图纸的荣光只维持了一个下午。",
+        "曼雅牢牢抓住实际问题。窗台上有一盆裂了的花盆里的幼苗，带着气味的泥土弥漫在小房间里。她对代数毫无天赋，对皇后或装饰品也毫无兴趣；她想要的是一句优美的句子和一扇能用的门。黄昏时她看着光线变化，一时间失去了自己论证的线索。",
+        "一名女服务员告诉他们，曾有一位愤怒的顾客试图强行推开大门。他对着锁住的门骂了一句脏话，房间里安静了片刻。在随之而来的笑声中，那个要点依然成立：锁住的门会让人愤怒。为了不让他们忘掉，曼雅把旧设计的缺点钉在墙上。一辆装饰用的女主人推车、一张关于忍耐的阳刚海报、一张旧帝国的照片，都替代不了一条坡道。",
+        "团队约定在下一次会议前先熟悉现场。玛雅常在黄昏后沿着走廊走，她愿意亲自去试每一扇门。哪里的门出了问题，他们就在那里贴上一个有创意又合适的标签，让人白天和夜里都同样看得清。说到那张旧图纸，她说：“老天，我们得把失败之处讲清楚，而不只是把它们列出来。”一个丘陵学区和一个是郊区学区给出了完全不同的答案，而真正的发现是省下来的那些力气。最近他们才以艰难的方式学到这一课；否则他们到现在还在为海报争吵。“显而易见，”林伟说，“我们不能依赖一张由从未到过这里的人很久以前画出的图纸。”很多普通人多年来都说过同样的话。他们俩谁也没听，而证据现在终于摆上了桌面。他们还没有做成任何事，但问题本身已经变了。"
+      ],
+      "exercises": [
+        {
+          "id": "CH004-Q1",
+          "type": "context",
+          "prompt": "What did Professor Zhao say a survey must explain?",
+          "options": [
+            "what it leaves out",
+            "who paid for it",
+            "how long the chat was",
+            "where the ice cream came from"
+          ]
+        },
+        {
+          "id": "CH004-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “优点；价值”?",
+          "options": [
+            "merit",
+            "dusk",
+            "slope",
+            "grasp"
+          ]
+        },
+        {
+          "id": "CH004-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "familiarize themselves with the site",
+            "familiarize themselves with the ice cream",
+            "familiarize themselves with the laughter",
+            "familiarize themselves with the waitress"
+          ]
+        },
+        {
+          "id": "CH004-Q4",
+          "type": "cloze",
+          "prompt": "The ramp had never been built, so the plan was a ______ detail.",
+          "options": [
+            "costly",
+            "graceful",
+            "odorous",
+            "manly"
+          ]
+        },
+        {
+          "id": "CH004-Q5",
+          "type": "recall",
+          "prompt": "What did Maya pin to the wall?",
+          "options": [
+            "the shortcoming of the old design",
+            "a plate of ice cream",
+            "the hostel key",
+            "a seedling"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH004-Q1",
+          "answer": "what it leaves out",
+          "explanation": "He judged a survey by its silences, not only by its numbers."
+        },
+        {
+          "id": "CH004-Q2",
+          "answer": "merit",
+          "explanation": "The merit of the argument rested on whether the ramp existed."
+        },
+        {
+          "id": "CH004-Q3",
+          "answer": "familiarize themselves with the site",
+          "explanation": "Familiarize with is used for getting to know a place or a system."
+        },
+        {
+          "id": "CH004-Q4",
+          "answer": "costly",
+          "explanation": "The missing ramp was the expensive detail the plan ignored."
+        },
+        {
+          "id": "CH004-Q5",
+          "answer": "the shortcoming of the old design",
+          "explanation": "She pinned the weakness of the old plan where everyone could see it."
+        }
+      ]
+    },
+    {
+      "article_id": "CH005",
+      "english_title": "New Ground: The Trial Run",
+      "chinese_title": "新的起点：第一次试行",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "The trial run began on a crowded Monday. Three of them stood at the west gate with a hundred printed cards and asked every visitor a single question. The idea was to keep the test small, adapt it hourly, and describe the result without decorating it. “Yes, it is slow,” Maya admitted, reading the card again. “Those answers change nothing until we can show them to someone else, and your card is the only proof we have.” Their consent form was one sentence long, written for a stranger in a hurry, and the response rate was also better than anyone expected.",
+        "By midnight the group had collected me a folder of handwritten answers. A girl drew a clock going clockwise and wrote that the new route saved her four minutes. Maya laughed happily, hugged her, and said that such a small, meaningful result was the first real asset the project owned. A quick photo shoot followed, and no harm came of it. The novelty would fade, she warned her friends, but the loneliness of a student standing at a locked gate would not.",
+        "A collaborative mood was prevalent that week. Two of them went to a winery on the edge of the city to interview drivers, and the manager spoke openly about a knotty problem: the road was well off in summer and impassable in winter. Among the drivers, a dynasty of local growers had kept the same habit for a century, and no recyclable sign had ever been posted for the convenience of visitors. The valley was magnificent, and its magnificence made the failure easy to forgive; that was exactly the danger.",
+        "Someone had tried to mislead the team with an imitative map copied from an imperialist survey. It was graphically beautiful and barely distinguishable from the real thing. Maya did not misunderstand the intention, but she refused to cherish a document that would pollute the record. A heartfelt apology arrived the next morning, and it was regrettable that it came after the delay rather than before it. She raised her hand at the meeting and asked for the source of every line.",
+        "They agreed to reunite the two halves of the survey before the term review and to assess the feasibility of a permanent sign. Though the work accelerated quickly, they chose a leisurely evening to check every card anew and to congratulate the volunteers who had fled the rain with them. “Anything else,” Lin said, standing where the old ramp should have been, “can wait until tomorrow.”"
+      ],
+      "chinese_paragraphs": [
+        "试行在一个拥挤的周一开始。他们三个人站在西门，拿着一百张打印卡片，向每位路人问同一个问题。想法是把测试做小、每小时调整一次，并如实描述结果而不加修饰。“是的，这很慢，”曼雅承认，又把卡片读了一遍，“这些回答什么都改变不了，除非我们能拿给别人看。”他们的同意书只有一句话，是为赶时间的陌生人写的，而回复率比任何人预想的都高。",
+        "到午夜时，小组已经为我收集了一整袋手写回答。一个女孩画了一个顺时针走的钟，并写道新路线为她省下四分钟。曼雅开心地笑了，抱了抱她，说这样一个小小的、有意义的结果是这个项目拥有的第一份真实资产。随后他们快速拍了几张照片，并没有造成任何损害。她提醒朋友们，新鲜感会消退，但一个学生站在锁住的大门前那种孤独不会。",
+        "那一周里合作的氛围很普遍。他们中有两个人去了城市边缘的一家葡萄酒厂采访司机，经理坦率地谈起一个棘手的问题：这条路夏天富足好走，冬天却无法通行。在司机当中，一个本地种植者家族把同一个习惯保持了一个世纪，也从来没有为方便来访者设立过可回收的标识。山谷的壮丽让人很容易原谅这次失败，而这恰恰是危险所在。",
+        "有人试图用一张模仿自帝国主义时期测绘的仿制地图误导团队。它图面漂亮，几乎与真图无法区分。曼雅没有误解对方的意图，但她拒绝珍视一份会污染记录的文书。第二天早上来了一封由衷的道歉，遗憾的是它来得太晚，赶在延误之后而不是之前。她在会上举手，要求说明每一条线的来源。",
+        "他们商定在学期评审前把调查的两部分重新合并，并评估设置长期指示牌的可行性。尽管工作迅速加快，他们还是选了一个悠闲的傍晚，重新核对每张卡片，并向那些和他们一起躲过雨的志愿者表示祝贺。“其他任何事，”林伟站在本该有坡道的地方说，“都可以等到明天。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH005-Q1",
+          "type": "context",
+          "prompt": "Why did the group keep the first test small?",
+          "options": [
+            "to adapt it hourly and describe it honestly",
+            "to avoid talking to visitors",
+            "to save the printed cards",
+            "to finish before midnight"
+          ]
+        },
+        {
+          "id": "CH005-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “可行性”?",
+          "options": [
+            "feasibility",
+            "magnificence",
+            "novelty",
+            "consent"
+          ]
+        },
+        {
+          "id": "CH005-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "a heartfelt apology",
+            "a clockwise apology",
+            "a recyclable apology",
+            "a knotty apology"
+          ]
+        },
+        {
+          "id": "CH005-Q4",
+          "type": "cloze",
+          "prompt": "The copied map was barely ______ from the real one.",
+          "options": [
+            "distinguishable",
+            "well off",
+            "leisurely",
+            "prevalent"
+          ]
+        },
+        {
+          "id": "CH005-Q5",
+          "type": "recall",
+          "prompt": "What did Maya refuse to do?",
+          "options": [
+            "cherish a document that would pollute the record",
+            "interview the drivers",
+            "hug the girl",
+            "assess the feasibility"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH005-Q1",
+          "answer": "to adapt it hourly and describe it honestly",
+          "explanation": "The small test let them change the method quickly and report it plainly."
+        },
+        {
+          "id": "CH005-Q2",
+          "answer": "feasibility",
+          "explanation": "They had to judge whether a permanent sign could actually be built."
+        },
+        {
+          "id": "CH005-Q3",
+          "answer": "a heartfelt apology",
+          "explanation": "Heartfelt describes sincere feeling, which fits an apology."
+        },
+        {
+          "id": "CH005-Q4",
+          "answer": "distinguishable",
+          "explanation": "The copied map looked almost identical to the genuine one."
+        },
+        {
+          "id": "CH005-Q5",
+          "answer": "cherish a document that would pollute the record",
+          "explanation": "She rejected the false map rather than keeping it as evidence."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH005",
+    "last_event": "The group ran a limited trial of the corrected campus map at the west gate and collected written answers from visitors.",
+    "unresolved_consequence": "The trial only covered one gate, and the team still has no permanent sign or budget.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year environmental-engineering student",
+      "Maya Chen": "journalism student and co-lead",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey"
+    ],
+    "first_required_event_next_chapter": "CH006 must show the cost of maintaining the map under time, money, or trust pressure.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps"
+    ]
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH067-CH070",
+  "chapter_ids": [
+    "CH067",
+    "CH068",
+    "CH069",
+    "CH070"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH067",
+      "english_title": "Across Borders: Outside Pressure",
+      "chinese_title": "跨越边界：外部压力",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The outside pressure came from the ambassador of a country that had become famous for its cheap tickets. A banner on the wall read FREEDOM OF THE COAST, and a nationwide sweep had closed the little station by the fence. “A comprehensive review,” she said, “will tell us whether the road can cope.” About half the family had been born inland, and the rest had migrated to the mainland, and not one of them had been asked.",
+        "Meanwhile the tonnage through the port had begun to fluctuate, and the odds of a second war had widened the breadth of every insurance table. A missile on a banner, a cool breeze from the sea, and a towel on the fence of the resort: the place had the makeup of a dull postcard. “Things vanish here,” the head of the local company said. “Slowly, and then all at once.”",
+        "The transportation plan was a leap in the dark: a collaboration between an area office and a great house on the coast. A little car, a large door, and the name of a general on the letterhead gave it authority, and the startle it produced in the village was real. “Nothing about us without us,” the occupant of the second house said, and the ambassador wrote it down.",
+        "The tremble in her voice was not fear. “The war blurred the map once,” she said. “Do not let a blast of patriotism do it again.” A slipper by the door, an insertion in the local paper, and a broad sweep of the inland road were the only evidence they had, and it was enough to postpone the vote.",
+        "What became clear was that they had to broaden the road without widening the gap. “Something has to change,” the ambassador said, “and it will not be the family.” The odds of that had faded from likely to possible, and the company had already begun to look for a second site. A crisp breeze, a cool evening, and a small crowd at the door: the pressure had arrived, and it had a name. The slow road home, the homeland behind the fence, and the same small crowd at the door: it was enough."
+      ],
+      "chinese_paragraphs": [
+        "外部压力来自一个以廉价车票出名的大使。墙上一条横幅写着“海岸的自由”，而一场全国性的清扫关掉了栅栏边那个小站。“一份全面的复审，”她说，“会告诉我们这条道路能否应付。”这家人约有一半出生在内陆，其余迁到了大陆，而他们当中没有一个人被问过。",
+        "与此同时，通过港口的吨位开始波动，而第二场战争的概率拓宽了每一张保险表的宽度。横幅上的一枚导弹、海上吹来的一阵凉风，以及度假地栅栏上的一条毛巾：这个地方有着一张乏味明信片的妆容。“这里的东西会消失，”本地公司的负责人说，“慢慢地，然后一下子全没了。”",
+        "交通计划是黑暗中的一跃：一个地区办公室与海岸上一座大宅之间的合作。一辆小汽车、一扇大门，以及信头上一位将军的名字给了它权威，而它在村里引起的惊愕是真实的。“没有我们的参与，就不要替我们决定，”第二栋房子的住户说，大使把它记了下来。",
+        "她声音里的颤抖不是恐惧。“战争曾经把地图弄模糊过一次，”她说，“不要让一阵爱国主义的爆炸再来一次。”门口的一只拖鞋、本地报纸上的一条插入文字，以及内陆道路上一次广泛的清扫，就是他们仅有的证据，而这已足以推迟表决。",
+        "变得清楚的是：他们必须拓宽道路，却不能加宽那道裂缝。“总得有东西改变，”大使说，“而它不会是家庭。”这种可能性已经从“很可能”褪成了“也许”，而公司已经开始寻找第二个地点。一阵清爽的微风、一个凉爽的傍晚，以及门口的一小群人：压力已经到来，而且它有名字。回家那条缓慢的路、栅栏后面的故乡，以及门口的同一小群人：这些已经足够了。"
+      ],
+      "exercises": [
+        {
+          "id": "CH067-Q1",
+          "type": "context",
+          "prompt": "What had the nationwide sweep closed?",
+          "options": [
+            "the little station by the fence",
+            "the port",
+            "the resort",
+            "the mainland road"
+          ]
+        },
+        {
+          "id": "CH067-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “吨位”?",
+          "options": [
+            "tonnage",
+            "breadth",
+            "makeup",
+            "odds"
+          ]
+        },
+        {
+          "id": "CH067-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "cope with the road",
+            "cope with a towel",
+            "cope with a slipper",
+            "cope with a banner"
+          ]
+        },
+        {
+          "id": "CH067-Q4",
+          "type": "cloze",
+          "prompt": "The head of the local company said things ______ here, slowly and then all at once.",
+          "options": [
+            "vanish",
+            "fluctuate",
+            "migrate",
+            "widen"
+          ]
+        },
+        {
+          "id": "CH067-Q5",
+          "type": "recall",
+          "prompt": "What did the ambassador write down?",
+          "options": [
+            "nothing about us without us",
+            "the tonnage figures",
+            "the insurance table",
+            "the name of the resort"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH067-Q1",
+          "answer": "the little station by the fence",
+          "explanation": "A national review closed the small station."
+        },
+        {
+          "id": "CH067-Q2",
+          "answer": "tonnage",
+          "explanation": "The port's tonnage had started to move up and down."
+        },
+        {
+          "id": "CH067-Q3",
+          "answer": "cope with the road",
+          "explanation": "Cope combines with a road, a load, or a demand."
+        },
+        {
+          "id": "CH067-Q4",
+          "answer": "vanish",
+          "explanation": "He described slow erosion followed by sudden loss."
+        },
+        {
+          "id": "CH067-Q5",
+          "answer": "nothing about us without us",
+          "explanation": "The resident's sentence became part of the record."
+        }
+      ]
+    },
+    {
+      "article_id": "CH068",
+      "english_title": "Across Borders: The Decision",
+      "chinese_title": "跨越边界：决定",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The decision was made in a national convention hall, with a speaker who had come to follow the case to its end. “Who will handle our path?” a peasant from the intensive farming district asked. “A sentence in a document is not a road.” Perhaps the minister would come, and perhaps she would not; you could understand the room's mood from the empty seat in front.",
+        "The abuse of privilege, the rejection of the due process, and the hostile rally outside were all part of the same small drama. “We may elect a council,” the speaker said, “or we may resist the whole convention.” They had to translate their preference into a policy, and the polish of the language did not make the choice easier.",
+        "A sociable ambassador, a nationalist with a broad accent, and a container of harvest samples sat in the front row. “A privilege is derived from a duty,” she said, “and our duty is to the coast.” A kilogram of rice, a cushion on the chair, and a strap on a suitcase: the props of a formal argument about who belongs.",
+        "The Olympics broadcast had been interrupted by the news; the war had killed the broadcast entirely. “Small children swim here in May,” a woman said. “Perhaps they will swim in September.” The infrastructure of the little resort had begun to drift, and no minister would take the toll on the road.",
+        "The decision, when it came, was to originate a service rather than inherit one, and to worship nothing but the timetable itself. “They will immigrate here for the speed,” the speaker said, “not for our sentiments.” It was late, the trains had stopped, and the work of the next year was already written on the board. The regard of the country had become a job in itself. “The fact is,” the speaker said, “that a national hall can hold a thousand people and still miss the small stop where you get off.” A broad path, a due process, and a preference for the harvest over the rally: the decision would follow the facts, not the crowd."
+      ],
+      "chinese_paragraphs": [
+        "决定是在一座全国性的大会堂里做出的，一位发言人来此把案子追到底。“谁来管我们这条路？”一位来自集约农业区的农民问，“文件里的一句话不是一条路。”部长也许会来，也许不会；从前面那把空椅子就能读懂屋里的情绪。",
+        "对特权的滥用、对正当程序的拒绝，以及外面那场充满敌意的集会，都属于同一出小戏。“我们可以选出一个委员会，”发言人说，“也可以抵制整个大会。”他们必须把自己的偏好翻译成政策，而语言的修饰并没有让选择更容易。",
+        "一位爱交际的大使、一位口音很宽的民族主义者，以及一箱收成样本坐在前排。“特权源自义务，”她说，“而我们的义务在海岸。”一公斤大米、椅子上的一只靠垫、行李箱上的一条带子：一场关于谁属于这里的正式论辩的道具。",
+        "奥运转播被新闻打断；战争彻底杀死了转播。“小孩子们五月在这里游泳，”一位女士说，“也许九月他们还会来。”这个小度假地的基础设施已经开始漂移，而没有哪位部长愿意承担道路的通行费。",
+        "决定最终是：开创一项服务，而不是继承一项；除了时刻表本身，不崇拜任何东西。“他们会为了速度移居到这里，”发言人说，“而不是为我们的情绪。”天已经晚了，火车停了，而下一年的工作已经写在黑板上。这个国家的关注本身已经成了一份工作。“事实是，”发言人说，“一座全国性的大厅能容纳一千人，却仍然会漏掉你下车的那个小站。”一条宽阔的路、一道正当的程序，以及对收成而非集会的偏爱：决定将跟随事实，而不是人群。"
+      ],
+      "exercises": [
+        {
+          "id": "CH068-Q1",
+          "type": "context",
+          "prompt": "What did the peasant say a sentence in a document is not?",
+          "options": [
+            "a road",
+            "a convention",
+            "a privilege",
+            "a harvest"
+          ]
+        },
+        {
+          "id": "CH068-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “特权”?",
+          "options": [
+            "privilege",
+            "preference",
+            "rejection",
+            "rally"
+          ]
+        },
+        {
+          "id": "CH068-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "resist a convention",
+            "resist a cushion",
+            "resist a kilogram",
+            "resist a harvest"
+          ]
+        },
+        {
+          "id": "CH068-Q4",
+          "type": "cloze",
+          "prompt": "The speaker said a privilege is ______ from a duty.",
+          "options": [
+            "derived",
+            "elected",
+            "translated",
+            "broadcast"
+          ]
+        },
+        {
+          "id": "CH068-Q5",
+          "type": "recall",
+          "prompt": "What did the group decide to do?",
+          "options": [
+            "originate a service rather than inherit one",
+            "worship the old timetable",
+            "elect a new minister",
+            "abandon the coast"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH068-Q1",
+          "answer": "a road",
+          "explanation": "He refused to accept a written sentence as infrastructure."
+        },
+        {
+          "id": "CH068-Q2",
+          "answer": "privilege",
+          "explanation": "The debate turned on privilege derived from duty."
+        },
+        {
+          "id": "CH068-Q3",
+          "answer": "resist a convention",
+          "explanation": "Resist combines with a convention, a pressure, or a change."
+        },
+        {
+          "id": "CH068-Q4",
+          "answer": "derived",
+          "explanation": "She argued that privilege comes from obligation."
+        },
+        {
+          "id": "CH068-Q5",
+          "answer": "originate a service rather than inherit one",
+          "explanation": "They chose to build a new service instead of taking over an old one."
+        }
+      ]
+    },
+    {
+      "article_id": "CH069",
+      "english_title": "Across Borders: Consequences",
+      "chinese_title": "跨越边界：后果",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The consequences arrived on every way into the city: the railway, the motorway, the freeway, and the expressway. After a century of iron and steam, the train had become a tourist attraction and the bus a last resort. “Our second fleet is a fleet of excuses,” the pilot said, and the crew laughed without much ease.",
+        "A commuter on the morning shuttle, a rider with a trailer, and a swimmer from the north all waited in the same lane. A shipment of dirt, a haul of timber, and a drill for the tunnel: the transport of goods had become more certain than the transport of people. “We cannot pave a passage with a constitution,” the foreigner said.",
+        "The migrant workers watched the flight board with the ease of people who had done it before. “The railway is a window,” the station master said, “and a window is not a door.” A steamer at the post, a ferry in the bay, and a fleet of fishing boats gave the harbour its roar, but the shipping schedule was still written by hand.",
+        "The tourist season brought an excursion, a tour, and a crowd of passengers with cameras. The runner, the pilot, and the crew of the small aviation club had all signed the offer; the large part of the work, as always, fell on the commuters themselves. A foreigner with a return ticket and a century of patience asked the only question that mattered: who continues the line?",
+        "After the vote, the company continued to run the shuttle and the trailer service, and the importation of spare parts went on. Behind the station, the crew repaired a wagon with iron and hope. Our second attempt would follow the same way, and the watch on the platform was the same as the one in the office. The highway, the expressway, the trunk road, and the railroad all came to the same small nation of travellers. “It is possible that a national service will never pay,” the pilot said, “and it is certain that a war of schedules will.” The fleet, the freeway, and the freight yard: the whole apparatus of movement was built for goods, and the people came second."
+      ],
+      "chinese_paragraphs": [
+        "后果随着每一条进城的路到来：铁路、汽车道、免费高速和快速路。经过一个世纪的铁与蒸汽之后，火车成了一种旅游景点，而公交车成了最后的手段。“我们的第二支车队是一支借口组成的车队，”飞行员说，机组人员笑得并不轻松。",
+        "早晨穿梭班车上的一位通勤者、一位带着拖车的骑手，以及一位来自北方的游泳者，都在同一条车道上等待。一车泥土、一趟木材运输和一台隧道钻机：货物的运输已经比人的运输更可靠。“我们不能用一部宪法去铺一条通道，”那位外国人说。",
+        "外来务工者们看着航班信息板，带着做过很多次的人才有的从容。“铁路是一扇窗，”站长说，“而窗不是门。”邮局码头的一艘汽船、海湾里的一艘渡轮，以及一支渔船队给了港口它的轰鸣，可航运时刻表仍然是手写的。",
+        "旅游季带来了一次远足、一场观光和一群带着相机的乘客。跑者、飞行员和小型航空俱乐部的机组都签了那份报价；而大部分工作，一如既往，落在通勤者自己身上。一位拿着回程票、有着一个世纪耐心的外国人，问出了唯一要紧的问题：谁来把这条线继续下去？",
+        "表决之后，公司继续运营穿梭车和拖车服务，备件的进口也在继续。车站后面，机组用铁和希望修理着一节车厢。我们的第二次尝试会沿着同一条路走，而站台上的那块表，和办公室里的那块是同一块。高速公路、快速路、干道和铁路，都通向同一个由旅人组成的小国。“全国性的服务也许永远不会盈利，”飞行员说，“而一场时刻表之间的战争一定会。”车队、免费高速和货运场：整套运输机器都是为货物造的，人排在第二。"
+      ],
+      "exercises": [
+        {
+          "id": "CH069-Q1",
+          "type": "context",
+          "prompt": "What had the train become after a century of iron and steam?",
+          "options": [
+            "a tourist attraction",
+            "a freight line",
+            "a freeway",
+            "a ferry"
+          ]
+        },
+        {
+          "id": "CH069-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “通勤者”?",
+          "options": [
+            "commuter",
+            "rider",
+            "runner",
+            "migrant"
+          ]
+        },
+        {
+          "id": "CH069-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "pave a passage",
+            "pave a constitution",
+            "pave an excursion",
+            "pave a shipment"
+          ]
+        },
+        {
+          "id": "CH069-Q4",
+          "type": "cloze",
+          "prompt": "The station master said the railway only lets you look: you can see the city but never enter it, because glass is not a door. What did he compare the railway to?",
+          "options": [
+            "a window",
+            "a lane",
+            "a drill",
+            "a trailer"
+          ]
+        },
+        {
+          "id": "CH069-Q5",
+          "type": "recall",
+          "prompt": "What question did the foreigner ask?",
+          "options": [
+            "who continues the line",
+            "when the steamer leaves",
+            "how much the dirt costs",
+            "where the ferry docks"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH069-Q1",
+          "answer": "a tourist attraction",
+          "explanation": "The working railway had turned into a curiosity."
+        },
+        {
+          "id": "CH069-Q2",
+          "answer": "commuter",
+          "explanation": "Commuters carried most of the daily burden."
+        },
+        {
+          "id": "CH069-Q3",
+          "answer": "pave a passage",
+          "explanation": "Pave combines with a passage, a road, or a way."
+        },
+        {
+          "id": "CH069-Q4",
+          "answer": "window",
+          "explanation": "He distinguished seeing a route from entering it."
+        },
+        {
+          "id": "CH069-Q5",
+          "answer": "who continues the line",
+          "explanation": "The foreigner asked about continuity, not comfort."
+        }
+      ]
+    },
+    {
+      "article_id": "CH070",
+      "english_title": "Across Borders: The Bridge Forward",
+      "chinese_title": "跨越边界：通向下一程",
+      "theme": "旅行、交通与文化交流",
+      "english_paragraphs": [
+        "The fifth arc closed at a bridge, not at a station. A formal presentation had been drafted for the church hall in the north, and a second one for the south; a cable, a sign, and a badge on the table were all the gear they had. “The medium is the trip,” Aisha said, “and the trip is the document.”",
+        "The mission had become an associate: a small organization for the protection of passengers, with a guest list, a reservation book, and a seat for every complaint. “You cannot explain a bridge to someone who has never bent under a load,” the old cowboy said. His only hobby was the railway, and his heel had worn a trace in the aisle of the carriage.",
+        "What happened next was a migration of habits rather than of people: the cruise passengers learned the ferry, and the commuters learned the shuttle. “We leave nothing behind but a log,” Maya said. “And a log is a way of saying: we were here, in the night, at this window.”",
+        "The repair of the cabin took a week. A swallow nested under the bay window, a tender note arrived from the associate in the country, and a draft of the new timetable was pinned to the aisle wall. “We receive more than we create,” Lin wrote. “That is why the position matters.”",
+        "Around the bridge, the town had begun to endure its own success: a trail for tourists, a rest stop, and a forward step that nobody had planned. “About a year from now,” the associate said, “somebody will say we did it like that on purpose. We must explain what really happened.” It was, in the end, the same promise as before, moved one bridge further along. The church by the bay had a god in its window and a finish to its stone that no repair could copy; the aisle, the seat, and the tender farewell were all part of the same formal goodbye. The mission was finished, and the associate would keep the log. A hobby became a badge, and a badge became a promise. A gender balance in the crew, a transit pass for every guest, and a plan to initiate a second trail: these were the last three items on the draft. A border is not a line on the ground; it is the distance between what you meant and what arrived."
+      ],
+      "chinese_paragraphs": [
+        "第五段弧线结束在一座桥上，而不是一个车站。一份正式的陈述已经为北方的教堂大厅起草，另一份为南方；桌上的一根电缆、一块标牌和一枚徽章，就是他们全部的装备。“媒介就是旅程，”艾莎说，“而旅程就是文件。”",
+        "使命已经变成了一位伙伴：一个保护乘客的小组织，有一份来宾名单、一本预订簿，以及为每一条抱怨准备的一个席位。 “你无法向一个从未在重压下弯过腰的人解释一座桥，”那位老牛仔说。他唯一的爱好就是铁路，而他的脚跟已在车厢的过道上磨出了一道痕迹。",
+        "接下来发生的，是习惯的迁移而不是人的迁移：邮轮乘客学会了渡轮，通勤者学会了穿梭车。“我们除了日志什么也不留下，”曼雅说，“而日志是一种说法：我们来过，在夜里，在这扇窗前。”",
+        "船舱的修理花了一周。一只燕子在凸窗下筑了巢，一封温柔的信从乡下的伙伴那里寄来，新时刻表的草稿钉在过道墙上。“我们接受的比创造的多，”林伟写道，“这就是位置为什么重要。”",
+        "桥的周围，小镇已经开始承受自己的成功：一条给游客的小径、一处休息站，以及一个没人计划过的向前一步。“大约一年之后，”那位伙伴说，“会有人说我们当初就是这样设计的。我们必须解释真正发生了什么。”说到底，这和从前是同一个承诺，只是又向前挪过了一座桥。海湾边的那座教堂，窗里有一位神，它的石头有一种任何修补都复制不来的收尾；过道、座位和那句温柔的告别，都属于同一个正式的告别。使命完成了，而那位伙伴会保存日志。一个爱好变成了徽章，而一枚徽章变成了承诺。船员中的性别平衡、给每位客人的一张通行证，以及启动第二条小径的计划：草稿上的最后三项。国界不是地上的一条线；它是你想说的和你送到的之间的距离。"
+      ],
+      "exercises": [
+        {
+          "id": "CH070-Q1",
+          "type": "context",
+          "prompt": "Where did the fifth arc close?",
+          "options": [
+            "at a bridge",
+            "at a station",
+            "in a church hall",
+            "on a cruise ship"
+          ]
+        },
+        {
+          "id": "CH070-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “坚持；忍耐”?",
+          "options": [
+            "endure",
+            "bend",
+            "swallow",
+            "initiate"
+          ]
+        },
+        {
+          "id": "CH070-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "draft a presentation",
+            "draft a swallow",
+            "draft a badge",
+            "draft a bay"
+          ]
+        },
+        {
+          "id": "CH070-Q4",
+          "type": "cloze",
+          "prompt": "Aisha said the medium is the trip and the trip is the ______.",
+          "options": [
+            "document",
+            "badge",
+            "cable",
+            "aisle"
+          ]
+        },
+        {
+          "id": "CH070-Q5",
+          "type": "recall",
+          "prompt": "What must the associate explain, about a year from now?",
+          "options": [
+            "what really happened",
+            "how to bend a cable",
+            "where the church is",
+            "who owns the bridge"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH070-Q1",
+          "answer": "at a bridge",
+          "explanation": "The arc ends on a bridge rather than at a station."
+        },
+        {
+          "id": "CH070-Q2",
+          "answer": "endure",
+          "explanation": "The town had begun to endure its own success."
+        },
+        {
+          "id": "CH070-Q3",
+          "answer": "draft a presentation",
+          "explanation": "Draft combines with a presentation, a letter, or a plan."
+        },
+        {
+          "id": "CH070-Q4",
+          "answer": "document",
+          "explanation": "She treated the journey itself as the record."
+        },
+        {
+          "id": "CH070-Q5",
+          "answer": "what really happened",
+          "explanation": "He wanted the accidental history recorded honestly."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH070",
+    "last_event": "The fifth arc closed at a bridge, with a small passengers' association formed, the shuttle and ferry integrated, and the timetable drafted for both the north and the south.",
+    "unresolved_consequence": "The association has one year of funding, the route is still fragile in winter, and the group has promised to explain how the success actually happened.",
+    "character_locations": {
+      "Lin Wei": "the exchange campus and the bridge town",
+      "Maya Chen": "the exchange campus and the bridge town",
+      "Aisha Rahman": "the exchange campus, returning home at the end of the arc"
+    },
+    "character_roles": {
+      "Lin Wei": "second-year student and project co-lead",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Aisha Rahman": "exchange student, data specialist, and now a remote collaborator"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station"
+    ],
+    "first_required_event_next_chapter": "CH071 must move the story into health and habit, where a concealed stress begins to cost one of the group something real.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable"
+    ]
+  }
+}

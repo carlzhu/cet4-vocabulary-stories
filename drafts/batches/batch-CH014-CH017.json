@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH014-CH017",
+  "chapter_ids": [
+    "CH014",
+    "CH015",
+    "CH016",
+    "CH017"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH014",
+      "english_title": "New Ground: The Bridge Forward",
+      "chinese_title": "新的起点：通向下一程",
+      "theme": "大学生活与个人成长",
+      "english_paragraphs": [
+        "The first arc closed, not with a victory, but with a bridge. By the end of the term, the map had grown into three small tools: a printed page, a phone page, and a person who answered questions at the gate. Such work was largely invisible, and the university and the union mentioned it once and twice, respectively. The president of the university wrote one line about it; the young leader of the union wrote four.",
+        "The existing system did not change. A student stood at the same locked door; a boy from the college office still had to phone his supervisor. What had changed was the likelihood of being seen, and that change was only partly visible. A single angry message could disrupt the whole week, so they answered every one the same day. “We manage a small thing,” Maya said. “That is all.” Her tone was expressive rather than triumphant, and she had begun to develop a thicker skin about it.",
+        "The peak of the year came on a gorgeous evening in the living room of the volunteer house. The metro had brought them a box of aging posters and a bag of trash; the lighting was terribly bad. Aerial photographs of the campus lay beside a scenic sketch of the river, and the argument that followed erupted like a volcano. The lead volunteer read a personal note from the head of her major, and the mood turned riotous, then thunderous, then quiet. Their produce for the term fitted in one folder.",
+        "The disruption was partly internal and partially financial. The resultant delay saddened Lin and made Maya resent the meeting. “It is pointless to build an evolutionary plan and then starve it,” she said. “A plan has to nourish the people in it.” The attainment they wanted, namely a permanent sign, now depended on a budget they did not control. “This is the most populous district in the city,” she added, “and we cannot even repair one frame.”",
+        "A shameless poster about “super students” hung beside the library, and a voluminous folder of outdated rules sat beneath it. The blossoms in the square had opened and the daylight lasted longer. “Every volunteer had to contribute one page,” Professor Zhao said. “Our work is disruptive in a very small way, and that is exceedingly fruitful.” A phrasal verb in her notebook, she admitted, was only partly relevant, but the sentence she copied beside it was this: “A bridge is not a victory, and without it there is no crossing.” A first map does not teach you a city; it teaches you how many doors you have not tried."
+      ],
+      "chinese_paragraphs": [
+        "第一段弧线不是以胜利收尾，而是以一座桥收尾。到学期末，那张地图长成了三件小工具：一张打印页、一个手机页面，以及一个在门口回答问题的人。这样的工作大部分是看不见的；学校和工会分别提到过它一次和两次。校长写了一行，工会里那位年轻领袖写了四行。",
+        "现有体系并没有改变。学生仍旧站在同一扇锁住的门前；学院办公室的男孩仍旧得给主管打电话。改变的是被看见的可能性，而这种改变只有一部分是可见的。一封愤怒的消息就能打乱整整一周，所以他们当天回复每一条。“我们管着一件小事，”曼雅说，“就是这样。”她的语气是富有表情的，而不是得意的，而且她已经学会对此更厚脸皮一些。",
+        "一年的高点出现在志愿者之家客厅里一个绚丽的傍晚。地铁给他们带来了一箱老化的海报和一袋垃圾；灯光糟糕得可怕。校园的航拍照片摊在河边一幅风景速写旁边，随后的争论像火山一样爆发。负责的志愿者读了导师写给她专业的一封私人短笺，气氛先喧闹，再如雷，最后安静下来。他们这个学期的产出装进了一个文件夹。",
+        "这次中断一部分是内部的，一部分是财务上的。由此产生的延误让林伟难过，也让曼雅怨恨这次会议。“先建一个进化的计划、再把它饿死，是毫无意义的，”她说，“计划必须滋养其中的人。”他们想要达到的目标，也就是一块长期指示牌，如今取决于一份他们无法控制的预算。“这是全市人口最多的区，”她补充说，“而我们连一个框都修不了。”",
+        "图书馆旁挂着一张无耻的“超级学生”海报，下面放着一大卷过时的规章。广场上的花已经开了，白昼也更长了。“每位志愿者都必须贡献一页，”赵教授说，“我们的工作以一种很小的方式具有破坏性，而这极其富有成果。”她笔记本里的一个短语动词，她承认，只有一部分相关；但她在旁边抄下的这句话是：“桥不是胜利，而没有它就没有跨越。”第一张地图教不会你一座城市；它只教你还剩多少扇门没有试过。"
+      ],
+      "exercises": [
+        {
+          "id": "CH014-Q1",
+          "type": "context",
+          "prompt": "What were the three small tools at the end of the term?",
+          "options": [
+            "a printed page, a phone page, and a person at the gate",
+            "a camera, a room, and a poster",
+            "three printed maps",
+            "a budget, a sign, and a sketch"
+          ]
+        },
+        {
+          "id": "CH014-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “分别地；各自地”?",
+          "options": [
+            "respectively",
+            "partially",
+            "largely",
+            "exceedingly"
+          ]
+        },
+        {
+          "id": "CH014-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "nourish the people in a plan",
+            "nourish a poster",
+            "nourish the metro",
+            "nourish a folder"
+          ]
+        },
+        {
+          "id": "CH014-Q4",
+          "type": "cloze",
+          "prompt": "The attainment they wanted, ______ a permanent sign, depended on someone else's budget.",
+          "options": [
+            "namely",
+            "terribly",
+            "scenically",
+            "riotously"
+          ]
+        },
+        {
+          "id": "CH014-Q5",
+          "type": "recall",
+          "prompt": "What sentence did Professor Zhao copy into her notebook?",
+          "options": [
+            "that a bridge is not a victory and is still a bridge",
+            "that the union mentioned the map twice",
+            "that the budget was too small",
+            "that the poster was shameful"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH014-Q1",
+          "answer": "a printed page, a phone page, and a person at the gate",
+          "explanation": "The map became three modest tools by the end of the first arc."
+        },
+        {
+          "id": "CH014-Q2",
+          "answer": "respectively",
+          "explanation": "The university and the union mentioned it once and twice, in that order."
+        },
+        {
+          "id": "CH014-Q3",
+          "answer": "nourish the people in a plan",
+          "explanation": "Nourish is used for people, soil, or a living plan."
+        },
+        {
+          "id": "CH014-Q4",
+          "answer": "namely",
+          "explanation": "Namely introduces the specific item being named."
+        },
+        {
+          "id": "CH014-Q5",
+          "answer": "that a bridge is not a victory and is still a bridge",
+          "explanation": "She copied the sentence about a bridge into her notebook."
+        }
+      ]
+    },
+    {
+      "article_id": "CH015",
+      "english_title": "Learning How to Learn: A Signal",
+      "chinese_title": "学会学习：一个信号",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The map was finished, and the only question it had left behind was whether anyone had learned anything from it. The second arc opened with a signal, not with a plan. A researcher from the education faculty asked the group a single question at the end of a lecture: how would they prove that the map taught anyone anything? The early answer was a sketch; the later answer was a blueprint. “At every turn,” she said, “you will be asked for evidence, and such a demand is healthy.”",
+        "The battle was against habit. A teacher, a columnist, and a novelist told the same story in different words: students memorize for a quiz and forget by the weekend. “Knowledge is not a diploma,” the instructor said. “A diploma is a receipt.” Several people in the room nodded; few wrote it down. A kid of nineteen in the second row asked whether a fresh example might help, and got one.",
+        "The team interviewed a vocational trainer, a translator, and a biographer, and each described a different enemy: the commercial summary, the daily rush, and the timely excuse. “Every method has a mythology,” the historian said. “Ours is that reading is the same as learning.” A fishing village on the coast had produced a specialist in reading who could not name a single classic, and an educator who could name a thousand.",
+        "Maya, a journalist who was now a columnist for the student paper, published a narrative about a dropout who returned. A reviewer called it classic; an essayist called it sentimental. The widow who ran the reading room said it was the first honest page she had read that month, and a sports commentator mailed her an old typewriter with a note: “Leisure reading saved my graduation.” They did not hesitate to print both reactions.",
+        "An amateur planner in the curriculum office asked them to prevent the same mistake twice. Her teaching had one rule: a mystery is not a gap. “You may hotdog about your method,” she said, “but the method is what survives you.” But the eye of the faculty was on them now, and every page had to earn its place. Most of the volunteers agreed; many of them, in fact, had said the same thing a year ago, and no one had listened. By the end of the evening, quite a few of them could sit still with an unanswered question, which was at least a million times better than guessing. “Yeah,” Maya said, “that is the point.” Some of the older notes looked thin by comparison."
+      ],
+      "chinese_paragraphs": [
+        "那张地图做完了，而它留下的唯一问题是：究竟有没有人从中学到过任何东西。第二段弧线以一个信号开始，而不是以一个计划开始。教育学院的一位研究人员在一场讲座结束时问了小组一个问题：他们怎么证明这张地图教会了任何人任何东西？最早的答案是草图，后来的答案是蓝图。“在每一个转折点，”她说，“都会有人向你要证据，而这种要求是健康的。”",
+        "这场战斗针对的是习惯。一位教师、一位专栏作家和一位小说家用不同的话讲了同一个故事：学生为课堂测验背下内容，到周末就忘掉。“知识不是文凭，”讲师说，“文凭只是一张收据。”屋里好几个人点头；写下这句话的人很少。第二排一个十九岁的孩子问，一个新鲜的例子是否有帮助，他得到了一个。",
+        "团队采访了一位职业培训师、一位翻译和一位传记作者，每个人描述了一个不同的敌人：商业化的摘要、每日的匆忙，以及及时的借口。“每种方法都有自己的神话，”历史学家说，“我们的神话就是：阅读等于学习。”海边一个渔村培养出一位阅读专家，他叫不出一部经典；也培养出一位教育家，她能叫出一千部。",
+        "曼雅如今是学生报的专栏作家，发表了一篇关于一名回归校园的退学者的叙事。一位评论者说它经典；一位随笔作家说它感伤。管理阅览室的寡妇说，这是她那个月读到的最诚实的一页；一位体育评论员给她寄来一台旧打字机，附了一句：“休闲阅读救了我的毕业。”",
+        "课程办公室一位业余的计划者请他们防止同一个错误发生两次。她的教学只有一条规则：谜团不是空缺。“你可以对自己的方法卖弄，”她说，“但方法才是能活得比你久的东西。”但如今教职员工的目光落在他们身上，每一页都必须挣得自己的位置。大多数志愿者都同意；事实上，他们当中有很多人一年前就说过同样的话，却没有人听。到那天晚上结束，有相当一些人能够坐着面对一个未回答的问题，这至少比猜测好上百万倍。“是的，”曼雅说，“这就是重点。”相比之下，一些更早的笔记显得单薄。"
+      ],
+      "exercises": [
+        {
+          "id": "CH015-Q1",
+          "type": "context",
+          "prompt": "What did the researcher ask the group to prove?",
+          "options": [
+            "that the map taught someone something",
+            "that the union had paid them",
+            "that the river was scenic",
+            "that the typewriter still worked"
+          ]
+        },
+        {
+          "id": "CH015-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “职业的”?",
+          "options": [
+            "vocational",
+            "sentimental",
+            "commercial",
+            "elementary"
+          ]
+        },
+        {
+          "id": "CH015-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "prevent the same mistake twice",
+            "prevent a typewriter",
+            "prevent the widow",
+            "prevent a village"
+          ]
+        },
+        {
+          "id": "CH015-Q4",
+          "type": "cloze",
+          "prompt": "The instructor said that knowledge is not a ______.",
+          "options": [
+            "diploma",
+            "blueprint",
+            "mystery",
+            "quiz"
+          ]
+        },
+        {
+          "id": "CH015-Q5",
+          "type": "recall",
+          "prompt": "What did the sports commentator send?",
+          "options": [
+            "an old typewriter",
+            "a fishing net",
+            "a blueprint",
+            "a diploma"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH015-Q1",
+          "answer": "that the map taught someone something",
+          "explanation": "She demanded evidence of learning, not of effort."
+        },
+        {
+          "id": "CH015-Q2",
+          "answer": "vocational",
+          "explanation": "A vocational trainer prepares people for a trade."
+        },
+        {
+          "id": "CH015-Q3",
+          "answer": "prevent the same mistake twice",
+          "explanation": "Prevent combines naturally with a mistake, an error, or harm."
+        },
+        {
+          "id": "CH015-Q4",
+          "answer": "diploma",
+          "explanation": "The instructor compared a diploma to a receipt."
+        },
+        {
+          "id": "CH015-Q5",
+          "answer": "an old typewriter",
+          "explanation": "He mailed a typewriter with a note about leisure reading."
+        }
+      ]
+    },
+    {
+      "article_id": "CH016",
+      "english_title": "Learning How to Learn: The First Promise",
+      "chinese_title": "学会学习：第一次承诺",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "Their first promise in the new arc was modest and specific: every claim on the map would have a method behind it. In the library, with a textbook open at his hand, Lin began to write the first page of a study guide. “A vocabulary list is not knowledge,” Maya said. “A method is.” Their idea was to keep one question in front of every reader: which claim does this page support?",
+        "The class met twice a week in a classroom above the library. Their instructor, an experienced researcher in sociology, gave them a sample, a specimen of bad analysis, and asked for a comment on each. “Your writing has improved,” she said. “Your literacy has not. Where is the example from your own research?” Her expertise was in reading numbers, and she read theirs quickly.",
+        "An expert on the frontier of educational tech visited for an instance of what not to do: a blog that promised fluent reading in a week. The advanced group laughed; the elementary group memorized it. “Reading a quiz is not reading,” the instructor said. “An analytic mind asks what the quiz rewards.” Her comment stayed with them longer than the visit did.",
+        "They wrote a basic alphabet book for the language centre, a classical example for the disciplinary board, and a ripe blog post about deliberate practice. Skilful contributors were rare, and a number of them were already tired. “In turn,” Lin noted, “each member of the board gets one early draft and one week to answer it.” A young contributor from the change office wrote three entries in an afternoon and then vanished for a month.",
+        "The study turned toward analysis. An academic reviewer asked whether a proficient examinee could do anything a skilled one could not, and a sociology student asked the same question from the other side. “Every textbook hides a choice,” Lin wrote in her notebook. “We should show the choice.” The lead question of the whole guide was hers: without it, the guide would be another list, and a list is exactly what the missing students do not need."
+      ],
+      "chinese_paragraphs": [
+        "他们在新弧线里的第一个承诺既谦逊又具体：地图上的每一条主张背后都要有方法。在图书馆里，林伟把一本教科书摊在手边，开始写学习指南的第一页。“词汇表不是知识，”曼雅说，“方法才是。”他们的想法是在每位读者面前保留一个问题：这一页支持的是哪一条主张？",
+        "课程每周在图书馆楼上的教室上两次。他们的讲师是一位经验丰富的社会学研究者，她给他们一份样本——一份糟糕分析的标本——并要求对每一份写评论。“你的写作进步了，”她说，“你的读写能力没有。你自己研究里的例子在哪里？”她的专长是读数字，而她很快就读完了他们的数字。",
+        "一位研究教育科技前沿的专家来访，带来一个反例：一个承诺一周内流利阅读的博客。进阶组笑了；初级组把它背了下来。“读一道测验题不是阅读，”讲师说，“善于分析的头脑会问：这道测验奖励的是什么。”她的评论比这次来访留得更久。",
+        "他们为语言中心写了一本基础字母书，为纪律委员会写了一个经典案例，还写了一篇关于刻意练习的成熟博文。灵巧的投稿者很少，而且其中若干人已经疲惫。“依次来说，”林伟写道，“委员会每位成员会拿到一份早期草稿，并用一周作答。”变革办公室一位年轻的投稿者一个下午写了三条，然后消失了一个月。",
+        "研究转向了分析。一位学术评论者问：一名熟练的应试者能做到什么熟练工做不到的事？一名社会学学生从另一面问了同一个问题。“每本教科书都藏着一个选择，”林伟在她的笔记本里写道，“我们应该把这个选择展示出来。”整本指南的首要问题来自她：没有它，指南只会是又一份清单，而清单恰恰是那些缺席的学生不需要的东西。"
+      ],
+      "exercises": [
+        {
+          "id": "CH016-Q1",
+          "type": "context",
+          "prompt": "What was the group's first promise in the new arc?",
+          "options": [
+            "every claim would have a method behind it",
+            "every volunteer would write a blog",
+            "the library would stay open later",
+            "the map would be printed twice"
+          ]
+        },
+        {
+          "id": "CH016-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “标本；样品”?",
+          "options": [
+            "specimen",
+            "comment",
+            "frontier",
+            "literacy"
+          ]
+        },
+        {
+          "id": "CH016-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "an analytic mind",
+            "an analytic alphabet",
+            "an analytic widow",
+            "an analytic typewriter"
+          ]
+        },
+        {
+          "id": "CH016-Q4",
+          "type": "cloze",
+          "prompt": "The instructor said their writing had improved but their ______ had not.",
+          "options": [
+            "literacy",
+            "expertise",
+            "sociology",
+            "sample"
+          ]
+        },
+        {
+          "id": "CH016-Q5",
+          "type": "recall",
+          "prompt": "What does every textbook hide, according to Lin?",
+          "options": [
+            "a choice",
+            "a quiz",
+            "a specimen",
+            "an alphabet"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH016-Q1",
+          "answer": "every claim would have a method behind it",
+          "explanation": "The promise tied each claim to a method."
+        },
+        {
+          "id": "CH016-Q2",
+          "answer": "specimen",
+          "explanation": "A specimen is a sample kept for study, here of bad analysis."
+        },
+        {
+          "id": "CH016-Q3",
+          "answer": "an analytic mind",
+          "explanation": "Analytic describes a mind that breaks a question into parts."
+        },
+        {
+          "id": "CH016-Q4",
+          "answer": "literacy",
+          "explanation": "She separated improved writing from improved reading ability."
+        },
+        {
+          "id": "CH016-Q5",
+          "answer": "a choice",
+          "explanation": "Lin wrote that every textbook hides a choice the reader should see."
+        }
+      ]
+    },
+    {
+      "article_id": "CH017",
+      "english_title": "Learning How to Learn: A Missing Voice",
+      "chinese_title": "学会学习：缺席的声音",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The missing voice arrived in a lecture hall, from a member of the cleaning staff. She had worked in the same building for eleven years, and she had never been asked what she thought of the academy. “You teach the students how to read a page,” she said. “Nobody teaches them how to read a person.” The revelation spread through the room faster than the information, and along the back wall the class stopped taking notes.",
+        "Her own schooling had ended early. She had learned medicine from her mother, literature from the radio, and the art of remembering from a small notebook. “I possess no diploma,” she said, “and I am not ignorant. I am a learner.” She was literate in three languages, and her enlightenment had come from work rather than from a lecture. Not one word of it had been written down until that hour. The writer who took notes for the student paper called her a scholar by the end of the hour.",
+        "The educational review changed shape: for one week, the staff would teach and the students would listen. The first session was on the foundation of a good question; the second was on the discipline of silence. “Skill is not the same as education,” the cleaner said, and both of them wrote it down. Experience, she added, is not transferred by a lecture but by work.",
+        "Circulation of the reading-room books doubled. A zoological exhibit in the hall was visited by a class that had never entered it, and a bright exhibition of student writing hung beside it. The examination results, usually the only measure the school published, looked suddenly thin. Such a result had never appeared in any report the academy had produced.",
+        "He wrote a review of the week, and she read it aloud at the fellowship meeting. “If we generalize from one cleaner,” the learned professor said, “we learn nothing.” “If we do not,” Maya answered, “we learn less.” His own study of the reading room had used a different method, and he often said so; toward the end of the week he began to research the language of the staff's own example. The learner had taught the academy something that no exam could hold. The first reader of the transcript was a second-year student, and the week had done more to educate the faculty than three years of the map. The faculty would now have to seek a second opinion, and the staff were happy to provide one."
+      ],
+      "chinese_paragraphs": [
+        "那个缺席的声音出现在一间讲座厅里，来自一名保洁人员。她在这栋楼里工作了十一年，却从没有人问过她怎么看这所学院。“你们教学生怎么读一页纸，”她说，“却没人教他们怎么读一个人。”这个启示传遍整个房间的速度比信息本身还快，靠后墙那一排的同学停下了笔记。",
+        "她自己的学校教育很早就结束了。她从母亲那里学医，从收音机里学文学，从一个小本子里学记忆的艺术。“我没有文凭，”她说，“但我并不无知。我是学习者。”她通晓三种语言，而她的启蒙来自劳作，而不是来自一堂课。在这一个小时之前，这一切没有一个字被写下来。为校报做记录的那位作家在一小时结束时称她为学者。",
+        "这次教育评审改变了形态：有一周，由职工来讲，由学生来听。第一场讲的是好问题的基础；第二场讲的是沉默的纪律。“技能不等于教育，”保洁员说，他们两人都把它记了下来。她补充说，经验不是靠一场讲座传递的，而是靠工作传递的。",
+        "阅览室图书的流通量翻了一倍。厅里一场动物学展览迎来一个从未进过这里的班级，旁边还挂着一场明亮的学生写作展。考试成绩——学校通常公布的唯一指标——突然显得单薄。这样的结果在这所学院产出过的任何报告里都从未出现过。",
+        "他写了一篇关于这一周的评论，她在联谊会上把它朗读出来。“如果我们从一位保洁员身上做概括，”那位博学的教授说，“我们什么都学不到。”“如果我们不这样做，”曼雅回答，“我们学到的更少。”他自己对阅览室的研究用的是另一种方法，他也常常这么说；到那一周接近尾声时，他开始研究职工自己那个例子的语言。这位学习者教给了学院一些任何考试都装不下的东西。这份记录的第一位读者是一名二年级学生，而这一周对教职员工的教化，比那张地图三年做的还多。学院现在必须去寻求第二种意见，而职工们很乐意提供一种。"
+      ],
+      "exercises": [
+        {
+          "id": "CH017-Q1",
+          "type": "context",
+          "prompt": "What did the cleaner say nobody teaches students?",
+          "options": [
+            "how to read a person",
+            "how to clean a hall",
+            "how to write a review",
+            "how to pass an exam"
+          ]
+        },
+        {
+          "id": "CH017-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “揭露；启示”?",
+          "options": [
+            "revelation",
+            "circulation",
+            "fellowship",
+            "examination"
+          ]
+        },
+        {
+          "id": "CH017-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "the foundation of a good question",
+            "the foundation of a typewriter",
+            "the foundation of a widow",
+            "the foundation of a metro"
+          ]
+        },
+        {
+          "id": "CH017-Q4",
+          "type": "cloze",
+          "prompt": "Skill is not the same as ______, the cleaner said.",
+          "options": [
+            "education",
+            "circulation",
+            "revelation",
+            "exhibition"
+          ]
+        },
+        {
+          "id": "CH017-Q5",
+          "type": "recall",
+          "prompt": "What happened to the circulation of the reading-room books?",
+          "options": [
+            "it doubled",
+            "it stopped",
+            "it fell by half",
+            "it was never measured"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH017-Q1",
+          "answer": "how to read a person",
+          "explanation": "She contrasted reading a page with reading a person."
+        },
+        {
+          "id": "CH017-Q2",
+          "answer": "revelation",
+          "explanation": "Her remark was a revelation that spread through the hall."
+        },
+        {
+          "id": "CH017-Q3",
+          "answer": "the foundation of a good question",
+          "explanation": "Foundation combines naturally with a question, a course, or a building."
+        },
+        {
+          "id": "CH017-Q4",
+          "answer": "education",
+          "explanation": "She separated a skill from an education."
+        },
+        {
+          "id": "CH017-Q5",
+          "answer": "it doubled",
+          "explanation": "Borrowing from the reading room doubled during the staff week."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH017",
+    "last_event": "A cleaner's testimony in a lecture hall reshaped the educational review, and for one week the staff taught while the students listened.",
+    "unresolved_consequence": "The staff week produced evidence but no decision, and examination results still dominate the school's measure of learning.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year environmental-engineering student",
+      "Maya Chen": "journalism student and student-paper columnist",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload"
+    ],
+    "first_required_event_next_chapter": "CH018 must turn the staff week into a documented method that the faculty can examine.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened"
+    ]
+  }
+}

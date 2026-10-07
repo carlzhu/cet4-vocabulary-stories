@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH107-CH110",
+  "chapter_ids": [
+    "CH107",
+    "CH108",
+    "CH109",
+    "CH110"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH107",
+      "english_title": "The River Answers Back: A Better Question",
+      "chinese_title": "河流的回应：更好的问题",
+      "theme": "环境、自然与可持续发展",
+      "english_paragraphs": [
+        "The better question came from a vegetable stall on the west floor of the market, over a cup of tea at the fair: who decided that the river is a drain and not a well? “The difficulty is not the water,” the trader said. “It is the investment in the cement.” A couple of us had come in from the land, and the air was full of grain dust.",
+        "The map on the wall showed a canal that had been transformed into a landing for boats, and a ditch that had become a booth for carrots and pink radishes. “A simple process is not the same as a natural one,” she said. “You can freeze a seed, but you cannot freeze abundance.”",
+        "The false assumption had a long leg and a low floor: the idea that a river is passive. “Hit the water with a stick and it waves back,” the boatman said. “The cloud above us, the tooth of the current, the leak in the bank: it is all one brain.”",
+        "The whistle of the midday train, the bang of a lift door, and the crawl of mud through the canal: the district needed a different question, not a bigger pump. “Ask what the water wants,” she said, “and the temper of the whole meeting changes.”",
+        "A feather, a dive into the channel, and a jar of ink in the booth: the small things had been measured and the big things had not. “Inflation is not a river problem,” Maya wrote, “and a button on a map is not a fact.”",
+        "The better question, in the end, was about the polar opposite of the old one: instead of asking how to remove water, ask where the clay and the mud want it to go. The lavatory at the back of the station, the hip of the embankment, and the water in the well all had to be re-measured. “A different map, not a better pump,” the director said. The star above the station, the bed of the channel, and the nature of the nose that could smell rain: all of it belonged to the same question."
+      ],
+      "chinese_paragraphs": [
+        "更好的问题来自集市西侧地面上一个卖蔬菜的摊位，在展会上一杯茶的功夫里：是谁决定这条河是一条排水沟，而不是一口井？“困难不在水，”摊主说，“而在水泥上的投资。”我们中有两个人是从陆地上来的，空气里满是谷物的粉尘。",
+        "墙上的地图显示出一条已被改造成船只码头的运河，以及一条变成了胡萝卜和粉色萝卜摊棚的沟渠。“一个简单的过程不等于一个自然的过程，”她说，“你可以冷冻一颗种子，但你不能冷冻丰盛。”",
+        "那个错误的假设有一条长腿和一个低矮的地板：河流是被动的。“用棍子敲水，它会回你一道波浪，”船夫说，“我们头顶的云、水流的牙齿、岸边的渗漏：这都是同一个大脑。”",
+        "正午火车的汽笛、电梯门的一声巨响，以及泥浆在水渠里的爬行：这个地区需要的是一个不同的问题，而不是一台更大的水泵。“问问水想要什么，”她说，“整场会议的脾气就变了。”",
+        "一根羽毛、一次跃入河道，以及摊棚里一瓶墨水：小事被测量了，而大事没有。“通货膨胀不是河流问题，”曼雅写道，“而地图上的一个按钮不是事实。”",
+        "说到底，那个更好的问题与旧问题正好是两极相反：与其问怎样把水排掉，不如问黏土和泥想要它去哪里。站后的厕所、堤岸的臀部，以及井里的水，都必须重新测量。“换一张地图，不是换一台更好的泵，”主管说。站上方的星星、河道的床，以及那个能闻出雨来的鼻子的本性：所有这一切都属于同一个问题。"
+      ],
+      "exercises": [
+        {
+          "id": "CH107-Q1",
+          "type": "context",
+          "prompt": "What did the trader say the difficulty was?",
+          "options": [
+            "the investment in the cement",
+            "the price of tea",
+            "the grain dust",
+            "the weather"
+          ]
+        },
+        {
+          "id": "CH107-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “丰盛；充足”?",
+          "options": [
+            "abundance",
+            "inflation",
+            "temper",
+            "landing"
+          ]
+        },
+        {
+          "id": "CH107-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "freeze a seed",
+            "freeze a booth",
+            "freeze a canal",
+            "freeze a whistle"
+          ]
+        },
+        {
+          "id": "CH107-Q4",
+          "type": "cloze",
+          "prompt": "The boatman said that if you hit the water with a stick it will ______ back.",
+          "options": [
+            "wave",
+            "crawl",
+            "freeze",
+            "dive"
+          ]
+        },
+        {
+          "id": "CH107-Q5",
+          "type": "recall",
+          "prompt": "What did the director say was needed?",
+          "options": [
+            "a different map, not a better pump",
+            "a bigger pump",
+            "a new canal",
+            "a taller embankment"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH107-Q1",
+          "answer": "the investment in the cement",
+          "explanation": "The obstacle was financial, not hydrological."
+        },
+        {
+          "id": "CH107-Q2",
+          "answer": "abundance",
+          "explanation": "She contrasted a frozen seed with real abundance."
+        },
+        {
+          "id": "CH107-Q3",
+          "answer": "freeze a seed",
+          "explanation": "Freeze combines with a seed, a pipe, or a price."
+        },
+        {
+          "id": "CH107-Q4",
+          "answer": "wave",
+          "explanation": "He described the river as responsive, not passive."
+        },
+        {
+          "id": "CH107-Q5",
+          "answer": "a different map, not a better pump",
+          "explanation": "He wanted a better question rather than more force."
+        }
+      ]
+    },
+    {
+      "article_id": "CH108",
+      "english_title": "The River Answers Back: The Second Attempt",
+      "chinese_title": "河流的回应：第二次尝试",
+      "theme": "环境、自然与可持续发展",
+      "english_paragraphs": [
+        "The second attempt used the same set of instruments in a different environment, and the total looked modest on paper. “We are not building a nuclear plant,” the director said. “We are trying to keep one island of dry ground dry.” A pair of boots, a narrow pack, and a straight line on a map: that was the whole plan.",
+        "The environmental setting was the difficulty. “The resistance of this soil to water is a mathematical joke,” the geologist said. “The rain will soak it, and the wet season will destroy the shore road.” The destruction of the last shed by the flood was still visible from the station.",
+        "The team measured the steam and the emission of the old pump, and found the discharge of warm water into the narrow channel. “A revolutionary approach is not needed,” the boatman said. “A passive one is. The tolerance of this bank is almost used up.”",
+        "The despair of the second week was real: a nest of birds drowned in the ditch, a fountain of mud in the yard, and the calm surface of the canal hiding a soak of water underneath. “The surroundings do not care about our schedule,” Maya wrote.",
+        "The greenhouse on the ridge had survived, and its salty liter of water had condensed by morning. “Excite the volunteers with the small successes,” the director said. “The big ones are rare, and the small ones contain the whole method.”",
+        "The second attempt added discrimination to the model: eight sites, seven gauges, two banks, and one rule. A bit of oil on the hinge of the gate, a drive to the west shore, and the plant on the riverbed were all part of the same activity. Its might was its modesty, and it was, probably, the last attempt of the season. The essential point was the integration of the two surveys, and the power of the argument was against a soluble answer: five trees, one ass, and a bitter joke about the weather. The tree by the gate and the sediment in the water had to be measured in the same week, and the whole attempt was probably a lesson in humility rather than a plan."
+      ],
+      "chinese_paragraphs": [
+        "第二次尝试使用同一套仪器，但环境不同，而总量在纸面上看起来不大。“我们不是在建一座核电站，”主管说，“我们只是想让一座干地的孤岛保持干燥。”一双靴子、一个狭窄的背包，以及地图上一条直线：这就是全部方案。",
+        "环境的背景设置就是困难所在。“这片土壤对水的抵抗力是个数学笑话，”地质学家说，“雨水会把它浸透，而湿季会毁掉岸边的路。”上一场洪水毁掉的那间棚屋，从站里还能看见。",
+        "团队测量了旧水泵的蒸汽和排放，并发现了温水排入那条狭窄河道的情况。“不需要革命性的做法，”船夫说，“需要一个被动的做法。这片河岸的容忍度几乎用尽了。”",
+        "第二周的绝望是真实的：沟渠里一窝被淹死的鸟、院子里一股泥的喷泉，以及运河平静水面上掩盖着的一层浸水。“周围的环境不在乎我们的时间表，”曼雅写道。",
+        "山脊上的温室活了下来，它那一公升咸水到早上已经凝结了。“用小小的成功去激励志愿者，”主管说，“大成功很罕见，而小成功里包含着整套方法。”",
+        "第二次尝试给模型加上了辨别力：八个地点、七台水位计、两岸，以及一条规则。门铰链上的一点油、一趟去西岸的车程，以及河床上的植物，都属于同一项活动。它的力量在于它的谦虚，而这大概是这一季的最后一次尝试。要紧的一点是两份调查的整合，而论证的力量是针对一个可溶解的答案：五棵树、一头驴，以及一个关于天气的苦涩玩笑。门口那棵树和水里的沉积物必须在同一周测量，而整次尝试大概是一堂关于谦逊的课，而不是一个计划。"
+      ],
+      "exercises": [
+        {
+          "id": "CH108-Q1",
+          "type": "context",
+          "prompt": "What did the director say they were trying to keep dry?",
+          "options": [
+            "one island of dry ground",
+            "the whole valley",
+            "the greenhouse roof",
+            "the west road"
+          ]
+        },
+        {
+          "id": "CH108-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “抵抗力；阻力”?",
+          "options": [
+            "resistance",
+            "emission",
+            "tolerance",
+            "discharge"
+          ]
+        },
+        {
+          "id": "CH108-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "soak the soil",
+            "soak the emission",
+            "soak the despair",
+            "soak the discrimination"
+          ]
+        },
+        {
+          "id": "CH108-Q4",
+          "type": "cloze",
+          "prompt": "The boatman said the tolerance of the bank was almost used ______.",
+          "options": [
+            "up",
+            "off",
+            "in",
+            "out"
+          ]
+        },
+        {
+          "id": "CH108-Q5",
+          "type": "recall",
+          "prompt": "What had condensed by morning in the greenhouse?",
+          "options": [
+            "a litre of salty water",
+            "a litre of oil",
+            "a litre of steam",
+            "a litre of rain"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH108-Q1",
+          "answer": "one island of dry ground",
+          "explanation": "The goal was small and specific."
+        },
+        {
+          "id": "CH108-Q2",
+          "answer": "resistance",
+          "explanation": "The soil's resistance to water was the difficulty."
+        },
+        {
+          "id": "CH108-Q3",
+          "answer": "soak the soil",
+          "explanation": "Soak combines with soil, a cloth, or a schedule."
+        },
+        {
+          "id": "CH108-Q4",
+          "answer": "up",
+          "explanation": "The bank's capacity for damage was nearly exhausted."
+        },
+        {
+          "id": "CH108-Q5",
+          "answer": "a litre of salty water",
+          "explanation": "The greenhouse distilled water overnight."
+        }
+      ]
+    },
+    {
+      "article_id": "CH109",
+      "english_title": "The River Answers Back: Outside Pressure",
+      "chinese_title": "河流的回应：外部压力",
+      "theme": "环境、自然与可持续发展",
+      "english_paragraphs": [
+        "The outside pressure arrived at midday on a rainy afternoon, when an overseas advisor and an astronomer came to the backyard with a list. “You will modernize the station or we will place an intermediary from the capital,” the advisor said. “The chairperson wants the same view from every bank.” Patience was thinner than the fur on a camel.",
+        "The respondent at the meeting was a teenager who kept a listener's notebook. “The bowel of this valley does not need a new garment,” she said. “It needs a mend.” A delightful gardening programme, an entertaining film, and an enjoyable concert had all been offered instead.",
+        "The pressure was to enlarge, tighten, and harden: more concrete, more cages, more instrumentation. “Loosen the rules instead,” the carpenter said. “A garment that is too stiff will not clothe a growing child.” The electrician, the guitarist, the violinist, and the landlady all signed the same page.",
+        "The danger was that the data would deteriorate if the budget were cut, or that the plan would materialize only as a monument. “Do not scold the volunteers for a slow week,” the boatman said. “Solidify the method and let the numbers modernise themselves.” The noon reading had been missed twice.",
+        "The counter-pressure was a raincoat, a pair of boots, and a chairperson who was willing to wait. “A pleasing report is not a persuasive one,” the advisor admitted, and the Celsius readings began to make sense to him.",
+        "The condition imposed was simple and hard: three years of readings, published, before any construction. The group accepted the term, the west floor of the station became the archive, and the afternoon ended with a full set of signatures. The air was clear at noon, and the combat over the budget was not. A listener at the back asked madam chairperson to stiffen the rule rather than the concrete; nothing in the process would go into the story without the water readings, and the view from the well had to include us. The same set of instruments reached the same result twice, and the music from the guitarist covered the noise of the drills. The advisor would provide the list, put the money on the table, and start the clock."
+      ],
+      "chinese_paragraphs": [
+        "外部压力在一个多雨的下午正午时分到来，一位海外顾问和一位天文学家带着一份清单来到后院。“你们要么让这个站现代化，要么我们从首都派一位中间人来，”顾问说，“主席希望每一个河岸看到同样的景象。”耐心比骆驼身上的毛还薄。",
+        "会上那位应答者是个少年，他带着一本倾听者的笔记。“这个山谷的肠子不需要一件新衣服，”她说，“它需要一处缝补。”一份令人愉快的园艺项目、一部有趣的电影，以及一场让人享受的音乐会，都被拿来作为替代方案。",
+        "压力是要扩大、勒紧、硬化：更多混凝土、更多笼子、更多仪器。“不如把规则放松，”木匠说，“一件太僵硬的衣服裹不住一个正在长大的孩子。”电工、吉他手、小提琴手和女房东都在同一页上签了名。",
+        "危险在于：如果预算被砍，数据会恶化；或者这个计划只会以一座纪念碑的形式实现。“不要因为一个慢下来的一周就责骂志愿者，”船夫说，“把方法固化下来，让数字自己去现代化。”正午的读数已经错过了两次。",
+        "反向的压力是一件雨衣、一双靴子，以及一位愿意等待的主席。“一份令人喜爱的报告不等于一份有说服力的报告，”顾问承认了，而那组摄氏读数开始对他有了意义。",
+        "强加的条件既简单又艰难：三年的读数，公开出版，之后才能动工。小组接受了这个条件，站里的西侧地面成了档案室，而这个下午在一整套签名中结束。正午时分空气是清的，而关于预算的争斗不是。后排一位听者请女主席把规则收紧，而不是把混凝土加厚；没有水的读数，流程里的任何东西都不会进入这个故事，而从井里看出去的视野必须包含我们。同一套仪器两次得到同一个结果，而吉他手的音乐盖过了钻机的声音。顾问会提供清单、把钱放到桌上，并让计时开始。"
+      ],
+      "exercises": [
+        {
+          "id": "CH109-Q1",
+          "type": "context",
+          "prompt": "What did the advisor threaten?",
+          "options": [
+            "to place an intermediary from the capital",
+            "to close the station",
+            "to cut the readings",
+            "to move the archive"
+          ]
+        },
+        {
+          "id": "CH109-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “恶化；变坏”?",
+          "options": [
+            "deteriorate",
+            "solidify",
+            "harden",
+            "enlarge"
+          ]
+        },
+        {
+          "id": "CH109-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "tighten the rules",
+            "tighten the raincoat",
+            "tighten the listener",
+            "tighten the carrot"
+          ]
+        },
+        {
+          "id": "CH109-Q4",
+          "type": "cloze",
+          "prompt": "The carpenter said a garment that is too stiff will not ______ a growing child.",
+          "options": [
+            "clothe",
+            "scold",
+            "mend",
+            "loosen"
+          ]
+        },
+        {
+          "id": "CH109-Q5",
+          "type": "recall",
+          "prompt": "What condition was imposed?",
+          "options": [
+            "three years of published readings before any construction",
+            "a new monument",
+            "an overseas director",
+            "a bigger budget"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH109-Q1",
+          "answer": "to place an intermediary from the capital",
+          "explanation": "The threat was administrative takeover."
+        },
+        {
+          "id": "CH109-Q2",
+          "answer": "deteriorate",
+          "explanation": "A budget cut would make the data deteriorate."
+        },
+        {
+          "id": "CH109-Q3",
+          "answer": "tighten the rules",
+          "explanation": "Tighten combines with rules, a budget, or a screw."
+        },
+        {
+          "id": "CH109-Q4",
+          "answer": "clothe",
+          "explanation": "He compared rigid rules to clothing that cannot grow."
+        },
+        {
+          "id": "CH109-Q5",
+          "answer": "three years of published readings before any construction",
+          "explanation": "Data came before concrete."
+        }
+      ]
+    },
+    {
+      "article_id": "CH110",
+      "english_title": "The River Answers Back: The Decision",
+      "chinese_title": "河流的回应：决定",
+      "theme": "环境、自然与可持续发展",
+      "english_paragraphs": [
+        "The decision came between two things the group could not have both of: a metal lock on the canal and a forest that keeps its own timber. “Someone has to choose,” the activist said, “and the achievement will be small either way.” Rarely had the station been so close to a real question.",
+        "The agriculture office wanted a restaurant, a cellar of dairy and beef, and a chain of snack stalls selling goose sausage. “A darling of a plan,” the chairperson said, “but the forestry figures are not persuasive, and the rainy season is pressing.”",
+        "The decision was to dine indoors and to keep the utmost care for the west floor. A cinema, a zoo, and a robotic milking shed were all deferred; the climatic data and the misty mornings mattered more than the dessert. “Seldom has a project been so unglamorous,” Maya wrote, “and seldom so necessary.”",
+        "The pressing question was where the money would come from, and the answer was an achievement of a different kind: a maid, a carpenter, and a violinist each donated one day a month. A fable about a victorious goose and a marvelous eraser was printed for the school.",
+        "The difficult part was to finalize a plan that reduced the add-on work, cut the center of the old scheme, and dealt with the either-or of agriculture and forestry. The term began with a full floor of volunteers and less money than the summer.",
+        "Within the decision there was a smaller one: to begin with the west bank, to attempt the readings before the deal was signed, and to keep the top of the file blank until the reading arrived. “We are between two rivers now,” the boatman said. “That is the only place worth standing.” The difficulty of the decision was either small or total: the floor of the cellar, the west room, and the center of the town all needed less, and the term would begin with a full set of reduced plans. The scene at the restaurant was less dramatic than the fable, and more useful. A summer of readings had reduced the argument to one page. A chopstick, a plate of meat, and an idiomatic phrase borrowed from the zoology department: doubtless the smaller accomplishment was to add nothing to the menu."
+      ],
+      "chinese_paragraphs": [
+        "决定落在两样二者不可兼得的东西之间：运河上的一把金属水闸，以及一片保留自己木材的森林。“总得有人选，”活动人士说，“而无论选哪边，成就都很小。”这个站很少如此靠近一个真正的问题。",
+        "农业部门想要一家餐馆、一个装满乳品和牛肉的地窖，以及一连串卖鹅肉香肠的小吃摊。“方案很可爱，”主席说，“但林业的数字不具说服力，而雨季正逼近。”",
+        "决定是在室内用餐，并对西侧地面保持最大的谨慎。一家电影院、一座动物园和一座机器人挤奶棚都被推迟；气候数据和雾蒙蒙的早晨比餐后甜点更重要。“很少有项目如此不风光，”曼雅写道，“也很少如此必要。”",
+        "紧迫的问题是钱从哪里来，而答案是另一种成就：一位女仆、一位木匠和一位小提琴手每月各捐出一天。为学校印了一则关于一只胜利的鹅和一块了不起的橡皮的寓言。",
+        "困难的部分是要定稿一份削减附加工作、砍掉旧方案中心，并处理农业与林业之间二选一的计划。这个学期以一个满员的志愿者楼层和比夏天更少的钱开始。",
+        "在这个决定之内还有一个更小的决定：从西岸开始，在签署协议之前先尝试那些读数，并让文件顶部保持空白，直到读数到来。“我们现在处在两条河之间，”船夫说，“那是唯一值得站立的地方。”这个决定的困难要么很小，要么是全部：地窖的地面、西边的房间，以及镇中心，都需要更少，而这个学期将以一整套缩减后的方案开始。餐馆里的那一幕没有寓言那么戏剧化，却更有用。一个夏天的读数把这个论证压缩成了一页纸。一根筷子、一盘肉，以及一个从动物学系借来的惯用语：毫无疑问，那个更小的成就是没有给菜单上加任何东西。"
+      ],
+      "exercises": [
+        {
+          "id": "CH110-Q1",
+          "type": "context",
+          "prompt": "Between what two things did the group have to choose?",
+          "options": [
+            "a metal lock on the canal and a forest kept for timber",
+            "a cinema and a zoo",
+            "beef and goose",
+            "an eraser and a fable"
+          ]
+        },
+        {
+          "id": "CH110-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “紧迫的；迫切的”?",
+          "options": [
+            "pressing",
+            "misty",
+            "victorious",
+            "idiomatic"
+          ]
+        },
+        {
+          "id": "CH110-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "finalize a plan",
+            "finalize a goose",
+            "finalize a maid",
+            "finalize a cellar"
+          ]
+        },
+        {
+          "id": "CH110-Q4",
+          "type": "cloze",
+          "prompt": "The chairperson said the forestry figures were not ______.",
+          "options": [
+            "persuasive",
+            "marvelous",
+            "robotic",
+            "climatic"
+          ]
+        },
+        {
+          "id": "CH110-Q5",
+          "type": "recall",
+          "prompt": "What did the group decide to keep blank until the reading arrived?",
+          "options": [
+            "the top of the file",
+            "the west floor",
+            "the cellar",
+            "the restaurant menu"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH110-Q1",
+          "answer": "a metal lock on the canal and a forest kept for timber",
+          "explanation": "Water control and woodland could not both be maximised."
+        },
+        {
+          "id": "CH110-Q2",
+          "answer": "pressing",
+          "explanation": "The funding question could not be postponed."
+        },
+        {
+          "id": "CH110-Q3",
+          "answer": "finalize a plan",
+          "explanation": "Finalize combines with a plan, a text, or a budget."
+        },
+        {
+          "id": "CH110-Q4",
+          "answer": "persuasive",
+          "explanation": "The forestry numbers did not convince the chair."
+        },
+        {
+          "id": "CH110-Q5",
+          "answer": "the top of the file",
+          "explanation": "They refused to write a conclusion before the data."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH110",
+    "last_event": "The group reframed the river as a well rather than a drain, ran a second attempt with the same instruments, accepted three years of published readings before construction, and chose the west bank.",
+    "unresolved_consequence": "The canal lock is still unresolved, the archive is one floor of an old station, and the third reading year begins with less money than the summer.",
+    "character_locations": {
+      "Lin Wei": "the river district and field station",
+      "Maya Chen": "the river district and field station",
+      "Aisha Rahman": "remotely online from the innovation lab"
+    },
+    "character_roles": {
+      "Lin Wei": "third-year student and project co-lead",
+      "Maya Chen": "journalism student, columnist, and project co-lead",
+      "Aisha Rahman": "data specialist and remote collaborator"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter",
+      "run a smaller project until the spring",
+      "change the maternity form's double column",
+      "pay the volunteers under the new written contract",
+      "finish the client film without hiding the layoff",
+      "write the signed guideline for the release",
+      "finish the smaller undertaking without a salary",
+      "adapt the timetable for a second language",
+      "satisfy the three conditions of the council's permission",
+      "keep the route in the hands of the people who use it",
+      "explain the bridge town's success honestly",
+      "fund the boxing class for larger bodies",
+      "keep the open training class alive without a budget line",
+      "publish the first national injury figures honestly",
+      "name one responsible person for every system and device",
+      "delete the old address list completely",
+      "publish the one-page consent form before the faculty review",
+      "answer the national inquiry in writing",
+      "pay the five families who take the daily river readings",
+      "finish the concrete pier before the anniversary review",
+      "publish three years of river readings before any construction"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project",
+      "a smaller project against the members' ambition",
+      "a mainstream structure against a deliberate, slower one",
+      "the transferred project's survival against the friendship that produced it",
+      "a permanent post against the unfinished work",
+      "a speedy release against a durable one",
+      "a salary against an undertaking",
+      "a timetable built in one language against a system that speaks several",
+      "a local route against an international port",
+      "ownership by the users against ownership by the builders",
+      "a national convention against a small station",
+      "elite performance against sustainable health",
+      "a winning team against a living one",
+      "national reporting requirements against a club's own budget",
+      "a launch date against a consented design",
+      "the convenience of a system against the consent of the person inside it",
+      "simplicity against completeness",
+      "a national inquiry against a one-page form",
+      "a model built on dry years against a river that floods",
+      "hard engineering against a living delta",
+      "a canal lock against a working forest"
+    ],
+    "first_required_event_next_chapter": "CH111 must open the city food and waste arc, where a market closure forces a choice between cheap supply and local growers.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention",
+      "the family and the project collided on a Sunday and Lin renegotiated his roles in writing",
+      "Lin's grandfather, who had been an orphan, died, and Lin kept his promise to come home",
+      "a delegate from the night shift joined the panel and set the new agenda",
+      "the group replaced twelve measures with one: whether a person finds what they came for in a minute",
+      "the third-arc trial interviewed a home-care worker, a night nurse, and a housewife about the cost of care",
+      "Lin missed a Thursday meeting because his grandmother was in hospital, and the group began to share the invisible work",
+      "Maya and Lin argued about whether the project should be mainstream or deliberate, and settled it explicitly",
+      "a maternity form with one line for two mothers reframed the third-arc question",
+      "the family and the project were separated into two schedules after a funeral and a birthday fell in the same week",
+      "an external report from the city accused the project of neglecting its own volunteers",
+      "the group committed to a smaller, better-paid arrangement with a written contract",
+      "Lin decided to transmit the larger project to a replacement and keep the smaller one",
+      "the transferred project ran for six weeks without Lin and the participant numbers held",
+      "the fourth arc opened with a summer internship under a client who supervises the work directly",
+      "a laid-off employee forced the team to print her own paragraph and her own name",
+      "the film team published a one-page evidence report and opened a workshop to anyone who wanted to read it",
+      "the week-long trial produced useful results and one new constraint: a signed guideline",
+      "the Friday release went out with a section that had not been fully tested",
+      "the council's delegation asked for a description of how the film's figures were used",
+      "the second attempt built a demo on a plastic desk without buying new equipment",
+      "the outside pressure arrived as a company workshop on unity and seniority",
+      "the team refused a permanent post and chose the smaller undertaking",
+      "the department's conduct was reported to the council and the case reached court",
+      "the fourth arc closed with a contract, a conference, and a recommendation to hire the founder",
+      "the fifth arc opened with a cross-border journey and a rail system that lost three days of cargo",
+      "Aisha joined the team as a continuing collaborator on the exchange campus",
+      "a cruiser of tourists bought every seat and broke the timetable",
+      "the motel owner on the station corridor measured the queue and forced a number into the report",
+      "the international port meeting exposed a chain of small appointments that traffic depends on",
+      "the trial ran from April to December and ended with a conditional permission",
+      "the committee settled the ownership question by tossing a coin in the users' favour",
+      "the second sheet exposed what the figures had hidden about the promised training",
+      "a pedestrian at a rural stop reframed the report around the meaning of a short walk",
+      "the second attempt was rebuilt on a strict charter, one licence, and one month of cash",
+      "the ambassador made the review conditional on a road the village could cope with",
+      "the national convention decided to originate a service rather than inherit one",
+      "the railway became a tourist attraction while freight transport grew more reliable than passenger transport",
+      "the fifth arc closed at a bridge with a passengers' association and a drafted timetable",
+      "Daniel collapsed from concealed stress on the sports center ladder",
+      "the group promised accessible training facilities and restricted sessions",
+      "an obese badminton player forced the club to measure health against the people who live there",
+      "the trial run measured the whole team's attitude, not only the athlete's",
+      "the club made two hours of open training a condition for every athlete",
+      "the group argued about whose body pays for the team's ambition",
+      "a systematic review found that the numbers hid a district of silent injuries",
+      "a canteen cook reframed the programme around walking, music, and recreation",
+      "the second attempt ran one funded indoor session a week",
+      "the hospital forced a national register of injuries and treatment",
+      "the club committed two funded hours a week and made rest part of training",
+      "the kitchen and the mood of the canteen became part of the evidence",
+      "a regional health register was opened and the group promised to publish its figures honestly",
+      "an unexplained file appeared in a public download of the club's website",
+      "the seventh arc opened with a paused launch and a promised redesign of consent",
+      "a person whose data had been stored without consent asked for a withdrawal mechanism",
+      "the group replaced twelve collection rules with one criterion: nothing on a maybe",
+      "the consent trial deleted what could not be justified and kept the launch paused",
+      "the group agreed that nothing is acquired without a written reason",
+      "the numbers were shown to hide the real product, which was trust",
+      "the group reframed consent around the ease of leaving rather than the ease of joining",
+      "the second redesign ran a trial that the person involved could explain",
+      "the faculty board demanded a clear definition of consent and got four pages",
+      "the group divided the risks and kept a parallel record of what it refused to collect",
+      "the redesign cut the form to one page and began with less",
+      "the seventh arc closed with a national inquiry still open and a scheme small enough to fit in a bucket",
+      "the eighth arc opened with a flood that stopped the road beside the field station",
+      "the old flood model was built on a photographic memory of ten dry years",
+      "a legendary boatman said the river was capable of a third channel",
+      "the field station promised simultaneous readings from both banks",
+      "five families agreed to take one reading a day with the same cheap kit",
+      "a woman who had been left off the list rewrote the questionnaire around memory",
+      "the evidence was reduced to one watertight page that included the river's own answer",
+      "the trial run measured one summer and found that roughly a third of the readings exceeded the limit",
+      "the group paid the five families for one more period",
+      "an ecologist argued that a dam would move the loss to the delta",
+      "the group agreed to publish the whole page rather than a clean summary",
+      "a market trader reframed the river as a well rather than a drain",
+      "the second attempt reused the same instruments in a wetter setting",
+      "an overseas advisor demanded modernisation and was met with a three-year condition",
+      "the group committed to publish three years of readings before any construction",
+      "the group chose the west bank and left the top of the file blank"
+    ]
+  }
+}

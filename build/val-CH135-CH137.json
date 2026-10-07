@@ -1,0 +1,54 @@
+{
+  "batch_id": "batch-CH135-CH137",
+  "chapter_ids": [
+    "CH135",
+    "CH136",
+    "CH137"
+  ],
+  "schema_valid": true,
+  "plan_valid": true,
+  "coverage_valid": true,
+  "continuity_valid": true,
+  "validation_counts": {
+    "chapters": 3,
+    "coverage_records": 186,
+    "verified_new": 132,
+    "verified_review": 54,
+    "needs_revision": 0,
+    "structural_errors": 0,
+    "continuity_errors": 0
+  },
+  "errors": [],
+  "chapters": [
+    {
+      "chapter_id": "CH135",
+      "word_count": 370,
+      "paragraph_count": 6,
+      "exercise_count": 5,
+      "answer_count": 5,
+      "errors": [],
+      "verified_new": 44,
+      "verified_review": 18
+    },
+    {
+      "chapter_id": "CH136",
+      "word_count": 386,
+      "paragraph_count": 6,
+      "exercise_count": 5,
+      "answer_count": 5,
+      "errors": [],
+      "verified_new": 44,
+      "verified_review": 18
+    },
+    {
+      "chapter_id": "CH137",
+      "word_count": 412,
+      "paragraph_count": 6,
+      "exercise_count": 5,
+      "answer_count": 5,
+      "errors": [],
+      "verified_new": 44,
+      "verified_review": 18
+    }
+  ]
+}

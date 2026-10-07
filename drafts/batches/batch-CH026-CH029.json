@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH026-CH029",
+  "chapter_ids": [
+    "CH026",
+    "CH027",
+    "CH028",
+    "CH029"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH026",
+      "english_title": "Learning How to Learn: The Decision",
+      "chinese_title": "学会学习：决定",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The test the group could not control arrived as a single sheet of paper. A regional reading survey would include their method, and the administration wanted a decision by the end of the quarter. “None of us can tell how this will end,” Maya said. “We can only decide what to send.” A grey drawing of the reading tank — their own childish sketch — lay on the table beside the official form, and every line of it looked wrong.",
+        "The population of the survey was a million students, and their sample was a few hundred. “To be frank, that is a lot of noise,” the principal said. “Your best hope is a quite small, clean result.” Each of them knew it already. Every classification has an edge, and theirs was the edge of the page. The least they could do was say so in advance.",
+        "They decided to send the method itself, not the results. A vertical line, a signature, a stamp, and a bundle of cord went into one parcel, which looked like a costume rather than a proposal. “If the survey finds nothing,” Lin wrote, “that is a confirmation, not a disaster.” A spark of doubt remained, but the chorus of agreement was louder than the doubt.",
+        "They discussed the wording for an hour. To throw the old version away was tempting, but a continuation is not a rejection; it is a steel beam added under a wooden floor. “Browse the appendix,” Maya said. “A panda, a wolf, and a dragon in a child's drawing taught us more than the survey ever will.” The tap dripped, and nobody moved to close it.",
+        "A slip of white paper, a leaf from an organic farm, a pound of spare paper, and a small bottle of liquid were their belongings on the last night of the term. “You are the hero of your own report,” Professor Zhao said, “and that is exactly the problem.” Several of them sat in silence; some smiled at the other volunteers. “Granted, you have very little time,” she went on. “But a thread is enough to hold a signature together, and a crane can lift what a hand cannot.” There was no solution, only a decision: a new line, which many of them preferred to most of the old ones. Her eye caught the remaining problem in it, but really there was no time."
+      ],
+      "chinese_paragraphs": [
+        "那个小组无法控制的测试，以一张纸的形式到来。一项区域阅读调查将纳入他们的方法，而行政部门要求在本季度结束前给出决定。“我们谁都无法告诉彼此这会怎么结束，”曼雅说，“我们只能决定寄出什么。”一幅灰色的阅读槽图——他们自己幼稚的速写——摊在桌上官方表格的旁边，它的每一行看上去都不对。",
+        "调查的总体是一百万名学生，而他们的样本只有几百人。“相当坦率地说，那是很大的噪声，”校长说，“你们最好的希望是一个小而干净的结果。”他们每个人早就知道这一点。每一种分类都有它的边缘，而他们的边缘就是这张纸的边。至少他们可以事先说明这一点。",
+        "他们决定寄出方法本身，而不是结果。一条垂直线、一个签名、一枚图章和一捆绳子装进一个包裹，看上去更像一套戏服而不是一份提案。“如果调查什么都没发现，”林伟写道，“那也是一种确认，而不是灾难。”怀疑的火花仍在，但赞同的合唱比怀疑更响。",
+        "他们为一个措辞讨论了一个小时。把旧版本扔掉很诱人，但延续不是拒绝；它是在木地板下加进一根钢梁。“去翻附录吧，”曼雅说，“一个孩子画里的大熊猫、狼和龙，教给我们的东西比这项调查能教的还多。”水龙头在滴水，没人去关它。",
+        "一张白纸片、一片有机农场的叶子，以及一小瓶液体，是他们在学期最后一晚的全部所有物。“你是你自己报告里的英雄，”赵教授说，“而这恰恰是问题所在。”他们中有几个人沉默地坐着，有些人朝其他志愿者笑了笑。“就算如此，你们的时间很少，”她接着说，“但一根线就足以把签名固定住，而起重机能举起手举不起的东西。”没有解决方案，只有一个决定：一条新的线，他们中许多人更喜欢它，胜过大多数旧的线。她的眼睛看出了其中残留的问题，但说实话，已经没有时间了。"
+      ],
+      "exercises": [
+        {
+          "id": "CH026-Q1",
+          "type": "context",
+          "prompt": "What did the group decide to send to the survey?",
+          "options": [
+            "the method, not the results",
+            "a grey drawing",
+            "a bundle of cord",
+            "the principal's letter"
+          ]
+        },
+        {
+          "id": "CH026-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “坦白的；率直的”?",
+          "options": [
+            "frank",
+            "stiff",
+            "vertical",
+            "organic"
+          ]
+        },
+        {
+          "id": "CH026-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "discuss the wording",
+            "discuss the tank",
+            "discuss the tap",
+            "discuss the panda"
+          ]
+        },
+        {
+          "id": "CH026-Q4",
+          "type": "cloze",
+          "prompt": "Lin wrote that a confirmation is not a ______.",
+          "options": [
+            "disaster",
+            "chorus",
+            "classification",
+            "spark"
+          ]
+        },
+        {
+          "id": "CH026-Q5",
+          "type": "recall",
+          "prompt": "What is a continuation in Lin's image?",
+          "options": [
+            "a steel beam under a wooden floor",
+            "a new costume",
+            "a grey drawing",
+            "a bottle of liquid"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH026-Q1",
+          "answer": "the method, not the results",
+          "explanation": "They sent the procedure and let the survey produce its own numbers."
+        },
+        {
+          "id": "CH026-Q2",
+          "answer": "frank",
+          "explanation": "The principal spoke frankly about the noise in the data."
+        },
+        {
+          "id": "CH026-Q3",
+          "answer": "discuss the wording",
+          "explanation": "Discuss combines with wording, a plan, or a problem."
+        },
+        {
+          "id": "CH026-Q4",
+          "answer": "disaster",
+          "explanation": "A negative result would confirm the method rather than destroy it."
+        },
+        {
+          "id": "CH026-Q5",
+          "answer": "a steel beam under a wooden floor",
+          "explanation": "He described continuation as reinforcement, not rejection."
+        }
+      ]
+    },
+    {
+      "article_id": "CH027",
+      "english_title": "Learning How to Learn: Consequences",
+      "chinese_title": "学会学习：后果",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The consequences came in the form of a school report. A kindergarten headmaster, a therapist, and a poet were listed as beneficiaries of the study, and not one of them had ever been asked. “Admittedly, that is a fault of ours,” Maya said. “We cater to the people who read reports, not to the people inside them.”",
+        "The first acknowledgement arrived with a loaf of bread and a jar of jam. A silvery morning, a rainbow over the sports hall, and the smell of a loaf cooling on a windowsill made the whole argument feel splendid and slightly unreal. “Sugar, honey, candy, biscuits,” Lin wrote. “The vocabulary of comfort is doing the work of the vocabulary of proof.”",
+        "He was frustrated by the tiny scope. Young volunteers wanted a glorious result, and the darkness of the numbers was itself the answer. “A peach and an orange are not the same fruit,” Maya said, “even when both are sweet.” Furniture was moved to make room for a new shelf, and the glow of the reading lamp became the room's only decoration.",
+        "The children taught themselves faster than the adults did; the method itself was not the problem. A bushy hedge, a tomato plant, and a rose in a wine bottle stood on the windowsill. “A teen can tell when a greeting is automatic,” the therapist said. “That is the awful part.” A dark joke about the yellow folder did not help.",
+        "A scholastic prize, a sandwich, and a shine of sweat on the window told him nothing about what the children had actually learned. They wrote a philosophical page about measurement and a sleepy one about the six forms of feedback. Then they stopped, because the poetry of the thing was becoming a substitute for the thing. “From here on,” Lin said, “we lead with what we do not know.” All of it was given to the school without conditions; however, there was a lot they could not hear from the corridor. So this was the other side of the yellow folder: a fortunate habit of writing things up, and nobody up there to read them. A movie would have ended here; a project does not."
+      ],
+      "chinese_paragraphs": [
+        "后果以一份学校报告的形式到来。一位幼儿园园长、一位治疗师和一位诗人被列为这项研究的受益人，而他们当中没有一个曾被问过。“诚然，这是我们的过失，”曼雅说，“我们迎合的是读报告的人，而不是报告里面的人。”",
+        "第一份致谢随一条面包和一罐果酱到来。一个银色的早晨、体育场上空的彩虹，以及窗台上冷却面包的气味，让整个论证显得灿烂又有点不真实。“糖、蜂蜜、糖果、饼干，”林伟写道，“舒适的语言正在干证明的语言的活。”",
+        "他被这微小的范围弄得沮丧。年轻的志愿者想要一个光荣的结果，而数字里的黑暗本身就是答案。“桃子和橘子不是同一种水果，”曼雅说，“即使两者都甜。”家具被搬动，为一只新书架腾出位置，阅读灯的微光成了房间里唯一的装饰。",
+        "孩子们教自己的速度比大人更快；方法本身并不是问题。窗户上放着一丛茂密的树篱、一株番茄，以及插在葡萄酒瓶里的一朵玫瑰。“青少年能分辨出问候是不是自动的，”治疗师说，“那才是可怕的地方。”关于那只黄色文件夹的一个黑色玩笑并没有帮上忙。",
+        "他们写了一页关于测量的哲学文字，又写了一页关于六种反馈的、令人困倦的文字。然后他们停下来了，因为这件事的诗意正在取代这件事本身。“从这里开始，”林伟说，“我们用我们不知道的东西开头。”所有这些都被无条件地交给了学校；然而，有很多东西他们从走廊里根本听不见。所以这就是那只黄色文件夹的另一面：一种写下来的幸运习惯，而上面没有人去读。一部电影会在这里结束；一个项目不会。"
+      ],
+      "exercises": [
+        {
+          "id": "CH027-Q1",
+          "type": "context",
+          "prompt": "Who was listed as beneficiaries of the study?",
+          "options": [
+            "a headmaster, a therapist, and a poet",
+            "the student union",
+            "the registration office",
+            "three examiners"
+          ]
+        },
+        {
+          "id": "CH027-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “承认；致谢”?",
+          "options": [
+            "acknowledgement",
+            "continuation",
+            "classification",
+            "confirmation"
+          ]
+        },
+        {
+          "id": "CH027-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "cater to readers",
+            "cater to a rainbow",
+            "cater to a hedge",
+            "cater to a shelf"
+          ]
+        },
+        {
+          "id": "CH027-Q4",
+          "type": "cloze",
+          "prompt": "Maya said that a peach and an ______ are not the same fruit.",
+          "options": [
+            "orange",
+            "onion",
+            "olive",
+            "oval"
+          ]
+        },
+        {
+          "id": "CH027-Q5",
+          "type": "recall",
+          "prompt": "What did Lin say they would lead with from then on?",
+          "options": [
+            "what they did not know",
+            "the vocabulary of comfort",
+            "the school report",
+            "the new shelf"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH027-Q1",
+          "answer": "a headmaster, a therapist, and a poet",
+          "explanation": "The report named beneficiaries who had never been consulted."
+        },
+        {
+          "id": "CH027-Q2",
+          "answer": "acknowledgement",
+          "explanation": "The first acknowledgement came with bread and jam."
+        },
+        {
+          "id": "CH027-Q3",
+          "answer": "cater to readers",
+          "explanation": "Cater to means to serve a particular group's tastes."
+        },
+        {
+          "id": "CH027-Q4",
+          "answer": "orange",
+          "explanation": "She used the fruit comparison against false equivalence."
+        },
+        {
+          "id": "CH027-Q5",
+          "answer": "what they did not know",
+          "explanation": "He wanted the unknown to lead the report rather than hide inside it."
+        }
+      ]
+    },
+    {
+      "article_id": "CH028",
+      "english_title": "Learning How to Learn: The Bridge Forward",
+      "chinese_title": "学会学习：通向下一程",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The examiner arrived with a briefcase, a paperback, and a very stiff manner. “Sir,” Maya said, “we can examine the method in front of you, if you like.” He wanted to know where the idea came from, and the honest answer was that it came from everywhere and was not particularly helpful.",
+        "A fellow in a dark jacket asked how a literary project could claim fluency. “It cannot,” Lin said. “But it can locate the point where fluency fails.” A dog barked below the window, someone gave a shout in the yard, and a horse went past with a cart.",
+        "A magical claim would have been easier. A poetic one, a Confucian one, an artistic one: any of them could have hidden the gap. “Do not boast,” Professor Zhao said. “A scripture and an X-ray have this in common: neither cares what you believe.” The whisper in the corridor was that the funding had already been decided.",
+        "They knelt by the low shelf to weigh the evidence, and a sketchy diagram of their own ancestry of ideas — a map of who had taught whom — lay between them. “A manipulative summary is worse than a selfish one,” she said. “At least selfishness is honest.” An editorial in the student paper called the project a quiet success, and by that it meant a small one. The university senate had asked the same question, and its answer would have to exemplify the existing method rather than replace it.",
+        "The arc closed with an unresolved sentence. “We can manage what we can measure, and we can ignore what we cannot,” Lin wrote. “That is not a reason to stop; it is a reason to say so.” Such honesty damaged their chances, and they knew it themselves. The everyday work — a colonized shelf of borrowed books, a damaged sign, a dictation nobody had typed — continued anyway, and a worldwide network of three people is still a network. A movie would have ended here. A project does not. Unless the survey said otherwise, the map itself would stay. Somewhere between the speech he had prepared and the speech he actually gave, he found the sentence: a knowledgeable reader is not the same as a knowledgeable writer, and an old oriental art catalogue is not a method. “It has a peculiar magic,” Maya said. “Do not pronounce it finished.” She asked him to explore the existing shelf and to choose, really, one book for him. Learning how to learn had cost them a year; the only thing they could show for it was a better question."
+      ],
+      "chinese_paragraphs": [
+        "检查人带着一只公文包、一本平装书和一副非常生硬的姿态到来。“先生，”曼雅说，“如果您愿意，我们可以在您面前检验这套方法。”他想知道这个想法从何而来，而诚实的答案是：它来自各处，而且并没有特别的帮助。",
+        "一位穿深色夹克的同行问，一个文学项目怎么能声称流畅。“它不能，”林伟说，“但它能定位出流畅失效的那一点。”窗下有一条狗在叫，院子里有人喊了一声，一匹马拉着车经过。",
+        "神奇的说法会更容易。诗意的、儒家的、艺术的说法：其中任何一种都能掩盖这个缺口。“不要自夸，”赵教授说，“一部经书和一张X光片有一个共同点：两者都不在乎你相信什么。”走廊里的低语说，资金其实早已定好了。",
+        "他们跪在低矮的书架旁权衡证据，一幅他们自己思想血统的粗略图表——一张谁教过谁的地图——摊在两人之间。“操纵性的总结比自私的总结更糟，”她说，“至少自私是诚实的。”学生报的一篇社论称这个项目是一次安静的成功，而它指的是：一次很小的成功。大学评议会问过同样的问题，而它的答案必须示范现有的方法，而不是取代它。",
+        "这段弧线以一句未解决的句子收尾。“我们能管理我们能测量的东西，也能忽视我们不能测量的东西，”林伟写道，“这不是停下的理由，而是把它说出来的理由。”这样的诚实损害了他们的机会，他们自己也知道。日常的工作——一排借来的书构成的殖民地式书架、一块损坏的指示牌、一段没人打出来的口述——仍然继续着；而一个由三个人组成的全球网络，仍然是一个网络。一部电影会在这里结束。一个项目不会。除非调查得出别的结论，那张地图本身会留下来。在他准备好的那篇讲话和他实际讲出的那篇讲话之间的某处，他找到了那句话：一个博学的读者不等于一个博学的作者，而一份古老的东方艺术目录不是一种方法。“它有一种奇特魔力，”曼雅说，“别说它已经完成。”她请他去探查现有的那个书架，并且真正为自己挑一本书。"
+      ],
+      "exercises": [
+        {
+          "id": "CH028-Q1",
+          "type": "context",
+          "prompt": "What did the examiner want to know?",
+          "options": [
+            "where the idea came from",
+            "how much the shelf cost",
+            "who owned the cart",
+            "when the paper was printed"
+          ]
+        },
+        {
+          "id": "CH028-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “流利；流畅”?",
+          "options": [
+            "fluency",
+            "ancestry",
+            "dictation",
+            "editorial"
+          ]
+        },
+        {
+          "id": "CH028-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "weigh the evidence",
+            "weigh the whisper",
+            "weigh the briefcase",
+            "weigh the scripture"
+          ]
+        },
+        {
+          "id": "CH028-Q4",
+          "type": "cloze",
+          "prompt": "Professor Zhao warned them not to ______ about the project.",
+          "options": [
+            "boast",
+            "kneel",
+            "locate",
+            "colonize"
+          ]
+        },
+        {
+          "id": "CH028-Q5",
+          "type": "recall",
+          "prompt": "What does Lin say honesty is a reason for?",
+          "options": [
+            "saying so",
+            "stopping the project",
+            "hiding the numbers",
+            "printing a paperback"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH028-Q1",
+          "answer": "where the idea came from",
+          "explanation": "The examiner probed the origin of the method."
+        },
+        {
+          "id": "CH028-Q2",
+          "answer": "fluency",
+          "explanation": "The project claimed reading fluency, which Lin qualified."
+        },
+        {
+          "id": "CH028-Q3",
+          "answer": "weigh the evidence",
+          "explanation": "Weigh combines naturally with evidence or a decision."
+        },
+        {
+          "id": "CH028-Q4",
+          "answer": "boast",
+          "explanation": "She warned against claiming more than the evidence supported."
+        },
+        {
+          "id": "CH028-Q5",
+          "answer": "saying so",
+          "explanation": "He treated honesty as a reason to state limits openly."
+        }
+      ]
+    },
+    {
+      "article_id": "CH029",
+      "english_title": "Promises and Pressure: A Signal",
+      "chinese_title": "承诺与压力：一个信号",
+      "theme": "友谊、家庭与人际关系",
+      "english_paragraphs": [
+        "The map had taught them to measure a gate in a minute; it had not taught them how to be at home. The third arc opened at home, in a kitchen with a fridge that hummed like a small, unhappy mule. Lin's mother was a textile worker, a daughter of farmers, and the mother of a boy who was never at home. “You reckon you are busy,” she said. “Ensure that you eat.”",
+        "His grandson — his sister's boy — was doing a biographical project on an actress nobody in the family had heard of. The early pages would reveal a bad scare, a disastrous first draft, and the name of a granddaughter; three notebooks do not constitute a biography, and she said so whilst stirring the soup. “It is a thorough piece of work,” the boy said, “and it is a disaster.” A donkey brayed in a field, and a deer and a lioness were on the poster above the sink. “A tigress is not a house cat,” said the grandmother, “and neither is a daughter.”",
+        "A suspicious neighbour, a scary story about a shaver left plugged in, and a horrible smell from the drain made the evening eventful. “Do not behave like a hero,” his mother said. “Negotiate.” The Olympic flag on the wall, faded by the sun, was the only decoration in the room, and the whole evening seemed to revolve around the cooker.",
+        "They talked about the baby boom, a baby boomer aunt, and a cock that crowed at four in the morning. “Humanity is not a measurable thing,” she said, “and that is the pity of it.” The doom of the small project was written into the timetable, and they both knew it. Any talk of plans was tragically short, and joyous only at the edges.",
+        "What astonished him was the rhythm of the household: a rhythmic clatter, a humorous remark, a bowl of white rice, and a lot of unspoken resentment. “Yes, sir,” the boy said, when his grandfather asked whether he would help. “I would tell you to centralize your work,” his mother said, “but your father could not do it either.” The best teacher he ever had was a kid of nine, later a neighbour, who knew the difference between a mean remark and a pound of rice. He could not amaze her with a plan; he could only turn up, particularly on the bad days, and that was the increase she had asked for."
+      ],
+      "chinese_paragraphs": [
+        "那张地图教会他们在一分钟里测完一道门；它没有教会他们如何待在家里。第三段弧线在家里开始，在一间厨房里，冰箱像一头不快活的小骡子那样嗡嗡作响。林伟的母亲是纺织工人、农民的女儿，也是一个从不在家的男孩的母亲。“你以为你很忙，”她说，“要保证吃饭。”",
+        "他的孙子——他姐姐家的男孩——正在做一个关于某位女演员的传记项目，而家里没人听过那个名字。开头几页会揭示一场可怕的惊吓、一份灾难性的初稿，以及一个孙女的名字；三个笔记本构不成一部传记，而她在搅汤的时候就是这么说的。“这是一份非常彻底的作业，”男孩说，“而且是一场灾难。”田里一头驴在叫，水槽上方的海报里有一头鹿和一头母狮。“母虎不是家猫，”祖母说，“女儿也不是。”",
+        "一个多疑的邻居、一个关于电动剃刀插着电的吓人故事，以及下水道传来的可怕气味，让这个傍晚多事。“不要表现得像个英雄，”他母亲说。“去谈。”墙上那面被太阳晒褪色的奥运旗帜是屋里唯一的装饰，而整个晚上似乎都绕着灶台旋转。",
+        "他们谈起婴儿潮、一位婴儿潮一代的姑妈，以及一只凌晨四点打鸣的公鸡。“人性不是可测量的东西，”她说，“而这正是可惜之处。”这个小项目的厄运写在时间表里，他们两人都知道。任何关于计划的谈话都短得悲惨，只在边缘处显得快乐。",
+        "让他惊讶的是这个家庭的节奏：一阵有节奏的响声、一句幽默的评论、一碗白米饭，以及许多没有说出口的怨恨。“是的，先生，”男孩在祖父问他是否愿意帮忙时说。“我本想告诉你要把工作集中起来，”他母亲说，“但你父亲也做不到。”他有过的最好的老师是一个九岁的孩子，后来成了邻居，他知道一句刻薄的话和一磅米之间的区别。他无法用一个计划让她惊叹；他只能在糟糕的日子里去出现——尤其是那些日子——而那正是她所要求的增加。"
+      ],
+      "exercises": [
+        {
+          "id": "CH029-Q1",
+          "type": "context",
+          "prompt": "What did Lin's mother tell him to ensure?",
+          "options": [
+            "that he eats",
+            "that he studies",
+            "that he telephones the actress",
+            "that he fixes the drain"
+          ]
+        },
+        {
+          "id": "CH029-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “商议；谈判”?",
+          "options": [
+            "negotiate",
+            "behave",
+            "reckon",
+            "astonish"
+          ]
+        },
+        {
+          "id": "CH029-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "a thorough piece of work",
+            "a scary piece of work",
+            "a suspicious piece of work",
+            "a joyous piece of work"
+          ]
+        },
+        {
+          "id": "CH029-Q4",
+          "type": "cloze",
+          "prompt": "The grandmother said that a tigress is not a house ______.",
+          "options": [
+            "cat",
+            "cock",
+            "deer",
+            "mule"
+          ]
+        },
+        {
+          "id": "CH029-Q5",
+          "type": "recall",
+          "prompt": "What could Lin do instead of amazing his mother with a plan?",
+          "options": [
+            "turn up, particularly on the bad days",
+            "centralize his work",
+            "buy a pound of rice",
+            "write a biography"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH029-Q1",
+          "answer": "that he eats",
+          "explanation": "Her first concern was that he was not feeding himself."
+        },
+        {
+          "id": "CH029-Q2",
+          "answer": "negotiate",
+          "explanation": "She told him to negotiate rather than play the hero."
+        },
+        {
+          "id": "CH029-Q3",
+          "answer": "a thorough piece of work",
+          "explanation": "Thorough describes work done completely."
+        },
+        {
+          "id": "CH029-Q4",
+          "answer": "cat",
+          "explanation": "She compared a daughter to a wild animal, not a pet."
+        },
+        {
+          "id": "CH029-Q5",
+          "answer": "turn up, particularly on the bad days",
+          "explanation": "Presence, not plans, was what his family asked of him."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH029",
+    "last_event": "The group sent its method rather than its results to a regional survey it could not control, the second arc closed with an explicit statement of what cannot be measured, and Lin's family pressed him about time and attention.",
+    "unresolved_consequence": "The survey result is unknown, the third arc has opened with unspoken family resentment, and Lin has promised presence he cannot yet schedule.",
+    "character_locations": {
+      "Lin Wei": "his family home and Harbor City University",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year environmental-engineering student",
+      "Maya Chen": "journalism student and student-paper columnist",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method",
+      "publish the weak numbers alongside the strong ones",
+      "turn up at home on the days that matter"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience",
+      "outside funding conditions against the group's own judgement of what counts",
+      "family duty against an unpaid project"
+    ],
+    "first_required_event_next_chapter": "CH030 must make family duty and the project collide on a specific day and force an explicit renegotiation of roles.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence",
+      "the group rebuilt its study around retention and recognition after an examiner said it measured the wrong thing",
+      "the group's new rule is that every number carries a name",
+      "a spring inspection made funding conditional on a measurable increase in comprehension",
+      "the group sent its method rather than its results to a regional reading survey it could not control",
+      "the second arc closed with the statement that they can manage what they can measure and must say so",
+      "the third arc opened with Lin's family pressing him about time, food, and attention"
+    ]
+  }
+}

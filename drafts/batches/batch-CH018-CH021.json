@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "batch_id": "batch-CH018-CH021",
+  "chapter_ids": [
+    "CH018",
+    "CH019",
+    "CH020",
+    "CH021"
+  ],
+  "chapters": [
+    {
+      "article_id": "CH018",
+      "english_title": "Learning How to Learn: Evidence on the Table",
+      "chinese_title": "学会学习：摆上桌面的证据",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The staff week had to become evidence, and evidence is a demanding master. Among the three hundred pages of notes, only a handful could survive a stranger's reading. “It is easy to be nice about a school,” the teacher said. “It is harder to be accurate. Please treat the week as a problem, not as a story.” Much of the material, she added, was already stale the day it was written.",
+        "The team already knew where the weakness was. A pretty table can hide a hasty sample; a cheerful summary can bury a misery. “We must observe, not celebrate,” Lin wrote. “You are crazy,” Maya said, laughing. “But you are also right.” The bulk of the evidence was delicate: a girl who had never been asked, a kid who had learned to read from a cereal box, and a boy who could remember every word of a notice but not the name of the office that posted it.",
+        "The eventual report was a surgical document. It listed what the group had seen, what it had assumed, and where the two differed. A skilled typist prepared three copies; a handsome folder carried them to the faculty office. An early draft had been much longer. One sentence, quoted later in the student paper, read: “The honor of a school is not in its buildings but in the questions it allows.”",
+        "The irony was not lost on them. A university that charged high tuition could not discriminate between students who asked and students who stayed absent. An enterprising professor, eager to help, wanted a mightier conclusion than the data allowed, and the uneasy silence that followed was, in turn, an education. A clever remark about statistics broke it. “You ask for the impossible,” she said. “No,” Maya said. “We ask for the eventual.” The wit in the room was merry; the impatience was not.",
+        "A cloudy afternoon brought a fantastic offer: a conference slot, a congratulatory letter, and a chance to present the week as a triumph. Those pages, however, would need a badly lit corridor to look impressive, and the team refused the triumphant part. A commonplace sentence, they decided, was worth more than a pretty one, and an ironic footnote about the information they lacked could heighten the contrast. The work was tricky, the timetable adventurous, and one table already obsolete. Their proficiency would be measured by what they left out. “Yes,” the professor said. “That is the art of it.”"
+      ],
+      "chinese_paragraphs": [
+        "职工周必须变成证据，而证据是一位要求很高的主人。在三百页笔记中，只有少数几页能经受陌生人的阅读。“对一所学校说好话很容易，”那位教师说，“做到准确更难。请把这个星期当作一个问题，而不是一个故事。”她又说，其中很多材料在写下的当天就已经过时了。",
+        "团队早就知道弱点在哪里。一张漂亮的表格可以掩盖草率的样本；一份快活的摘要可以埋葬一份痛苦。“我们必须观察，而不是庆祝，”林伟写道。“你疯了，”曼雅笑着说，“但你也说对了。”大部分证据都很微妙：一个从未被问过的女孩、一个从麦片盒上学会认字的孩子，以及一个能记住通知里每一个字、却记不住张贴通知的办公室名字的男孩。",
+        "最终的是一份外科手术式的文件。它列出了小组看到的、他们假设的，以及两者不同之处。一位熟练的打字员准备了三份；一只大方的文件夹把它们送到了教工办公室。早期草稿要长得多。其中一句话后来被学生报引用：“一所学校的荣誉不在于它的建筑，而在于它允许被提出的问题。”",
+        "其中的讽刺他们并没有错过。一所收取高额学费的大学，不能因为学生是否提问就区别对待他们，也不能对缺席者视而不见。一位有事业心的教授热心想帮忙，想要一个比数据允许的更有力的结论；随之而来的不安沉默，反过来也是一堂教育课。一句关于统计的聪明评论打破了沉默。“你在要求不可能的事，”她说。“不，”曼雅说，“我们在要求那个最终会成立的东西。”屋里的机智是愉快的，急躁则不是。",
+        "一个多云的下午带来了一个奇妙的提议：一个会议名额、一封祝贺信，以及把这一周说成胜利的机会。然而那些页面要靠一条照明很差的走廊才显得动人，团队拒绝了“胜利”那部分。他们认定，一句平常的话比一句漂亮的话更值钱，而关于他们所缺信息的一句讽刺性脚注，反而能加强对比。工作很棘手，时间表富于冒险，有一张表格已经作废。他们的熟练程度将由他们省略了什么来衡量。“是的，”教授说，“这就是它的艺术所在。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH018-Q1",
+          "type": "context",
+          "prompt": "What did the teacher ask the group to treat the week as?",
+          "options": [
+            "a problem rather than a story",
+            "a celebration",
+            "a conference paper",
+            "a private diary"
+          ]
+        },
+        {
+          "id": "CH018-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “微妙；精细”?",
+          "options": [
+            "delicate",
+            "stale",
+            "hasty",
+            "merry"
+          ]
+        },
+        {
+          "id": "CH018-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "observe the evidence",
+            "observe a compliment",
+            "observe a folder",
+            "observe the tuition"
+          ]
+        },
+        {
+          "id": "CH018-Q4",
+          "type": "cloze",
+          "prompt": "The professor warned them that they could not ______ between students who asked and students who did not.",
+          "options": [
+            "discriminate",
+            "heighten",
+            "diversify",
+            "compose"
+          ]
+        },
+        {
+          "id": "CH018-Q5",
+          "type": "recall",
+          "prompt": "What did the group refuse?",
+          "options": [
+            "the triumphant part of the offer",
+            "the conference slot",
+            "the folder",
+            "the second draft"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH018-Q1",
+          "answer": "a problem rather than a story",
+          "explanation": "She wanted accuracy, not a pleasant narrative."
+        },
+        {
+          "id": "CH018-Q2",
+          "answer": "delicate",
+          "explanation": "The evidence needed careful handling, which delicate describes."
+        },
+        {
+          "id": "CH018-Q3",
+          "answer": "observe the evidence",
+          "explanation": "Observe combines naturally with evidence, behaviour, or a rule."
+        },
+        {
+          "id": "CH018-Q4",
+          "answer": "discriminate",
+          "explanation": "She refused to treat students differently according to whether they asked."
+        },
+        {
+          "id": "CH018-Q5",
+          "answer": "the triumphant part of the offer",
+          "explanation": "They accepted the chance to present but rejected the triumph."
+        }
+      ]
+    },
+    {
+      "article_id": "CH019",
+      "english_title": "Learning How to Learn: The Trial Run",
+      "chinese_title": "学会学习：第一次试行",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The trial run had a new shape: one afternoon, one line of questions, and a small group of volunteers. Each carried a soft pencil and a printed page. The engineer who designed the form was curious about a single number — how many people could find the answer without help. “Few,” she said, when the first results came in. “That is the problem.”",
+        "The performance was better than they had feared. A humble typist, an ace with a needle and a length of silk ribbon, fixed the broken sign in ten minutes, and a ham sandwich with butter bought her a grateful hour. A girl in a cat sweater asked whether the map worked for someone who could not read; nobody answered. “That is the catch,” Maya said. “We wrote for the wrong reader.” A rumor went round the library that the group had taken money from a bakery; the toast and butter tasted better than that story.",
+        "The content of the next version had to change. They would compose it in three languages, diversify the examples, and add a line for readers who preferred pictures. “It is awkward,” Lin admitted. “It is also accessible.” A historical exhibit on Christianity gave them an unexpected lesson: a manuscript copied by hand by a Christian scribe whose name was never recorded, with one old note about Christ in the margin. “That is the pioneer of our profession,” the librarian said. “Efficiency came later.” Chalk dust still lay on the shelf beneath it.",
+        "Recognition arrived in small forms. A professor praised their “purity of method” and then misspelled Maya's name in the citation. A fiber of doubt remained. “I am not hopeless about it,” she said. “I am just not finished.” An innocent remark about a clumsy diagram started an hour-long argument, and her finger stayed on the page the whole time. A responsive reader, they learned, beats ten quiet ones.",
+        "A mammal, a pizza box, and a book of riddles shared one table by the end of the week. Their flexible schedule allowed one more trial; other volunteers signed up. Not every session was useful; most were not, and nobody could say quite why. “Write it down anyway,” she said. “Again.” Nobody knew how much the answer depended on luck. It was, in his words, a trifle: three hundred grams of paper and a million intentions. “Some things are infectious,” Maya said. “Curiosity is one of them. Wake me when the next batch arrives.” Many notes were his, and the study would carry all of them. She smiled at the clumsy sentence he had just written; the wrinkle beside her eye showed she had slept badly. “No,” she said."
+      ],
+      "chinese_paragraphs": [
+        "试行的形态是新的：一个下午、一条问题线，以及一小群志愿者。每人手里一支软铅笔和一张打印页。设计表格的工程师只对一个数字感到好奇——有多少人能够在没有帮助的情况下找到答案。“很少，”第一轮结果出来时她说，“这就是问题。”",
+        "表现比他们担心的要好。一位谦逊的打字员用一根针和一段丝带，十分钟就修好了坏掉的指示牌，一个火腿三明治换来了她感激的一小时。一个穿猫毛衣的女孩问，这张地图对一个不识字的人是否管用；没有人能回答。“这就是陷阱，”曼雅说，“我们为错误的读者写作。”图书馆里传开一则谣言，说小组收了一家面包店的钱；早餐的吐司都比那个故事更可信。",
+        "下一版的内容必须改变。他们要用三种语言编写，使例子多样化，并为更喜欢图画的读者加一行。 “这很笨拙，”林伟承认，“但它也更容易接近。”阅览室里一场关于基督教的史料展给了他们意外的教训：一份手抄手稿，一个字母一个字母地抄写，抄写者是一位没有留下姓名的基督徒，页边还有一句关于基督的旧注。“这就是我们这一行的先驱，”图书管理员说，“效率是后来的事。”它下面的书架上还落着粉笔灰。",
+        "认可以小形式到来。一位教授称赞他们“方法的纯净”，随后在引注里把曼雅的名字拼错了。一丝怀疑仍在。“我并不是对它绝望，”她说，“我只是还没做完。”一句关于一张笨拙图表的无心之言引发了长达一小时的争论，而她的手指一直停在那一页上。他们明白了：一个反应灵敏的读者，抵得上十个沉默的读者。",
+        "到那个周末，一只哺乳动物、一个比萨盒和一本谜语书共用同一张桌子。他们灵活的安排允许再做一次试行，又有其他志愿者报了名。并不是每一次都有用；大多数没有用，也没人说得清究竟为什么。“还是写下来吧，”她说，“一次再一次。”用他的话说，这只是小事一桩：三百克纸和一百万个好意。“有些东西是会传染的，”曼雅说，“好奇心就是其中之一。下一批到的时候叫醒我。”很多笔记都是他写的，而这份研究会把它们全部保留下来。她对他刚写下的那句笨拙的话笑了笑，眼角那道细纹是她睡得不好的唯一迹象。“不，”她说。"
+      ],
+      "exercises": [
+        {
+          "id": "CH019-Q1",
+          "type": "context",
+          "prompt": "What did the girl in the cat sweater reveal?",
+          "options": [
+            "the map did not work for someone who could not read",
+            "the sign was too expensive",
+            "the library was closed",
+            "the rumour was true"
+          ]
+        },
+        {
+          "id": "CH019-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “易接近的；可使用的”?",
+          "options": [
+            "accessible",
+            "awkward",
+            "humble",
+            "infectious"
+          ]
+        },
+        {
+          "id": "CH019-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "diversify the examples",
+            "diversify the toast",
+            "diversify the rumour",
+            "diversify the chalk"
+          ]
+        },
+        {
+          "id": "CH019-Q4",
+          "type": "cloze",
+          "prompt": "The librarian said that efficiency came ______ the scribes.",
+          "options": [
+            "later",
+            "hopelessly",
+            "clumsily",
+            "purely"
+          ]
+        },
+        {
+          "id": "CH019-Q5",
+          "type": "recall",
+          "prompt": "What did Maya call curiosity?",
+          "options": [
+            "something infectious",
+            "a trifle",
+            "a rumour",
+            "a wrinkle"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH019-Q1",
+          "answer": "the map did not work for someone who could not read",
+          "explanation": "The trial exposed a reader the group had never considered."
+        },
+        {
+          "id": "CH019-Q2",
+          "answer": "accessible",
+          "explanation": "Accessible means easy to reach or use, which the new version aimed to be."
+        },
+        {
+          "id": "CH019-Q3",
+          "answer": "diversify the examples",
+          "explanation": "Diversify combines with examples, sources, or a portfolio."
+        },
+        {
+          "id": "CH019-Q4",
+          "answer": "later",
+          "explanation": "The librarian valued the hand-copied manuscript above later efficiency."
+        },
+        {
+          "id": "CH019-Q5",
+          "answer": "something infectious",
+          "explanation": "She said curiosity spreads from person to person."
+        }
+      ]
+    },
+    {
+      "article_id": "CH020",
+      "english_title": "Learning How to Learn: Pressure Builds",
+      "chinese_title": "学会学习：压力上升",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The first pressure came from a reference in an annual report. A quotation from their own study had been used to support a conclusion they had never drawn. “This is a terrible thing to happen to a young project,” Maya said. “It is also a chance to practice precision.” All of them felt the chill of it.",
+        "They heard the same complaint from a military institute, a laboratory, and a casual reader of the student journal. Each wanted a complete list; none wanted an observation. “A form is not a structure,” Lin said. “A structure holds weight.” Amongst the art on the wall, a boy from the school of education had pinned a note: experience without method is only memory.",
+        "The weak point was the second edition, distributed in a batch of two hundred. On the editing table, amongst the crumbs of bread, a ghost of the old text survived — a stray adjective, a missing noun, one line about coordination that nobody could explain. “We must identify it before we produce the next printing,” she said. “Up to now we have been lucky.”",
+        "A smile from Professor Zhao did not soften the news. The institute wanted a new edition within a minute of the review, and the sensitive material — the quotations from named students — had to be removed. The spell of good humour broke. “You cannot manipulate a quotation into consent,” she said. “That is not innovation, it is decoration.”",
+        "Here the ignorance of the outside world became useful: nobody had told them that such a correction was impossible. A historical note belonged in the appendix, and they would inform every reader of the correction in a separate letter. “This particular error,” Lin wrote in the margin, “is why we keep everything.” Further work was for the reader to compare, not for the author. The new letter would go from the office to every reader; it would lead with the correction, explain why it mattered, and use one word instead of ten. They had to learn that a correction is also information. “Remember the first line,” he told the group. “Other people will read the rest, without us.”"
+      ],
+      "chinese_paragraphs": [
+        "第一个压力来自一份年报里的一处引用。他们自己研究里的一句话被用来支持一个他们从未得出的结论。“这对一个年轻项目来说太糟糕了，”曼雅说，“但这也是练习精确的机会。”他们所有人都感到了那股寒意。",
+        "他们从一家军事研究所、一间实验室和学生刊物的一个随意读者那里听到了同样的抱怨。每个人都想要一份完整的清单；没有人想要一条观察。“表格不是结构，”林伟说，“结构要承重。”墙上的艺术画之间，教育学院的一个男孩钉了一张纸条：没有方法的经验只是记忆。",
+        "弱点在第二版，那一批印了两百份。在编辑桌上、面包屑之间，旧文本的幽灵还活着——一个多余的形容词、一个缺失的名词、一行没人解释得清的关于协调的文字。“我们必须在下一次印制之前找出它，”她说，“到目前为止我们只是运气好。”",
+        "赵教授的一个微笑并没有让消息变软。研究所要求评审后一分钟内出新版，而那些敏感材料——来自具名学生的引语——必须删掉。好脾气的那道咒语破了。“你不能把引语操纵成同意，”她说，“那不是创新，是装饰。”",
+        "在这里，外部世界的无知反而有用了：没有人告诉过他们这样的更正是不可能的。一条历史说明应放在附录里，他们还要用一封单独的信告知每一位读者。 “正是这个特别的错误，”林伟在页边写道，“让我们保留一切。”进一步的比较属于读者，而不属于作者。那封新的信会从办公室寄给每一位读者；它会以更正开头，解释它为什么重要，并用一个词代替十个词。他们必须明白：更正也是一种信息。“记住第一行，”他对小组说，“其他人会在没有我们的情况下读剩下的部分。”"
+      ],
+      "exercises": [
+        {
+          "id": "CH020-Q1",
+          "type": "context",
+          "prompt": "What had the annual report done with the group's work?",
+          "options": [
+            "used a quotation to support a conclusion they never drew",
+            "copied their bread recipe",
+            "published their names",
+            "asked them to write a new edition"
+          ]
+        },
+        {
+          "id": "CH020-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “无知”?",
+          "options": [
+            "ignorance",
+            "coordination",
+            "observation",
+            "innovation"
+          ]
+        },
+        {
+          "id": "CH020-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "identify the error",
+            "identify the bread",
+            "identify the chill",
+            "identify the smile"
+          ]
+        },
+        {
+          "id": "CH020-Q4",
+          "type": "cloze",
+          "prompt": "She said they could not ______ a quotation into consent.",
+          "options": [
+            "manipulate",
+            "distribute",
+            "inform",
+            "belong"
+          ]
+        },
+        {
+          "id": "CH020-Q5",
+          "type": "recall",
+          "prompt": "What did Lin say a correction is?",
+          "options": [
+            "also information",
+            "a decoration",
+            "a chance to rest",
+            "a private note"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH020-Q1",
+          "answer": "used a quotation to support a conclusion they never drew",
+          "explanation": "Their sentence was quoted out of context in the annual report."
+        },
+        {
+          "id": "CH020-Q2",
+          "answer": "ignorance",
+          "explanation": "The outside world's ignorance of the difficulty let the correction proceed."
+        },
+        {
+          "id": "CH020-Q3",
+          "answer": "identify the error",
+          "explanation": "Identify combines with an error, a cause, or a pattern."
+        },
+        {
+          "id": "CH020-Q4",
+          "answer": "manipulate",
+          "explanation": "She refused to turn a quotation into something it did not mean."
+        },
+        {
+          "id": "CH020-Q5",
+          "answer": "also information",
+          "explanation": "He argued that publishing a correction informs readers rather than embarrassing the team."
+        }
+      ]
+    },
+    {
+      "article_id": "CH021",
+      "english_title": "Learning How to Learn: The Disagreement",
+      "chinese_title": "学会学习：分歧",
+      "theme": "学习方法与教育",
+      "english_paragraphs": [
+        "The disagreement began in the lab, over a cake. A classmate had brought it to the cafe, and the merriment faded when Maya said that the bakery case was not evidence. “You cannot ignore the qualitative difference,” she said. “A comparison is not an experiment.” Lin disagreed: an experiment, he argued, needed only one measurable thing. The milky coffee in front of her went cold while they argued.",
+        "Their argument grew comparative and then personal. “You are ashamed of the messy part,” she said. “You would rather pose as a scientist than investigate like one.” He heard the injustice in it and said nothing. The resentment stood between them for a full minute, and the sunny afternoon outside made it worse.",
+        "The president of the student union proposed a compromise: a sample in the grocery, a survey in the warehouse, and a small study in the realm of the desirable. “That is not inclusive,” Maya said. “It is merely convenient, and it is not comparable to anything we have already done.” Such a plan would compete with better-funded work and lose, and all of them knew it.",
+        "The widespread heating failure that week settled the argument by removing the choice. Half the group was sick; the other half was behind. “It is advisable to finish this in the warmer months,” the president said. “Here, in this form, it is merely a guess.” He did not apologize, and she did not apologise either; both were too tired for the ceremony of it. The compromise was honorable, though the coffee was not.",
+        "They inquired, they enquired, they clarified, and eventually they produced an argumentation they could both sign. It was methodical, respectful, and insightful about its own limits, and it dealt honestly with the dealing of the previous month. Her curiosity had survived the month, and so had his. “Not one notable finding,” Lin admitted. “No,” she said. “The commencement of a method. That is all, and that is much.” Their universe was one library, one lab, and one cafe, and the problem was still the same one. “Regardless,” she added, “the numbers went up in the right direction.” An inquisitive mind, he decided, was not a weakness. This was the first thing they had grown together rather than by accident, and his major, he realised, had taught him only half of it."
+      ],
+      "chinese_paragraphs": [
+        "分歧始于实验室，起因是一块蛋糕。一位同班同学把它带到了咖啡馆；当曼雅说面包店的案例不是证据时，欢乐的气氛消散了。“你不能忽视那个质性的差别，”她说，“一次比较不是一次实验。”林伟不同意：他认为实验只需要一个可测量的东西。他们争论时，她面前那杯奶白色的咖啡凉了。",
+        "他们的争论先是比较性的，随后变成了针对个人。“你为混乱的那部分感到羞耻，”她说，“你宁愿装成一个科学家，也不愿像科学家那样去调查。”他听出了其中的不公，没有说话。怨恨在他们之间站了整整一分钟，外面晴朗的下午让它更糟。",
+        "学生会主席提出了一个折中方案：在杂货店取样、在仓库做问卷，并在“可取之物”的领域里做一项小型研究。“这不具包容性，”曼雅说，“它只是方便，而且与我们已经在做的事根本无法相比。”这样的方案会与资金更充足的工作竞争并落败，他们所有人都明白这一点。",
+        "那一周大面积的供暖故障以取消选择的方式结束了争论。小组一半人病了，另一半落后了。“明智的做法是在更暖的月份完成它，”主席说，“在这里、以这种形式，它只是一个猜测。”他没有道歉，她也没有道歉；两人都太累了，没有力气去走那个过场。这个折中是体面的，尽管那杯咖啡不是。",
+        "他们询问、打听、澄清，最终写出了一份两人都能签字的论证。它有方法、有敬意，并且对自己的限度有深刻见解；它也诚实地处理了上个月的那笔交易。她的好奇心熬过了这个月，他的也是。“没有一个值得注意的发现，”林伟承认。“不，”她说，“是一种方法的开端。这就够了，而这也很多了。”他们的宇宙就是一座图书馆、一间实验室和一家咖啡馆，而问题依然是同一个问题。“不管怎样，”她补充说，“数字是在朝正确的方向走。”他断定，一颗爱追问的心不是弱点。这是他们第一次共同成长而非偶然长成的东西；他意识到，自己的专业只教会了他其中一半。"
+      ],
+      "exercises": [
+        {
+          "id": "CH021-Q1",
+          "type": "context",
+          "prompt": "What did Maya refuse to accept as evidence?",
+          "options": [
+            "a single bakery case",
+            "a laboratory experiment",
+            "a written survey",
+            "a published study"
+          ]
+        },
+        {
+          "id": "CH021-Q2",
+          "type": "meaning",
+          "prompt": "Which word means “令人想望的；可取的”?",
+          "options": [
+            "desirable",
+            "inclusive",
+            "comparable",
+            "methodical"
+          ]
+        },
+        {
+          "id": "CH021-Q3",
+          "type": "collocation",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "investigate the problem",
+            "investigate the cake",
+            "investigate the coffee",
+            "investigate the merriment"
+          ]
+        },
+        {
+          "id": "CH021-Q4",
+          "type": "cloze",
+          "prompt": "The heating failure was ______ that week.",
+          "options": [
+            "widespread",
+            "sunny",
+            "milky",
+            "respectful"
+          ]
+        },
+        {
+          "id": "CH021-Q5",
+          "type": "recall",
+          "prompt": "What did Maya call the result of their work?",
+          "options": [
+            "the commencement of a method",
+            "a notable finding",
+            "an honourable apology",
+            "a competition"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "id": "CH021-Q1",
+          "answer": "a single bakery case",
+          "explanation": "She insisted that one example cannot carry a general conclusion."
+        },
+        {
+          "id": "CH021-Q2",
+          "answer": "desirable",
+          "explanation": "The compromise was framed around what seemed desirable rather than what was measurable."
+        },
+        {
+          "id": "CH021-Q3",
+          "answer": "investigate the problem",
+          "explanation": "Investigate combines naturally with a problem, a cause, or a claim."
+        },
+        {
+          "id": "CH021-Q4",
+          "answer": "widespread",
+          "explanation": "The heating failure affected the whole campus."
+        },
+        {
+          "id": "CH021-Q5",
+          "answer": "the commencement of a method",
+          "explanation": "She valued the start of a method above a single finding."
+        }
+      ]
+    }
+  ],
+  "continuity": {
+    "chapter_id": "CH021",
+    "last_event": "Maya and Lin settled their argument over evidence by writing a joint, methodical argumentation that named its own limits.",
+    "unresolved_consequence": "The staff week is documented but the faculty review has not accepted it, and the group still lacks money, volunteers, and a reliable measurement of learning.",
+    "character_locations": {
+      "Lin Wei": "Harbor City University",
+      "Maya Chen": "Harbor City University",
+      "Professor Zhao": "Harbor City University"
+    },
+    "character_roles": {
+      "Lin Wei": "first-year environmental-engineering student",
+      "Maya Chen": "journalism student and student-paper columnist",
+      "Professor Zhao": "academic mentor for first-year studies"
+    },
+    "open_commitments": [
+      "publish one honest campus map that does not depend on official permission",
+      "earn faculty support before the term review",
+      "keep the notes public under a voluntary team until the summer",
+      "repair the broken sign frame at the canteen gate",
+      "turn the staff teaching week into a documented, examinable method"
+    ],
+    "open_conflicts": [
+      "confidence and speed against equal access for every student",
+      "limited time and money against a complete survey",
+      "student ownership against institutional ownership of the map",
+      "an approved official document against a map that can still be corrected",
+      "fewer volunteers against an unchanged workload",
+      "quantitative measurement against qualitative experience"
+    ],
+    "first_required_event_next_chapter": "CH022 must show the group defending its method against the charge that it has measured the wrong thing.",
+    "established_facts": [
+      "Lin Wei and Maya promised a practical fix during a rainy orientation week",
+      "the first trial ran at one gate with printed cards and a one-sentence consent form",
+      "Professor Zhao told them that a map is a hypothesis until the evidence explains its gaps",
+      "the union offered a room and a camera at the cost of more work than the group could sustain",
+      "the group rejected a plan built only on numbers after listening to night-shift workers",
+      "Maya and Lin disagreed about whether the map belonged to the students or the administration",
+      "the map now asks one better question at every gate instead of promising full coverage",
+      "a legislative aide made the room conditional on a working bypass for every closed gate",
+      "the group abandoned one official map in favour of multiple small trials, one per gate",
+      "the registration office accepted the map as an official document without free edits",
+      "several volunteers left after the map became official",
+      "Lin tested the route himself and found a broken sign frame at the canteen gate",
+      "the first arc closed with three small tools: a printed page, a phone page, and a person at the gate",
+      "a member of the cleaning staff told a lecture hall that nobody teaches students how to read a person",
+      "for one week the staff taught and the students listened",
+      "the staff week was turned into a surgical report that separated observation from assumption",
+      "the second trial showed the map did not work for readers who could not read",
+      "a quotation from the group's study was misused in an annual report, forcing a corrected second edition",
+      "Maya and Lin disagreed about whether a qualitative comparison could count as evidence"
+    ]
+  }
+}

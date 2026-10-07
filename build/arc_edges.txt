@@ -1,0 +1,100 @@
+﻿====================================================================================================
+arc 1 OPENER CH001 | words=401 | paras=5
+  EN title: New Ground: A Signal
+  EN[0]: Three months ago, Lin Wei had imagined university as a quiet place where success would depend on private effort. Yet on a bright autumn morning, he stood outside Harbor City University's registration hall with a cell phone in one hand and a paper map in the other. The university had recently released an orientation app, but it kept sending students to a locked door. Lately, Lin had tried to appear calm and youthful. Now he watched a creative crowd invent its own directions.
+  CN[0]: 三个月前，林伟曾把大学想象成一个安静的地方，成功全靠个人努力。然而在一个明亮的秋日早晨，他站在港城大学注册大厅外，一手拿着手机，一手拿着纸质地图。学校最近发布了一款迎新应用，但它不断把学生引向一扇上锁的门。最近林伟一直努力显得镇定而有朝气，此刻却看到一群富有创意的人各自发明路线。
+====================================================================================================
+arc 1 CLOSER CH014 | words=421 | paras=5
+  EN title: New Ground: The Bridge Forward
+  EN[-1]: A shameless poster about “super students” hung beside the library, and a voluminous folder of outdated rules sat beneath it. The blossoms in the square had opened and the daylight lasted longer. “Every volunteer had to contribute one page,” Professor Zhao said. “Our work is disruptive in a very small way, and that is exceedingly fruitful.” A phrasal verb in her notebook, she admitted, was only partly relevant, but the sentence she copied beside it was this: “A bridge is not a victory, and without it there is no crossing.”
+  CN[-1]: 图书馆旁挂着一张无耻的“超级学生”海报，下面放着一大卷过时的规章。广场上的花已经开了，白昼也更长了。“每位志愿者都必须贡献一页，”赵教授说，“我们的工作以一种很小的方式具有破坏性，而这极其富有成果。”她笔记本里的一个短语动词，她承认，只有一部分相关；但她在旁边抄下的这句话是：“桥不是胜利，而没有它就没有跨越。”
+====================================================================================================
+arc 2 OPENER CH015 | words=409 | paras=5
+  EN title: Learning How to Learn: A Signal
+  EN[0]: The second arc opened with a signal, not with a plan. A researcher from the education faculty asked the group a single question at the end of a lecture: how would they prove that the map taught anyone anything? The early answer was a sketch; the later answer was a blueprint. “At every turn,” she said, “you will be asked for evidence, and such a demand is healthy.”
+  CN[0]: 第二段弧线以一个信号开始，而不是以一个计划开始。教育学院的一位研究人员在一场讲座结束时问了小组一个问题：他们怎么证明这张地图教会了任何人任何东西？最早的答案是草图，后来的答案是蓝图。“在每一个转折点，”她说，“都会有人向你要证据，而这种要求是健康的。”
+====================================================================================================
+arc 2 CLOSER CH028 | words=412 | paras=5
+  EN title: Learning How to Learn: The Bridge Forward
+  EN[-1]: The arc closed with an unresolved sentence. “We can manage what we can measure, and we can ignore what we cannot,” Lin wrote. “That is not a reason to stop; it is a reason to say so.” Such honesty damaged their chances, and they knew it themselves. The everyday work — a colonized shelf of borrowed books, a damaged sign, a dictation nobody had typed — continued anyway, and a worldwide network of three people is still a network. A movie would have ended here. A project does not. Unless the survey said otherwise, the map itself would stay. Somewhere between the speech he had prepared and the speech he actually gave, he found the sentence: a knowledgeable reader is not the same as a knowledgeable writer, and an old oriental art catalogue is not a method. “It has a peculiar magic,” Maya said. “Do not pronounce it finished.” She asked him to explore the existing shelf and to choose, really, one book for him.
+  CN[-1]: 这段弧线以一句未解决的句子收尾。“我们能管理我们能测量的东西，也能忽视我们不能测量的东西，”林伟写道，“这不是停下的理由，而是把它说出来的理由。”这样的诚实损害了他们的机会，他们自己也知道。日常的工作——一排借来的书构成的殖民地式书架、一块损坏的指示牌、一段没人打出来的口述——仍然继续着；而一个由三个人组成的全球网络，仍然是一个网络。一部电影会在这里结束。一个项目不会。
+====================================================================================================
+arc 3 OPENER CH029 | words=391 | paras=5
+  EN title: Promises and Pressure: A Signal
+  EN[0]: The third arc opened at home, in a kitchen with a fridge that hummed like a small, unhappy mule. Lin's mother was a textile worker, a daughter of farmers, and the mother of a boy who was never at home. “You reckon you are busy,” she said. “Ensure that you eat.”
+  CN[0]: 第三段弧线在家里开始，在一间厨房里，冰箱像一头不快活的小骡子那样嗡嗡作响。林伟的母亲是纺织工人、农民的女儿，也是一个从不在家的男孩的母亲。“你以为你很忙，”她说，“要保证吃饭。”
+====================================================================================================
+arc 3 CLOSER CH042 | words=362 | paras=5
+  EN title: Promises and Pressure: The Bridge Forward
+  EN[-1]: Several participants disapproved of the final paragraph. A hat and a glove were, quite simply, not a policy, and the insistent demand for a cleaner number could not be met without deleting somebody's name. Many of them would persevere; some would not. “The interviewee is not the interviewee of the question,” the spokeswoman said. “That is why we keep asking.” The question, at least, had survived the defeat, and there was no shame in that. “Shit,” the broker said, when the final total appeared on the screen; he was immensely relieved, and he said so, twice.
+  CN[-1]: 好几位参与者不赞成最后一段。一顶帽子和一只手套，说白了，不是政策；而要满足那坚持要一个更干净数字的要求，就得删掉某个人的名字。他们中很多人会坚持下去，有些人不会。“被采访者不是问题的被采访者，”女发言人说，“所以我们才要一直问。”至少那个问题在失败中活了下来，而这并不丢人。
+====================================================================================================
+arc 4 OPENER CH043 | words=370 | paras=5
+  EN title: The First Real Deadline: A Signal
+  EN[0]: The fourth arc began downtown, in a spacious office with a gigantic carpet and a view of the orbital tower. A prominent businessman said “hi” to them without looking up, and the management team arrived ten minutes later. “We want a film about our new technological platform,” the woman said. “You will supervise the script, and you will receive a small fee.” Various people around the table produced a phone and took notes, like a boy at his first interview.
+  CN[0]: 第四段弧线从市中心开始，在一间宽敞的办公室，铺着巨大的地毯，窗户正对轨道塔。一位有名的商人头也不抬地对他们说了声“嗨”，管理团队十分钟后才到。“我们想拍一部关于我们新科技平台的影片，”那位女士说，“你们来监督脚本，会收到一笔小小的报酬。”桌边各种各样的人掏出手机做记录，像第一次参加面试的男孩。
+====================================================================================================
+arc 4 CLOSER CH056 | words=351 | paras=6
+  EN title: The First Real Deadline: The Bridge Forward
+  EN[-1]: The general office wrote back within a week. It accepted the contract, ignored the loophole, and sent a second attendant to the balcony with a functional plug and a printed estimate. “A conventional bid is a promise in a suit,” the founder said. “An extraordinary one is a promise in jeans.” They spent the last of the month on petrol and a processor, and told the police exactly what they had spent and why the loophole mattered to a public contract.
+  CN[-1]: 总办公室在一周内回了信。它接受了合同，忽略了那个漏洞，并派了第二位随从到阳台，带着一个功能正常的插头和一份打印的估算。“常规报价是穿西装的承诺，”创立者说，“非凡的那一种是穿牛仔裤的承诺。”他们把那个月剩下的钱花在汽油和一台处理器上，并如实告诉警察他们花了多少。
+====================================================================================================
+arc 5 OPENER CH057 | words=356 | paras=5
+  EN title: Across Borders: A Signal
+  EN[0]: The fifth arc began with a journey: a plane, a truck, a jeep, and a tunnel in the same week. Aisha met them at the station with a thermometer in her bag and a pronunciation guide in her hand. “The tone of a language is part of its safety,” she said. “I is not the same as I am.” They themselves had left a service job for this.
+  CN[0]: 第五段弧线以一段旅程开始：飞机、卡车、吉普车和隧道都出现在同一周。艾莎在车站接他们，包里装着一支温度计，手里拿着一份发音指南。“一种语言的语调是它安全的一部分，”她说，“‘我’和‘我是’不是一回事。”他们自己是放弃了服务工作才来到这里的。
+====================================================================================================
+arc 5 CLOSER CH070 | words=381 | paras=5
+  EN title: Across Borders: The Bridge Forward
+  EN[-1]: Around the bridge, the town had begun to endure its own success: a trail for tourists, a rest stop, and a forward step that nobody had planned. “About a year from now,” the associate said, “somebody will say we did it like that on purpose. We must explain what really happened.” It was, in the end, the same promise as before, moved one bridge further along. The church by the bay had a god in its window and a finish to its stone that no repair could copy; the aisle, the seat, and the tender farewell were all part of the same formal goodbye. The mission was finished, and the associate would keep the log. A hobby became a badge, and a badge became a promise. A gender balance in the crew, a transit pass for every guest, and a plan to initiate a second trail: these were the last three items on the draft.
+  CN[-1]: 桥的周围，小镇已经开始承受自己的成功：一条给游客的小径、一处休息站，以及一个没人计划过的向前一步。“大约一年之后，”那位伙伴说，“会有人说我们当初就是这样设计的。我们必须解释真正发生了什么。”说到底，这和从前是同一个承诺，只是又向前挪过了一座桥。
+====================================================================================================
+arc 6 OPENER CH071 | words=392 | paras=5
+  EN title: The Cost of Always Being Busy: A Signal
+  EN[0]: The sixth arc opened with a crisis that nobody had anticipated: Daniel collapsed on the last step of the sports center ladder. An athlete of national standard, a scout for a professional club, and a sportswoman who trained with him three times a week all said the same thing: he had been eating the food of one nap and sleeping four hours. “It was not a weapon,” the doctor said. “It was a situation.”
+  CN[0]: 第六段弧线以一个没人预料到的危机开始：丹尼尔倒在体育中心梯子的最后一级上。一位国家级运动员、一位职业俱乐部的星探，以及一位每周和他一起训练三次的女运动员都说了同样的话：他吃的只够一次小睡，睡四个小时。“这不是武器，”医生说，“这是一种处境。”
+====================================================================================================
+arc 6 CLOSER CH084 | words=357 | paras=5
+  EN title: The Cost of Always Being Busy: The Bridge Forward
+  EN[-1]: The hurt was real and it was direct: a bony shoulder, an uncovering of the past, and a case of pneumonia that the hospital could not explain. The cohesive lesson was that a body is not a castle with one gate; it is a set of bridges, and every bridge has a limit that someone must discover before the ambulance does. I must ask what my job is here, the physiotherapist said: a service, a game, or a church? A vulnerable joint can disintegrate in a week, and a remedial hour is not a favour — it is the health of the whole squad. “Do not let the god of the timetable hit the table again,” she said, and the hospital sent its report to the ministry that afternoon. Thus the work of the ministry was to turn the report into a table.
+  CN[-1]: 伤害是真实的，也是直接的：一副瘦骨嶙峋的肩膀、一段被揭开的往事，以及一例医院解释不了的肺炎。内在一致的教训是：身体不是只有一道门的城堡；它是一组桥，每座桥都有一个限度，必须有人赶在救护车之前发现它。
+====================================================================================================
+arc 7 OPENER CH085 | words=418 | paras=5
+  EN title: What the System Remembers: A Signal
+  EN[0]: The seventh arc opened with a signal that nobody had asked for: a download of the club's website that included a file nobody had uploaded. The board took one look at the log, and the third member of the team, a base of operations in the innovation lab, was asked to explain the exposure. “It is a delay in the wrong direction,” Aisha said. “It is a resource problem, not a wish problem.”
+  CN[0]: 第七段弧线以一个没人要求的信号开始：俱乐部网站的一次下载，里面包含了一个没人上传过的文件。董事会只看了一眼日志，团队的第三位成员——创新实验室里的一个行动基地——就被要求解释这次暴露。“这是方向错误的延误，”艾莎说，“这是资源问题，不是愿望问题。”
+====================================================================================================
+arc 7 CLOSER CH098 | words=428 | paras=6
+  EN title: What the System Remembers: The Bridge Forward
+  EN[-1]: The inquiry would continue, the national list would grow, and the next period would begin with a smaller system than the one they had pulled apart. That was the result they could put in front of the board — and the one they could defend. The difference between a scheme and a mistake is the loss it can absorb; the route to the review, the category of the output, and the housing of the servers all had to fit inside a capacity of one page. The national inquiry would expand, the restriction would be specified, and our continuous coverage would be measured in weeks. A quota every week, an upright posture at the desk, and a frequency of ten checks a month would imply a smaller and cleaner system, and nothing here would kill the project. The start of the next period would be smaller, and that was the point of the whole exercise.
+  CN[-1]: 质询会继续，全国清单会变长，而下一个周期会从一个比他们拆开的那个更小的系统开始。这就是他们能摆到董事会面前的结果——也是他们能为之辩护的那一个。
+====================================================================================================
+arc 8 OPENER CH099 | words=363 | paras=6
+  EN title: The River Answers Back: A Signal
+  EN[0]: The eighth arc began with a slight shake in the base of the field station, and within an hour the river was pouring over the road. “We need to define the flood level, not merely to desire it,” the director said. Almost every gauge was reading a number that was nearly the same as the last, and none of them was consistent with the water in the yard.
+  CN[0]: 第八段弧线以野外站地基的一阵轻微震动开始，一小时内河水就漫过了道路。“我们需要给洪水水位下一个定义，而不是只去渴望它，”主管说。几乎每一个水位计读出的数字都与上一个差不多，而没有哪一个与院子里的水情一致。
+====================================================================================================
+arc 8 CLOSER CH112 | words=371 | paras=6
+  EN title: The River Answers Back: The Bridge Forward
+  EN[-1]: The loss of the old scheme was easier to accept than the board had expected. Against the advice of the plant managers, the members agreed to publish ten years of data with only a side note about the cost. A millionaire and a billionaire could not fill the gap that an ox and an animal in the field had left. The southeast and the northeast wanted even more; the red look on the director's face said the scheme was losing. “Do not contaminate the well,” the outsider said. The hay, the lily, and the fairy were decoration; the balance sheet was the only document that mattered. Ten trees, one plant, and a board of four: the compromise was thin. A republican member joined the board and asked for a written rule.
+  CN[-1]: 旧方案的损失比董事会预想的更容易接受。不顾工厂经理们的反对，成员们同意公开十年的数据，只加一条关于成本的旁注。
+====================================================================================================
+arc 9 OPENER CH113 | words=389 | paras=6
+  EN title: Who Pays and Who Decides: A Signal
+  EN[0]: The ninth arc opened with a blow to the city budget and a question that was not relevant to the election: who pays for the water treatment plant? A presidential briefing, a congressional hearing, and a budgetary review had all been scheduled for the same morning. “The favourite answer is a slogan,” the mayor said. “The feasible one is a fare.”
+  CN[0]: 第九段弧线以对城市预算的一记重击，以及一个与选举无关的问题开场：谁为水处理厂付钱？一场总统简报、一场国会听证和一次预算审查都被安排在了同一个上午。“最讨喜的答案是口号，”市长说，“可行的那个是票价。”
+====================================================================================================
+arc 9 CLOSER CH126 | words=366 | paras=6
+  EN title: Who Pays and Who Decides: The Bridge Forward
+  EN[-1]: The existence of the scheme no longer depended on a single vote. A certain section of the town, a common type of household, and the strong support of the center had built something that could survive a change of council. The next arc would begin with a loan, a summit, and a question about who owns the record. The town, the section, the type, and the term: four words that a strong effect could build into a common center. We must add more to the account and cut less from the record. The political meeting would begin again in the winter, and the certain things would then be the full list and the strong evidence. The build of the scheme mattered more than its size. Aside from the publicity, the fascinating and arguable part was that an observant reader could check every line.
+  CN[-1]: 这套方案的存在不再取决于一次表决。镇上某个特定的部分、某一类常见的家庭，以及中心地带强有力的支持，已经建起了某种能挺过议会更替的东西。下一段弧线将以一笔贷款、一场峰会，以及一个关于谁拥有记录的问题开始。
+====================================================================================================
+arc 10 OPENER CH127 | words=380 | paras=6
+  EN title: A Choice That Has a Cost: A Signal
+  EN[0]: The tenth arc began in a museum of urban history, where the choice of a career seemed to require an assessment that nobody had written. “A birth in a village and a degree in the city do not produce the same consciousness,” the director said. “You have a steady record and a supreme reputation, and now you must decide what it is for.”
+  CN[0]: 第十段弧线开始于一座城市历史博物馆，在那里，职业的选择似乎需要一份没人写过的评估。“出生在村庄和在城市获得学位，并不会产生同样的意识，”主管说，“你有一份稳定的履历和一个至高的名声，现在你必须决定它是为了什么。”
+====================================================================================================
+arc 10 CLOSER CH137 | words=394 | paras=6
+  EN title: A Choice That Has a Cost: Outside Pressure
+  EN[-1]: The pressure produced a decision that was neither heroic nor worthless: an hourly check for three weeks, a temporary revision, and a promise that the next edition would carry everything. Whenever the group published one page, the editor asked for another, and the work never once became easy. Although we believe in the build, the effect of everything else is too hard to measure. He himself shall feel the pressure, and she should, too. Therefore we shall try to bring the whole record to the press, and the important thing is the life of the reader rather than the life of the author. It was upon this page that the two friends agreed, and it is to this page that the archive returns. The hard part is not the printing; it is the choosing, and everything else is a matter of time. We want to say, before anything else, that we have tried ever since: somehow, anywhere, sometime, we scarcely had a saying in it, and no guarantee whatsoever, because the deadline was not ours to move.
+  CN[-1]: 压力促成了一项既不英勇也不无价值的决定：连续三周每小时核对、一次临时修订，以及一个承诺——下一版会带上全部内容。每当小组公布一页，编辑就再要一页，而这份工作一次也没有变得容易。
