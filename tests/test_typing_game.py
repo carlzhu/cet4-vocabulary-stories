@@ -147,6 +147,27 @@ def test_every_word_is_playable(payload: dict) -> None:
     assert phrases == 14, f"expected 14 phrase entries, found {phrases}"
 
 
+def test_every_word_has_a_short_gloss_for_the_line_under_it(payload: dict) -> None:
+    """The line drawn under each falling word is a one-sense version of the full gloss.
+
+    It has to be short enough to read at a glance, and it must be derived from the real
+    gloss rather than invented - so the sense is checked against the full text.
+    """
+
+    for word in payload["words"]:
+        short = word.get("s", "")
+        assert short.strip(), f"{word['w']} has no short gloss"
+        assert len(short) <= 15, f"{word['w']} short gloss is too long: {short!r}"
+        assert not re.search(r"[,，;；、]", short), (
+            f"{word['w']} short gloss kept a list separator: {short!r}"
+        )
+        sense = re.sub(r"^[A-Za-z]{1,6}\.\s*", "", short).rstrip("…")
+        assert sense, f"{word['w']} short gloss is only a part of speech"
+        assert sense[:3] in word["m"], (
+            f"{word['w']} short gloss {short!r} is not from its gloss {word['m']!r}"
+        )
+
+
 def test_script_tag_cannot_be_closed_by_the_data(page: str) -> None:
     """A lemma or gloss containing "</script>" would end the data block early."""
 
@@ -176,5 +197,5 @@ def test_template_is_the_source_of_the_page(page: str) -> None:
     # The template holds the placeholders the generator replaces; the page must keep
     # everything else, so a stale page that predates a template edit fails here.
     for marker in ("const Core", "Core.keystroke", "Core.poolFor", "chapter-detail",
-                   "scope-row", "review-list"):
+                   "scope-row", "review-list", "meaning-select", "CHINESE_FONT"):
         assert marker in template and marker in page, f"{marker} missing from template or page"

@@ -203,7 +203,9 @@ the session instead of sending you back to the setup screen.
 | Key words | 2,439 of the 6,127 (39.8%) — 17.8 per chapter, between 5 and 30 |
 | Scopes | 本课重点词 · 本课全部词 · 本弧全部词 · 全部词表 |
 | Modes | word mode, and a single-letter mode for warming up |
-| Reading help | the word being typed shows its phonetic and Chinese gloss, a ★ marks a key word, and the typed prefix is highlighted inside the falling word |
+| On screen | **every falling word carries its Chinese meaning directly underneath**, so the board reads like a flashcard; a ★ marks a key word, and the typed prefix is highlighted inside the word |
+| Reading help | the word being typed also shows its phonetic and its full gloss in the hint bar |
+| Chinese line | the line under a word is its **first sense** (`n. 大会`), because the full gloss is a dictionary entry and stacking three lines under every falling word is unreadable. 词下显示中文 can be switched off |
 | Rules | 3 lives, combo multiplier, a level every 10 words, faster falling and sooner spawning as the level rises |
 | Measures | score, words knocked down, words per minute, accuracy, best combo, key words hit |
 | After a round | the words that reached the floor are listed as **要复习的词**, so a miss becomes a review list |
@@ -250,7 +252,8 @@ neither the PDF gates nor the curriculum audit can see it:
 * `tests/test_typing_game.py` — the embedded data against `vocabulary_master.csv`: the word
   count, no invented lemmas, all 137 chapters and 10 arcs present, every word typeable and
   glossed, no `</script>` reachable from the data, **the key-word flags recomputed
-  independently from the master rather than trusted**, and every chapter ordered key-first.
+  independently from the master rather than trusted**, every chapter ordered key-first, and
+  **every short gloss checked to be a sense of its real gloss rather than invented text**.
 * `build/typing_game_smoke.mjs` — extracts the game script from the generated page, runs it
   against a small DOM stub in Node, and drives the logic directly: which word a keystroke
   resolves to, when a word completes, what a wrong letter does, that the lowest word wins,

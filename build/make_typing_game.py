@@ -44,6 +44,7 @@ import argparse
 import csv
 import json
 import pathlib
+import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -53,6 +54,7 @@ TEMPLATE = ROOT / "game" / "template.html"
 DEFAULT_OUT = ROOT / "CET4_Typing_Game.html"
 TOTAL_TARGETS = 6127
 GLOSS_LIMIT = 34
+SHORT_LIMIT = 14
 # A key-word drill shorter than this is not worth starting, so a chapter whose key set is
 # thinner is topped up from its longest remaining words. Only 2 chapters come close.
 KEY_FLOOR = 6
@@ -73,6 +75,30 @@ def gloss(value: str, limit: int = GLOSS_LIMIT) -> str:
     if len(text) <= limit:
         return text
     return text[: limit - 1].rstrip() + "…"
+
+
+def short_gloss(value: str, limit: int = SHORT_LIMIT) -> str:
+    """A one-sense gloss for the line under a falling word.
+
+    The full gloss is a dictionary entry - ``n. 原料, 要素, 东西, 材料, 素质, 织品,
+    废物, 废话`` - and three lines of that stacked under each falling word would be
+    unreadable. The line under the word keeps the part of speech and the **first sense**,
+    which is what recognition practice needs; the full gloss still appears in the hint bar
+    for the word being typed.
+    """
+
+    text = value.replace("\\r\\n", "\n").replace("\\n", "\n").split("\n")[0]
+    text = text.replace(" || ", "；").strip()
+    part = ""
+    marker = re.match(r"^([A-Za-z]{1,6}\.\s*)", text)
+    if marker:
+        part = marker.group(1)
+        text = text[marker.end():]
+    sense = re.split(r"[,，;；、]", text)[0].strip()
+    combined = (part + sense).strip()
+    if len(combined) <= limit:
+        return combined
+    return combined[: limit - 1].rstrip() + "…"
 
 
 def is_core(entry: dict[str, str]) -> bool:
@@ -128,6 +154,7 @@ def build_payload() -> dict[str, object]:
                 "w": lemma,
                 "p": (entry["phonetic"] or "").strip(),
                 "m": gloss(entry["chinese_meaning"] or ""),
+                "s": short_gloss(entry["chinese_meaning"] or ""),
                 "c": number,
                 "a": arc,
                 "k": 1 if is_key(lemma, entry) else 0,
@@ -212,6 +239,10 @@ def main(argv: list[str]) -> int:
     print(f"  key rule          : {payload['key_rule']}")
     print(f"  words with gloss  : {sum(1 for w in words if w['m'])}")
     print(f"  words with IPA    : {sum(1 for w in words if w['p'])}")
+    short = [w for w in words if w["s"]]
+    print(f"  short glosses     : {len(short)} (for the line under each falling word)")
+    for sample in short[:4]:
+        print(f"      {sample['w']:14} {sample['s']:16} <- {sample['m']}")
     print(f"  written           : {target.name} ({target.stat().st_size / 1024:.0f} KB)")
     return 0
 

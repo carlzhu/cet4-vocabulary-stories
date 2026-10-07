@@ -137,10 +137,15 @@
           <option value="word" selected>单词模式</option>
           <option value="letter">字母模式（热身）</option>
         </select>
+        <select id="meaning-select">
+          <option value="1" selected>词下显示中文</option>
+          <option value="0">不显示中文</option>
+        </select>
         <button id="btn-start" class="primary">开始练习</button>
       </div>
       <p>操作：直接打字 · <kbd>空格</kbd> 暂停 · <kbd>Esc</kbd> 回到设置 · 结束页可 <kbd>R</kbd> 重开。
-         提示条显示当前词的音标与释义，★ 表示本课重点词；落到底部的词记入「要复习的词」。</p>
+         每个词下方是它的中文释义（取第一个义项），正在打的词还会显示音标和完整释义；
+         ★ 表示本课重点词；落到底部的词记入「要复习的词」。</p>
       <div class="foot" id="foot-note"></div>
     </div>
   </div>
@@ -237,10 +242,13 @@ const board = document.getElementById("board");
 const ctx = board.getContext("2d");
 const el = (id) => document.getElementById(id);
 const LETTERS = "abcdefghijklmnopqrstuvwxyz";
+/* Chinese needs a font that has the glyphs; Consolas does not, and a canvas has no
+   fallback of its own, so the stack is spelled out here and reused everywhere. */
+const CHINESE_FONT = '500 13px "Microsoft YaHei", "SimHei", "PingFang SC", sans-serif';
 const chapterOf = (n) => CHAPTERS[n - 1];
 
 const state = {
-  scope: "key", chapter: 1, arc: 1, difficulty: 1, mode: "word",
+  scope: "key", chapter: 1, arc: 1, difficulty: 1, mode: "word", showMeaning: true,
   running: false, paused: false, over: true,
   pool: [], queue: [], falling: [],
   buffer: "", active: null,
@@ -281,7 +289,7 @@ function remember() {
   try {
     window.localStorage.setItem(STORE_KEY, JSON.stringify({
       chapter: state.chapter, arc: state.arc, scope: state.scope,
-      difficulty: state.difficulty, mode: state.mode,
+      difficulty: state.difficulty, mode: state.mode, showMeaning: state.showMeaning,
     }));
   } catch (error) { /* private mode: remembering is a convenience, not a requirement */ }
 }
@@ -295,6 +303,7 @@ function restore() {
     state.scope = saved.scope || "key";
     state.difficulty = saved.difficulty || 1;
     state.mode = saved.mode || "word";
+    state.showMeaning = saved.showMeaning !== false;
   }
   /* #ch068 makes a chapter linkable - useful when the point is "practise this chapter". */
   const hash = /^#ch(\d{1,3})$/i.exec(window.location.hash || "");
@@ -398,6 +407,7 @@ function renderSetup() {
   renderScope();
   el("difficulty").value = String(state.difficulty);
   el("mode-select").value = state.mode;
+  el("meaning-select").value = state.showMeaning ? "1" : "0";
   // Keep the in-game header honest when the chapter changes on the setup screen.
   el("hud-where").textContent = state.running || state.over ? scopeLabel() : "—";
   el("foot-note").textContent =
@@ -451,18 +461,25 @@ function remaining() {
 function spawn() {
   let entry;
   if (state.mode === "letter") {
-    entry = { w: LETTERS[Math.floor(Math.random() * LETTERS.length)], p: "", m: "", k: 0 };
+    entry = { w: LETTERS[Math.floor(Math.random() * LETTERS.length)], p: "", m: "", s: "", k: 0 };
   } else {
     if (!state.queue.length) return false;
     entry = state.queue.shift();
   }
+  /* Lay the word out on the wider of its two lines, and let the Chinese sit centred
+     under the English, so nothing crosses the margin whichever line is longer. */
   ctx.font = '600 26px Consolas, ui-monospace, monospace';
-  const width = ctx.measureText(entry.w).width;
-  const margin = 80;
-  const span = Math.max(40, state.width - margin * 2 - width);
+  const wordWidth = ctx.measureText(entry.w).width;
+  ctx.font = CHINESE_FONT;
+  const glossWidth = state.showMeaning && entry.s ? ctx.measureText(entry.s).width : 0;
+  const box = Math.max(wordWidth, glossWidth);
+  const margin = 84;
+  const span = Math.max(40, state.width - margin * 2 - box);
   state.falling.push({
-    text: entry.w, phonetic: entry.p || "", meaning: entry.m || "", key: entry.k || 0,
-    x: margin + Math.random() * span, y: -16,
+    text: entry.w, phonetic: entry.p || "", meaning: entry.m || "", short: entry.s || "",
+    key: entry.k || 0,
+    x: margin + Math.max(0, (glossWidth - wordWidth) / 2) + Math.random() * span,
+    y: -16,
     speed: Core.speedFor(state.level, state.difficulty), dead: false,
   });
   return true;
@@ -648,6 +665,8 @@ function draw() {
     const matched = isActive ? word.text.slice(0, state.buffer.length) : "";
     const restText = word.text.slice(matched.length);
     ctx.font = '600 26px Consolas, ui-monospace, monospace';
+    const wordWidth = ctx.measureText(word.text).width;
+    const centre = word.x + wordWidth / 2;
     const base = isActive ? "#5fc7e8" : "#eaf2f8";
     const tail = word.y > floor - 60 ? "#ef7d7d" : (isActive ? "#bfe7f5" : "#9db8ce");
     let x = word.x;
@@ -664,10 +683,21 @@ function draw() {
       ctx.font = '600 15px "Segoe UI", sans-serif';
       ctx.fillText("★", word.x - 17, word.y);
     }
+    /* The Chinese sits directly under the word, which is what makes the screen read
+       like a flashcard: the shape of the word and its meaning together, at a glance. */
+    if (state.showMeaning && word.short) {
+      ctx.font = CHINESE_FONT;
+      ctx.textAlign = "center";
+      ctx.fillStyle = isActive ? "#e2f1fb" : "#95b7d0";
+      ctx.fillText(word.short, centre, word.y + 17);
+      ctx.textAlign = "left";
+    }
     if (isActive && word.phonetic) {
-      ctx.font = '400 12px "Segoe UI", sans-serif';
+      ctx.font = '400 11px "Segoe UI", sans-serif';
+      ctx.textAlign = "center";
       ctx.fillStyle = "#7f9ab1";
-      ctx.fillText("/" + word.phonetic + "/", word.x, word.y + 15);
+      ctx.fillText("/" + word.phonetic + "/", centre, word.y + (state.showMeaning && word.short ? 31 : 17));
+      ctx.textAlign = "left";
     }
   }
 
@@ -730,6 +760,10 @@ el("difficulty").addEventListener("change", () => {
 });
 el("mode-select").addEventListener("change", () => {
   state.mode = el("mode-select").value;
+  remember();
+});
+el("meaning-select").addEventListener("change", () => {
+  state.showMeaning = el("meaning-select").value === "1";
   remember();
 });
 el("btn-start").addEventListener("click", start);

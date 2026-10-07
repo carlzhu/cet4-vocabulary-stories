@@ -251,6 +251,23 @@ answered a different question from the one being asked, and only measuring it sh
 The same test — does this signal rank what *this* tool needs ranked? — is what caught the
 proxy defects in section 2.
 
+#### The Chinese under each word is a sense, not the entry
+
+Showing the Chinese under every falling word turns the board into a flashcard, which is
+what it was asked for. The obvious implementation — draw `chinese_meaning` — is wrong: that
+field is a dictionary entry, and the longest are things like
+``n. 原料, 要素, 东西, 材料, 素质, 织品, 废物, 废话``. Three lines of that stacked under
+each of up to eight falling words is not readable at the speed the words fall.
+
+So the generator emits a second, shorter gloss for this line: keep the part of speech and
+the **first sense**, cap it at 14 characters. ``n. 原料`` instead of the whole entry. The
+full gloss is not lost — it is what the hint bar shows for the word actually being typed.
+
+Because that field is derived rather than copied, it is the kind of thing that can silently
+drift into nonsense, so the test checks it as a claim: every short gloss must be non-empty,
+at most 15 characters, free of list separators, and its sense must actually appear in the
+real gloss. All 6,127 pass, and only 10 needed truncating.
+
 ---
 
 ## 3. Environment traps

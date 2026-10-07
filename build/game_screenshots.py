@@ -58,11 +58,12 @@ PROBES = {
   state.chapter = 68;
   state.arc = chapterOf(68).a;
   state.scope = "key";
+  state.showMeaning = true;
   renderSetup();
   document.getElementById("btn-start").click();
   var keys = Core.poolFor(WORDS, "key", state.chapter, state.arc, DATA.key_floor);
   state.falling = keys.slice(0, 5).map(function (entry, position) {
-    return { text: entry.w, phonetic: entry.p, meaning: entry.m, key: entry.k,
+    return { text: entry.w, phonetic: entry.p, meaning: entry.m, short: entry.s, key: entry.k,
              x: 80 + position * 215, y: 62 + (position % 3) * 126, speed: 33, dead: false };
   });
   var active = state.falling[2];

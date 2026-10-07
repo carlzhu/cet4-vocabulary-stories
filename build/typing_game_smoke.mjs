@@ -128,6 +128,13 @@ check("chapter count", DATA.chapters.length === 137, String(DATA.chapters.length
 check("every word has a chapter and arc",
   DATA.words.every((w) => Number.isInteger(w.c) && w.c >= 1 && w.c <= 137 && Number.isInteger(w.a)));
 check("every word has a gloss", DATA.words.every((w) => typeof w.m === "string" && w.m.length > 0));
+check("every word has a short gloss for the line under it",
+  DATA.words.every((w) => typeof w.s === "string" && w.s.length > 0));
+check("short glosses are short enough to read at a glance",
+  DATA.words.every((w) => w.s.length <= 15),
+  String(Math.max(...DATA.words.map((w) => w.s.length))));
+check("short glosses keep no list separator",
+  DATA.words.every((w) => !/[,，;；、]/.test(w.s)));
 check("every word carries a key flag", DATA.words.every((w) => w.k === 0 || w.k === 1));
 check("chapters are 1..137",
   DATA.chapters.every((c, i) => c.n === i + 1), DATA.chapters.map((c) => c.n).join(",").slice(0, 40));
