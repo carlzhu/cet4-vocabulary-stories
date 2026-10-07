@@ -166,10 +166,13 @@ and then verified against the audio:
    *fitted per chapter* rather than hard-coded, so a format change would surface as a
    residual rather than silently skewing every line.
 4. **Independent check.** `build/check_sync.py` compares the finished `.srt` files with
-   the audio alone — cue starts against speech onsets detected in the recording, which
-   is a different measurement from the events that produced them. Before the offset fix
-   the spread was 0.24–0.30 s, which is what "words and voice drift apart" looks like;
-   after it, **±0.01 s**.
+   the audio alone — the expected speech time against speech onsets detected in the
+   recording, which is a different measurement from the events that produced them. Across
+   all 137 chapters and 2,707 cues: median offset **+0.000 s**, median interquartile
+   spread **0.013 s**, 3 cues beyond 0.35 s (all confirmed to be comma pauses the detector
+   could not see, with speech present), and **no cue whose expected speech time is silent**.
+   Before the offset fix the spread was 0.24–0.30 s, which is what "the words and the
+   voice drift apart" looks like.
 
 All rendered PDFs were scanned for missing glyphs: **0 boxes across 420 files**
 (3 root volumes, 414 preview volumes, 3 samples) covering 3,579,760 drawn

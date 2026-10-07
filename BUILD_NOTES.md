@@ -148,8 +148,39 @@ it is that a residual bias with a large spread means the model is wrong, not mer
 `build/check_sync.py` compares the finished `.srt` files against **the audio alone** — cue
 starts against speech onsets detected in the recording. That is a different measurement
 from the events that produced the cues, so it can catch a systematic error the tool's own
-gates cannot. It checks two things: that the deliberate lead-in is the requested size, and
-that the offsets are tightly clustered, since drift shows up as spread.
+gates cannot.
+
+Two false alarms had to be worked through before the check was trustworthy, and both were
+failures of the *measurement*, not the artefact:
+
+1. **The first cue of every chapter looked wrong.** Its start is clamped to zero because
+   there is no room for a lead-in at the very beginning, so "cue start + lead" points
+   somewhere the sentence never was. Excluding it removed an invented outlier from all 137
+   chapters.
+2. **Sentences that begin inside quoted dialogue looked wrong.** In
+   `"...small habits," the coach said, "and you are optimistic..."` the splitter starts a
+   cue after a comma pause that is too short for the silence detector, so that onset is
+   missing from the reference set and the offset reads 2–3 s. Checking the audio settled
+   it: the level at the expected time was **-17.6 dB**, i.e. speech, so the cue was right.
+   The drift gate therefore uses the **interquartile range** instead of the standard
+   deviation; one such cue would drag a stdev past any useful threshold while the timing
+   is correct.
+
+The check also verifies the lead-in transitively. It measures
+`(cue start + lead) - nearest onset` and requires it near zero: had the lead not been
+applied, the cue start would already be the onset and every value would read about `+lead`.
+
+Full-run result over all 137 chapters:
+
+| Measure | Value |
+|---|---|
+| cues compared | 2,707 |
+| median offset | **+0.000 s** |
+| median interquartile spread | **0.013 s** (0.24–0.30 s before the offset fix) |
+| cues beyond 0.35 s | 3 (0.11%), all confirmed to be undetected comma onsets |
+| cues whose expected speech time is silent | **0** |
+| clock scale fitted per chapter | 0.725397–0.725800 |
+| worst clock-fit residual | 17.7 ms |
 
 ---
 

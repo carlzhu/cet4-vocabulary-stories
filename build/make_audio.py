@@ -69,16 +69,57 @@ def load_chapters() -> list[dict[str, object]]:
     return chapters
 
 
-def ssml_for(chapter: dict[str, object], voice: str, rate: int) -> str:
-    paragraphs = [str(p) for p in chapter["english_paragraphs"]]  # type: ignore[index]
-    body = f'<break time="{PARAGRAPH_PAUSE_MS}ms"/>'.join(
-        f"<p>{html.escape(p)}</p>" for p in paragraphs
-    )
-    return (
+def ssml_for_parts(
+    chapter: dict[str, object], voice: str, rate: int
+) -> tuple[str, list[tuple[int, str]]]:
+    """Return the SSML, and for each paragraph its offset and escaped text.
+
+    The offsets are needed because SAPI's ``SpeakProgress`` reports character
+    positions into the *SSML string*, not the plain text, and HTML escaping shifts
+    them (``University's`` becomes ``University&#x27;s``). Subtitle timing depends on
+    them, so they are computed alongside the construction that creates them instead
+    of by a second implementation that could drift out of step.
+
+    ``ssml_for`` returns exactly this string, so anything built from these offsets is
+    aligned with the audio that ``ssml_for`` produced.
+    """
+
+    prefix = (
         '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" '
         f'xml:lang="en-US"><voice name="{html.escape(voice)}">'
-        f'<prosody rate="{rate}">{body}</prosody></voice></speak>'
+        f'<prosody rate="{rate}">'
     )
+    suffix = "</prosody></voice></speak>"
+    break_tag = f'<break time="{PARAGRAPH_PAUSE_MS}ms"/>'
+
+    body: list[str] = []
+    parts: list[tuple[int, str]] = []
+    offset = len(prefix)
+    for index, paragraph in enumerate(
+        str(p) for p in chapter["english_paragraphs"]  # type: ignore[index]
+    ):
+        if index:
+            body.append(break_tag)
+            offset += len(break_tag)
+        body.append("<p>")
+        offset += len("<p>")
+        # quote=False on purpose. html.escape defaults to escaping apostrophes as
+        # &#x27;, and SAPI reports CharacterPosition as though that entity were one
+        # character rather than six - so every word after an apostrophe was reported
+        # at a shifted offset, which mis-assigned words to sentences and put the
+        # subtitles out of sync. Only &, < and > need escaping inside element content,
+        # and this corpus contains none of them, so the offsets stay exact.
+        escaped = html.escape(paragraph, quote=False)
+        parts.append((offset, escaped))
+        body.append(escaped)
+        offset += len(escaped)
+        body.append("</p>")
+        offset += len("</p>")
+    return prefix + "".join(body) + suffix, parts
+
+
+def ssml_for(chapter: dict[str, object], voice: str, rate: int) -> str:
+    return ssml_for_parts(chapter, voice, rate)[0]
 
 
 def powershell() -> str:

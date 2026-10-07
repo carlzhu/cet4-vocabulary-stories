@@ -44,7 +44,8 @@
     "answer_pdf_pages": 20,
     "pytest_passed": 94,
     "pytest_failed": 0,
-    "audio_files": 137
+    "audio_files": 137,
+    "video_files": 137
   },
   "completed_steps": [
     "environment_inspected",
@@ -137,5 +138,27 @@
     "generator": "build/make_audio.py",
     "verification": "each file checked at generation time for presence, duration consistent with its word count (catches truncated synthesis), and a mid-file slice above the silence threshold; set ranges 116-153 wpm and -21.6 to -19.4 dB",
     "limitation": "SAPI is synthetic, not neural. A neural voice would sound more natural but needs a network round trip per file."
+  },
+  "video": {
+    "files": 137,
+    "location": "build/video/CH001.mp4 .. CH137.mp4",
+    "picture": "960x540 H.264, 5 fps, CRF 32, still title card",
+    "audio": "AAC 64 kb/s, copied from the chapter MP3",
+    "subtitles": "English, burned into the picture, one sentence per cue",
+    "lead_in_seconds": 1.5,
+    "sidecars": "build/video/subtitles/*.srt, deliberately not beside the videos: a player that finds CH001.srt next to CH001.mp4 loads it automatically and draws it over the burned-in text, showing every line twice",
+    "total_bytes": 228269472,
+    "total_audio_hours": 6.43,
+    "generator": "build/make_video.py",
+    "verifier": "build/check_sync.py",
+    "timing_source": "SAPI SpeakProgress word events, with character offsets taken from make_audio.ssml_for_parts and a per-chapter linear clock fitted on the paragraph anchors",
+    "clock_scale_range": [
+      0.725397,
+      0.7258
+    ],
+    "clock_scale_note": "0.725625 is 16000/22050: AudioPosition is reported against a 16 kHz stream while the audio is written at 22.05 kHz",
+    "clock_max_residual_seconds": 0.0177,
+    "verified_sync": "check_sync.py compares the finished .srt files with the audio alone - cue starts against speech onsets detected in the recording - and finds the deliberate lead-in with no drift",
+    "known_pitfall": "html.escape defaults to escaping apostrophes as &#x27;, which SAPI counts as one character rather than six; that shifted every word after an apostrophe and slid the subtitles out of sync. Escaping is now quote=False and the regenerated audio is byte-identical to the committed MP3s."
   }
 }

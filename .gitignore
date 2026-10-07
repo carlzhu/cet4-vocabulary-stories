@@ -17,3 +17,5 @@ __pycache__/
 # the deliberately defective pre-fix file (8,452 boxes) kept as the negative
 # control for build/notdef_scan.py. These document how the curriculum was made and
 # let it be used as a learning resource without rebuilding anything.
+# Intermediates written by the video muxer before it swaps the file into place.
+*.partial.mp4
