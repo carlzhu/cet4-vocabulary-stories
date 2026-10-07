@@ -44,43 +44,53 @@ BROWSERS = (
 )
 
 # Each probe stages one state and draws it. They are appended before </body>, where the
-# page's own top-level const bindings (state, WORDS, Core, draw, updateHud, finish) are
-# already in scope, because classic scripts share the global lexical environment.
+# page's own top-level const bindings (state, WORDS, CHAPTERS, Core, draw, updateHud,
+# finish, renderSetup, chapterOf) are already in scope, because classic scripts share the
+# global lexical environment.
 PROBES = {
-    "game-start": "",
+    "game-start": """
+  state.chapter = 68;
+  state.arc = chapterOf(68).a;
+  state.scope = "key";
+  renderSetup();
+""",
     "game-play": """
+  state.chapter = 68;
+  state.arc = chapterOf(68).a;
+  state.scope = "key";
+  renderSetup();
   document.getElementById("btn-start").click();
-  var picks = [0, 1400, 2900, 4300, 5600];
-  state.falling = picks.map(function (index, position) {
-    var entry = WORDS[index % WORDS.length];
-    return { text: entry.w, phonetic: entry.p, meaning: entry.m,
-             x: 90 + position * 210, y: 70 + (position % 3) * 130, speed: 33, dead: false };
+  var keys = Core.poolFor(WORDS, "key", state.chapter, state.arc, DATA.key_floor);
+  state.falling = keys.slice(0, 5).map(function (entry, position) {
+    return { text: entry.w, phonetic: entry.p, meaning: entry.m, key: entry.k,
+             x: 80 + position * 215, y: 62 + (position % 3) * 126, speed: 33, dead: false };
   });
   var active = state.falling[2];
-  state.buffer = active.text.slice(0, Math.max(1, Math.ceil(active.text.length / 2)));
+  state.buffer = active.text.slice(0, Math.max(1, Math.ceil(active.text.length / 3)));
   state.active = active;
-  state.score = 246; state.combo = 7; state.cleared = 18; state.level = 2;
-  state.lives = 2; state.keystrokes = 240; state.goodKeystrokes = 233;
+  state.score = 246; state.combo = 7; state.cleared = 6; state.level = 1;
+  state.keyCleared = 4; state.lives = 2; state.keystrokes = 96; state.goodKeystrokes = 92;
   updateHud(true); draw();
 """,
     "game-over": """
+  state.chapter = 68;
+  state.arc = chapterOf(68).a;
+  state.scope = "key";
+  renderSetup();
   document.getElementById("btn-start").click();
-  state.score = 1830; state.cleared = 34; state.bestCombo = 12; state.level = 4;
-  state.lives = 0; state.keystrokes = 402; state.goodKeystrokes = 378;
-  state.review = [0, 400, 900, 1500, 2100, 3000, 3900, 4700].map(function (index) {
-    var entry = WORDS[index % WORDS.length];
-    return { text: entry.w, meaning: entry.m };
-  });
+  state.score = 1830; state.cleared = 16; state.keyCleared = 13; state.bestCombo = 12;
+  state.level = 2; state.lives = 0; state.keystrokes = 402; state.goodKeystrokes = 378;
+  state.review = Core.poolFor(WORDS, "key", 68, state.arc, DATA.key_floor)
+    .slice(0, 7).map(function (entry) {
+      return { text: entry.w, meaning: entry.m };
+    });
   finish();
 """,
-    "game-setup": """
-  var kind = document.getElementById("pool-kind");
-  kind.value = "chapter";
-  kind.dispatchEvent(new Event("change"));
-  var chapter = document.getElementById("pool-chapter");
-  chapter.value = "68";
-  chapter.dispatchEvent(new Event("change"));
-  document.getElementById("pool-arc").value = "7";
+    "game-arc": """
+  state.arc = 9;
+  state.chapter = CHAPTERS.filter(function (c) { return c.a === 9; })[0].n;
+  state.scope = "chapter";
+  renderSetup();
 """,
 }
 

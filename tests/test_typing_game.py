@@ -75,6 +75,61 @@ def test_every_chapter_and_arc_is_present(payload: dict) -> None:
     assert arcs == set(range(1, 11))
     assert all(1 <= c["a"] <= 10 for c in chapters)
 
+    # The key-word drill tops up from the rest of the chapter when a chapter is thin, so
+    # the floor is only reachable if every chapter has at least that many words at all.
+    floor = payload["key_floor"]
+    assert all(count >= floor for count in per_chapter.values()), "a chapter is thinner than the key floor"
+
+
+def test_key_word_flags_follow_the_documented_rule(payload: dict) -> None:
+    """Recompute the classification from the master rather than trusting the generator.
+
+    The rule is length-led on purpose: the frequency metadata was measured and rejected,
+    because it flags short function words and misses long hard ones. See BUILD_NOTES.
+    """
+
+    with (PROJECT_ROOT / "vocabulary_master.csv").open(encoding="utf-8-sig") as handle:
+        master = {row["lemma"].strip().lower(): row for row in csv.DictReader(handle)}
+
+    def is_core(entry: dict) -> bool:
+        collins = str(entry.get("ecdict_collins", "")).strip()
+        stars = int(collins) if collins.isdigit() else 0
+        return str(entry.get("ecdict_oxford", "")).strip() == "1" or stars >= 4
+
+    keyed = 0
+    for word in payload["words"]:
+        lemma = word["w"]
+        expected = len(lemma) >= 9 or (len(lemma) >= 7 and is_core(master[lemma.lower()]))
+        assert word["k"] == int(expected), f"{lemma} is flagged {word['k']}, rule says {int(expected)}"
+        keyed += int(expected)
+
+    assert keyed == payload["key_total"]
+    assert keyed == sum(1 for word in payload["words"] if word["k"])
+
+    # No short word may be a key word, and no long word may be missed.
+    assert all(len(w["w"]) >= 7 for w in payload["words"] if w["k"])
+    assert all(w["k"] == 1 for w in payload["words"] if len(w["w"]) >= 9)
+
+    per_chapter: dict[int, int] = {}
+    for word in payload["words"]:
+        if word["k"]:
+            per_chapter[word["c"]] = per_chapter.get(word["c"], 0) + 1
+    for chapter in payload["chapters"]:
+        assert chapter["kn"] == per_chapter.get(chapter["n"], 0), f"CH{chapter['n']} count is wrong"
+        assert chapter["kn"] >= 1, f"CH{chapter['n']} has no key words"
+
+
+def test_chapter_pools_are_ordered_key_words_first(payload: dict) -> None:
+    """A full-chapter round should start with the words that need the practice."""
+
+    per_chapter: dict[int, list[dict]] = {}
+    for word in payload["words"]:
+        per_chapter.setdefault(word["c"], []).append(word)
+    for number, words in per_chapter.items():
+        flags = [w["k"] for w in words]
+        first_plain = flags.index(0) if 0 in flags else len(flags)
+        assert all(flag == 0 for flag in flags[first_plain:]), f"CH{number} is not ordered key-first"
+
 
 def test_every_word_is_playable(payload: dict) -> None:
     typeable = re.compile(r"[A-Za-z' -]+")
@@ -120,5 +175,6 @@ def test_template_is_the_source_of_the_page(page: str) -> None:
     template = TEMPLATE.read_text(encoding="utf-8")
     # The template holds the placeholders the generator replaces; the page must keep
     # everything else, so a stale page that predates a template edit fails here.
-    for marker in ("const Core", "Core.keystroke", "pool-chapter", "review-list"):
+    for marker in ("const Core", "Core.keystroke", "Core.poolFor", "chapter-detail",
+                   "scope-row", "review-list"):
         assert marker in template and marker in page, f"{marker} missing from template or page"

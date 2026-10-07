@@ -18,6 +18,21 @@ Data notes:
   comes first, so a word is practised when the curriculum introduces it.
 * the JSON escapes ``<`` so no lemma or gloss can terminate the script tag early.
 
+Key words (``k``). The page can drill a chapter's hardest words instead of all 45, and
+the definition was measured rather than assumed. The obvious signal - ECDICT frequency
+metadata (Collins stars, Oxford 3000) - was rejected: it flags 1,051 words of five
+letters or fewer (``I``, ``a``, ``about``, ``yes``) and misses 1,105 words of nine
+letters or more (``accommodate``, ``characterize``). For a *typing* game the useful axis
+is spelling load, which is inherent to the syllabus rather than derivable from word
+frequency:
+
+    key  =  len(lemma) >= 9  or  (len(lemma) >= 7 and (Oxford 3000 or Collins >= 4))
+
+Measured over the corpus that flags 2,439 of 6,127 words - 17.8 per chapter, minimum 5 -
+admits **no word shorter than seven letters**, and misses no long word. Within a chapter
+the words are emitted key-first and longest-first, so a round starts with the words that
+need the practice without any client-side sorting.
+
 Usage:
     python build/make_typing_game.py                  # writes CET4_Typing_Game.html
     python build/make_typing_game.py --out game.html
@@ -38,6 +53,11 @@ TEMPLATE = ROOT / "game" / "template.html"
 DEFAULT_OUT = ROOT / "CET4_Typing_Game.html"
 TOTAL_TARGETS = 6127
 GLOSS_LIMIT = 34
+# A key-word drill shorter than this is not worth starting, so a chapter whose key set is
+# thinner is topped up from its longest remaining words. Only 2 chapters come close.
+KEY_FLOOR = 6
+KEY_MIN_LENGTH = 9
+KEY_CORE_MIN_LENGTH = 7
 
 
 def read_csv(path: pathlib.Path) -> list[dict[str, str]]:
@@ -53,6 +73,21 @@ def gloss(value: str, limit: int = GLOSS_LIMIT) -> str:
     if len(text) <= limit:
         return text
     return text[: limit - 1].rstrip() + "…"
+
+
+def is_core(entry: dict[str, str]) -> bool:
+    """Oxford 3000, or a Collins rating of 4 or 5."""
+
+    collins = str(entry.get("ecdict_collins", "")).strip()
+    stars = int(collins) if collins.isdigit() else 0
+    return str(entry.get("ecdict_oxford", "")).strip() == "1" or stars >= 4
+
+
+def is_key(lemma: str, entry: dict[str, str]) -> bool:
+    """The documented key-word rule; see the module docstring for why it is length-led."""
+
+    length = len(lemma)
+    return length >= KEY_MIN_LENGTH or (length >= KEY_CORE_MIN_LENGTH and is_core(entry))
 
 
 def build_payload() -> dict[str, object]:
@@ -74,6 +109,7 @@ def build_payload() -> dict[str, object]:
                 "n": number,
                 "t": row["english_title"],
                 "z": row["chinese_title"],
+                "m": row["theme"],
                 "a": arc,
             }
         )
@@ -94,18 +130,38 @@ def build_payload() -> dict[str, object]:
                 "m": gloss(entry["chinese_meaning"] or ""),
                 "c": number,
                 "a": arc,
+                "k": 1 if is_key(lemma, entry) else 0,
             }
 
     if unmapped:
         raise SystemExit(f"{len(unmapped)} planned ids are missing from the master")
 
-    ordered = sorted(words.values(), key=lambda w: (int(w["c"]), str(w["w"]).lower()))
+    # Key words first, then longest first, then alphabetically. A chapter pool therefore
+    # arrives in the order it should be practised, with no client-side sorting.
+    ordered = sorted(
+        words.values(),
+        key=lambda w: (int(w["c"]), -int(w["k"]), -len(str(w["w"])), str(w["w"]).lower()),
+    )
+
+    per_chapter: dict[int, int] = {}
+    for word in ordered:
+        if word["k"]:
+            per_chapter[int(word["c"])] = per_chapter.get(int(word["c"]), 0) + 1
+    for chapter in chapters:
+        chapter["kn"] = per_chapter.get(int(chapter["n"]), 0)
+
     return {
         "words": ordered,
         "chapters": chapters,
         "targets": len(master),
         "unique": len(ordered),
         "duplicates": len(master) - len(ordered),
+        "key_total": sum(1 for w in ordered if w["k"]),
+        "key_rule": (
+            f"{KEY_MIN_LENGTH} letters or more, or a {KEY_CORE_MIN_LENGTH}-{KEY_MIN_LENGTH - 1} "
+            f"letter Oxford 3000 / Collins 4-5 word"
+        ),
+        "key_floor": KEY_FLOOR,
     }
 
 
@@ -147,6 +203,13 @@ def main(argv: list[str]) -> int:
         f"  chapters / arcs   : {len(payload['chapters'])} / "
         f"{len({w['a'] for w in words})}"
     )
+    keyed = [int(c["kn"]) for c in payload["chapters"]]
+    print(
+        f"  key words         : {payload['key_total']} total "
+        f"({payload['key_total'] / payload['unique'] * 100:.1f}%), "
+        f"{sum(keyed) / len(keyed):.1f} per chapter, min {min(keyed)}, max {max(keyed)}"
+    )
+    print(f"  key rule          : {payload['key_rule']}")
     print(f"  words with gloss  : {sum(1 for w in words if w['m'])}")
     print(f"  words with IPA    : {sum(1 for w in words if w['p'])}")
     print(f"  written           : {target.name} ({target.stat().st_size / 1024:.0f} KB)")

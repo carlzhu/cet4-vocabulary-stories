@@ -89,7 +89,14 @@ const sandbox = {
   alert: () => {
     throw new Error("the game called alert() during startup");
   },
-  window: { devicePixelRatio: 1, innerWidth: 1024, innerHeight: 768, addEventListener: noop },
+  window: {
+    devicePixelRatio: 1,
+    innerWidth: 1024,
+    innerHeight: 768,
+    addEventListener: noop,
+    location: { hash: "" },
+    localStorage: { getItem: () => null, setItem: noop, removeItem: noop },
+  },
   document: {
     getElementById: (id) => {
       if (!elements.has(id)) elements.set(id, makeElement(id));
@@ -121,11 +128,77 @@ check("chapter count", DATA.chapters.length === 137, String(DATA.chapters.length
 check("every word has a chapter and arc",
   DATA.words.every((w) => Number.isInteger(w.c) && w.c >= 1 && w.c <= 137 && Number.isInteger(w.a)));
 check("every word has a gloss", DATA.words.every((w) => typeof w.m === "string" && w.m.length > 0));
+check("every word carries a key flag", DATA.words.every((w) => w.k === 0 || w.k === 1));
 check("chapters are 1..137",
   DATA.chapters.every((c, i) => c.n === i + 1), DATA.chapters.map((c) => c.n).join(",").slice(0, 40));
 const perChapter = new Map();
 for (const w of DATA.words) perChapter.set(w.c, (perChapter.get(w.c) || 0) + 1);
 check("every chapter has words", perChapter.size === 137 && [...perChapter.values()].every((n) => n > 0));
+
+/* key words: the rule the page documents must hold on every single entry */
+const keyByRule = (w) => w.w.length >= 9 || (w.w.length >= 7 && w.k === 1);
+check("no key word is shorter than 7 letters",
+  DATA.words.every((w) => !w.k || w.w.length >= 7),
+  String(Math.min(...DATA.words.filter((w) => w.k).map((w) => w.w.length))));
+check("every word of 9+ letters is flagged key",
+  DATA.words.every((w) => w.w.length < 9 || w.k === 1));
+check("declared key total matches the flags",
+  DATA.key_total === DATA.words.filter((w) => w.k).length, String(DATA.key_total));
+const keyPerChapter = new Map();
+for (const w of DATA.words) if (w.k) keyPerChapter.set(w.c, (keyPerChapter.get(w.c) || 0) + 1);
+check("per-chapter key counts published in chapters[]",
+  DATA.chapters.every((c) => (keyPerChapter.get(c.n) || 0) === c.kn));
+check("every chapter has at least one key word",
+  DATA.chapters.every((c) => c.kn >= 1),
+  `min ${Math.min(...DATA.chapters.map((c) => c.kn))}`);
+check("the top-up floor is reachable in every chapter",
+  DATA.chapters.every((c) => (perChapter.get(c.n) || 0) >= DATA.key_floor),
+  `floor ${DATA.key_floor}`);
+void keyByRule;
+
+/* poolFor: the scope rules the setup screen offers */
+const floor = DATA.key_floor;
+for (const chapter of DATA.chapters) {
+  const keyPool = Core.poolFor(DATA.words, "key", chapter.n, chapter.a, floor);
+  const whole = Core.poolFor(DATA.words, "chapter", chapter.n, chapter.a, floor);
+  if (keyPool.length < Math.min(floor, whole.length)) {
+    check(`CH${chapter.n} key pool reaches the floor`, false, String(keyPool.length));
+  }
+  if (!keyPool.every((w) => w.c === chapter.n)) {
+    check(`CH${chapter.n} key pool stays in the chapter`, false);
+  }
+  if (whole.length !== (perChapter.get(chapter.n) || 0)) {
+    check(`CH${chapter.n} full pool is the whole chapter`, false, `${whole.length}`);
+  }
+}
+check("every chapter's key pool is playable", true);
+
+check("key scope returns only key words when there are enough",
+  (() => {
+    const chapter = DATA.chapters.find((c) => c.kn >= floor);
+    return Core.poolFor(DATA.words, "key", chapter.n, chapter.a, floor).every((w) => w.k === 1);
+  })());
+
+check("chapter scope is ordered key words first",
+  (() => {
+    const chapter = DATA.chapters.find((c) => c.kn >= 3 && c.kn < 40);
+    const pool = Core.poolFor(DATA.words, "chapter", chapter.n, chapter.a, floor);
+    const firstPlain = pool.findIndex((w) => !w.k);
+    return firstPlain === -1 || pool.slice(firstPlain).every((w) => !w.k);
+  })());
+
+check("arc scope stays in the arc",
+  Core.poolFor(DATA.words, "arc", 1, 4, floor).every((w) => w.a === 4));
+check("arc scope is not empty", Core.poolFor(DATA.words, "arc", 1, 4, floor).length > 0);
+check("all scope returns everything",
+  Core.poolFor(DATA.words, "all", 1, 1, floor).length === DATA.words.length);
+check("the top-up is used when a chapter is thin",
+  (() => {
+    const thin = DATA.chapters.filter((c) => c.kn < floor);
+    if (!thin.length) return true;  // no thin chapters: the rule cannot be exercised
+    const pool = Core.poolFor(DATA.words, "key", thin[0].n, thin[0].a, floor);
+    return pool.length >= floor && pool.every((w) => w.c === thin[0].n);
+  })());
 
 /* level curve */
 check("levelFor starts at 1", Core.levelFor(0) === 1 && Core.levelFor(9) === 1);

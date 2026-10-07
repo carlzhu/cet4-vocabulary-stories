@@ -219,6 +219,38 @@ Both are the lesson from section 3, which is why it is written down twice: a ver
 harness is code, and it deserves the same scepticism as the thing it verifies. When a
 screenshot looks wrong, the first question is which part of the chain produced it.
 
+#### Choosing what counts as a key word
+
+The game can drill a chapter's hardest words instead of all 45, and the definition of
+"hardest" was measured rather than assumed. The attractive answer was already in the data:
+the ECDICT metadata carries **Collins star ratings** (89.3% filled) and an **Oxford 3000
+flag** (47.8%), which look like exactly the importance signal a study tool wants.
+
+Measured against the corpus, both are wrong here:
+
+| Signal | Flags | Misses |
+|---|---|---|
+| Oxford 3000 or Collins ≥ 4 | 1,051 words of five letters or fewer: `I`, `a`, `about`, `yes`, `three` | 1,105 words of nine letters or more, including `accommodate`, `absorption`, `characterize` |
+
+Two reasons. First, for a **typing** game the axis is spelling load, not frequency —
+drilling `yes` is worth nothing and `accommodate` is the whole point. Second, word
+frequency is redundant here at all: the CET-4 syllabus has already selected these 6,127
+words, so every one of them is a legitimate target and the only open question is which
+need the most practice. The rule that follows is:
+
+```
+重点词  =  len >= 9  or  (len >= 7 and (Oxford 3000 or Collins >= 4))
+```
+
+Measured: 2,439 words (39.8%), 17.8 per chapter, minimum 5. It admits **no word shorter
+than seven letters** and misses no long word. Chapters whose key set falls below six words
+are topped up from the chapter's longest remaining words, so a drill is never empty.
+
+The generalisable part is not the formula. It is that the data's own notion of importance
+answered a different question from the one being asked, and only measuring it showed that.
+The same test — does this signal rank what *this* tool needs ranked? — is what caught the
+proxy defects in section 2.
+
 ---
 
 ## 3. Environment traps

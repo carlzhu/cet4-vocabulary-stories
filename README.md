@@ -183,21 +183,60 @@ everything embedded**, so it opens by double-clicking, can be sent to someone, a
 no network.
 
 The point of it being *this* vocabulary: all 6,127 targets are in there, each tagged with
-the chapter that introduces it, so practice can be scoped to what is being read.
+the chapter that introduces it, so practice follows what is being read.
+
+**The flow is chapter-first: pick a chapter, drill its key words.**
+
+1. **选择章节** — pick an arc, then a chapter from that arc's grid. Each chapter shows how
+   many key words it has, and the selected chapter shows its English and Chinese title,
+   its theme, its vocabulary size, and a preview of its key words.
+2. **练习范围** — the default is **本课重点词**; the alternatives are 本课全部词, 本弧全部词
+   and 全部词表, each labelled with its word count.
+3. **难度** — 轻松 / 标准 / 较快 / 挑战, plus word mode or a single-letter warm-up.
+
+The last chapter is remembered, and `CET4_Typing_Game.html#ch068` opens straight to a
+chapter — so a chapter is linkable. When a round ends, **下一课** and **上一课** continue
+the session instead of sending you back to the setup screen.
 
 | | |
 |---|---|
-| Pools | all 6,127 words · by arc (10) · by chapter (137) |
+| Key words | 2,439 of the 6,127 (39.8%) — 17.8 per chapter, between 5 and 30 |
+| Scopes | 本课重点词 · 本课全部词 · 本弧全部词 · 全部词表 |
 | Modes | word mode, and a single-letter mode for warming up |
-| Reading help | the word being typed shows its phonetic and Chinese gloss, and the typed prefix is highlighted inside the falling word |
+| Reading help | the word being typed shows its phonetic and Chinese gloss, a ★ marks a key word, and the typed prefix is highlighted inside the falling word |
 | Rules | 3 lives, combo multiplier, a level every 10 words, faster falling and sooner spawning as the level rises |
-| Measures | score, words knocked down, words per minute, accuracy, best combo, level |
+| Measures | score, words knocked down, words per minute, accuracy, best combo, key words hit |
 | After a round | the words that reached the floor are listed as **要复习的词**, so a miss becomes a review list |
 | Controls | type directly · <kbd>Space</kbd> pause · <kbd>Esc</kbd> back to setup · <kbd>R</kbd> restart on the end screen |
 
+#### What "重点词" means here, and why
+
+A chapter introduces about 45 words, but they are not equally worth typing. The obvious
+way to rank them — the ECDICT frequency metadata, Collins star ratings and the Oxford 3000
+flag — was **measured and rejected**:
+
+| Signal | What it flags |
+|---|---|
+| Oxford 3000 or Collins ≥ 4 | `I`, `a`, `about`, `yes`, `three` — **1,051 words of five letters or fewer** — and misses 1,105 words of nine letters or more, including `accommodate` and `characterize` |
+
+That is backwards for a *typing* game: drilling `yes` is worth nothing and
+`accommodate` is the whole point. Word frequency is also the wrong axis because the CET-4
+syllabus has already selected these 6,127 words — every one of them is a legitimate
+target. What distinguishes them is **spelling load**, so the rule is:
+
+```
+重点词  =  9 letters or more,  or  a 7–8 letter Oxford 3000 / Collins 4–5 word
+```
+
+Measured over the corpus that flags 2,439 words, admits **no word shorter than seven
+letters**, and misses no long word. If a chapter's key set is thinner than 6 words, it is
+topped up from that chapter's longest remaining words, so a drill is never empty. Within a
+chapter the words are emitted key-first and longest-first, so even a full-chapter round
+starts with the words that need the practice.
+
 ```bash
 python build/make_typing_game.py                # regenerate from the vocabulary
-node build/typing_game_smoke.mjs                # 30 checks on the game logic
+node build/typing_game_smoke.mjs                # 44 checks on the game logic
 python build/game_screenshots.py                # render the four UI states headlessly
 ```
 
@@ -210,14 +249,16 @@ neither the PDF gates nor the curriculum audit can see it:
 
 * `tests/test_typing_game.py` — the embedded data against `vocabulary_master.csv`: the word
   count, no invented lemmas, all 137 chapters and 10 arcs present, every word typeable and
-  glossed, and no `</script>` reachable from the data.
+  glossed, no `</script>` reachable from the data, **the key-word flags recomputed
+  independently from the master rather than trusted**, and every chapter ordered key-first.
 * `build/typing_game_smoke.mjs` — extracts the game script from the generated page, runs it
   against a small DOM stub in Node, and drives the logic directly: which word a keystroke
   resolves to, when a word completes, what a wrong letter does, that the lowest word wins,
-  the difficulty curve, and a simulated round in which every word is typed to completion.
-* `build/game_screenshots.py` — renders the start screen, mid-game, the end screen and the
-  chapter picker through headless Edge or Chrome, so the layout was looked at rather than
-  assumed.
+  the difficulty curve, the four scope rules, and a simulated round in which every word is
+  typed to completion.
+* `build/game_screenshots.py` — renders the setup screen, mid-game, the end screen and a
+  different arc's chapter grid through headless Edge or Chrome, so the layout was looked at
+  rather than assumed.
 
 Writing that test found a real defect: **14 entries are phrases** — `ice cream`,
 `according to`, `living room` — and the keystroke filter rejected spaces, so those words

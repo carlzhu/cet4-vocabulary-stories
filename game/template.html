@@ -8,7 +8,7 @@
   :root {
     --bg: #0b2032; --panel: #123050; --panel2: #0f2740; --line: #2b5580;
     --ink: #eaf2f8; --dim: #9db8ce; --accent: #5fc7e8; --good: #56d38a;
-    --bad: #ef7d7d; --warn: #f2c14e;
+    --bad: #ef7d7d; --key: #f2c14e;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
@@ -17,11 +17,12 @@
   #wrap { position: relative; width: 100%; height: 100%; }
   canvas { display: block; width: 100%; height: 100%; }
 
-  .hud { position: absolute; inset: 0 0 auto 0; display: flex; gap: 18px; flex-wrap: wrap;
+  .hud { position: absolute; inset: 0 0 auto 0; display: flex; gap: 16px; flex-wrap: wrap;
     padding: 10px 16px; background: linear-gradient(#0b2032ee, #0b203200);
-    font-size: 13px; letter-spacing: .3px; pointer-events: none; }
+    font-size: 13px; pointer-events: none; }
   .hud b { color: var(--accent); font-weight: 600; }
   .hud .grow { flex: 1; }
+  .hud .where { color: var(--key); }
 
   .typing { position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 16px 18px;
     background: linear-gradient(#0b203200, #0b2032f2 40%); pointer-events: none; }
@@ -30,26 +31,45 @@
   #typed .rest { color: #4d7ba6; }
   #hint { font-size: 13px; color: var(--dim); min-height: 20px; margin-top: 2px; }
   #hint .m { color: var(--good); }
-  #hint .ph { color: var(--dim); }
+  #hint .key { color: var(--key); font-weight: 600; }
 
   .panel { position: absolute; inset: 0; display: flex; align-items: center;
-    justify-content: center; background: #061522e6; padding: 16px; }
-  .card { width: min(780px, 94vw); max-height: 92vh; overflow: auto; background: var(--panel);
-    border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; }
-  .card h1 { font-size: 21px; margin: 0 0 4px; }
-  .card h2 { font-size: 15px; margin: 18px 0 8px; color: var(--accent); font-weight: 600; }
-  .card p { color: var(--dim); font-size: 13px; line-height: 1.7; margin: 6px 0; }
-  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
-  label { font-size: 13px; color: var(--dim); min-width: 66px; }
-  select, button { font: inherit; font-size: 13px; color: var(--ink); background: var(--panel2);
+    justify-content: center; background: #061522e6; padding: 14px; }
+  .card { width: min(820px, 95vw); max-height: 94vh; overflow: auto; background: var(--panel);
+    border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+  .card h1 { font-size: 20px; margin: 0 0 3px; }
+  .card h2 { font-size: 14px; margin: 13px 0 6px; color: var(--accent); font-weight: 600; }
+  .card p { color: var(--dim); font-size: 12.5px; line-height: 1.6; margin: 5px 0; }
+  .row { display: flex; gap: 9px; flex-wrap: wrap; align-items: center; margin: 7px 0; }
+
+  button, select { font: inherit; font-size: 13px; color: var(--ink); background: var(--panel2);
     border: 1px solid var(--line); border-radius: 8px; padding: 7px 11px; cursor: pointer; }
-  select { min-width: 130px; max-width: 100%; }
-  button.primary { background: #1c6f96; border-color: #2f8fbb; font-weight: 600; padding: 9px 20px; }
   button:hover { border-color: var(--accent); }
-  .modes { display: flex; gap: 8px; flex-wrap: wrap; }
-  .modes button.on { background: #1c6f96; border-color: var(--accent); }
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 10px;
-    margin-top: 14px; }
+  button.primary { background: #1c6f96; border-color: #2f8fbb; font-weight: 600; padding: 9px 20px; }
+  button.on { background: #1c6f96; border-color: var(--accent); }
+  button.tab { padding: 6px 10px; font-size: 12px; }
+
+  .arcs, .chapters { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chapters { margin-top: 7px; }
+  button.chip { padding: 5px 8px; font-size: 12px; line-height: 1.3; text-align: left;
+    min-width: 92px; }
+  button.chip i { display: block; font-style: normal; font-size: 11px; color: var(--dim); }
+  button.chip.on i { color: #cfe9f7; }
+  button.chip b { color: var(--key); font-weight: 600; }
+
+  .detail { background: var(--panel2); border: 1px solid var(--line); border-radius: 10px;
+    padding: 9px 12px; margin-top: 8px; }
+  .detail .title { font-size: 14px; font-weight: 600; }
+  .detail .meta { font-size: 12px; color: var(--dim); margin-top: 3px; line-height: 1.6; }
+  .detail .meta em { font-style: normal; color: var(--key); }
+  .preview { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .preview span { background: #14324e; border: 1px solid var(--line); border-radius: 6px;
+    padding: 3px 8px; font-size: 12px; font-family: "Consolas", monospace; }
+  .preview span.more { color: var(--dim); border-style: dashed; }
+
+  .scope button { min-width: 150px; text-align: left; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(94px, 1fr)); gap: 9px;
+    margin-top: 13px; }
   .stat { background: var(--panel2); border: 1px solid var(--line); border-radius: 10px;
     padding: 9px 11px; }
   .stat .k { font-size: 11px; color: var(--dim); }
@@ -60,8 +80,8 @@
   .review span i { color: var(--dim); font-style: normal; font-size: 12px; margin-left: 6px; }
   kbd { background: var(--panel2); border: 1px solid var(--line); border-bottom-width: 2px;
     border-radius: 5px; padding: 1px 6px; font-size: 12px; font-family: inherit; }
-  .foot { margin-top: 16px; font-size: 12px; color: #7f9ab1; border-top: 1px solid var(--line);
-    padding-top: 10px; line-height: 1.7; }
+  .foot { margin-top: 14px; font-size: 12px; color: #7f9ab1; border-top: 1px solid var(--line);
+    padding-top: 9px; line-height: 1.7; }
 </style>
 </head>
 <body>
@@ -69,6 +89,7 @@
   <canvas id="board"></canvas>
 
   <div class="hud">
+    <span class="where" id="hud-where">—</span>
     <span>得分 <b id="hud-score">0</b></span>
     <span>生命 <b id="hud-lives">3</b></span>
     <span>等级 <b id="hud-level">1</b></span>
@@ -88,45 +109,39 @@
   <div class="panel" id="start-panel">
     <div class="card">
       <h1>CET-4 单词打字游戏</h1>
-      <p>字母从上方落下，把它打出来就能击落。范围可以按课、按弧，或整个词表——
-         每课的词表与课程一致，读完第几章就练第几章。</p>
+      <p>先选课，再练这一课的词。默认只练本课<em style="color:#f2c14e;font-style:normal">重点词</em>——
+         该课里最长、最难拼的那些；想练全部 45 个词也行。</p>
 
-      <h2>模式</h2>
-      <div class="modes" id="mode-row">
-        <button data-mode="word" class="on">单词模式</button>
-        <button data-mode="letter">字母模式（热身）</button>
+      <h2>1. 选择章节</h2>
+      <div class="arcs" id="arc-row"></div>
+      <div class="chapters" id="chapter-row"></div>
+      <div class="detail" id="chapter-detail"></div>
+
+      <h2>2. 练习范围</h2>
+      <div class="row scope" id="scope-row">
+        <button data-scope="key">本课重点词</button>
+        <button data-scope="chapter">本课全部词</button>
+        <button data-scope="arc">本弧全部词</button>
+        <button data-scope="all">全部词表</button>
       </div>
 
-      <h2>范围</h2>
+      <h2>3. 难度</h2>
       <div class="row">
-        <label for="pool-kind">练习对象</label>
-        <select id="pool-kind">
-          <option value="all">全部单词（__UNIQUE__ 个）</option>
-          <option value="arc">按弧（共 __ARCS__ 弧）</option>
-          <option value="chapter">按课（共 __CHAPTERS__ 课）</option>
-        </select>
-        <select id="pool-arc" class="hidden"></select>
-        <select id="pool-chapter" class="hidden"></select>
-      </div>
-
-      <h2>难度</h2>
-      <div class="row">
-        <label for="difficulty">初始速度</label>
         <select id="difficulty">
           <option value="0.85">轻松</option>
           <option value="1" selected>标准</option>
           <option value="1.25">较快</option>
           <option value="1.6">挑战</option>
         </select>
+        <select id="mode-select">
+          <option value="word" selected>单词模式</option>
+          <option value="letter">字母模式（热身）</option>
+        </select>
         <button id="btn-start" class="primary">开始练习</button>
       </div>
-      <p>操作：直接打字 · <kbd>空格</kbd> 暂停 · <kbd>Esc</kbd> 回到设置 · 结束页按 <kbd>R</kbd> 重开。
-         提示条显示当前词的音标与释义；落到底部的词会记入「要复习的词」。</p>
-      <div class="foot">
-        词表与释义取自本仓库 <code>vocabulary_master.csv</code>（__TARGETS__ 个目标词，
-        去重后 __UNIQUE__ 个），按 <code>curriculum_plan.csv</code> 归入各课。
-        本页是单文件，双击即可离线使用。
-      </div>
+      <p>操作：直接打字 · <kbd>空格</kbd> 暂停 · <kbd>Esc</kbd> 回到设置 · 结束页可 <kbd>R</kbd> 重开。
+         提示条显示当前词的音标与释义，★ 表示本课重点词；落到底部的词记入「要复习的词」。</p>
+      <div class="foot" id="foot-note"></div>
     </div>
   </div>
 
@@ -140,15 +155,17 @@
         <div class="stat"><div class="k">速度</div><div class="v" id="ov-wpm">0</div></div>
         <div class="stat"><div class="k">准确率</div><div class="v" id="ov-acc">0%</div></div>
         <div class="stat"><div class="k">最高连击</div><div class="v" id="ov-combo">0</div></div>
-        <div class="stat"><div class="k">等级</div><div class="v" id="ov-level">1</div></div>
+        <div class="stat"><div class="k">本课重点词</div><div class="v" id="ov-key">0</div></div>
       </div>
       <div id="review-block" class="hidden">
         <h2>要复习的词</h2>
         <div class="review" id="review-list"></div>
       </div>
-      <div class="row" style="margin-top:16px">
+      <div class="row" style="margin-top:15px">
+        <button id="btn-prev">← 上一课</button>
         <button id="btn-again" class="primary">再练一次</button>
-        <button id="btn-setup">更换范围</button>
+        <button id="btn-next">下一课 →</button>
+        <button id="btn-setup">回到设置</button>
       </div>
     </div>
   </div>
@@ -159,6 +176,8 @@
 "use strict";
 const DATA = JSON.parse(document.getElementById("word-data").textContent);
 const WORDS = DATA.words;
+const CHAPTERS = DATA.chapters;
+const STORE_KEY = "cet4-typing-game";
 
 /* ---------- pure core: no DOM, so a test can drive it directly ---------- */
 const Core = {
@@ -184,6 +203,22 @@ const Core = {
     if (single) return { buffer: char, matches: single, restarted: buffer.length > 0 };
     return { buffer: "", matches: null, restarted: false };
   },
+  /* The words a round draws from.
+     'key'      the chapter's key words; if that is thinner than `floor`, top up with the
+                chapter's remaining words. The data is already ordered key-first and
+                longest-first, so the top-up naturally takes the next hardest words.
+     'chapter'  every word the chapter introduces
+     'arc'      every word in the arc
+     'all'      the whole list */
+  poolFor(words, scope, chapter, arc, floor) {
+    if (scope === "all") return words.slice();
+    if (scope === "arc") return words.filter((w) => w.a === arc);
+    const inChapter = words.filter((w) => w.c === chapter);
+    if (scope === "chapter") return inChapter;
+    const keys = inChapter.filter((w) => w.k);
+    if (keys.length >= floor) return keys;
+    return inChapter.slice(0, Math.max(floor, keys.length));
+  },
   speedFor(level, base) { return (26 + level * 7) * base; },
   spawnFor(level) { return Math.max(0.8, 2.6 - level * 0.16); },
   levelFor(cleared) { return 1 + Math.floor(cleared / 10); },
@@ -202,52 +237,18 @@ const board = document.getElementById("board");
 const ctx = board.getContext("2d");
 const el = (id) => document.getElementById(id);
 const LETTERS = "abcdefghijklmnopqrstuvwxyz";
+const chapterOf = (n) => CHAPTERS[n - 1];
 
 const state = {
-  mode: "word", poolKind: "all", poolValue: 0, difficulty: 1,
-  running: false, paused: false, over: false,
+  scope: "key", chapter: 1, arc: 1, difficulty: 1, mode: "word",
+  running: false, paused: false, over: true,
   pool: [], queue: [], falling: [],
   buffer: "", active: null,
-  lives: 3, score: 0, combo: 0, bestCombo: 0, cleared: 0, level: 1,
+  lives: 3, score: 0, combo: 0, bestCombo: 0, cleared: 0, level: 1, keyCleared: 0,
   review: [], keystrokes: 0, goodKeystrokes: 0,
   startedAt: 0, elapsed: 0, spawnTimer: 0.3, lastFrame: 0, hudTimer: 0,
-  width: 0, height: 0, dpr: 1,
+  width: 0, height: 0, dpr: 1, animating: false,
 };
-
-/* ---------- pool selection ---------- */
-function poolWords() {
-  if (state.mode === "letter") return null;
-  if (state.poolKind === "all") return WORDS;
-  if (state.poolKind === "arc") return WORDS.filter((w) => w.a === state.poolValue);
-  return WORDS.filter((w) => w.c === state.poolValue);
-}
-
-function fillPools() {
-  const arcSel = el("pool-arc");
-  const chSel = el("pool-chapter");
-  arcSel.innerHTML = "";
-  chSel.innerHTML = "";
-  const arcs = [...new Set(DATA.chapters.map((c) => c.a))].sort((a, b) => a - b);
-  for (const arc of arcs) {
-    const opt = document.createElement("option");
-    opt.value = String(arc);
-    opt.textContent = `第 ${arc} 弧 · ${WORDS.filter((w) => w.a === arc).length} 词`;
-    arcSel.appendChild(opt);
-  }
-  for (const chapter of DATA.chapters) {
-    const opt = document.createElement("option");
-    opt.value = String(chapter.n);
-    opt.textContent = `CH${String(chapter.n).padStart(3, "0")} ${chapter.t}`
-      + ` · ${WORDS.filter((w) => w.c === chapter.n).length} 词`;
-    chSel.appendChild(opt);
-  }
-  state.poolValue = Number(arcSel.value || 1);
-}
-
-function syncPoolValue() {
-  if (state.poolKind === "arc") state.poolValue = Number(el("pool-arc").value);
-  else if (state.poolKind === "chapter") state.poolValue = Number(el("pool-chapter").value);
-}
 
 /* ---------- layout ---------- */
 function resize() {
@@ -260,16 +261,161 @@ function resize() {
 }
 window.addEventListener("resize", resize);
 
+/* ---------- the words this round will use ---------- */
+function currentPool() {
+  if (state.mode === "letter") return [];
+  return Core.poolFor(WORDS, state.scope, state.chapter, state.arc, DATA.key_floor);
+}
+
+function scopeLabel() {
+  if (state.mode === "letter") return "字母模式";
+  if (state.scope === "all") return `全部词表 ${WORDS.length} 词`;
+  if (state.scope === "arc") return `第 ${state.arc} 弧`;
+  const chapter = chapterOf(state.chapter);
+  const prefix = `CH${String(state.chapter).padStart(3, "0")} ${chapter.t}`;
+  return state.scope === "key" ? `${prefix} · 重点词` : `${prefix} · 全部词`;
+}
+
+/* ---------- setup screen ---------- */
+function remember() {
+  try {
+    window.localStorage.setItem(STORE_KEY, JSON.stringify({
+      chapter: state.chapter, arc: state.arc, scope: state.scope,
+      difficulty: state.difficulty, mode: state.mode,
+    }));
+  } catch (error) { /* private mode: remembering is a convenience, not a requirement */ }
+}
+
+function restore() {
+  let saved = null;
+  try { saved = JSON.parse(window.localStorage.getItem(STORE_KEY) || "null"); } catch (error) { saved = null; }
+  if (saved && Number.isInteger(saved.chapter) && saved.chapter >= 1 && saved.chapter <= CHAPTERS.length) {
+    state.chapter = saved.chapter;
+    state.arc = saved.arc || chapterOf(state.chapter).a;
+    state.scope = saved.scope || "key";
+    state.difficulty = saved.difficulty || 1;
+    state.mode = saved.mode || "word";
+  }
+  /* #ch068 makes a chapter linkable - useful when the point is "practise this chapter". */
+  const hash = /^#ch(\d{1,3})$/i.exec(window.location.hash || "");
+  if (hash) {
+    const wanted = Number(hash[1]);
+    if (wanted >= 1 && wanted <= CHAPTERS.length) {
+      state.chapter = wanted;
+      state.arc = chapterOf(wanted).a;
+    }
+  }
+  state.arc = chapterOf(state.chapter).a;
+}
+
+function renderArcs() {
+  const row = el("arc-row");
+  row.innerHTML = "";
+  const arcs = [...new Set(CHAPTERS.map((c) => c.a))].sort((a, b) => a - b);
+  for (const arc of arcs) {
+    const button = document.createElement("button");
+    button.className = "tab" + (arc === state.arc ? " on" : "");
+    button.textContent = `第 ${arc} 弧`;
+    button.addEventListener("click", () => {
+      state.arc = arc;
+      const first = CHAPTERS.find((c) => c.a === arc);
+      if (first) state.chapter = first.n;
+      renderSetup();
+    });
+    row.appendChild(button);
+  }
+}
+
+function renderChapters() {
+  const row = el("chapter-row");
+  row.innerHTML = "";
+  for (const chapter of CHAPTERS.filter((c) => c.a === state.arc)) {
+    const button = document.createElement("button");
+    button.className = "chip" + (chapter.n === state.chapter ? " on" : "");
+    button.innerHTML = "";
+    const head = document.createElement("span");
+    head.textContent = `CH${String(chapter.n).padStart(3, "0")} `;
+    const key = document.createElement("b");
+    key.textContent = `★${chapter.kn}`;
+    const title = document.createElement("i");
+    title.textContent = chapter.t;
+    button.append(head, key, title);
+    button.addEventListener("click", () => {
+      state.chapter = chapter.n;
+      renderSetup();
+    });
+    row.appendChild(button);
+  }
+}
+
+function renderDetail() {
+  const chapter = chapterOf(state.chapter);
+  const total = Core.poolFor(WORDS, "chapter", state.chapter, state.arc, 0).length;
+  const keys = Core.poolFor(WORDS, "key", state.chapter, state.arc, DATA.key_floor).length;
+  const detail = el("chapter-detail");
+  detail.innerHTML = "";
+  const title = document.createElement("div");
+  title.className = "title";
+  title.textContent = `CH${String(chapter.n).padStart(3, "0")} ${chapter.t} · ${chapter.z}`;
+  const meta = document.createElement("div");
+  meta.className = "meta";
+  meta.textContent = `主题：${chapter.m}　本课词汇 ${total} 个，其中重点词 ${keys} 个`;
+  const preview = document.createElement("div");
+  preview.className = "preview";
+  const shown = WORDS.filter((w) => w.c === state.chapter && w.k).slice(0, 9);
+  for (const word of shown) {
+    const chip = document.createElement("span");
+    chip.textContent = word.w;
+    preview.appendChild(chip);
+  }
+  if (keys > shown.length) {
+    const more = document.createElement("span");
+    more.className = "more";
+    more.textContent = `还有 ${keys - shown.length} 个`;
+    preview.appendChild(more);
+  }
+  detail.append(title, meta, preview);
+}
+
+function renderScope() {
+  for (const button of el("scope-row").querySelectorAll("button")) {
+    const scope = button.dataset.scope;
+    const on = scope === state.scope;
+    button.classList.toggle("on", on);
+    let count = WORDS.length;
+    if (scope === "key") count = Core.poolFor(WORDS, "key", state.chapter, state.arc, DATA.key_floor).length;
+    else if (scope === "chapter") count = Core.poolFor(WORDS, "chapter", state.chapter, state.arc, 0).length;
+    else if (scope === "arc") count = WORDS.filter((w) => w.a === state.arc).length;
+    const label = { key: "本课重点词", chapter: "本课全部词", arc: "本弧全部词", all: "全部词表" }[scope];
+    button.textContent = `${label}（${count}）`;
+  }
+}
+
+function renderSetup() {
+  renderArcs();
+  renderChapters();
+  renderDetail();
+  renderScope();
+  el("difficulty").value = String(state.difficulty);
+  el("mode-select").value = state.mode;
+  // Keep the in-game header honest when the chapter changes on the setup screen.
+  el("hud-where").textContent = state.running || state.over ? scopeLabel() : "—";
+  el("foot-note").textContent =
+    `词表与释义取自本仓库 vocabulary_master.csv，按 curriculum_plan.csv 归入各课。`
+    + `重点词定义：${DATA.key_rule}，共 ${DATA.key_total} 个；`
+    + `本课重点词不足 ${DATA.key_floor} 个时用本课最长的词补足。`
+    + `本页是单文件，双击即可离线使用。`;
+  remember();
+}
+
 /* ---------- flow ---------- */
 function start() {
-  syncPoolValue();
-  const source = poolWords();
-  if (state.mode === "word" && (!source || !source.length)) {
-    window.alert("这个范围的词表是空的，请换一个范围。");
+  state.pool = currentPool();
+  if (state.mode === "word" && !state.pool.length) {
+    window.alert("这个范围没有词，请换一个范围。");
     return;
   }
-  state.pool = source || [];
-  state.queue = source ? Core.shuffle(source) : [];
+  state.queue = state.mode === "letter" ? [] : Core.shuffle(state.pool);
   state.falling = [];
   state.buffer = "";
   state.active = null;
@@ -282,6 +428,7 @@ function start() {
   state.bestCombo = 0;
   state.cleared = 0;
   state.level = 1;
+  state.keyCleared = 0;
   state.review = [];
   state.keystrokes = 0;
   state.goodKeystrokes = 0;
@@ -291,6 +438,7 @@ function start() {
   state.lastFrame = performance.now();
   el("start-panel").classList.add("hidden");
   el("over-panel").classList.add("hidden");
+  remember();
   updateHud(true);
   if (!state.animating) { state.animating = true; requestAnimationFrame(loop); }
 }
@@ -303,7 +451,7 @@ function remaining() {
 function spawn() {
   let entry;
   if (state.mode === "letter") {
-    entry = { w: LETTERS[Math.floor(Math.random() * LETTERS.length)], p: "", m: "" };
+    entry = { w: LETTERS[Math.floor(Math.random() * LETTERS.length)], p: "", m: "", k: 0 };
   } else {
     if (!state.queue.length) return false;
     entry = state.queue.shift();
@@ -313,7 +461,7 @@ function spawn() {
   const margin = 80;
   const span = Math.max(40, state.width - margin * 2 - width);
   state.falling.push({
-    text: entry.w, phonetic: entry.p || "", meaning: entry.m || "",
+    text: entry.w, phonetic: entry.p || "", meaning: entry.m || "", key: entry.k || 0,
     x: margin + Math.random() * span, y: -16,
     speed: Core.speedFor(state.level, state.difficulty), dead: false,
   });
@@ -328,14 +476,14 @@ function finish() {
   const acc = state.keystrokes ? Math.round((state.goodKeystrokes / state.keystrokes) * 100) : 100;
   el("over-title").textContent = state.lives > 0 ? "这一轮练完了" : "生命用尽";
   el("over-sub").textContent = state.lives > 0
-    ? "这个范围的词都出现过一遍了，可以换范围，或再练一次。"
-    : "有词落到了底部。下面列出的词值得再练一轮。";
+    ? `${scopeLabel()} 的词都出现过一遍了。可以接着练下一课，或再练一轮。`
+    : `有词落到了底部。下面列出的词值得再练一轮。`;
   el("ov-score").textContent = String(Math.round(state.score));
   el("ov-cleared").textContent = String(state.cleared);
   el("ov-wpm").textContent = String(wpm);
   el("ov-acc").textContent = acc + "%";
   el("ov-combo").textContent = String(state.bestCombo);
-  el("ov-level").textContent = String(state.level);
+  el("ov-key").textContent = String(state.keyCleared);
   const list = el("review-list");
   list.innerHTML = "";
   if (state.review.length) {
@@ -353,8 +501,21 @@ function finish() {
   } else {
     el("review-block").classList.add("hidden");
   }
+  /* Moving between chapters is only meaningful when a chapter is the unit of practice. */
+  const perChapter = state.scope === "key" || state.scope === "chapter";
+  el("btn-prev").classList.toggle("hidden", !perChapter || state.chapter <= 1);
+  el("btn-next").classList.toggle("hidden", !perChapter || state.chapter >= CHAPTERS.length);
   el("over-panel").classList.remove("hidden");
   updateHud(true);
+}
+
+function goToChapter(number) {
+  if (number < 1 || number > CHAPTERS.length) return;
+  state.chapter = number;
+  state.arc = chapterOf(number).a;
+  remember();
+  renderSetup();
+  start();
 }
 
 /* ---------- input ---------- */
@@ -374,6 +535,7 @@ function handleChar(char) {
       const word = result.matches;
       word.dead = true;
       state.cleared += 1;
+      if (word.key) state.keyCleared += 1;
       state.combo += 1;
       state.bestCombo = Math.max(state.bestCombo, state.combo);
       state.score += Core.scoreFor(word.text, state.combo);
@@ -394,6 +556,7 @@ window.addEventListener("keydown", (event) => {
     state.active = null;
     el("over-panel").classList.add("hidden");
     el("start-panel").classList.remove("hidden");
+    renderSetup();
     updateHud(true);
     return;
   }
@@ -426,6 +589,7 @@ window.addEventListener("keydown", (event) => {
 
 /* ---------- rendering ---------- */
 function updateHud(force) {
+  el("hud-where").textContent = state.running || state.over ? scopeLabel() : "—";
   el("hud-score").textContent = String(Math.round(state.score));
   el("hud-lives").textContent = String(Math.max(0, state.lives));
   el("hud-level").textContent = String(state.level);
@@ -448,6 +612,12 @@ function updateHud(force) {
   const hint = el("hint");
   hint.innerHTML = "";
   if (state.active) {
+    if (state.active.key) {
+      const badge = document.createElement("span");
+      badge.className = "key";
+      badge.textContent = "★ 重点词　";
+      hint.appendChild(badge);
+    }
     if (state.active.phonetic) {
       const ph = document.createElement("span");
       ph.className = "ph";
@@ -488,6 +658,12 @@ function draw() {
     }
     ctx.fillStyle = tail;
     ctx.fillText(restText, x, word.y);
+    /* A star to the left marks a key word, so the screen shows what matters most. */
+    if (word.key) {
+      ctx.fillStyle = "#f2c14e";
+      ctx.font = '600 15px "Segoe UI", sans-serif';
+      ctx.fillText("★", word.x - 17, word.y);
+    }
     if (isActive && word.phonetic) {
       ctx.font = '400 12px "Segoe UI", sans-serif';
       ctx.fillStyle = "#7f9ab1";
@@ -529,7 +705,6 @@ function loop(now) {
       }
     }
     state.falling = state.falling.filter((word) => !word.dead);
-    /* the pool is done when nothing is queued and nothing is left to type */
     if (state.mode !== "letter" && !state.queue.length
         && !state.falling.some((w) => !w.dead)) {
       finish();
@@ -543,32 +718,33 @@ function loop(now) {
 }
 
 /* ---------- setup wiring ---------- */
-el("mode-row").addEventListener("click", (event) => {
-  const button = event.target.closest("button[data-mode]");
+el("scope-row").addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-scope]");
   if (!button) return;
-  state.mode = button.dataset.mode;
-  for (const other of el("mode-row").querySelectorAll("button")) {
-    other.classList.toggle("on", other === button);
-  }
+  state.scope = button.dataset.scope;
+  renderSetup();
 });
-el("pool-kind").addEventListener("change", () => {
-  state.poolKind = el("pool-kind").value;
-  el("pool-arc").classList.toggle("hidden", state.poolKind !== "arc");
-  el("pool-chapter").classList.toggle("hidden", state.poolKind !== "chapter");
-  syncPoolValue();
+el("difficulty").addEventListener("change", () => {
+  state.difficulty = Number(el("difficulty").value);
+  remember();
 });
-el("pool-arc").addEventListener("change", syncPoolValue);
-el("pool-chapter").addEventListener("change", syncPoolValue);
-el("difficulty").addEventListener("change", () => { state.difficulty = Number(el("difficulty").value); });
+el("mode-select").addEventListener("change", () => {
+  state.mode = el("mode-select").value;
+  remember();
+});
 el("btn-start").addEventListener("click", start);
 el("btn-again").addEventListener("click", start);
+el("btn-prev").addEventListener("click", () => goToChapter(state.chapter - 1));
+el("btn-next").addEventListener("click", () => goToChapter(state.chapter + 1));
 el("btn-setup").addEventListener("click", () => {
   el("over-panel").classList.add("hidden");
   el("start-panel").classList.remove("hidden");
+  renderSetup();
 });
 
-fillPools();
+restore();
 resize();
+renderSetup();
 updateHud(true);
 draw();
 </script>
