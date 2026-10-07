@@ -1,0 +1,103 @@
+1
+00:00:00,000 --> 00:00:07,259
+Three months ago, Lin Wei had imagined university as a quiet place where success would depend on private effort.
+
+2
+00:00:07,259 --> 00:00:17,992
+Yet on a bright autumn morning, he stood outside Harbor City University's registration hall with a cell phone in one hand and a paper map in the other.
+
+3
+00:00:17,992 --> 00:00:26,125
+The university had recently released an orientation app, but it kept sending students to a locked door.
+
+4
+00:00:26,125 --> 00:00:30,665
+Lately, Lin had tried to appear calm and youthful.
+
+5
+00:00:30,665 --> 00:00:36,249
+Now he watched a creative crowd invent its own directions.
+
+6
+00:00:36,249 --> 00:00:46,427
+“Good lord, there are plenty of maps, but none of them agree,” said Maya Chen, who was eating a noodle from a paper cup.
+
+7
+00:00:46,427 --> 00:00:53,876
+A visitor nearby waved an unlit cigar and complained that the smoggy air made every building look alike.
+
+8
+00:00:53,876 --> 00:01:04,704
+On one map, a grassy path crossed land marked for drought research; on another, the same path ended beside a tidal laboratory.
+
+9
+00:01:04,704 --> 00:01:10,344
+The campus signs did little to illustrate which route was open.
+
+10
+00:01:10,344 --> 00:01:13,778
+Then the registration kiosk broke.
+
+11
+00:01:13,778 --> 00:01:28,270
+Its screen automatically moved upward through a list of error messages, including one called “address normalization.” A picky administrator told everyone to conform to the printed instructions.
+
+12
+00:01:28,270 --> 00:01:35,630
+Maya gave an exclamatory reply—“How?”—and asked Lin to summarize the problem.
+
+13
+00:01:35,630 --> 00:01:45,308
+In language class, an infinitive might be easy to identify; in a crowd, “to register” was harder to achieve.
+
+14
+00:01:45,308 --> 00:01:52,207
+Lin used the maps to illustrate the contradiction instead of arguing about blame.
+
+15
+00:01:52,207 --> 00:02:00,936
+A volunteer stretched a rope across the unsafe path, and the line of students moved steadily toward the wrong building.
+
+16
+00:02:00,936 --> 00:02:03,480
+Some looked helpless.
+
+17
+00:02:03,480 --> 00:02:10,254
+Lin expected Maya to brag about finding the error first, but she was supportive.
+
+18
+00:02:10,254 --> 00:02:15,869
+Together they made a simple sign, then added photographs to the app.
+
+19
+00:02:15,869 --> 00:02:21,473
+Each clear image could strengthen one instruction and reinforce the next.
+
+20
+00:02:21,473 --> 00:02:26,187
+Their correction worked with surprising rapidity.
+
+21
+00:02:26,187 --> 00:02:33,001
+The old maps were theirs to criticize, but the new solution would be theirs to maintain.
+
+22
+00:02:33,001 --> 00:02:46,454
+Near a wall of remembrance, under a starry design painted by former students, Maya said that a useful system should inspire confidence rather than reward the people who excel at guessing.
+
+23
+00:02:46,454 --> 00:02:50,368
+Lin admitted that silence would have been cowardice.
+
+24
+00:02:50,368 --> 00:02:58,862
+A boastful solution could not dignify its users, and technology alone could not civilize an institution.
+
+25
+00:02:58,862 --> 00:03:09,205
+Their first design had to be adaptive: it should learn from mistakes, purify bad data, and respect people who needed help.
+
+26
+00:03:09,205 --> 00:03:15,292
+That small decision became the beginning of their shared project.
